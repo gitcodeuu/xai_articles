@@ -9,6 +9,9 @@
 /.local-chromium
 /.cache
 
+# Data folder 
+/data
+
 # Environment variables
 .env
 .env.local
