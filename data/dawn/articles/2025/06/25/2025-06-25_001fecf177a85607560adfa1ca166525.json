@@ -1,0 +1,13 @@
+{
+  "title": "US judge allows use of ‘pirated books’ to train AI - World - DAWN.COM",
+  "author": null,
+  "content": "SAN FRANCISCO: A US judge has sided with an AI company in its practice of training a chatbot on copyrighted books without permission from the authors.\n\nIn a decision with the potential to set legal precedent, District Court Judge William Asup ruled that Anthropic’s training of its AI creation, Claude, with millions of pirated books was allowed under a “fair use” doctrine in a law called the Copyright Act.\n\n“Use of the books at issue to train Claude and its precursors was exceedingly transformative and was a fair use,” Alsup wrote in his decision.\n\nTremendous amounts of data are needed to train large language models powering generative AI. Musicians, book authors, visual artists and news publications have sued AI companies that used their data without permission or payment.\n\nAlong with downloading for free millions of books from websites offering pirated works, Anthropic bought copyrighted books, scanned the pages and stored them in digital format, according to court documents.\n\nAnthropic’s aim was to amass a library of “all the books in the world”, training AI models on content as deemed fit, the judge said in his ruling.\n\nPublished in Dawn, June 25th, 2025",
+  "tags": [],
+  "categories": [],
+  "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mN8Vw8AAmEBb87E6jIAAAAASUVORK5CYII=",
+  "retrievedAt": "2025-08-20T04:27:11.967Z",
+  "source": "Dawn",
+  "link": "https://www.dawn.com/news/1919859/us-judge-allows-use-of-pirated-books-to-train-ai",
+  "dateList": "2025-06-25",
+  "date_published": "2025-06-25T00:03:05.000Z"
+}

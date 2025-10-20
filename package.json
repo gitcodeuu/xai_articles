@@ -1,5 +1,42 @@
 {
+  "name": "app-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pnpm run help",
+    "dev": "pnpm run app:lists:latest",
+    "help": "node scripts\\help.js",
+    "app:lists": "node scrape_lists_app.js",
+    "app:lists:help": "node scrape_lists_app.js --help",
+    "app:lists:latest": "node scrape_lists_app.js --latest",
+    "app:lists:page": "node scrape_lists_app.js --page 1",
+    "app:lists:pages": "node scrape_lists_app.js",
+    "app:articles": "node scrape_articles_app.js",
+    "app:articles:retry": "node scrape_articles_app.js --retry",
+    "data:migrate": "node scripts\\move_data_layout.js",
+    "data:validate": "node scripts\\validate_data.js",
+    "dawn:lists": "node scrape_lists_dawn.js",
+    "dawn:articles": "node scrape_articles_dawn.js",
+    "dawn:range": "node run_range_dawn.js",
+    "sre": "node scripts\\sre_dashboard.js",
+    "data:refetch:nulls": "node scripts\\refetch_null_content.js",
+    "format": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.14.0",
   "dependencies": {
-    "puppeteer": "^24.25.0"
+    "dayjs": "^1.11.13",
+    "fs-extra": "^11.3.0",
+    "minimist": "^1.2.8",
+    "puppeteer": "^24.15.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
   }
 }

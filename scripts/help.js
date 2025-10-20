@@ -1,0 +1,50 @@
+#!/usr/bin/env node
+/*
+ Cross-source usage help for scrapers
+*/
+
+const lines = [
+  'Scraper commands (pnpm):',
+  '',
+  'APP (app.com.pk):',
+  '  # Lists are page-based (not date-based)',
+  '  pnpm run app:lists:help                     # Show options for list scraping',
+  '  pnpm run app:lists:latest                   # Scrape latest list page (page 1)',
+  '  pnpm run app:lists:page -- --page 5         # Scrape a single page',
+  '  pnpm run app:lists:pages -- --pages 3-10    # Scrape a range of pages',
+  '  node scrape_lists_app.js --pages <start-end>    # Scrape specific pages',
+  '  node scrape_lists_app.js --pages 1-50',
+  '',
+  '  # Articles: single date or date range',
+  '  pnpm run app:articles -- 2025-08-11         # Extract APP articles for a single date',
+  '  pnpm run app:articles -- --fromDate 2025-08-10 --toDate 2025-08-12   # Extract APP articles for a date range',
+  '  pnpm run app:articles:retry -- 2025-08-11   # Retry failed/empty for a single date',
+  '  pnpm run app:articles:retry -- --fromDate 2025-08-10 --toDate 2025-08-12   # Retry across a date range',
+  '',
+  'DAWN (dawn.com/pakistan):',
+  '  Note: Dawn scrapers require a date or date range argument in YYYY-MM-DD or YYYY-MM-DD:YYYY-MM-DD',
+  '  pnpm run dawn:lists -- 2025-08-01            # Build lists for a single day',
+  '  pnpm run dawn:lists -- 2025-08-01:2025-08-07 # Build lists for a date range',
+  '  pnpm run dawn:articles -- 2025-08-01         # Extract articles for a single day',
+  '  pnpm run dawn:articles -- 2025-08-01:2025-08-07 # Extract articles for range',
+  '  pnpm run dawn:range -- 2025-08-01:2025-08-07 # Run lists then articles for range',
+  '',
+  'Maintenance: refetch null/empty article content',
+  '  pnpm run data:refetch:nulls                                   # Scan both sources and refetch',
+  '  pnpm run data:refetch:nulls -- --source dawn                  # Only Dawn',
+  '  pnpm run data:refetch:nulls -- --source app                   # Only APP',
+  '  pnpm run data:refetch:nulls -- --limit 100 --concurrency 4    # Limit and parallelism',
+  '  pnpm run data:refetch:nulls -- --dry                          # Dry-run (no writes)',
+  '  node scripts\\refetch_null_content.js --source both --retry 3 # Direct node usage',
+  '',
+  'Data migration (layout changes):',
+  '  pnpm run data:migrate',
+  '',
+  'Tips:',
+  '  • Always pass dynamic arguments after -- when using pnpm scripts.',
+  '  • Output is organized per source under data/app and data/dawn with YYYY/MM/DD structure.',
+  '  • On Windows PowerShell, escape backslashes in examples if typing manually (scripts\\file.js).',
+  '',
+]
+
+console.log(lines.join('\n'))
