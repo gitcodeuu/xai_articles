@@ -4,6 +4,7 @@
 // Examples (pnpm):
 //   pnpm run dawn:articles -- 2025-08-15
 //   pnpm run dawn:articles -- 2025-08-01:2025-08-07
+
 const puppeteer = require('puppeteer-extra')
 const StealthPlugin = require('puppeteer-extra-plugin-stealth')
 const fs = require('fs-extra')

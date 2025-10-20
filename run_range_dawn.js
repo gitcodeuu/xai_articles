@@ -5,6 +5,7 @@
 // Notes:
 //   • Accepts a single date (YYYY-MM-DD) or a range (YYYY-MM-DD:YYYY-MM-DD).
 //   • Runs lists first, then articles for the same input.
+
 const { main: runLists } = require('./scrape_lists_dawn')
 const { main: runArticles } = require('./scrape_articles_dawn')
 

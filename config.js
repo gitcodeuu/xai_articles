@@ -1,4 +1,5 @@
 // config.js
+
 const os = require('os')
 
 // Global scraping configurations
