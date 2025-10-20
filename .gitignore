@@ -10,8 +10,8 @@
 /.cache
 
 # Data folder 
-/data
-/data/*
+# /data
+# /data/*
 
 # Environment variables
 .env
