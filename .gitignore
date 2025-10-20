@@ -11,6 +11,7 @@
 
 # Data folder 
 /data
+/data/*
 
 # Environment variables
 .env
