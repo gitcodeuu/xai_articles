@@ -1,0 +1,12 @@
+[10:45:59] 🚀 Batch 1 started
+[10:45:59] 🔢 Pages: 1
+[10:46:00] ❌ Page 1 failed: Failed to launch the browser process:  Code: null
+
+stderr:
+chrome_crashpad_handler: --database is required
+Try 'chrome_crashpad_handler --help' for more information.
+[18:18:1021/104559.907113:ERROR:third_party/crashpad/crashpad/util/linux/socket.cc:120] recvmsg: Connection reset by peer (104)
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+[10:46:00] 🎯 Batch 1 finished

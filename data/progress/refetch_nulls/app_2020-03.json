@@ -1,0 +1,18 @@
+{
+  "source": "app",
+  "batch": "2020-03",
+  "startedAt": "2025-10-21T11:18:32.831Z",
+  "finishedAt": "2025-10-21T11:18:32.831Z",
+  "settings": {
+    "dry": false,
+    "concurrency": 2,
+    "retry": 2
+  },
+  "counts": {
+    "total": 0,
+    "updated": 0,
+    "skipped": 0,
+    "failed": 0
+  },
+  "completed": true
+}
