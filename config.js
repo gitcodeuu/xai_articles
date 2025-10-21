@@ -3,6 +3,19 @@
 const os = require('os')
 
 // Global scraping configurations
+/**
+ * Configuration object for web scraper settings.
+ * Controls behavior of puppeteer instances, browser emulation, and performance optimization.
+ * 
+ * @typedef {Object} ScraperConfig
+ * @property {number} CONCURRENCY - Number of parallel puppeteer instances to run (min 4, max 8, based on CPU cores)
+ * @property {number} MAX_RETRIES - Maximum number of retry attempts for failed scrape operations
+ * @property {string[]} USER_AGENTS - Array of user agent strings to rotate through for avoiding detection
+ * @property {Object[]} VIEWPORTS - Array of viewport configurations to simulate different devices and screen sizes
+ * @property {Set<string>} BLOCK_RESOURCE_TYPES - Resource types to block during page load for improved performance
+ * @property {string[]} BLOCK_URL_PATTERNS - URL patterns to block (analytics, ads, trackers) for faster loading
+ * @property {string[]} LANGUAGE_PREFS - HTTP Accept-Language header values with quality factors for localization
+ */
 const SCRAPER_CONFIG = {
   // Concurrency settings for running multiple puppeteer instances
   CONCURRENCY: Math.min(8, Math.max(4, os.cpus().length)),
