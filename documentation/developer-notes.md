@@ -131,118 +131,232 @@ Note: When passing dynamic args to pnpm scripts, always insert -- before your ar
 
 ```mermaid
 flowchart TD
-  %% Entry points
-  A[Developer/Operator] -->|pnpm run ...| B[CLI Scripts (package.json)]
 
-  subgraph CLI
-    B --> B1[help -> scripts\help.js]
-    B --> B2[app:lists* -> scrape_lists_app.js]
-    B --> B3[app:articles* -> scrape_articles_app.js]
-    B --> B4[dawn:lists -> scrape_lists_dawn.js]
-    B --> B5[dawn:articles -> scrape_articles_dawn.js]
-    B --> B6[dawn:range -> run_range_dawn.js]
-    B --> B7[data:validate -> scripts\validate_data.js]
-    B --> B8[data:migrate -> scripts\move_data_layout.js]
-    B --> B9[data:refetch:nulls -> scripts\refetch_null_content.js]
-  end
+  %% Entry points
 
-  %% Shared utilities and environment
-  subgraph Runtime & Utils
-    U1[utils\browser.js<br/>Puppeteer + stealth]
-    U2[utils\paths.js<br/>date partitions, file names]
-    U3[utils\io.js<br/>fs-extra, JSON read/write]
-    U4[utils\retry.js<br/>backoff, attempts]
-    U5[utils\log.js]
-  end
+  A[Developer/Operator] --> B[CLI Scripts in package.json]
 
-  %% APP flows
-  subgraph APP Source
-    AL[scrape_lists_app.js]
-    AA[scrape_articles_app.js]
-  end
+  
 
-  %% Dawn flows
-  subgraph Dawn Source
-    DL[scrape_lists_dawn.js]
-    DA[scrape_articles_dawn.js]
-    DR[run_range_dawn.js\n(lists -> articles)]
-  end
+  subgraph CLI
 
-  %% Data outputs
-  subgraph Data Directory
-    D1[data\app\lists\YYYY\MM\DD\*.json]
-    D2[data\app\articles\YYYY\MM\DD\*.json]
-    D3[data\dawn\lists\YYYY\MM\DD\*.json]
-    D4[data\dawn\articles\YYYY\MM\DD\*.json]
-  end
+    B --> B1[help -> scripts/help.js]
 
-  %% Wiring CLI to files
-  B2 --> AL
-  B3 --> AA
-  B4 --> DL
-  B5 --> DA
-  B6 --> DR
+    B --> B2[app:lists* -> scrape_lists_app.js]
 
-  %% Range orchestrator
-  DR --> DL
-  DR --> DA
+    B --> B3[app:articles* -> scrape_articles_app.js]
 
-  %% Lists use browser and write list docs
-  AL -->|launch, navigate, parse| U1
-  AL --> U2
-  AL --> U3
-  AL --> U5
-  AL --> D1
+    B --> B4[dawn:lists -> scrape_lists_dawn.js]
 
-  DL -->|launch, navigate, parse| U1
-  DL --> U2
-  DL --> U3
-  DL --> U5
-  DL --> D3
+    B --> B5[dawn:articles -> scrape_articles_dawn.js]
 
-  %% Articles use browser and write article docs
-  AA -->|read list items, fetch articles| U1
-  AA --> U2
-  AA --> U3
-  AA --> U4
-  AA --> U5
-  AA --> D2
+    B --> B6[dawn:range -> run_range_dawn.js lists -> articles]
 
-  DA -->|read list items, fetch articles| U1
-  DA --> U2
-  DA --> U3
-  DA --> U4
-  DA --> U5
-  DA --> D4
+    B --> B7[data:validate -> scripts/validate_data.js]
 
-  %% Maintenance flows
-  B7 --> V[Validate schemas & layout]
-  V --> U3
-  V --> U5
-  V --> D1
-  V --> D2
-  V --> D3
-  V --> D4
+    B --> B8[data:migrate -> scripts/move_data_layout.js]
 
-  B8 --> M[Idempotent data migration]
-  M --> U3
-  M --> U5
-  M --> D1
-  M --> D2
-  M --> D3
-  M --> D4
+    B --> B9[data:refetch:nulls -> scripts/refetch_null_content.js]
 
-  B9 --> R[Refetch null/empty content]
-  R --> U3
-  R --> U4
-  R --> U5
-  R --> AA
-  R --> DA
+  end
 
-  %% Observability
-  U5 -->|console logs| A
+  
 
-  %% Notes
-  classDef data fill:#e7f7ff,stroke:#6bb8e7,stroke-width:1px;
-  class D1,D2,D3,D4 data;
+  %% Shared utilities and environment
+
+  subgraph "Runtime & Utils"
+
+    U1[utils/browser.js<br/>Puppeteer + stealth]
+
+    U2[utils/paths.js<br/>date partitions, file names]
+
+    U3[utils/io.js<br/>fs-extra, JSON read/write]
+
+    U4[utils/retry.js<br/>backoff, attempts]
+
+    U5[utils/log.js]
+
+  end
+
+  
+
+  %% APP flows
+
+  subgraph "APP Source"
+
+    AL[scrape_lists_app.js]
+
+    AA[scrape_articles_app.js]
+
+  end
+
+  
+
+  %% Dawn flows
+
+  subgraph "Dawn Source"
+
+    DL[scrape_lists_dawn.js]
+
+    DA[scrape_articles_dawn.js]
+
+    DR[run_range_dawn.js lists -> articles]
+
+  end
+
+  
+
+  %% Data outputs
+
+  subgraph "Data Directory"
+
+    D1[data/app/lists/YYYY/MM/DD/*.json]
+
+    D2[data/app/articles/YYYY/MM/DD/*.json]
+
+    D3[data/dawn/lists/YYYY/MM/DD/*.json]
+
+    D4[data/dawn/articles/YYYY/MM/DD/*.json]
+
+  end
+
+  
+
+  %% Wiring CLI to files
+
+  B2 --> AL
+
+  B3 --> AA
+
+  B4 --> DL
+
+  B5 --> DA
+
+  B6 --> DR
+
+  
+
+  %% Range orchestrator
+
+  DR --> DL
+
+  DR --> DA
+
+  
+
+  %% Lists use browser and write list docs
+
+  AL -->|launch, navigate, parse| U1
+
+  AL --> U2
+
+  AL --> U3
+
+  AL --> U5
+
+  AL --> D1
+
+  
+
+  DL -->|launch, navigate, parse| U1
+
+  DL --> U2
+
+  DL --> U3
+
+  DL --> U5
+
+  DL --> D3
+
+  
+
+  %% Articles use browser and write article docs
+
+  AA -->|read list items, fetch articles| U1
+
+  AA --> U2
+
+  AA --> U3
+
+  AA --> U4
+
+  AA --> U5
+
+  AA --> D2
+
+  
+
+  DA -->|read list items, fetch articles| U1
+
+  DA --> U2
+
+  DA --> U3
+
+  DA --> U4
+
+  DA --> U5
+
+  DA --> D4
+
+  
+
+  %% Maintenance flows
+
+  B7 --> V[Validate schemas & layout]
+
+  V --> U3
+
+  V --> U5
+
+  V --> D1
+
+  V --> D2
+
+  V --> D3
+
+  V --> D4
+
+  
+
+  B8 --> M[Idempotent data migration]
+
+  M --> U3
+
+  M --> U5
+
+  M --> D1
+
+  M --> D2
+
+  M --> D3
+
+  M --> D4
+
+  
+
+  B9 --> R[Refetch null/empty content]
+
+  R --> U3
+
+  R --> U4
+
+  R --> U5
+
+  R --> AA
+
+  R --> DA
+
+  
+
+  %% Observability
+
+  U5 -->|console logs| A
+
+  
+
+  %% Notes
+
+  classDef data fill:#e7f7ff,stroke:#6bb8e7,stroke-width:1px;
+
+  class D1,D2,D3,D4 data;
 ```
