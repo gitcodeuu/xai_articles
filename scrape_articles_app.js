@@ -1,322 +1,186 @@
-// scrape_articles_app.js
+// scrape_articles_app.js — scrapes full article content from APP using list files
 // Usage:
-//   node scrape_articles_app.js 2025-08-11
-//   node scrape_articles_app.js --fromDate 2025-08-10 --toDate 2025-08-12
+//   node scrape_articles_app.js --fromDate YYYY-MM-DD [--toDate YYYY-MM-DD]
 // Examples (pnpm):
-//   pnpm run app:articles -- 2025-08-11
-//   pnpm run app:articles -- --fromDate 2025-08-10 --toDate 2025-08-12
-//   pnpm run app:articles:retry -- 2025-08-11
-//   pnpm run app:articles:retry -- --fromDate 2025-08-10 --toDate 2025-08-12
+//   pnpm run app:articles -- --fromDate 2025-08-15
+//   pnpm run app:articles -- --fromDate 2025-08-01 --toDate 2025-08-07
 
-
-const fs = require('fs-extra')
-const path = require('path')
 const puppeteer = require('puppeteer-extra')
 const StealthPlugin = require('puppeteer-extra-plugin-stealth')
+const fs = require('fs-extra')
+const path = require('path')
 const dayjs = require('dayjs')
-const minimist = require('minimist')
-const os = require('os')
-const {
-  buildDatedPath,
-  fileNameFromLink,
-  sleep,
-  readJSON,
-  saveJSON,
-  sanitizeContent,
-} = require('./utils/helpers')
+const isSameOrBefore = require('dayjs/plugin/isSameOrBefore')
+const crypto = require('crypto')
+
+const { buildDatedPath, sleep, jitter, chunkArray } = require('./utils/helpers')
 const { normalizeArticle } = require('./utils/schema')
-const { SCRAPER_CONFIG } = require('./config')
+const { createLogStream } = require('./utils/logger')
 const { newPage, closeBrowser } = require('./utils/browser')
 
 puppeteer.use(StealthPlugin())
+dayjs.extend(isSameOrBefore)
 
-const { MAX_RETRIES, CONCURRENCY } = SCRAPER_CONFIG
+const LIST_DIR = path.join(__dirname, 'data', 'app', 'lists')
+const ARTICLE_DIR = path.join(__dirname, 'data', 'app', 'articles')
+const LOG_DIR = path.join(__dirname, 'data', 'app', 'logs')
+const CONCURRENCY = 8
 
-const dataDir = path.join(__dirname, 'data', 'app')
-const listDir = path.join(dataDir, 'lists')
-const articlesDir = path.join(dataDir, 'articles')
-const progressDir = path.join(dataDir, 'progress')
+fs.ensureDirSync(ARTICLE_DIR)
+fs.ensureDirSync(LOG_DIR)
 
-// Filenames now come from URL via fileNameFromLink(url)
-
-function getDateRange(fromDate, toDate) {
-  const start = dayjs(fromDate)
-  const end = dayjs(toDate)
-  const range = []
-  for (let d = start; d.isBefore(end) || d.isSame(end); d = d.add(1, 'day')) {
-    range.push(d.format('YYYY-MM-DD'))
-  }
-  return range
+/**
+ * Creates a logger instance for APP article scraping
+ * @returns {Function} Log function that writes to file and console
+ */
+function makeLogger() {
+  return createLogStream('app_articles', { subDir: 'app/logs' })
 }
 
-const { scrapeArticle } = require('./scrapers/app')
-
-async function processDate(targetDate, retryMode = false) {
-  console.log(
-    `[📅 Processing ${retryMode ? 'RETRY' : 'LIST'} for: ${targetDate}]`
-  )
-
-  // Prefer new dated list path; fall back to legacy flat layout
-  const [y, m, d] = String(targetDate).split('-')
-  const listPathNew = path.join(listDir, y, m, d, `list_${targetDate}.json`)
-  const listPathOld = path.join(listDir, `list_${targetDate}.json`)
-  const listPathLegacy = path.join(
-    __dirname,
-    'data',
-    'lists',
-    `list_${targetDate}.json`
-  )
-  const listPath = (await fs.pathExists(listPathNew))
-    ? listPathNew
-    : (await fs.pathExists(listPathOld))
-      ? listPathOld
-      : listPathLegacy
-  const progressPath = path.join(
-    progressDir,
-    `progress_articles_${targetDate}.json`
-  )
-  const failPath = path.join(progressDir, `fail_articles_${targetDate}.json`)
-  const retryPath = path.join(
-    progressDir,
-    `retry_count_articles_${targetDate}.json`
-  )
-
-  await fs.ensureDir(progressDir)
-
-  // Precompute list date map once for this date
-  const listArrAll = await readJSON(listPath, [])
-  const listDateMap = new Map()
-  for (const a of Array.isArray(listArrAll) ? listArrAll : []) {
-    if (a && a.link && a.date_published && dayjs(a.date_published).isValid()) {
-      listDateMap.set(a.link, dayjs(a.date_published).toISOString())
-    }
-  }
-
-  // Helper: find existing article files with empty/too-short content and return their links
-  async function getEmptyContentLinks(dateStr) {
-    // Support new dated path (YYYY\\MM\\DD) with fallback to legacy (YYYY-MM-DD) and pre-migration root
-    const [yy, mm, dd] = String(dateStr).split('-')
-    const dateFolderNew = path.join(articlesDir, yy, mm, dd)
-    const dateFolderOld = path.join(articlesDir, dateStr)
-    const dateFolderLegacy = path.join(__dirname, 'data', 'articles', dateStr)
-    const dateFolder = (await fs.pathExists(dateFolderNew))
-      ? dateFolderNew
-      : (await fs.pathExists(dateFolderOld))
-        ? dateFolderOld
-        : dateFolderLegacy
-
-    const links = new Set()
-    if (!(await fs.pathExists(dateFolder))) return []
-    const files = await fs.readdir(dateFolder)
-    for (const f of files) {
-      if (!f.endsWith('.json')) continue
-      const filePath = path.join(dateFolder, f)
-      try {
-        const obj = await fs.readJson(filePath)
-        const txt = (obj && obj.content ? String(obj.content) : '').trim()
-        const bad = !txt || txt.length < 50
-        if (bad && obj && obj.link) {
-          links.add(obj.link)
-          // Optional: remove bad file so it will be cleanly re-saved on success
-          try {
-            await fs.remove(filePath)
-          } catch {}
-        }
-      } catch {
-        // corrupted json: delete and skip; it will be re-scraped if in list/failed
-        try {
-          await fs.remove(filePath)
-        } catch {}
-      }
-    }
-    return Array.from(links)
-  }
-
-  // Helper: find existing article files with wrong/missing date_published compared to list and return their links
-  async function getWrongDateLinks(dateStr) {
-    const [yy, mm, dd] = String(dateStr).split('-')
-    const dateFolderNew = path.join(articlesDir, yy, mm, dd)
-    const dateFolderOld = path.join(articlesDir, dateStr)
-    const dateFolderLegacy = path.join(__dirname, 'data', 'articles', dateStr)
-    const dateFolder = (await fs.pathExists(dateFolderNew))
-      ? dateFolderNew
-      : (await fs.pathExists(dateFolderOld))
-        ? dateFolderOld
-        : dateFolderLegacy
-
-    // Load list data for this date
-    const listPathNew = path.join(listDir, yy, mm, dd, `list_${dateStr}.json`)
-    const listPathOld = path.join(listDir, `list_${dateStr}.json`)
-    const listPathLegacy = path.join(
-      __dirname,
-      'data',
-      'lists',
-      `list_${dateStr}.json`
-    )
-    let listArr = []
-    try {
-      if (await fs.pathExists(listPathNew))
-        listArr = await fs.readJson(listPathNew)
-      else if (await fs.pathExists(listPathOld))
-        listArr = await fs.readJson(listPathOld)
-      else if (await fs.pathExists(listPathLegacy))
-        listArr = await fs.readJson(listPathLegacy)
-    } catch {}
-
-    const listMap = new Map()
-    for (const a of Array.isArray(listArr) ? listArr : []) {
-      if (
-        a &&
-        a.link &&
-        a.date_published &&
-        dayjs(a.date_published).isValid()
-      ) {
-        listMap.set(a.link, dayjs(a.date_published).toISOString())
-      }
-    }
-
-    const wrong = new Set()
-    if (!(await fs.pathExists(dateFolder))) return []
-    const files = await fs.readdir(dateFolder)
-    for (const f of files) {
-      if (!f.endsWith('.json')) continue
-      const filePath = path.join(dateFolder, f)
-      try {
-        const obj = await fs.readJson(filePath)
-        if (!obj || !obj.link) continue
-        const listISO = listMap.get(obj.link)
-        // If no list match, skip; we only fix when we know the expected date
-        if (!listISO) continue
-        const artISO = obj.date_published
-        const artValid = artISO && dayjs(artISO).isValid()
-        const differs = !artValid || dayjs(artISO).toISOString() !== listISO
-        if (differs) {
-          wrong.add(obj.link)
-        }
-      } catch {
-        // ignore malformed files here; empty/malformed handled elsewhere
-      }
-    }
-    return Array.from(wrong)
-  }
-
-  const scraped = new Set(await readJSON(progressPath, []))
-  const failed = new Set(await readJSON(failPath, []))
-  const retryCounts = await readJSON(retryPath, {})
-
-  const emptyContentLinks = new Set(await getEmptyContentLinks(targetDate))
-  const wrongDateLinks = new Set(await getWrongDateLinks(targetDate))
-
-  let links = []
-  if (retryMode) {
-    const failedList = await readJSON(failPath, [])
-    const toRetry = failedList.filter(
-      (url) => (retryCounts[url] || 0) < MAX_RETRIES
-    )
-    // Include empty-content links and wrong-date links as well
-    links = Array.from(
-      new Set([...toRetry, ...emptyContentLinks, ...wrongDateLinks])
-    )
-    if (links.length === 0) {
-      console.log('✅ No links to retry. Skipping.')
-      return
-    }
-  } else {
-    const list = await readJSON(listPath, [])
-    // Normal mode: include links not scraped, or scraped-but-empty (force retry)
-    links = list
-      .map((a) => a.link)
-      .filter((url) => !scraped.has(url) || emptyContentLinks.has(url))
-  }
-
-  const pages = await Promise.all(
-    Array.from({ length: CONCURRENCY }).map(() => newPage())
-  )
-
-  let idx = 0
-  let processedSinceFlush = 0
-  const FLUSH_EVERY = 15
-  async function worker(page) {
-    while (idx < links.length) {
-      const url = links[idx++]
-      const result = await scrapeArticle(page, url, targetDate, listDateMap)
-
-      if (result.success) {
-        scraped.add(url)
-        failed.delete(url)
-        delete retryCounts[url]
-      } else {
-        retryCounts[url] = (retryCounts[url] || 0) + 1
-        if (retryCounts[url] >= MAX_RETRIES) {
-          failed.add(url)
-          console.log(`⛔ Max retries reached: ${url}`)
-        }
-      }
-
-      processedSinceFlush++
-      if (processedSinceFlush >= FLUSH_EVERY) {
-        processedSinceFlush = 0
-        await saveJSON(progressPath, [...scraped])
-        await saveJSON(failPath, [...failed])
-        await saveJSON(retryPath, retryCounts)
-      }
-    }
-  }
-
-  process.on('SIGINT', async () => {
-    console.log('\nFlushing progress...')
-    try {
-      await saveJSON(progressPath, [...scraped])
-      await saveJSON(failPath, [...failed])
-      await saveJSON(retryPath, retryCounts)
-    } finally {
-      process.exit(0)
-    }
-  })
-
-  await Promise.all(pages.map(worker))
-
-  // Final flush at end
-  await saveJSON(progressPath, [...scraped])
-  await saveJSON(failPath, [...failed])
-  await saveJSON(retryPath, retryCounts)
-  await closeBrowser()
-  console.log(`🎯 Finished ${targetDate}`)
+/**
+ * Generates a unique filename hash from URL
+ * @param {string} url - Article URL
+ * @returns {string} MD5 hash of the URL
+ */
+function hashFilename(url) {
+  return crypto.createHash('md5').update(url).digest('hex')
 }
 
-async function main() {
-  const args = minimist(process.argv.slice(2))
-  const retryMode = !!args.retry
-  let range = []
+/**
+ * Scrapes full content from a single article
+ * @param {Object} item - Article metadata from list file
+ * @param {string} date - Date in YYYY-MM-DD format
+ * @param {Function} log - Logger function
+ * @returns {Promise<Object>} Result object with status
+ */
+async function scrapeArticle(item, date, log) {
+  const { link, title } = item
+  const hash = hashFilename(link)
+  const filename = `${date}_${hash}.json`
 
-  if (args.fromDate && args.toDate) {
-    range = getDateRange(args.fromDate, args.toDate)
-    for (const date of range) {
-      await processDate(date, retryMode)
-    }
-  } else if (args._.length) {
-    range = [args._[0]]
-    await processDate(args._[0], retryMode)
-  } else {
-    console.log(
-      '❌ Please provide either --fromDate and --toDate or a single date'
-    )
+  const dateFolder = buildDatedPath(ARTICLE_DIR, date)
+  await fs.ensureDir(dateFolder)
+  const outPath = path.join(dateFolder, filename)
+
+  // Skip if already exists
+  if (await fs.pathExists(outPath)) {
+    return { status: 'skipped', filename }
+  }
+
+  const page = await newPage()
+
+  try {
+    await sleep(jitter(300, 1000))
+    await page.goto(link, { waitUntil: 'domcontentloaded', timeout: 60000 })
+    await sleep(jitter(800, 1500))
+
+    // Extract article content
+    const content = await page.evaluate(() => {
+      const contentEl = document.querySelector('.entry-content, article .content, .post-content')
+      if (!contentEl) return null
+
+      // Remove unwanted elements
+      const unwanted = contentEl.querySelectorAll(
+        'script, style, .social-share, .advertisement, .related-posts'
+      )
+      unwanted.forEach((el) => el.remove())
+
+      return contentEl.innerText.trim()
+    })
+
+    // Build complete article object
+    const article = normalizeArticle({
+      ...item,
+      content: content || '',
+      scrapedAt: new Date().toISOString(),
+    })
+
+    await fs.writeJson(outPath, article, { spaces: 2 })
+    log(`✅ Saved: ${filename}`)
+
+    return { status: 'success', filename }
+  } catch (err) {
+    log(`❌ Failed: ${title.substring(0, 50)}... - ${err.message}`)
+    return { status: 'failed', filename, error: err.message }
+  } finally {
+    await page.close()
+  }
+}
+
+/**
+ * Processes articles for a single date
+ * @param {string} date - Date in YYYY-MM-DD format
+ * @param {Function} log - Logger function
+ */
+async function processDate(date, log) {
+  const listPath = path.join(buildDatedPath(LIST_DIR, date), `list_${date}.json`)
+
+  if (!(await fs.pathExists(listPath))) {
+    log(`⚠️ List file not found: ${listPath}`)
     return
   }
 
-  const months = [...new Set(range.map((d) => d.substring(0, 7)))].join(',')
-  console.log('\n🚀 Starting content refetch process for APP source...')
-  try {
-    const { run: refetchNullContent } = require('./scripts/refetch_null_content')
-    const refetchArgs = ['--source', 'app']
-    if (months) {
-      refetchArgs.push('--months', months)
-    }
-    await refetchNullContent({ argv: refetchArgs })
-    console.log('✅ Content refetch process for APP source completed.')
-  } catch (err) {
-    console.error('❌ Content refetch process for APP source failed:', err)
+  const items = await fs.readJson(listPath)
+  log(`[📅 Processing LIST for: ${date}]`)
+
+  const results = { success: 0, skipped: 0, failed: 0 }
+
+  // Process articles in batches for concurrency control
+  for (const batch of chunkArray(items, CONCURRENCY)) {
+    await Promise.all(
+      batch.map(async (item) => {
+        const result = await scrapeArticle(item, date, log)
+        results[result.status]++
+      })
+    )
+    await sleep(jitter(1000, 2000))
   }
+
+  log(`🎯 Finished ${date}`)
+}
+
+/**
+ * Main entry point for the scraper
+ */
+async function main() {
+  const argv = require('minimist')(process.argv.slice(2))
+  const log = makeLogger()
+
+  const fromDate = argv.fromDate
+  const toDate = argv.toDate || fromDate
+
+  if (!fromDate) {
+    console.error('Usage: node scrape_articles_app.js --fromDate YYYY-MM-DD [--toDate YYYY-MM-DD]')
+    console.error('Examples:')
+    console.error('  node scrape_articles_app.js --fromDate 2025-08-15')
+    console.error('  node scrape_articles_app.js --fromDate 2025-08-01 --toDate 2025-08-07')
+    process.exit(1)
+  }
+
+  const start = dayjs(fromDate)
+  const end = dayjs(toDate)
+
+  if (!start.isValid() || !end.isValid()) {
+    console.error('❌ Invalid date format. Use YYYY-MM-DD')
+    process.exit(1)
+  }
+
+  // Build list of dates to process
+  const dates = []
+  let current = start
+  while (current.isSameOrBefore(end)) {
+    dates.push(current.format('YYYY-MM-DD'))
+    current = current.add(1, 'day')
+  }
+
+  // Process each date
+  for (const date of dates) {
+    await processDate(date, log)
+  }
+
+  console.log('✅ APP article scraping completed.')
+
+  await closeBrowser()
 }
 
 if (require.main === module) {

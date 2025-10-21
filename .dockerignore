@@ -1,0 +1,65 @@
+# Dependencies (will be installed in container)
+node_modules
+npm-debug.log
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Data folder (will be mounted as volume - IMPORTANT: not copied into image)
+data/
+data/*
+
+# Progress tracking (also in data, but explicitly listed)
+data/progress/
+
+# Git
+.git
+.gitignore
+.github
+
+# IDE
+.vscode
+.idea
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files (mount separately if needed)
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+
+# Puppeteer cache
+.local-chromium
+.cache
+puppeteer
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Test files (if any)
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Documentation source files
+*.md
+!README.md
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+
+# Docker files (no need to copy into image)
+Dockerfile
+docker-compose.yml
+.dockerignore

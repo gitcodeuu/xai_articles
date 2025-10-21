@@ -9,11 +9,11 @@
 /.local-chromium
 /.cache
 
-# Data folder 
-# /data
-# /data/*
+# Data folder
+/data
+/data/*
 
-# Environment variables
+# Environment variables - FILE, not folder
 .env
 .env.local
 .env.*.local
@@ -30,19 +30,5 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Output / build directories
-/dist
-/build
-/out
-/tmp
-/temp
-
-# IDE / Editor
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Coverage reports
-coverage
-*.lcov
+# Docker volumes
+docker-data/
