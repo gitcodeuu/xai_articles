@@ -9,6 +9,7 @@ const puppeteer = require('puppeteer-extra')
 const StealthPlugin = require('puppeteer-extra-plugin-stealth')
 const fs = require('fs-extra')
 const path = require('path')
+const crypto = require('crypto')
 const dayjs = require('dayjs')
 const isSameOrBefore = require('dayjs/plugin/isSameOrBefore')
 const customParseFormat = require('dayjs/plugin/customParseFormat')
@@ -41,6 +42,15 @@ function makeLogger() {
 }
 
 /**
+ * Generate MD5 hash from URL for filename
+ * @param {string} url - Article URL
+ * @returns {string} MD5 hash
+ */
+function generateFilenameHash(url) {
+  return crypto.createHash('md5').update(url).digest('hex')
+}
+
+/**
  * Scrapes full content from a single article
  * @param {Object} item - Article metadata from list file
  * @param {string} date - Date in YYYY-MM-DD format
@@ -50,15 +60,15 @@ function makeLogger() {
 async function scrapeArticle(item, date, log) {
   const { link, title } = item
   
-  // Generate filename from article URL
-  const slug = link.split('/').pop().replace(/[^a-z0-9-]/gi, '_')
+  // Generate filename from URL hash (matching APP scraper pattern)
+  const hash = generateFilenameHash(link)
   const dateFolder = buildDatedPath(ARTICLE_DIR, date)
   await fs.ensureDir(dateFolder)
-  const outPath = path.join(dateFolder, `${slug}.json`)
+  const outPath = path.join(dateFolder, `${date}_${hash}.json`)
 
   // Skip if already scraped
   if (await fs.pathExists(outPath)) {
-    log(`⏭️  [${date}] Already exists: ${slug}`)
+    log(`⏭️  [${date}] Already exists: ${date}_${hash}.json`)
     return true
   }
 
@@ -69,25 +79,65 @@ async function scrapeArticle(item, date, log) {
     await page.goto(link, { waitUntil: 'domcontentloaded', timeout: 60000 })
     await sleep(jitter(1000, 2000))
 
-    // Extract article content
-    const content = await page.evaluate(() => {
+    // Extract article content and metadata from the page
+    const scrapedData = await page.evaluate(() => {
       const story = document.querySelector('.story__content, .story')
-      if (!story) return null
+      let content = null
+      
+      if (story) {
+        // Remove unwanted elements
+        const unwanted = story.querySelectorAll(
+          'script, style, .social-share, .related-stories, .advertisement'
+        )
+        unwanted.forEach((el) => el.remove())
+        content = story.innerText.trim()
+      }
 
-      // Remove unwanted elements
-      const unwanted = story.querySelectorAll(
-        'script, style, .social-share, .related-stories, .advertisement'
-      )
-      unwanted.forEach((el) => el.remove())
+      // Extract published date
+      let datePublished = null
+      const dateElement = document.querySelector('time[datetime]') ||
+                         document.querySelector('.story__time') ||
+                         document.querySelector('.timestamp')
+      
+      if (dateElement) {
+        const datetime = dateElement.getAttribute('datetime')
+        if (datetime) {
+          try {
+            const parsed = new Date(datetime)
+            if (!isNaN(parsed.getTime())) {
+              datePublished = parsed.toISOString()
+            }
+          } catch (e) {
+            // Will use listDate as fallback
+          }
+        }
+      }
 
-      return story.innerText.trim()
+      // Extract author
+      const authorElement = document.querySelector('.story__byline a') ||
+                           document.querySelector('.author__name') ||
+                           document.querySelector('[rel="author"]')
+      const author = authorElement?.innerText?.trim() || null
+
+      // Extract image
+      const imageElement = document.querySelector('.story__cover img') ||
+                          document.querySelector('meta[property="og:image"]')
+      const image = imageElement?.getAttribute('src') || 
+                   imageElement?.getAttribute('content') || null
+
+      return { content, datePublished, author, image }
     })
 
-    // Build complete article object
+    // Build complete article object with all metadata fields
     const article = normalizeArticle({
       ...item,
-      content: content || '',
-      scrapedAt: new Date().toISOString(),
+      content: scrapedData.content || '',
+      author: scrapedData.author || item.author || null,
+      image: scrapedData.image || null,
+      source: 'Dawn',
+      dateList: date,
+      date_published: scrapedData.datePublished || new Date(date).toISOString(),
+      retrievedAt: new Date().toISOString(),
     })
 
     await fs.writeJson(outPath, article, { spaces: 2 })
@@ -206,4 +256,4 @@ if (require.main === module) {
   main()
 }
 
-module.exports = { main, processDates, scrapeArticle }
+module.exports = { main, processDates, scrapeArticle, generateFilenameHash }
