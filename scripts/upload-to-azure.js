@@ -1,149 +1,129 @@
-const puppeteer = require('puppeteer');
+const { BlobServiceClient, StorageSharedKeyCredential } = require('@azure/storage-blob');
+const fs = require('fs-extra');
+const path = require('path');
+const glob = require('glob');
 
-/**
- * Get storage usage information
- * @param {Object} client - CDP session client
- * @returns {Object} Storage usage details
- */
-async function getStorageUsage(client) {
-  try {
-    const { usage } = await client.send('Storage.getUsageAndQuota', {
-      origin: 'https://example.com'
-    });
-    return usage || 0;
-  } catch (error) {
-    return 0;
+const STORAGE_ACCOUNT_NAME = 'xaiarticlesstorage';
+const CONTAINER_NAME = 'raw-articles';
+
+function getAllFiles(dir) {
+  if (!fs.existsSync(dir)) return [];
+  return glob.sync('**/*', { cwd: dir, nodir: true, absolute: false });
+}
+
+async function uploadDataFolder() {
+  console.log('🚀 Starting Azure Blob migration...');
+
+  const storageKey = process.env.AZURE_STORAGE_KEY;
+  if (!storageKey) {
+    console.error('❌ AZURE_STORAGE_KEY environment variable not set');
+    process.exit(1);
   }
-}
 
-/**
- * Get cookies count
- * @param {Object} client - CDP session client
- * @returns {number} Number of cookies
- */
-async function getCookiesCount(client) {
   try {
-    const { cookies } = await client.send('Network.getAllCookies');
-    return cookies ? cookies.length : 0;
-  } catch (error) {
-    return 0;
-  }
-}
+    const credential = new StorageSharedKeyCredential(STORAGE_ACCOUNT_NAME, storageKey);
+    const accountUrl = `https://${STORAGE_ACCOUNT_NAME}.blob.core.windows.net`;
+    const blobServiceClient = new BlobServiceClient(accountUrl, credential);
 
-/**
- * Format bytes to human-readable size
- * @param {number} bytes - Size in bytes
- * @returns {string} Formatted size string
- */
-function formatBytes(bytes) {
-  if (bytes === 0) return '0 Bytes';
-  
-  const k = 1024;
-  const sizes = ['Bytes', 'KB', 'MB', 'GB'];
-  const i = Math.floor(Math.log(bytes) / Math.log(k));
-  
-  return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
-}
+    console.log('✅ Connected to Azure Storage');
 
-/**
- * Clear browser cache and cookies
- * Useful for resetting browser state between scraping sessions
- */
-async function clearBrowserCache() {
-  console.log('🧹 Starting browser cache cleanup...');
-  
-  let browser;
-  
-  try {
-    // Launch browser (following project patterns)
-    browser = await puppeteer.launch({
-      headless: true,
-      args: [
-        '--no-sandbox',
-        '--disable-setuid-sandbox',
-        '--disable-dev-shm-usage',
-        '--disable-gpu',
-      ]
-    });
+    const containerClient = blobServiceClient.getContainerClient(CONTAINER_NAME);
+    await containerClient.createIfNotExists();
+    console.log(`✅ Container '${CONTAINER_NAME}' ready`);
 
-    console.log('✅ Browser launched');
+    // Build today's date path YYYY/MM/DD
+    const now = new Date();
+    const y = now.getFullYear();
+    const m = String(now.getMonth() + 1).padStart(2, '0');
+    const d = String(now.getDate()).padStart(2, '0');
+    const todayPath = `${y}/${m}/${d}`;
 
-    // Get first page
-    const [page] = await browser.pages();
-    
-    // Create CDP session
-    const client = await page.target().createCDPSession();
-    
-    // Get storage info before clearing
-    console.log('\n📊 Collecting storage information...');
-    const cookiesCountBefore = await getCookiesCount(client);
-    const storageUsageBefore = await getStorageUsage(client);
-    
-    console.log(`   Cookies: ${cookiesCountBefore}`);
-    console.log(`   Storage usage: ${formatBytes(storageUsageBefore)}`);
-    
-    // Clear cache and cookies
-    console.log('\n🗑️  Clearing cache and cookies...');
-    await client.send('Network.clearBrowserCookies');
-    await client.send('Network.clearBrowserCache');
-    
-    // Small delay to ensure clearing is complete
-    await new Promise(resolve => setTimeout(resolve, 500));
-    
-    // Get storage info after clearing
-    const cookiesCountAfter = await getCookiesCount(client);
-    const storageUsageAfter = await getStorageUsage(client);
-    
-    // Calculate what was cleared
-    const cookiesCleared = cookiesCountBefore - cookiesCountAfter;
-    const storageCleared = storageUsageBefore - storageUsageAfter;
-    
-    // Display results
-    console.log('\n✅ Cleanup completed!');
-    console.log(`   🍪 Cookies cleared: ${cookiesCleared}`);
-    console.log(`   💾 Storage freed: ${formatBytes(storageCleared)}`);
-    
-    if (storageCleared > 0 || cookiesCleared > 0) {
-      console.log(`   📉 Total reduction: ${formatBytes(storageCleared)}`);
-    } else {
-      console.log('   ℹ️  Cache was already empty');
+    const dataDir = path.join(__dirname, '..', 'data');
+
+    // Only look inside today’s folders
+    const appTodayDir = path.join(dataDir, 'app', 'articles', todayPath);
+    const dawnTodayDir = path.join(dataDir, 'dawn', 'articles', todayPath);
+
+    const appFiles = (await fs.pathExists(appTodayDir))
+      ? getAllFiles(appTodayDir).map(f => path.join('app', 'articles', todayPath, f))
+      : [];
+    const dawnFiles = (await fs.pathExists(dawnTodayDir))
+      ? getAllFiles(dawnTodayDir).map(f => path.join('dawn', 'articles', todayPath, f))
+      : [];
+
+    const files = [...appFiles, ...dawnFiles];
+
+    console.log(`\n📁 Found ${files.length} files from today to upload`);
+    console.log(`   APP: ${appFiles.length} • Dawn: ${dawnFiles.length}`);
+
+    let uploaded = 0;
+    let skipped = 0;
+    let failed = 0;
+    const start = Date.now();
+
+    for (const rel of files) {
+      const localPath = path.join(dataDir, rel);
+
+      try {
+        if (!(await fs.pathExists(localPath))) {
+          failed++;
+          continue;
+        }
+
+        // Keep original structure in the container (no "data/" prefix)
+        const blobName = rel.replace(/\\/g, '/'); // e.g. app/articles/2025/10/22/file.json
+        const blockBlob = containerClient.getBlockBlobClient(blobName);
+
+        if (await blockBlob.exists()) {
+          skipped++;
+          continue;
+        }
+
+        const stats = await fs.stat(localPath);
+        const ext = path.extname(rel).toLowerCase();
+        const contentType = ext === '.json' ? 'application/json' : 'text/plain';
+
+        await blockBlob.uploadFile(localPath, {
+          blobHTTPHeaders: { blobContentType: contentType },
+          metadata: {
+            source: rel.startsWith('app') ? 'app' : rel.startsWith('dawn') ? 'dawn' : 'unknown',
+            uploadedAt: new Date().toISOString(),
+            fileSize: String(stats.size),
+            scrapedDate: `${y}-${m}-${d}`
+          }
+        });
+
+        uploaded++;
+        if (uploaded % 50 === 0) {
+          const secs = (Date.now() - start) / 1000;
+          console.log(`📤 Uploaded ${uploaded}/${files.length} (${(uploaded / secs).toFixed(1)} files/sec)`);
+        }
+      } catch (e) {
+        console.error(`❌ Failed: ${rel} - ${e.message}`);
+        failed++;
+      }
     }
-    
-    // Close browser
-    await browser.close();
-    console.log('\n✅ Browser closed');
-    
-    return { 
-      success: true,
-      cookiesCleared,
-      storageCleared,
-      storageClearedFormatted: formatBytes(storageCleared)
-    };
-    
-  } catch (error) {
-    console.error('❌ Failed to clear browser cache:', error.message);
-    
-    // Ensure browser is closed even on error
-    if (browser) {
-      await browser.close();
-    }
-    
-    throw error;
+
+    const secs = ((Date.now() - start) / 1000).toFixed(1);
+    console.log('\n✅ Upload completed!');
+    console.log(`   📤 Uploaded: ${uploaded}`);
+    console.log(`   ⏭️  Skipped: ${skipped}`);
+    console.log(`   ❌ Failed: ${failed}`);
+    console.log(`   📊 Total: ${files.length}`);
+    console.log(`   ⏱️  Time: ${secs}s`);
+
+    return { uploaded, skipped, failed, total: files.length };
+  } catch (err) {
+    console.error('❌ Migration failed:', err.message);
+    throw err;
   }
 }
 
-// Main execution (following project patterns)
 if (require.main === module) {
-  clearBrowserCache()
-    .then((result) => {
-      console.log('\n✅ Cache cleanup completed successfully');
-      console.log(`   Final stats: ${result.cookiesCleared} cookies, ${result.storageClearedFormatted} storage`);
-      process.exit(0);
-    })
-    .catch(error => {
-      console.error('❌ Cache cleanup failed:', error);
-      process.exit(1);
-    });
+  uploadDataFolder().catch(err => {
+    console.error('❌ Unhandled error:', err);
+    process.exit(1);
+  });
 }
 
-module.exports = { clearBrowserCache };
+module.exports = { uploadDataFolder };
