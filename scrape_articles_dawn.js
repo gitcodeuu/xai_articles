@@ -60,7 +60,7 @@ function generateFilenameHash(url) {
 async function scrapeArticle(item, date, log) {
   const { link, title } = item
   
-  // Generate filename from URL hash (matching APP scraper pattern)
+  // Generate filename from URL hash
   const hash = generateFilenameHash(link)
   const dateFolder = buildDatedPath(ARTICLE_DIR, date)
   await fs.ensureDir(dateFolder)
@@ -136,7 +136,7 @@ async function scrapeArticle(item, date, log) {
       image: scrapedData.image || null,
       source: 'Dawn',
       dateList: date,
-      date_published: scrapedData.datePublished || new Date(date).toISOString(),
+      date_published: scrapedData.datePublished || item.datePublished || new Date(date).toISOString(),
       retrievedAt: new Date().toISOString(),
     })
 
@@ -207,53 +207,65 @@ async function main(arg) {
   const rawArgs = arg ? [String(arg)] : process.argv.slice(2).map(String)
   const joined = rawArgs.join('').replace(/\s+/g, '').trim()
 
-  if (!joined) {
-    console.error('Usage: node scrape_articles_dawn.js YYYY-MM-DD[:YYYY-MM-DD]')
+  try {
+    if (!joined) {
+      console.error('Usage: node scrape_articles_dawn.js YYYY-MM-DD[:YYYY-MM-DD]')
+      process.exit(1)
+    }
+
+    const parts = joined.includes(':') ? joined.split(':') : [joined, joined]
+    
+    if (parts.length > 2) {
+      console.error('❌ Invalid input. Use YYYY-MM-DD or YYYY-MM-DD:YYYY-MM-DD')
+      process.exit(1)
+    }
+
+    const startRaw = String(parts[0]).trim()
+    const endRaw = String(parts[1] ?? parts[0]).trim()
+    let start = dayjs(startRaw, 'YYYY-MM-DD')
+    let end = dayjs(endRaw, 'YYYY-MM-DD')
+
+    if (!start.isValid() || !end.isValid()) {
+      console.error('❌ Invalid date format.')
+      process.exit(1)
+    }
+
+    if (start.isAfter(end)) {
+      const tmp = start
+      start = end
+      end = tmp
+      console.log(
+        `ℹ️ Swapped date range to ascending: ${start.format('YYYY-MM-DD')} : ${end.format('YYYY-MM-DD')}`
+      )
+    }
+
+    const dates = []
+    let current = start
+    while (current.isSameOrBefore(end)) {
+      dates.push(current.format('YYYY-MM-DD'))
+      current = current.add(1, 'day')
+    }
+
+    await processDates(dates)
+    
+    console.log('✅ Dawn article scraping completed.')
+    
+  } catch (error) {
+    console.error('❌ Fatal error:', error)
+    await closeBrowser()
     process.exit(1)
+  } finally {
+    // Always close browser on exit
+    await closeBrowser()
   }
-
-  const parts = joined.includes(':') ? joined.split(':') : [joined, joined]
-  
-  if (parts.length > 2) {
-    console.error('❌ Invalid input. Use YYYY-MM-DD or YYYY-MM-DD:YYYY-MM-DD')
-    process.exit(1)
-  }
-
-  const startRaw = String(parts[0]).trim()
-  const endRaw = String(parts[1] ?? parts[0]).trim()
-  let start = dayjs(startRaw, 'YYYY-MM-DD')
-  let end = dayjs(endRaw, 'YYYY-MM-DD')
-
-  if (!start.isValid() || !end.isValid()) {
-    console.error('❌ Invalid date format.')
-    process.exit(1)
-  }
-
-  if (start.isAfter(end)) {
-    const tmp = start
-    start = end
-    end = tmp
-    console.log(
-      `ℹ️ Swapped date range to ascending: ${start.format('YYYY-MM-DD')} : ${end.format('YYYY-MM-DD')}`
-    )
-  }
-
-  const dates = []
-  let current = start
-  while (current.isSameOrBefore(end)) {
-    dates.push(current.format('YYYY-MM-DD'))
-    current = current.add(1, 'day')
-  }
-
-  await processDates(dates)
-  
-  console.log('✅ Dawn article scraping completed.')
-  
-  await closeBrowser()
 }
 
 if (require.main === module) {
-  main()
+  main().catch(async (error) => {
+    console.error('❌ Unhandled error:', error)
+    await closeBrowser()
+    process.exit(1)
+  })
 }
 
 module.exports = { main, processDates, scrapeArticle, generateFilenameHash }

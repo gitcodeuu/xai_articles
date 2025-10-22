@@ -1,132 +1,181 @@
 const puppeteer = require('puppeteer-extra')
 const StealthPlugin = require('puppeteer-extra-plugin-stealth')
-const { SCRAPER_CONFIG, randOf } = require('../config')
 
 puppeteer.use(StealthPlugin())
 
-let browserInstance = null
+let browser = null
+let pagePool = []
 
 /**
- * Detect if running inside Docker container
+ * Get browser configuration based on environment
+ * @returns {Object} Browser launch configuration
  */
-function isDockerEnvironment() {
-  return process.env.DOCKER_ENV === 'true' || 
-         process.env.PUPPETEER_EXECUTABLE_PATH !== undefined
-}
-
-async function getBrowser() {
-  if (!browserInstance) {
-    const isDocker = isDockerEnvironment()
-    
-    const launchOptions = {
-      headless: 'new',
+function getBrowserConfig() {
+  const isDocker = process.env.DOCKER_ENV === 'true'
+  
+  if (isDocker) {
+    return {
+      headless: true,
+      executablePath: '/usr/bin/chromium',
       args: [
         '--no-sandbox',
         '--disable-setuid-sandbox',
         '--disable-dev-shm-usage',
-        '--disable-accelerated-2d-canvas',
-        '--no-first-run',
-        '--no-zygote',
         '--disable-gpu',
         '--disable-software-rasterizer',
         '--disable-extensions',
         '--disable-background-networking',
+        '--disable-background-timer-throttling',
+        '--disable-backgrounding-occluded-windows',
+        '--disable-breakpad',
+        '--disable-client-side-phishing-detection',
+        '--disable-component-update',
         '--disable-default-apps',
+        '--disable-domain-reliability',
+        '--disable-features=AudioServiceOutOfProcess',
+        '--disable-hang-monitor',
+        '--disable-ipc-flooding-protection',
+        '--disable-notifications',
+        '--disable-offer-store-unmasked-wallet-cards',
+        '--disable-popup-blocking',
+        '--disable-print-preview',
+        '--disable-prompt-on-repost',
+        '--disable-renderer-backgrounding',
+        '--disable-setuid-sandbox',
+        '--disable-speech-api',
         '--disable-sync',
-        '--disable-translate',
         '--hide-scrollbars',
+        '--ignore-gpu-blacklist',
         '--metrics-recording-only',
         '--mute-audio',
         '--no-default-browser-check',
-        '--safebrowsing-disable-auto-update',
-        '--disable-blink-features=AutomationControlled',
-        '--disable-features=IsolateOrigins,site-per-process',
-        '--disable-site-isolation-trials',
-        '--disable-background-timer-throttling',
-        '--disable-backgrounding-occluded-windows',
-        '--disable-renderer-backgrounding',
-        '--disable-ipc-flooding-protection',
-        '--disable-hang-monitor',
-        '--disable-logging',
-        '--log-level=3'
-      ],
-      ignoreDefaultArgs: ['--enable-automation'],
-      timeout: 30000
-    }
-
-    // Docker-specific configuration
-    if (isDocker && process.env.PUPPETEER_EXECUTABLE_PATH) {
-      launchOptions.executablePath = process.env.PUPPETEER_EXECUTABLE_PATH
-      
-      // Tell Chromium to ignore missing crash handler
-      launchOptions.env = {
-        ...process.env,
-        CHROME_CRASHPAD_PIPE_NAME: '',
-        BREAKPAD_DUMP_LOCATION: ''
-      }
-      
-      console.log('🐳 Running in Docker with Chromium:', launchOptions.executablePath)
-    }
-
-    try {
-      browserInstance = await puppeteer.launch(launchOptions)
-      console.log('✅ Browser launched successfully')
-    } catch (err) {
-      console.error('❌ Failed to launch browser:', err.message)
-      throw err
+        '--no-first-run',
+        '--no-pings',
+        '--no-zygote',
+        '--password-store=basic',
+        '--use-gl=swiftshader',
+        '--use-mock-keychain'
+      ]
     }
   }
-  return browserInstance
+  
+  return {
+    headless: true,
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage'
+    ]
+  }
 }
 
+/**
+ * Launch a shared browser instance
+ * @returns {Promise<Browser>} Puppeteer browser instance
+ */
+async function launchBrowser() {
+  if (browser && browser.isConnected()) {
+    return browser
+  }
+  
+  const config = getBrowserConfig()
+  const isDocker = process.env.DOCKER_ENV === 'true'
+  
+  if (isDocker) {
+    console.log('🐳 Running in Docker with Chromium:', config.executablePath)
+  } else {
+    console.log('💻 Running locally with bundled Chromium')
+  }
+  
+  browser = await puppeteer.launch(config)
+  
+  console.log('✅ Browser launched successfully')
+  
+  return browser
+}
+
+/**
+ * Create a new page from the shared browser instance
+ * @returns {Promise<Page>} Puppeteer page instance
+ */
 async function newPage() {
-  const browser = await getBrowser()
+  if (!browser || !browser.isConnected()) {
+    await launchBrowser()
+  }
+  
   const page = await browser.newPage()
-
-  // Configure page with settings from config.js
-  await page.setUserAgent(randOf(SCRAPER_CONFIG.USER_AGENTS))
-  await page.setViewport(randOf(SCRAPER_CONFIG.VIEWPORTS))
-  await page.setExtraHTTPHeaders({
-    'Accept-Language': randOf(SCRAPER_CONFIG.LANGUAGE_PREFS),
-  })
-
-  // Setup request interception to block resources
-  await page.setRequestInterception(true)
-  page.on('request', (req) => {
-    try {
-      if (
-        SCRAPER_CONFIG.BLOCK_RESOURCE_TYPES.has(req.resourceType()) ||
-        SCRAPER_CONFIG.BLOCK_URL_PATTERNS.some((pattern) =>
-          req.url().includes(pattern)
-        )
-      ) {
-        req.abort().catch(() => {})
-      } else {
-        req.continue().catch(() => {})
-      }
-    } catch (e) {
-      // Silently handle request errors
-    }
-  })
-
+  
+  // Set viewport
+  await page.setViewport({ width: 1280, height: 800 })
+  
+  // Set user agent
+  await page.setUserAgent(
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+  )
+  
+  // Track page in pool
+  pagePool.push(page)
+  
   return page
 }
 
+/**
+ * Close all pages and the browser instance
+ * Ensures clean shutdown of the browser
+ * @returns {Promise<void>}
+ */
 async function closeBrowser() {
-  if (browserInstance) {
-    try {
-      await browserInstance.close()
-      browserInstance = null
-      console.log('✅ Browser closed')
-    } catch (err) {
-      console.error('⚠️  Error closing browser:', err.message)
-      browserInstance = null
+  try {
+    // Close all pages first
+    if (pagePool.length > 0) {
+      console.log(`🧹 Closing ${pagePool.length} open page(s)...`)
+      
+      await Promise.all(
+        pagePool.map(async (page) => {
+          try {
+            if (page && !page.isClosed()) {
+              await page.close()
+            }
+          } catch (err) {
+            // Ignore errors when closing individual pages
+          }
+        })
+      )
+      
+      pagePool = []
     }
+    
+    // Close the browser
+    if (browser && browser.isConnected()) {
+      await browser.close()
+      browser = null
+      console.log('✅ Browser closed')
+    }
+    
+    // Force exit after a short delay to ensure cleanup
+    setTimeout(() => {
+      process.exit(0)
+    }, 100)
+    
+  } catch (err) {
+    console.error('❌ Error closing browser:', err.message)
+    // Force exit even on error
+    process.exit(1)
   }
 }
 
+/**
+ * Get the current browser instance (if any)
+ * @returns {Browser|null} Current browser instance or null
+ */
+function getBrowser() {
+  return browser
+}
+
 module.exports = {
-  getBrowser,
+  launchBrowser,
   newPage,
   closeBrowser,
+  getBrowser,
+  getBrowserConfig
 }
