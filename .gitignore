@@ -32,3 +32,12 @@ pnpm-debug.log*
 
 # Docker volumes
 docker-data/
+
+
+# Data files (don't version control scraped data)
+data/*/lists/**/*.json
+data/*/articles/**/*.json
+data/*/logs/**/*.json
+
+# Keep directory structure
+!data/*/.gitkeep

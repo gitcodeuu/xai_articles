@@ -6,6 +6,10 @@ TODAY=$(date +%Y-%m-%d)
 
 echo "🚀 Starting automated scraping for $TODAY"
 
+# Step 0: Check for merge conflicts
+echo "🔍 [0/5] Checking for merge conflicts..."
+node scripts/fix-merge-conflicts.js
+
 # Step 1: Dawn
 echo "📰 [1/5] Scraping Dawn..."
 node run_range_dawn.js "$TODAY"

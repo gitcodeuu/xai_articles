@@ -21,7 +21,10 @@
     "dawn:articles": "node scrape_articles_dawn.js",
     "dawn:range": "node run_range_dawn.js",
     "data:refetch:nulls": "node scripts/refetch_null_content.js",
-    "data:migrate": "node scripts/migrate_data.js"
+    "data:migrate": "node scripts/migrate_data.js",
+    "fix-conflicts": "node scripts/fix-merge-conflicts.js",
+    "azure:upload": "node scripts/upload-to-azure.js",
+    "clear-cache": "node scripts/clear_browser_cache.js"
   },
   "keywords": [
     "scraper",
