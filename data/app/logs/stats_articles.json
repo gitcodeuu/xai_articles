@@ -1,9 +1,9 @@
 {
   "2025-10-22": {
-    "success": 33,
+    "success": 6,
     "failed": 0,
-    "skipped": 10,
-    "total": 43,
-    "avgContentLength": 1888
+    "skipped": 43,
+    "total": 49,
+    "avgContentLength": 1193
   }
 }
