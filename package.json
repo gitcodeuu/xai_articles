@@ -32,8 +32,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@azure/storage-blob": "^12.29.1",
     "dayjs": "^1.11.13",
     "fs-extra": "^11.2.0",
+    "glob": "^10.4.5",
     "minimist": "^1.2.8",
     "puppeteer": "^24.2.0",
     "puppeteer-extra": "^3.3.6",

@@ -1,17 +1,16 @@
 services:
-  # Main scraper service - for manual commands
   scraper:
     build:
       context: .
       dockerfile: Dockerfile
     container_name: xai_scraper
     volumes:
-      # Mount data directory to persist scraped content
       - ./data:/app/data:rw
-      # Mount logs directory
       - ./logs:/app/logs:rw
+    env_file:
+      - .env
     environment:
-      # Puppeteer configuration
+      - AZURE_STORAGE_KEY=${AZURE_STORAGE_KEY}
       - PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
       - PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
       - DOCKER_ENV=true
@@ -19,7 +18,6 @@ services:
       - TZ=UTC
     networks:
       - scraper-network
-    # Resource limits (adjust based on your needs)
     deploy:
       resources:
         limits:
@@ -28,19 +26,21 @@ services:
         reservations:
           cpus: '1.0'
           memory: 2G
-    # Keep container alive for manual commands
     command: tail -f /dev/null
     restart: unless-stopped
 
-  # Automated daily scraper service - runs complete pipeline for today
   scraper-daily:
     build:
       context: .
       dockerfile: Dockerfile
+    container_name: xai_scraper_daily
     volumes:
       - ./data:/app/data:rw
       - ./logs:/app/logs:rw
+    env_file:
+      - .env
     environment:
+      - AZURE_STORAGE_KEY=${AZURE_STORAGE_KEY}
       - PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
       - PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
       - DOCKER_ENV=true
@@ -56,28 +56,7 @@ services:
         reservations:
           cpus: '1.0'
           memory: 2G
-    # Run the complete scraping pipeline for today's date
-    command: >
-      sh -c "
-        TODAY=$$(date +%Y-%m-%d) &&
-        echo '🚀 Starting automated scraping for' $$TODAY &&
-        echo '' &&
-        echo '📰 [1/4] Scraping Dawn...' &&
-        node run_range_dawn.js $$TODAY &&
-        echo '' &&
-        echo '📰 [2/4] Scraping APP lists...' &&
-        node scrape_lists_app.js --latest &&
-        echo '' &&
-        echo '📰 [3/4] Scraping APP articles...' &&
-        node scrape_articles_app.js --fromDate $$TODAY --toDate $$TODAY &&
-        echo '' &&
-        echo '🔄 [4/4] Refetching null content...' &&
-        node scripts/refetch_null_content.js --source both --dates $$TODAY &&
-        echo '' &&
-        echo '✅ Automated scraping completed for' $$TODAY
-      "
-    # Don't restart - run once and exit
-    restart: "no"
+    entrypoint: ["/entrypoint.sh"]
 
 networks:
   scraper-network:

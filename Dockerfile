@@ -52,12 +52,18 @@ RUN if [ ! -f /usr/lib/chromium/chrome_crashpad_handler ]; then \
 
 WORKDIR /app
 
-# Install pnpm globally
-RUN npm install -g pnpm
+# Install pnpm globally with retry logic
+RUN npm install -g pnpm --registry=https://registry.npmjs.org/ || \
+    npm install -g pnpm --registry=https://registry.npmjs.org/
 
-# Copy package files and install dependencies
+# Copy package files
 COPY package.json pnpm-lock.yaml* ./
-RUN pnpm install --no-frozen-lockfile --prod=false
+
+# Install dependencies with increased timeout and retry logic
+RUN pnpm config set network-timeout 600000 && \
+    pnpm config set registry https://registry.npmjs.org/ && \
+    pnpm install --no-frozen-lockfile --prod=false || \
+    pnpm install --no-frozen-lockfile --prod=false
 
 # Copy entrypoint script first (before changing user context)
 COPY entrypoint.sh /entrypoint.sh
