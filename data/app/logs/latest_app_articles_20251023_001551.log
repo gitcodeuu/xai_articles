@@ -1,0 +1,39 @@
+[00:15:51] [📅 Processing LIST for: 2025-10-23]
+[00:16:24] ✅ Saved: 2025-10-23_e5e4a451d159ad79d682f459197daf0b.json (1143 chars)
+[00:16:25] ✅ Saved: 2025-10-23_1caa70a4ba2e069980d62056df6ae9d3.json (1016 chars)
+[00:16:26] ✅ Saved: 2025-10-23_2509919dc6a2b241139f952845537775.json (858 chars)
+[00:16:27] ✅ Saved: 2025-10-23_2cad6dab2b4f2d19e8e86c9fc1c438e8.json (2312 chars)
+[00:16:28] ✅ Saved: 2025-10-23_612bdbc2a782ce1e469434cf380d4446.json (2716 chars)
+[00:16:28] ✅ Saved: 2025-10-23_d5be3d58b982d3c48fed5bff5c5d3b0e.json (3396 chars)
+[00:16:28] ✅ Saved: 2025-10-23_3a27626a7559e01d58d39eb948703ff3.json (1416 chars)
+[00:16:30] ✅ Saved: 2025-10-23_c61ae7615584f20ce4fa5565ef4ab0e6.json (1775 chars)
+[00:16:50] ✅ Saved: 2025-10-23_6636f9d3b259cd46df62c5f992c664b7.json (1877 chars)
+[00:16:51] ✅ Saved: 2025-10-23_ab22aadb43784137c8c82111304efeda.json (2608 chars)
+[00:16:52] ✅ Saved: 2025-10-23_05ecf2f59d630999fc5e8747876ddc33.json (2234 chars)
+[00:16:52] ✅ Saved: 2025-10-23_f569d58e797731be7b2f0d0b0507c16d.json (4513 chars)
+[00:16:53] ✅ Saved: 2025-10-23_31134b7e0db5c82bdf01f8288c051be6.json (1070 chars)
+[00:16:53] ✅ Saved: 2025-10-23_fd811d285bc46d4564f2132a0aff9e31.json (2878 chars)
+[00:16:53] ✅ Saved: 2025-10-23_a6989a7efa66471a9413def7039f2b8b.json (1807 chars)
+[00:16:54] ✅ Saved: 2025-10-23_6a01ca77f4c3b21da0d20ae7fee79e1c.json (1460 chars)
+[00:17:12] ⚠️  [2025-10-23] Empty/short content: Saudi Ambassador to Pakistan Nawaf bin Saeed Al-Ma... (46 chars)
+[00:17:12] ❌ [2025-10-23] Failed: Saudi Ambassador to Pakistan Nawaf bin Saeed Al-Maliky and M... - Empty or too short content extracted
+[00:17:14] ✅ Saved: 2025-10-23_fe1c452572b94b4ebbc764a611d35ad2.json (1178 chars)
+[00:17:14] ✅ Saved: 2025-10-23_a708d17c2f9a5ac63d1efb4f01a80622.json (855 chars)
+[00:17:14] ✅ Saved: 2025-10-23_829babb501838ca7b6418a592409ead0.json (2976 chars)
+[00:17:15] ✅ Saved: 2025-10-23_5df8838d18a07d01a9fd824b8ba8bcfc.json (1109 chars)
+[00:17:15] ⚠️  Failed URLs in this batch:
+[00:17:15]    - https://www.app.com.pk/photos-section/saudi-ambassador-to-pakistan-nawaf-bin-saeed-al-maliky-and-managing-director-pakistan-bait-ul-mal-senator-capt-shaheen-khalid-butt-inaugurating-date-distribution-program-in-pakistan-while-distri/: Empty or too short content extracted
+[00:17:19] 🎯 Finished 2025-10-23
+[00:17:19]    📊 Success: 20 | Skipped: 0 | Failed: 1 | Total: 21
+[00:17:19]    📝 Avg content length: 1960 chars
+[00:17:19] ✅ APP article scraping completed.
+[00:17:19] 📊 Final Stats:
+{
+  "2025-10-23": {
+    "success": 20,
+    "failed": 1,
+    "skipped": 0,
+    "total": 21,
+    "avgContentLength": 1960
+  }
+}

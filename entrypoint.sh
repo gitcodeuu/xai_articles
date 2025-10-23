@@ -1,19 +1,20 @@
 #!/bin/bash
 set -e
 
-# Get today's date
-TODAY=$(date +%Y-%m-%d)
-
+TODAY="${DATE:-$(date +%Y-%m-%d)}"
 echo "🚀 Starting automated scraping for $TODAY"
 
-
-# Step 1: Dawn
+# Step 1: Dawn (existing pipeline)
 echo "📰 [1/5] Scraping Dawn..."
 node run_range_dawn.js "$TODAY"
 
+# Step 1b: Dawn Articles (force-save to data/dawn/articles/YYYY/MM/DD)
+echo "📄 [1b] Scraping Dawn articles (enforced path)..."
+node scrape_articles_dawn.js --fromDate "$TODAY" --toDate "$TODAY"
+
 # Step 2: APP Lists
 echo "📰 [2/5] Scraping APP lists..."
-node scrape_lists_app.js --latest
+node scrape_lists_app.js --date "$TODAY"
 
 # Step 3: APP Articles
 echo "📰 [3/5] Scraping APP articles..."

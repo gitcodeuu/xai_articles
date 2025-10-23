@@ -43,12 +43,31 @@ function makeLogger() {
 }
 
 /**
- * Generate MD5 hash from URL for filename
- * @param {string} url - Article URL
- * @returns {string} MD5 hash
+ * Safely extract a URL from a list item
+ * @param {Object} item
+ * @returns {string|null}
  */
-function generateFilenameHash(url) {
-  return crypto.createHash('md5').update(url).digest('hex')
+function getUrlFromItem(item) {
+  const candidate =
+    item?.link ||
+    item?.url ||
+    item?.href ||
+    item?.permalink ||
+    null
+
+  return (typeof candidate === 'string' && candidate.trim().length > 0) ? candidate.trim() : null
+}
+
+/**
+ * Generate MD5 hash from input (robust)
+ * @param {string} input
+ * @param {string} fallbackSeed
+ * @returns {string}
+ */
+function generateFilenameHash(input, fallbackSeed = '') {
+  const s = (typeof input === 'string' && input.length) ? input : fallbackSeed
+  if (!s) return crypto.randomBytes(8).toString('hex')
+  return crypto.createHash('md5').update(s).digest('hex')
 }
 
 /**
@@ -84,13 +103,21 @@ function sanitizeContent(text) {
  * @param {Object} item - Article metadata from list file
  * @param {string} date - Date in YYYY-MM-DD format
  * @param {Function} log - Logger function
+ * @param {number} [indexSeed] - Optional index used for fallback hashing
  * @returns {Promise<Object>} Result object with success status
  */
-async function scrapeArticle(item, date, log) {
-  const { link, title } = item
+async function scrapeArticle(item, date, log, indexSeed = 0) {
+  const link = getUrlFromItem(item)
+  const title = (item?.title || item?.headline || '').trim()
+
+  // Skip items without a URL
+  if (!link) {
+    log(`⏭️  [${date}] Skipping item without URL: "${title?.slice(0, 60) || '(no title)'}"`)
+    return { success: true, skipped: true }
+  }
   
-  // Generate filename from URL hash
-  const hash = generateFilenameHash(link)
+  // Generate filename from URL hash (robust)
+  const hash = generateFilenameHash(link, `${date}-${indexSeed}`)
   const dateFolder = buildDatedPath(ARTICLE_DIR, date)
   await fs.ensureDir(dateFolder)
   const outPath = path.join(dateFolder, `${date}_${hash}.json`)
@@ -267,7 +294,7 @@ async function scrapeArticle(item, date, log) {
     }
 
     // Use extracted title if available, fallback to list title
-    const finalTitle = scrapedData.pageTitle || item.title || title
+    const finalTitle = scrapedData.pageTitle || title
 
     // Build complete article object with all metadata fields properly filled
     const article = {
@@ -279,7 +306,7 @@ async function scrapeArticle(item, date, log) {
       image: scrapedData.image || null,
       retrievedAt: new Date().toISOString(),
       source: 'APP',
-      link: link,
+      link,
       dateList: date,
       date_published: scrapedData.datePublished || item.datePublished || new Date(date).toISOString()
     }
@@ -322,7 +349,11 @@ async function processDateArticles(date, log) {
     return { success: 0, failed: 0, skipped: 0, total: 0 }
   }
 
-  const items = await fs.readJson(listPath)
+  const listJson = await fs.readJson(listPath)
+  const items = Array.isArray(listJson)
+    ? listJson
+    : (Array.isArray(listJson?.articles) ? listJson.articles : [])
+
   log(`[📅 Processing LIST for: ${date}]`)
   
   let success = 0
@@ -333,9 +364,9 @@ async function processDateArticles(date, log) {
   // Process articles in batches with concurrency
   for (const batch of chunkArray(items, BATCH_SIZE)) {
     const results = await Promise.all(
-      batch.map(async (item) => {
+      batch.map(async (item, idx) => {
         await sleep(jitter(200, 800))
-        return await scrapeArticle(item, date, log)
+        return await scrapeArticle(item, date, log, idx)
       })
     )
 
@@ -352,7 +383,7 @@ async function processDateArticles(date, log) {
     })
 
     // Log failed URLs for debugging
-    const failedResults = results.filter(r => !r.success)
+    const failedResults = results.filter(r => !r.success && r.url)
     if (failedResults.length > 0) {
       log(`⚠️  Failed URLs in this batch:`)
       failedResults.forEach(r => log(`   - ${r.url}: ${r.error}`))
@@ -380,7 +411,7 @@ async function main(options = {}) {
   const log = makeLogger()
 
   try {
-    // Parse date range from arguments
+    // Parse date range from arguments (env DATE can also be used outside this script)
     let fromDate = argv.fromDate || dayjs().format('YYYY-MM-DD')
     let toDate = argv.toDate || fromDate
 
@@ -433,4 +464,4 @@ if (require.main === module) {
   })
 }
 
-module.exports = { main, scrapeArticle, processDateArticles, generateFilenameHash }
+module.exports = { main, scrapeArticle, processDateArticles, generateFilenameHash, getUrlFromItem }

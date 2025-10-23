@@ -11,6 +11,12 @@ function getAllFiles(dir) {
   return glob.sync('**/*', { cwd: dir, nodir: true, absolute: false });
 }
 
+function getDatePartsFromEnv() {
+  const inputDate = process.env.DATE || new Date().toISOString().slice(0, 10);
+  const [y, m, d] = inputDate.split('-');
+  return { y, m, d, todayPath: `${y}/${m}/${d}`, inputDate };
+}
+
 async function uploadDataFolder() {
   console.log('🚀 Starting Azure Blob migration...');
 
@@ -19,6 +25,8 @@ async function uploadDataFolder() {
     console.error('❌ AZURE_STORAGE_KEY environment variable not set');
     process.exit(1);
   }
+
+  const { y, m, d, todayPath, inputDate } = getDatePartsFromEnv();
 
   try {
     const credential = new StorageSharedKeyCredential(STORAGE_ACCOUNT_NAME, storageKey);
@@ -31,16 +39,9 @@ async function uploadDataFolder() {
     await containerClient.createIfNotExists();
     console.log(`✅ Container '${CONTAINER_NAME}' ready`);
 
-    // Build today's date path YYYY/MM/DD
-    const now = new Date();
-    const y = now.getFullYear();
-    const m = String(now.getMonth() + 1).padStart(2, '0');
-    const d = String(now.getDate()).padStart(2, '0');
-    const todayPath = `${y}/${m}/${d}`;
-
     const dataDir = path.join(__dirname, '..', 'data');
 
-    // Only look inside today’s folders
+    // Only upload today's folders; preserve original structure (no "data/" prefix)
     const appTodayDir = path.join(dataDir, 'app', 'articles', todayPath);
     const dawnTodayDir = path.join(dataDir, 'dawn', 'articles', todayPath);
 
@@ -53,7 +54,7 @@ async function uploadDataFolder() {
 
     const files = [...appFiles, ...dawnFiles];
 
-    console.log(`\n📁 Found ${files.length} files from today to upload`);
+    console.log(`\n📁 Found ${files.length} files from ${inputDate} to upload`);
     console.log(`   APP: ${appFiles.length} • Dawn: ${dawnFiles.length}`);
 
     let uploaded = 0;
@@ -70,8 +71,8 @@ async function uploadDataFolder() {
           continue;
         }
 
-        // Keep original structure in the container (no "data/" prefix)
-        const blobName = rel.replace(/\\/g, '/'); // e.g. app/articles/2025/10/22/file.json
+        // Keep on-disk structure in blob name (no "data/" prefix)
+        const blobName = rel.replace(/\\/g, '/'); // e.g. app/articles/YYYY/MM/DD/file.json
         const blockBlob = containerClient.getBlockBlobClient(blobName);
 
         if (await blockBlob.exists()) {
@@ -89,8 +90,8 @@ async function uploadDataFolder() {
             source: rel.startsWith('app') ? 'app' : rel.startsWith('dawn') ? 'dawn' : 'unknown',
             uploadedAt: new Date().toISOString(),
             fileSize: String(stats.size),
-            scrapedDate: `${y}-${m}-${d}`
-          }
+            scrapedDate: `${y}-${m}-${d}`,
+          },
         });
 
         uploaded++;
