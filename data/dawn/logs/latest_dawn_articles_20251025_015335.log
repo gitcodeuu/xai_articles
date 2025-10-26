@@ -1,0 +1,49 @@
+[01:53:35] [📅 Processing LIST for: 2025-10-25] (33 items)
+[01:53:35] [📅 Processing LIST for: 2025-10-25] (33 items)
+[01:53:58] ✅ Saved: 2025-10-25_6b94e6940e710d302c647171f8d50d39.json (4974 chars)
+[01:54:12] ✅ Saved: 2025-10-25_73a3a8435996da11499464b6b42ecefe.json (3817 chars)
+[01:54:13] ✅ Saved: 2025-10-25_83b4d065590d954d9bc6cd392961e955.json (3682 chars)
+[01:54:13] ✅ Saved: 2025-10-25_3a04738b6b2854439abf32f5e8ba2154.json (3248 chars)
+[01:54:15] ✅ Saved: 2025-10-25_f501dc9d1f2bca32e39c4aecccc884b4.json (3207 chars)
+[01:54:15] ✅ Saved: 2025-10-25_5410b76e897a444e839b13246db28c46.json (8154 chars)
+[01:54:17] ✅ Saved: 2025-10-25_ae8313fbeea11d3a80355a0d688e0740.json (8093 chars)
+[01:54:21] ✅ Saved: 2025-10-25_a806994ac1936021882b48c10594e9ac.json (3531 chars)
+[01:54:32] ✅ Saved: 2025-10-25_b6a0858dfcc0e7f1ed455b92d6e576d6.json (2343 chars)
+[01:54:33] ✅ Saved: 2025-10-25_8da0dda268cc091c93a4d2ca5460bbd0.json (3273 chars)
+[01:54:35] ✅ Saved: 2025-10-25_0d9a3e5536f35e8edbf60532e47b9b8a.json (4466 chars)
+[01:54:39] ✅ Saved: 2025-10-25_73cc18b37c8419aef1e92faa1ea4a132.json (2911 chars)
+[01:54:40] ✅ Saved: 2025-10-25_0a9401f97ceb92a24bd5a11fa1476917.json (4245 chars)
+[01:54:40] ✅ Saved: 2025-10-25_8c02a1b194a6139aec616e1f0bf83ec5.json (3457 chars)
+[01:54:40] ✅ Saved: 2025-10-25_bcb89942b9b75c827ccfed91ed6c15ef.json (3196 chars)
+[01:54:45] ✅ Saved: 2025-10-25_7050538285bb51cea49d42f53081d3cd.json (4410 chars)
+[01:54:55] ✅ Saved: 2025-10-25_da686668d527d07fc54590c2683448c6.json (2875 chars)
+[01:54:55] ✅ Saved: 2025-10-25_db719fe548834ddd43a2850c77c03a42.json (4855 chars)
+[01:54:58] ✅ Saved: 2025-10-25_d7572865c2a56b3cd44ea46daa09fee6.json (3176 chars)
+[01:54:59] ✅ Saved: 2025-10-25_60146c5c7fce65a51d6c037cff222b92.json (1459 chars)
+[01:54:59] ✅ Saved: 2025-10-25_ac67d83da0a63bd24b3483e3b812877c.json (4393 chars)
+[01:54:59] ✅ Saved: 2025-10-25_d56610467301728eb8731c2bc4d070d0.json (2607 chars)
+[01:54:59] ✅ Saved: 2025-10-25_19094156f4a2e597d31476fdb5b652fd.json (2495 chars)
+[01:54:59] ✅ Saved: 2025-10-25_4a48d308d03eef97b38cde442320b2d8.json (6444 chars)
+[01:55:10] ✅ Saved: 2025-10-25_ef67652ca0180182116ded857b86886a.json (4910 chars)
+[01:55:11] ✅ Saved: 2025-10-25_f027f574d5c6bcb6af029f258868c868.json (3299 chars)
+[01:55:11] ✅ Saved: 2025-10-25_a392f4894c589aa990df64e6ac468763.json (6027 chars)
+[01:55:13] ✅ Saved: 2025-10-25_88ad1e6201edd9a68e0ddfe3892c5747.json (2951 chars)
+[01:55:15] ✅ Saved: 2025-10-25_980281288b1ac9b563f58d9b155b9813.json (7175 chars)
+[01:55:16] ✅ Saved: 2025-10-25_a5070c02d1703a044c28bda303f1b16e.json (1907 chars)
+[01:55:18] ✅ Saved: 2025-10-25_ebafef89e1ef96f187ef8adf3c55c564.json (3290 chars)
+[01:55:19] ✅ Saved: 2025-10-25_4bed623fd19762c0cdd6b0673df27a1b.json (2344 chars)
+[01:55:24] ✅ Saved: 2025-10-25_67d2499cea1bfc3d3e6ee1e7984dbabd.json (4851 chars)
+[01:55:26] 🎯 Finished 2025-10-25
+[01:55:26]    📊 Success: 33 | Skipped: 0 | Failed: 0 | Total: 33
+[01:55:26]    📝 Avg content length: 4002 chars
+[01:55:27] ✅ DAWN article scraping completed.
+[01:55:27] 📊 Final Stats:
+{
+  "2025-10-25": {
+    "success": 33,
+    "failed": 0,
+    "skipped": 0,
+    "total": 33,
+    "avgContentLength": 4002
+  }
+}

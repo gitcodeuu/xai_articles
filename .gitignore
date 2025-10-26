@@ -10,7 +10,7 @@
 /.cache
 
 # Data folder
-/data
+# /data
 
 # Environment variables - FILE, not folder
 .env
@@ -34,10 +34,10 @@ docker-data/
 
 
 # Data files (don't version control scraped data)
-data/*/lists/**/*.json
-data/*/articles/**/*.json
-data/*/logs/**/*.json
-data/*/refetch_nulls/**/*.json
+# data/*/lists/**/*.json
+# data/*/articles/**/*.json
+# data/*/logs/**/*.json
+# data/*/refetch_nulls/**/*.json
 
 # Keep directory structure
 !data/*/.gitkeep

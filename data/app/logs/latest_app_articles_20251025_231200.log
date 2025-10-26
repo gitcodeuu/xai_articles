@@ -1,0 +1,37 @@
+[23:12:01] [📅 Processing LIST for: 2025-10-26]
+[23:12:01] ⏭️  [2025-10-26] Already exists: 2025-10-26_b67751ae2f851ee95b9fca119673502d.json
+[23:12:01] ⏭️  [2025-10-26] Already exists: 2025-10-26_3da02e7269e9e6900b37a7442c86020e.json
+[23:12:01] ⏭️  [2025-10-26] Already exists: 2025-10-26_02d051e2ddf1eee76e348d9d4dabeeeb.json
+[23:12:01] ⏭️  [2025-10-26] Already exists: 2025-10-26_d7b573c0b0eadf41a24f3892605a94ce.json
+[23:12:01] ⏭️  [2025-10-26] Already exists: 2025-10-26_0cb1e50a0ebf6537d3d97cc8ff5664a1.json
+[23:12:01] ⏭️  [2025-10-26] Already exists: 2025-10-26_ee5f7c19f56a7e690c0a2c6de67b69c9.json
+[23:12:01] ⏭️  [2025-10-26] Already exists: 2025-10-26_090083d554aeb6c604faaf0c4040c197.json
+[23:12:01] ⏭️  [2025-10-26] Already exists: 2025-10-26_8e44aae61097926adf9668fe6c66b9a0.json
+[23:12:04] ⏭️  [2025-10-26] Already exists: 2025-10-26_025514fff90e7582324addffd1f6ef7e.json
+[23:12:04] ⏭️  [2025-10-26] Already exists: 2025-10-26_53050886b0afe4dd244a57904074e0e9.json
+[23:12:04] ⏭️  [2025-10-26] Already exists: 2025-10-26_aa91cc87b3fce9fd317eb10b806db18b.json
+[23:12:04] ⏭️  [2025-10-26] Already exists: 2025-10-26_8b02688457f2a5fd03f32a53b8ad795c.json
+[23:12:04] ⏭️  [2025-10-26] Already exists: 2025-10-26_58c2352b661e34e5981e5dad58b6d3a0.json
+[23:12:04] ⏭️  [2025-10-26] Already exists: 2025-10-26_4a9b38a887e0e47411a47087be0fd19a.json
+[23:12:04] ⏭️  [2025-10-26] Already exists: 2025-10-26_b21b0f57b399086d4f722a50a34c8225.json
+[23:12:04] ⏭️  [2025-10-26] Already exists: 2025-10-26_10f0dc85e052985bb47d6f75806dc417.json
+[23:12:07] ⏭️  [2025-10-26] Already exists: 2025-10-26_13bd5c4a96c5ff17eb430bc9a1ba5b2c.json
+[23:12:08] ⏭️  [2025-10-26] Already exists: 2025-10-26_33f50f870b5345f7c7b8a987c71dc402.json
+[23:12:25] ⚠️  [2025-10-26] Empty/short content: Leaders of AJK PPP call on President Asif Ali Zard... (46 chars)
+[23:12:25] ❌ [2025-10-26] Failed: Leaders of AJK PPP call on President Asif Ali Zardari to dis... - Empty or too short content extracted
+[23:12:25] ⚠️  Failed URLs in this batch:
+[23:12:25]    - https://www.app.com.pk/photos-section/leaders-of-ajk-ppp-call-on-president-asif-ali-zardari-to-discuss-issues-related-to-ajk-governance-and-the-role-of-the-party-the-meeting-is-being-attended-by-party-chairman-bilawal-bhutto-zardari-ppp/: Empty or too short content extracted
+[23:12:28] 🎯 Finished 2025-10-26
+[23:12:28]    📊 Success: 0 | Skipped: 18 | Failed: 1 | Total: 19
+[23:12:28]    📝 Avg content length: 0 chars
+[23:12:28] ✅ APP article scraping completed.
+[23:12:28] 📊 Final Stats:
+{
+  "2025-10-26": {
+    "success": 0,
+    "failed": 1,
+    "skipped": 18,
+    "total": 19,
+    "avgContentLength": 0
+  }
+}

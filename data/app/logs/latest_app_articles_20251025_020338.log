@@ -1,0 +1,35 @@
+[02:03:38] [📅 Processing LIST for: 2025-10-24]
+[02:04:06] ✅ Saved: 2025-10-24_6549e2c1a1a77777953cd080715d12c5.json (2203 chars)
+[02:04:09] ✅ Saved: 2025-10-24_f2cb93a6dd138ae0e16e87a20eb23a3f.json (5942 chars)
+[02:04:09] ✅ Saved: 2025-10-24_4b1f1f52977a16fe24f6a2fcb614dfc3.json (2848 chars)
+[02:04:10] ✅ Saved: 2025-10-24_1aa71d77c1732d4444fb7dc3abd93a63.json (4198 chars)
+[02:04:10] ✅ Saved: 2025-10-24_3cf65fbe3ae6cb48b9cd490ce15d5e6a.json (1971 chars)
+[02:04:10] ✅ Saved: 2025-10-24_5bdf06417d6e35727ce4e3f4cd8407ed.json (1609 chars)
+[02:04:12] ✅ Saved: 2025-10-24_12598d80718ff787076d58c1c511afce.json (2006 chars)
+[02:04:13] ✅ Saved: 2025-10-24_0953d5a23f40d81340b3a0c53b09c560.json (5921 chars)
+[02:04:22] ✅ Saved: 2025-10-24_910fc65bacdb830c6515ea31e3676976.json (2261 chars)
+[02:04:31] ✅ Saved: 2025-10-24_35dcab125fbe8fd5d16fb85157818a0d.json (1339 chars)
+[02:04:31] ✅ Saved: 2025-10-24_98ffee86b2eeeba21dd15162d03c37c5.json (4745 chars)
+[02:04:32] ✅ Saved: 2025-10-24_6b7f46f3f57612c15eee9ce00550ab25.json (1793 chars)
+[02:04:32] ✅ Saved: 2025-10-24_618fb22f6e1d963aee9e21a4f98c07d1.json (3300 chars)
+[02:04:33] ✅ Saved: 2025-10-24_e47a945400d08e51a6e38d3636a1351a.json (3455 chars)
+[02:04:33] ✅ Saved: 2025-10-24_7d1fb12df6f451cf890fd9a0f1eee17e.json (809 chars)
+[02:04:33] ✅ Saved: 2025-10-24_396826c83addc702d2c04b3ba468303e.json (734 chars)
+[02:04:43] ✅ Saved: 2025-10-24_1de22b104a680ed3441240f0185900bc.json (3959 chars)
+[02:04:51] ✅ Saved: 2025-10-24_e608c4f93de22a414cb2ce0b509df472.json (869 chars)
+[02:04:51] ✅ Saved: 2025-10-24_c05f90fdd4a82afd212f41ae8b790b54.json (1878 chars)
+[02:04:51] ✅ Saved: 2025-10-24_4ac9cd0a9e30f3b4aae7593603bf8de7.json (2832 chars)
+[02:04:54] 🎯 Finished 2025-10-24
+[02:04:54]    📊 Success: 20 | Skipped: 0 | Failed: 0 | Total: 20
+[02:04:54]    📝 Avg content length: 2734 chars
+[02:04:54] ✅ APP article scraping completed.
+[02:04:54] 📊 Final Stats:
+{
+  "2025-10-24": {
+    "success": 20,
+    "failed": 0,
+    "skipped": 0,
+    "total": 20,
+    "avgContentLength": 2734
+  }
+}
