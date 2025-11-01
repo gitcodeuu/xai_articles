@@ -10,7 +10,8 @@
 /.cache
 
 # Data folder
-/data
+/data/app/transformed_articles
+/data/dawn/transformed_articles
 
 # Environment variables - FILE, not folder
 .env
