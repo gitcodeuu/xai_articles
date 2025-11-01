@@ -57,6 +57,7 @@ services:
           cpus: '1.0'
           memory: 2G
     entrypoint: ["/entrypoint.sh"]
+    command: tail -f /dev/null
 
   data-cleaner:
     build:

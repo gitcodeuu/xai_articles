@@ -24,8 +24,4 @@ node scrape_articles_app.js --fromDate "$TODAY" --toDate "$TODAY"
 echo "🔄 [4/5] Refetching null content..."
 node scripts/refetch_null_content.js --source both --dates "$TODAY"
 
-# Step 5: Run the data cleaner service
-echo "🧹 [5/5] Cleaning and transforming data..."
-docker-compose run --rm data-cleaner
-
-echo "✅ All done for $TODAY!"
+echo "✅ Scraping pipeline complete for $TODAY!"

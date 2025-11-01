@@ -1,0 +1,44 @@
+[18:46:26] [📅 Processing LIST for: 2025-11-01]
+[18:46:26] ⏭️  [2025-11-01] Already exists: 2025-11-01_d8e2b70d414ee0b5addc4b70a5f96d5c.json
+[18:46:26] ⏭️  [2025-11-01] Already exists: 2025-11-01_2d77b677b9a0c2d215e257a91fa91261.json
+[18:46:26] ⏭️  [2025-11-01] Already exists: 2025-11-01_16dc4e92954cc795dbd655bd03182519.json
+[18:46:26] ⏭️  [2025-11-01] Already exists: 2025-11-01_20a0faf39aaf13754d32ca53d27d3ee0.json
+[18:46:27] ⏭️  [2025-11-01] Already exists: 2025-11-01_b71faf580a6d73862a485b4761e992bc.json
+[18:46:27] ⏭️  [2025-11-01] Already exists: 2025-11-01_6ad4e692e3d603aa333f5f6a55370d77.json
+[18:46:27] ⏭️  [2025-11-01] Already exists: 2025-11-01_3f002155a12d36ce7fbd6a2f6bf2da4f.json
+[18:46:27] ⏭️  [2025-11-01] Already exists: 2025-11-01_748163a9e6f1759c82edd12fdcca1102.json
+[18:46:29] ⏭️  [2025-11-01] Already exists: 2025-11-01_38970b938e1f0355b218bfc920ad8ec8.json
+[18:46:29] ⏭️  [2025-11-01] Already exists: 2025-11-01_4b9d7625a79fc3f1c84a8c9cee24cf34.json
+[18:46:29] ⏭️  [2025-11-01] Already exists: 2025-11-01_87397bbaafe901eee3a7094bcc2127d7.json
+[18:46:29] ⏭️  [2025-11-01] Already exists: 2025-11-01_117435d8e822336064c41c51e8feb32f.json
+[18:46:29] ⏭️  [2025-11-01] Already exists: 2025-11-01_f71d12300e7f47ababa8ddfd6c67cbc5.json
+[18:46:30] ⏭️  [2025-11-01] Already exists: 2025-11-01_f9254674cbe01daa8556ec81e03337ce.json
+[18:46:30] ⏭️  [2025-11-01] Already exists: 2025-11-01_58468266b2e6297b9f7069f8df212f9d.json
+[18:46:30] ⏭️  [2025-11-01] Already exists: 2025-11-01_27e905b997e519d8c9227184a1aefb35.json
+[18:46:34] ⏭️  [2025-11-01] Already exists: 2025-11-01_2158dd225644ed0c3f28643d9b068876.json
+[18:46:34] ⏭️  [2025-11-01] Already exists: 2025-11-01_ca828659d10a9f0f43b2239b4db8c16c.json
+[18:46:34] ⏭️  [2025-11-01] Already exists: 2025-11-01_b5b237dadb1f51e573b7b15ff95795c8.json
+[18:46:34] ⏭️  [2025-11-01] Already exists: 2025-11-01_b5e27016cf0fcdd187192b1b26819dd3.json
+[18:46:54] ✅ Saved: 2025-11-01_ecd2ba772a5ab7f94a078f098ea216cc.json (475 chars)
+[18:46:55] ⚠️  [2025-11-01] Empty/short content: Federal Parliamentary Secretary for Information an... (46 chars)
+[18:46:55] ❌ [2025-11-01] Failed: Federal Parliamentary Secretary for Information and Broadcas... - Empty or too short content extracted
+[18:46:55] ✅ Saved: 2025-11-01_b7c80268b6521baac1c79cfb7f49699c.json (1619 chars)
+[18:46:56] ✅ Saved: 2025-11-01_b9b100656784bcb48abb4e89ed6ab6a2.json (3298 chars)
+[18:46:56] ⚠️  Failed URLs in this batch:
+[18:46:56]    - https://www.app.com.pk/photos-section/federal-parliamentary-secretary-for-information-and-broadcasting-barrister-danyal-chaudhry-addressing-the-media-outside-the-judicial-complex/: Empty or too short content extracted
+[18:47:12] ✅ Saved: 2025-11-01_74a1ee565a8ffe58aaf0bfc3be4b2604.json (887 chars)
+[18:47:13] ✅ Saved: 2025-11-01_6f7c109fcb124361edcb01abb2613a1c.json (1524 chars)
+[18:47:16] 🎯 Finished 2025-11-01
+[18:47:16]    📊 Success: 5 | Skipped: 20 | Failed: 1 | Total: 26
+[18:47:16]    📝 Avg content length: 1561 chars
+[18:47:16] ✅ APP article scraping completed.
+[18:47:16] 📊 Final Stats:
+{
+  "2025-11-01": {
+    "success": 5,
+    "failed": 1,
+    "skipped": 20,
+    "total": 26,
+    "avgContentLength": 1561
+  }
+}

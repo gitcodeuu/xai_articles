@@ -1,0 +1,46 @@
+services:
+  scraper-daily:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: xai_scraper_daily_task
+    volumes:
+      - ./data:/app/data:rw
+      - ./logs:/app/logs:rw
+    env_file:
+      - .env
+    environment:
+      - DATE
+      - PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
+      - PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+      - DOCKER_ENV=true
+      - NODE_ENV=production
+      - TZ=UTC
+    networks:
+      - scraper-network
+    entrypoint: ["/entrypoint.sh"]
+
+  data-cleaner:
+    build:
+      context: ./data_cleaner
+      dockerfile: Dockerfile
+    container_name: xai_data_cleaner_task
+    volumes:
+      - ./data:/app/data:rw
+    networks:
+      - scraper-network
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 4G
+        reservations:
+          cpus: '0.5'
+          memory: 2G
+    depends_on:
+      scraper-daily:
+        condition: service_completed_successfully
+
+networks:
+  scraper-network:
+    driver: bridge
