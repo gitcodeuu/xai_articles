@@ -22,6 +22,9 @@
     "dawn:range": "node run_range_dawn.js",
     "data:refetch:nulls": "node scripts/refetch_null_content.js",
     "data:migrate": "node scripts/migrate_data.js",
+    "data:clean": "docker-compose run --rm data-cleaner",
+    "data:clean:force:app": "docker-compose run --rm data-cleaner python cleaner.py /app/data --force app",
+    "data:clean:force:dawn": "docker-compose run --rm data-cleaner python cleaner.py /app/data --force dawn",
     "fix-conflicts": "node scripts/fix-merge-conflicts.js",
     "azure:upload": "node scripts/upload-to-azure.js",
     "clear-cache": "node scripts/clear_browser_cache.js"

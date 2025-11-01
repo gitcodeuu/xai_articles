@@ -1,0 +1,5 @@
+# Python requirements for the data cleaner service
+# This file is used by pip to install dependencies.
+
+# No external libraries are needed for the current script.
+# If you add libraries like pandas, nltk, etc., add them here.

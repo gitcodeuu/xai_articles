@@ -40,8 +40,13 @@ RUN apt-get update && apt-get install -y \
     wget \
     ca-certificates \
     gosu \
+    curl \
     --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
+
+# Install Docker Compose so this container can orchestrate others
+RUN curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose && \
+    chmod +x /usr/local/bin/docker-compose
 
 # Create a dummy crash handler if it doesn't exist (Chromium workaround)
 RUN if [ ! -f /usr/lib/chromium/chrome_crashpad_handler ]; then \

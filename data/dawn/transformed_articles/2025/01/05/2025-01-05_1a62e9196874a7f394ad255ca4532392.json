@@ -1,0 +1,27 @@
+{
+  "article_id": "2025-01-05_1a62e9196874a7f394ad255ca4532392",
+  "source_info": {
+    "source_name": "Dawn",
+    "source_link": "https://www.dawn.com/news/1883187/80pc-of-traffic-from-faulty-internet-cable-moved-to-other-lines-says-it-minister",
+    "retrieved_at": "2025-10-12T00:43:02.166Z"
+  },
+  "metadata": {
+    "title": "80pc of traffic from faulty internet cable moved to other lines, says IT minister - Pakistan - DAWN.COM",
+    "author": null,
+    "date_published": "2025-01-05T02:51:27.000Z",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mN8Vw8AAmEBb87E6jIAAAAASUVORK5CYII=",
+    "categories": [],
+    "word_count": 426,
+    "reading_time_minutes": 3
+  },
+  "content": {
+    "article_body": "ISLAMABAD: The internet disruption caused by a fault in one of the submarine cables landing in Pakistan has \"largely\" been restored, the IT minister said on Saturday. The Asia-Africa-Europe-1 (AAE-1) cable, one of the seven internet cables landing in Pakistan, developed a fault near Qatar on Thursday, leaving the country short of at least one terabits per second (tbps) bandwidth. In a media briefing, Shaza Fatima Khawaja said around 80 per cent of the bandwidth shortfall caused by the fault has been recovered as the AAE-1 traffic has been shifted to other two cables - SEA-ME-WE 4 (South EastAsia-Middle East-Western Europe 4) and IMEWE (India-Middle East-Western Europe). All three cables are managed by the Pakistan Telecommunication Company Ltd (PTCL). Manpower shortages delay restoration of full connectivity The entire traffic from the damaged cable couldn't be moved to the other two lines as they had no additional capacity, Internet cables transmit data at 40 to 50pc of their total capacity to keep space for shifting data service in case of damage to other cables. The data load of around 1.8 terabits per second has been shifted to the IMEWE cable system and 1.5tbps to the SEA-ME-WE 4. The fault in the AAE-1 cable developed on Thursday, but the hooking of its traffic to the other two cables faced delays due to manpower shortage in the wake of New Year holidays. The AAE-1 cable began operations in 2017. It connects Vietnam, Singapore, Malaysia, Thailand, Pakistan, India, Oman, the United Arab Emirates, Qatar, Saudi Arabia, Egypt, Greece, Italy and France. New impediment A senior official of the PTA told Dawn that the new impediment faced by the operator, PTCL, is that the full capacity of IMEWE and SEA-ME-WE 4 has now been utilised. \"These two cable systems were operating at around 60pc of their capacity due to increasing demand for internet in the country. Now the PTCL has requested the international partners of these two submarine cable systems to activate additional capacity for Pakistan,\" the official told Dawn. The ad hoc arrangement was taking time due to holidays and other issues. The fault is unlikely to be fixed anytime soon as repair works on submarine cables can last for months. The previous fault in the AAE-1 cable, which occurred in Pakistani territorial waters in 2021, took almost 45 days to be repaired, a PTCL official previously said. These faults take between 20 days and four months to get fixed depending upon the terrain and weather conditions of the area where the fault occurred. Published in Dawn, January 5th, 2025",
+    "summary": "",
+    "keywords": []
+  },
+  "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": []
+  }
+}

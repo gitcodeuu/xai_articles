@@ -1,0 +1,27 @@
+{
+  "article_id": "2025-07-25_806d13cba16278c44f6bfe09a31e78ac",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/pta-conducts-qos-survey/",
+    "retrieved_at": "2025-08-27T10:05:34.784Z"
+  },
+  "metadata": {
+    "title": "PTA conducts QoS survey",
+    "author": null,
+    "date_published": "2025-07-25T16:16:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 199,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jul 25 (APP):The Pakistan Telecommunication Authority (PTA) has completed Quality of Service (QoS) surveys for fixed-line broadband services. The survey was conducted across 22 major cities in Pakistan, including Azad Jammu & Kashmir (AJ&K) and Gilgit-Baltistan (GB), said a news release. The surveys, conducted during the 2nd quarter of 2025, aimed to evaluate the network performance of Broadband Service Providers (BSPs) and ensure that users receive high-quality internet services. Survey results revealed that most BSPs are compliant with important Key Performance Index (KPIs), including (i) Network Availability (Local and Core), ii) Jitter, (iii) Network Latency (Local segment) and (iv) Network Latency (International segment), However, a significant number of BSPs were found underperforming in few cities in KPI i.e. Bandwidth Utilization, which can significantly degrade user experience and compromise the overall quality of service during peak hours. PTA has directed the operators to take corrective measures and improve QoS of their network. PTA's primary objective with these surveys is to enhance the overall fixed-line broadband service quality and provide a better experience for consumers across the country. The detailed survey results for Q2 of 2025 are now available on PTA's official website for information of the general public (https://www.pta.gov.pk/category/qos-survey-of-fixed-line-broadband-service-providers-2020-1403945254-2023-05-30).",
+    "summary": "",
+    "keywords": []
+  },
+  "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": []
+  }
+}

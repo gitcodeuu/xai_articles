@@ -1,0 +1,42 @@
+[18:20:35] [📅 Processing LIST for: 2025-10-28]
+[18:21:45] ❌ [2025-10-28] Failed: Pak–Turk Friendship Week celebrations reflect deep cultural ... - Navigation timeout of 60000 ms exceeded
+[18:21:45] ❌ [2025-10-28] Failed: Dry weather likely to persist across most parts of country: ... - Navigation timeout of 60000 ms exceeded
+[18:21:46] ❌ [2025-10-28] Failed: Turkmenistan to host 30th anniversary of  its neutrality on ... - Navigation timeout of 60000 ms exceeded
+[18:21:46] ❌ [2025-10-28] Failed: PAC Sub-Committee reviews pending cases of Housing & Works M... - Navigation timeout of 60000 ms exceeded
+[18:21:46] ❌ [2025-10-28] Failed: PNCA launches Albert Camus’ The Stranger by SADEQUAIN... - Navigation timeout of 60000 ms exceeded
+[18:21:46] ❌ [2025-10-28] Failed: Solar energy revolution is Pakistan’s wake-up call: Danyal C... - Navigation timeout of 60000 ms exceeded
+[18:21:46] ❌ [2025-10-28] Failed: CJCSC Gen Sahir meets Bangladeshi Army Chief... - Navigation timeout of 60000 ms exceeded
+[18:21:47] ✅ Saved: 2025-10-28_5e1d2489273ba97fc160bf1aea842c3f.json (2555 chars)
+[18:21:47] ⚠️  Failed URLs in this batch:
+[18:21:47]    - https://www.app.com.pk/national/pnca-launches-albert-camus-the-stranger-by-sadequain/: Navigation timeout of 60000 ms exceeded
+[18:21:47]    - https://www.app.com.pk/national/pak-turk-friendship-week-celebrations-reflect-deep-cultural-and-historical-bonds/: Navigation timeout of 60000 ms exceeded
+[18:21:47]    - https://www.app.com.pk/national/dry-weather-likely-to-persist-across-most-parts-of-country-smog-alert-issuedpmd/: Navigation timeout of 60000 ms exceeded
+[18:21:47]    - https://www.app.com.pk/national/solar-energy-revolution-is-pakistans-wake-up-call-danyal-chaudhry/: Navigation timeout of 60000 ms exceeded
+[18:21:47]    - https://www.app.com.pk/national/turkmenistan-to-host-30th-anniversary-of-its-neutrality-on-dec-12/: Navigation timeout of 60000 ms exceeded
+[18:21:47]    - https://www.app.com.pk/national/pac-sub-committee-reviews-pending-cases-of-housing-works-ministry/: Navigation timeout of 60000 ms exceeded
+[18:21:47]    - https://www.app.com.pk/national/cjcsc-gen-sahir-meets-bangladeshi-army-chief-2/: Navigation timeout of 60000 ms exceeded
+[18:22:21] ✅ Saved: 2025-10-28_554acda72e46820f1f030b5cdf931a97.json (1744 chars)
+[18:22:27] ✅ Saved: 2025-10-28_4f0876ab2ff3b285d2e69f789d4f93cc.json (694 chars)
+[18:22:28] ✅ Saved: 2025-10-28_b534bc916122997c0cf54fb4d558afb1.json (1436 chars)
+[18:22:28] ✅ Saved: 2025-10-28_8062f6ca5ec5c98aee1daa68f329f2d2.json (1332 chars)
+[18:22:28] ✅ Saved: 2025-10-28_4473717f56c6ceb3e0385766588db7a4.json (627 chars)
+[18:22:28] ✅ Saved: 2025-10-28_41118b483bd7377467e1bbc5180479a8.json (1266 chars)
+[18:22:29] ✅ Saved: 2025-10-28_ee39cda630e43bf82eee7a6badfd8b01.json (1339 chars)
+[18:22:29] ✅ Saved: 2025-10-28_dfe1a89e3aae43be34394ca59e4a4e1a.json (526 chars)
+[18:22:47] ✅ Saved: 2025-10-28_702f1ee1bdcd2ed36cd7f58558fa16e0.json (4309 chars)
+[18:22:49] ✅ Saved: 2025-10-28_99bac7055b0ac19afa2af59cd6c0ee07.json (1750 chars)
+[18:22:50] ✅ Saved: 2025-10-28_06dd55322311b96c970d9939e7ffa492.json (1706 chars)
+[18:22:53] 🎯 Finished 2025-10-28
+[18:22:53]    📊 Success: 12 | Skipped: 0 | Failed: 7 | Total: 19
+[18:22:53]    📝 Avg content length: 1607 chars
+[18:22:54] ✅ APP article scraping completed.
+[18:22:54] 📊 Final Stats:
+{
+  "2025-10-28": {
+    "success": 12,
+    "failed": 7,
+    "skipped": 0,
+    "total": 19,
+    "avgContentLength": 1607
+  }
+}

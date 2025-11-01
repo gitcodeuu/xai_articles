@@ -1,0 +1,27 @@
+{
+  "article_id": "2025-06-24_4a5dde8d9684eb37369b0f66cc39a46a",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/huawei-industry-partners-reach-consensus-on-mobile-ai-foundation-networks-driving-5g-a-experience-monetization/",
+    "retrieved_at": "2025-08-27T16:23:52.971Z"
+  },
+  "metadata": {
+    "title": "Huawei, Industry partners reach consensus on Mobile AI Foundation Networks, Driving 5G-A experience monetization",
+    "author": null,
+    "date_published": "2025-06-24T07:32:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 529,
+    "reading_time_minutes": 3
+  },
+  "content": {
+    "article_body": "Shanghai, China, Jun 24 (APP):At the Mobile AI Summit hosted by Huawei, during Mobile World Congress (MWC) Shanghai 2025, operators ,AI ecosystem partners, scholars, and industry partners came together to discuss mobile AI industry trends, and reached two key consensuses on future mobile AI development: enhancing 5G-A uplink experience is critical to mobile AI development; and network-service synergy is essential to mobile AI experience monetization. Those involved also witnessed the inauguration of the GSMA Foundry project: Mobile Network for Thriving AI, signifying that operators are entering experience monetization and are beginning experience-centered network construction for mobile AI. Speaking at the summit, Wen Ku, President of China Communications Standards Association (CCSA), highlighted: \"The integration of 5G-A and AI is one of the key directions for communications network evolution. Efforts should focus on setting standards, building smart network integration, and fostering collaborative development through ecosystems to pioneer the future of mobile AI.\" During the summit, industry pioneers from Rokid, MiniMax, and Unitree Robotics discussed how AI service providers can take the lead in terms of differentiated competition and quickly seize new market opportunities. AI agents are expanding experiences from touch screen interactions to multi-modal interactions such as voice, video, and spatial computing. Furthermore, AI is achieving higher audio-visual bit rates and model accuracy, and utilizing 5G-A networks to reduce latency during interactions for more efficient service provisioning. This is vital for providing seamless new services, such as those involving real-time interactions and high-quality AI video calling, which require an uplink speed of at least 20 Mbps. A number of speakers, including Zhi-Quan Luo, a Foreign Member of the Chinese Academy of Engineering and Fellow of IEEE, operators and representatives from Ookla also shared their AI practices in network optimization, as well as their strategic planning for comprehensively embracing AI technologies. AI is reshaping both mobile networks and the wider mobile industry. This is helping operators achieve the digital transformation of networks, O&M, and businesses to provide differentiated services for various industries, thus supporting their transition from traffic monetization to business monetization. At the summit, the participants reached the consensus that uplink, latency, and stability are the most crucial factors in measuring network capabilities for mobile AI. As a leading 5G-A technology provider, Huawei has shared its Giga Bandsolution portfolio. Through the implementation of air interface resource (AIR) pooling and optimization solver (Optsolver) for AIR orchestration, Giga Bandenables smooth 5G-Anetwork evolution to support new AI services. This is helping operators build elastic networks that feature SLA assurance and are adapted to diversified and differentiated services like live streaming, mobile AI assistants, and cloud gaming. For example, the deployment of GigaBand in Hong Kong has enabled multi-band 4G/5Gsharing for different service provisioning intents, achieving an up to 2.28-fold increase in 5G throughputs while maintaining stable 4G user experience. This has been a huge boon for operators as they look to build efficient, smart, and low-carbon 5G SA networks. With 5G-A continuing to be upgraded with GigaBand and other innovative technologies, alongside collaborative ecosystem innovation across industries, mobile AI is developing into a new engine propelling the revenue growth of the mobile industry and bringing people a new digital life featuring ubiquitous intelligent services.",
+    "summary": "",
+    "keywords": []
+  },
+  "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": []
+  }
+}

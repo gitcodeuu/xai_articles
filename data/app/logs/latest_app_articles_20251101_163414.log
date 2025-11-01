@@ -1,0 +1,39 @@
+[16:34:14] [📅 Processing LIST for: 2025-11-01]
+[16:34:15] ⏭️  [2025-11-01] Already exists: 2025-11-01_748163a9e6f1759c82edd12fdcca1102.json
+[16:34:15] ⏭️  [2025-11-01] Already exists: 2025-11-01_20a0faf39aaf13754d32ca53d27d3ee0.json
+[16:34:15] ⏭️  [2025-11-01] Already exists: 2025-11-01_b71faf580a6d73862a485b4761e992bc.json
+[16:34:15] ⏭️  [2025-11-01] Already exists: 2025-11-01_d8e2b70d414ee0b5addc4b70a5f96d5c.json
+[16:34:15] ⏭️  [2025-11-01] Already exists: 2025-11-01_2d77b677b9a0c2d215e257a91fa91261.json
+[16:34:15] ⏭️  [2025-11-01] Already exists: 2025-11-01_3f002155a12d36ce7fbd6a2f6bf2da4f.json
+[16:34:15] ⏭️  [2025-11-01] Already exists: 2025-11-01_16dc4e92954cc795dbd655bd03182519.json
+[16:34:15] ⏭️  [2025-11-01] Already exists: 2025-11-01_6ad4e692e3d603aa333f5f6a55370d77.json
+[16:34:19] ⏭️  [2025-11-01] Already exists: 2025-11-01_87397bbaafe901eee3a7094bcc2127d7.json
+[16:34:19] ⏭️  [2025-11-01] Already exists: 2025-11-01_f71d12300e7f47ababa8ddfd6c67cbc5.json
+[16:34:19] ⏭️  [2025-11-01] Already exists: 2025-11-01_4b9d7625a79fc3f1c84a8c9cee24cf34.json
+[16:34:19] ⏭️  [2025-11-01] Already exists: 2025-11-01_117435d8e822336064c41c51e8feb32f.json
+[16:34:19] ⏭️  [2025-11-01] Already exists: 2025-11-01_27e905b997e519d8c9227184a1aefb35.json
+[16:34:19] ⏭️  [2025-11-01] Already exists: 2025-11-01_58468266b2e6297b9f7069f8df212f9d.json
+[16:34:19] ⏭️  [2025-11-01] Already exists: 2025-11-01_38970b938e1f0355b218bfc920ad8ec8.json
+[16:34:19] ⏭️  [2025-11-01] Already exists: 2025-11-01_f9254674cbe01daa8556ec81e03337ce.json
+[16:34:23] ⏭️  [2025-11-01] Already exists: 2025-11-01_ca828659d10a9f0f43b2239b4db8c16c.json
+[16:34:23] ⏭️  [2025-11-01] Already exists: 2025-11-01_2158dd225644ed0c3f28643d9b068876.json
+[16:34:23] ⏭️  [2025-11-01] Already exists: 2025-11-01_b5b237dadb1f51e573b7b15ff95795c8.json
+[16:34:23] ⏭️  [2025-11-01] Already exists: 2025-11-01_b5e27016cf0fcdd187192b1b26819dd3.json
+[16:34:47] ⚠️  [2025-11-01] Empty/short content: Federal Parliamentary Secretary for Information an... (46 chars)
+[16:34:47] ❌ [2025-11-01] Failed: Federal Parliamentary Secretary for Information and Broadcas... - Empty or too short content extracted
+[16:34:47] ⚠️  Failed URLs in this batch:
+[16:34:47]    - https://www.app.com.pk/photos-section/federal-parliamentary-secretary-for-information-and-broadcasting-barrister-danyal-chaudhry-addressing-the-media-outside-the-judicial-complex/: Empty or too short content extracted
+[16:34:51] 🎯 Finished 2025-11-01
+[16:34:51]    📊 Success: 0 | Skipped: 20 | Failed: 1 | Total: 21
+[16:34:51]    📝 Avg content length: 0 chars
+[16:34:51] ✅ APP article scraping completed.
+[16:34:51] 📊 Final Stats:
+{
+  "2025-11-01": {
+    "success": 0,
+    "failed": 1,
+    "skipped": 20,
+    "total": 21,
+    "avgContentLength": 0
+  }
+}

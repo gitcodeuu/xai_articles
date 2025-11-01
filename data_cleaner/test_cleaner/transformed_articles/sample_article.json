@@ -1,0 +1,30 @@
+{
+  "article_id": "sample_article",
+  "source_info": {
+    "source_name": "Test Source",
+    "source_link": "http://example.com/article/123",
+    "retrieved_at": "2025-11-01T12:00:00Z"
+  },
+  "metadata": {
+    "title": "This is a messy title with extra spaces.",
+    "author": "Test Author",
+    "date_published": "2025-10-31",
+    "image_url": "http://example.com/image.jpg",
+    "categories": [
+      "testing",
+      "data-cleaning"
+    ],
+    "word_count": 31,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "Here is some article content. It has multiple newlines. And tabs. This is an ad snippet that should be removed. The rest of the content should remain. Lots of trailing spaces.",
+    "summary": "",
+    "keywords": []
+  },
+  "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": []
+  }
+}

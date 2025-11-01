@@ -454,9 +454,6 @@ async function main() {
     console.log('\n🔄 Closing browser...')
     await closeBrowser()
     console.log('✅ Browser closed successfully')
-    
-    // Explicit clean exit
-    process.exit(0)
   }
 }
 

@@ -1,0 +1,27 @@
+{
+  "article_id": "2025-07-04_5b4ceb1a9444019951a53f33da453ff6",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/cybercriminals-mimick-ai-tools-to-exploit-smbs-in-2025/",
+    "retrieved_at": "2025-08-27T09:15:38.949Z"
+  },
+  "metadata": {
+    "title": "Cybercriminals mimick AI Tools to exploit SMBs in 2025",
+    "author": null,
+    "date_published": "2025-07-03T19:10:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 674,
+    "reading_time_minutes": 4
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jul 03 (APP): In 2025, nearly 8,500 users from small and medium-sized businesses (SMBs) faced cyberattacks where malicious or unwanted software was disguised as popular online productivity tools, Kaspersky reports. Based on the unique malicious and unwanted files observed, the most common lures included Zoom and Microsoft Office, with newer AI-based services like ChatGPT and DeepSeek being increasingly exploited by attackers. Kaspersky has released threat analysis and mitigation strategies to help SMBs respond. Kaspersky analysts explored how frequently malicious and unwanted software are disguised as legitimate applications commonly used by SMBs, using a sample of 12 online productivity apps. In total, Kaspersky observed more than 4,000 unique malicious and unwanted files disguised as popular apps in 2025. With the growing popularity of AI services, cybercriminals are increasingly disguising malware as AI tools. The number of cyberthreats mimicking ChatGPT increased by 115% in the first four months of 2025 compared to the same period last year, reaching 177 unique malicious and unwanted files. Another popular AI tool, DeepSeek, accounted for 83 files. This large language model launched in 2025 immediately appeared on the list of impersonated tools. Interestingly, threat actors are rather picky in choosing an AI tool as bait. For example, no malicious files mimicking Perplexity were observed. The likelihood that an attacker will use a tool as a disguise for malware or other types of unwanted software directly depends on the service's popularity and hype around it. The more publicity and conversation there is around a tool, the more likely a user will come across a fake package on the internet, says Vasily Kolesnikov, security expert at Kaspersky. To be on the safe side, SMB employees - as well as regular users - should exercise caution when looking for software on the internet or coming across too-good-to-be-true subscription deals. Always check the correct spelling of the website and links in suspicious emails. In many cases these links may turn out to be phishing or a link that downloads malicious or potentially unwanted software, he added Another cybercriminal tactic to look for in 2025 is the growing use of collaboration platform brands to trick users into downloading or launching malware. The number of malicious and unwanted software files disguised as Zoom increased by nearly 13% in 2025, reaching 1,652, while such names as \"Microsoft Teams\" and \"Google Drive\" saw increases of 100% and 12%, respectively, with 206 and 132 cases. This pattern likely reflects the normalization of remote work and geographically distributed teams, which has made these platforms integral to business operations across industries. Among the analyzed sample, the highest number of files mimicked Zoom, accounting for nearly 41% of all unique files detected. Microsoft Office applications remained frequent targets for impersonation: Outlook and PowerPoint each accounted for 16%, Excel for nearly 12%, while Word and Teams made up 9% and 5%, respectively. The top threats targeting small and medium businesses in 2025 included downloaders, trojans and adware. Apart from malware threats, Kaspersky continues to observe a wide range of phishing and scam schemes targeting SMBs. Attackers aim to steal login credentials for various services - from delivery platforms to banking systems - or manipulate victims into sending them money through deceptive tactics. One example is a phishing attempt targeting Google Accounts. Attackers promise potential victims to increase sales by advertising their company on X, with the ultimate goal to steal their credentials. Beyond phishing, SMBs are flooded with spam emails. Not surprisingly, AI has also made its way into the spam folder - for example, with offers for automating various business processes. Learn more about the cyber threat landscape for SMBs on Securelist. To mitigate threats targeting businesses, their owners and employees are advised to use specialized cybersecurity solutions that provide visibility and control over cloud services (e.g., Kaspersky Next). Define access rules for corporate resources such as email accounts, shared folders, and online documents. Regularly backup important data. Establish clear guidelines for using external services. Create well-defined procedures for implementing new software with the involvement of IT and other responsible managers.",
+    "summary": "",
+    "keywords": []
+  },
+  "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "article_id": "2025-04-30_42d8f93433a964649fa8051a56c19638",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/pta-conducts-qos-survey-to-determine-quality-of-cmos/",
+    "retrieved_at": "2025-08-27T15:02:55.109Z"
+  },
+  "metadata": {
+    "title": "PTA conducts QoS survey to determine quality of CMOs",
+    "author": null,
+    "date_published": "2025-04-30T15:12:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 299,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Apr 30 (APP):To evaluate the performance and quality of services being provided by Cellular Mobile Operators (CMOs), the Pakistan Telecommunication Authority (PTA) conducted an independent Quality of Service (QoS) survey in 15 cities and along eight motorways/highways across Pakistan. Additionally, a joint QoS survey was conducted in four cities and on one road in Azad Jammu & Kashmir during the first quarter of 2025, said a news release. Survey routes were designed to cover main roads, service roads, and most sectors/colonies. Mobile handsets were kept in technology auto-detect mode to perform voice calls, SMS, and mobile broadband/data sessions using a state-of-the-art automated QoS Monitoring and Benchmarking Tool. This was done to assess compliance with the Next Generation Mobile Services (NGMS) licenses and the Cellular Mobile Network Quality of Service Regulations, 2021. Based on compliance levels for each Key Performance Indicator (KPI) in the surveyed areas against the thresholds defined in the respective licenses and QoS regulations, CMOs were ranked from 1st to 5th position in terms of mobile network coverage and voice services. In the mobile broadband speed segment, rankings were determined based on data download and upload speeds, network latency, and webpage loading times. The survey results revealed that CMOs are largely compliant with respect to upload and download speeds. However, certain Voice KPIs were found to be below the licensed threshold in some areas. Operators utilizing advanced network technologies such as LTE Carrier Aggregation and Voice over LTE (VoLTE) were observed to offer better quality services to consumers. PTA has directed operators to take corrective actions to improve service standards. The detailed survey results have been published on PTA's website https://www.pta.gov.pk/assets/media/2025-04-29-Quality-of-Service-Survey-in-AJK.pdf for subscribers' information. PTA's field teams continue regular service quality monitoring to ensure improved mobile services for consumers and to promote healthy competition among operators.",
+    "summary": "",
+    "keywords": []
+  },
+  "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": []
+  }
+}

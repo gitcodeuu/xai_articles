@@ -1,0 +1,11 @@
+{
+  "source": "Test Source",
+  "link": "http://example.com/article/123",
+  "retrievedAt": "2025-11-01T12:00:00Z",
+  "title": "   This is a \n\n messy title with extra spaces. ",
+  "author": "Test Author",
+  "date_published": "2025-10-31",
+  "image": "http://example.com/image.jpg",
+  "categories": ["testing", "data-cleaning"],
+  "content": "Here is some article content.\n\nIt has multiple newlines.\tAnd tabs.\n\n(adsbygoogle=window.adsbygoogle||[]).push({});\n\nThis is an ad snippet that should be removed. The rest of the content should remain.   Lots of trailing spaces.   "
+}

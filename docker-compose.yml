@@ -7,10 +7,10 @@ services:
     volumes:
       - ./data:/app/data:rw
       - ./logs:/app/logs:rw
+      - /var/run/docker.sock:/var/run/docker.sock
     env_file:
       - .env
     environment:
-      - AZURE_STORAGE_KEY=${AZURE_STORAGE_KEY}
       - PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
       - PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
       - DOCKER_ENV=true
@@ -37,10 +37,10 @@ services:
     volumes:
       - ./data:/app/data:rw
       - ./logs:/app/logs:rw
+      - /var/run/docker.sock:/var/run/docker.sock
     env_file:
       - .env
     environment:
-      - AZURE_STORAGE_KEY=${AZURE_STORAGE_KEY}
       - PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
       - PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
       - DOCKER_ENV=true
@@ -57,6 +57,17 @@ services:
           cpus: '1.0'
           memory: 2G
     entrypoint: ["/entrypoint.sh"]
+
+  data-cleaner:
+    build:
+      context: ./data_cleaner
+      dockerfile: Dockerfile
+    container_name: xai_data_cleaner
+    volumes:
+      - ./data:/app/data:rw
+    networks:
+      - scraper-network
+    restart: on-failure
 
 networks:
   scraper-network:

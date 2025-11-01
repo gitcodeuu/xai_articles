@@ -21,7 +21,7 @@ function showHelp() {
       'Docker Workflow': ['docker:build', 'docker:up', 'docker:down', 'docker:verify'],
       'APP Scraper': ['app:lists:help', 'app:lists:latest', 'app:articles', 'app:articles:retry'],
       'Dawn Scraper': ['dawn:lists', 'dawn:articles', 'dawn:range'],
-      'Data Utilities': ['data:refetch:nulls', 'data:migrate', 'azure:upload', 'clear-cache'],
+      'Data Utilities': ['data:clean', 'data:clean:force:app', 'data:clean:force:dawn', 'data:refetch:nulls', 'data:migrate', 'azure:upload', 'clear-cache'],
       'Development': ['fix-conflicts'],
     };
 
@@ -41,6 +41,9 @@ function showHelp() {
             'dawn:lists': 'Scrapes article lists from Dawn.',
             'dawn:articles': 'Scrapes full articles from Dawn.',
             'dawn:range': 'Runs the full Dawn scraping pipeline for a date range.',
+            'data:clean': 'Runs the Python data cleaning and transformation script.',
+            'data:clean:force:app': "Forces reprocessing of the 'app' source.",
+            'data:clean:force:dawn': "Forces reprocessing of the 'dawn' source.",
             'data:refetch:nulls': 'Refetches articles that have null content.',
             'data:migrate': 'Migrates data from an old format to a new one.',
             'azure:upload': 'Uploads scraped data to Azure Blob Storage.',
