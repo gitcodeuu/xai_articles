@@ -10,7 +10,7 @@
 /.cache
 
 # Data folder
-# /data
+/data
 
 # Environment variables - FILE, not folder
 .env
