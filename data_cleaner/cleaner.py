@@ -6,6 +6,7 @@ import math
 from pathlib import Path
 import sys
 import unicodedata
+import codecs
 
 # Characters that are invisible or formatting controls commonly leaking from web copy
 # We strip these to avoid artifacts like "PakisSHYtan" (U+00AD soft hyphen embedded in words).
@@ -79,6 +80,10 @@ def clean_text(text):
     """
     if not isinstance(text, str):
         return ""
+
+    # 0. Unescape characters (e.g., convert '\\"' to '"')
+    # This is a safe operation that standardizes escape sequences.
+    text = codecs.decode(text, 'unicode_escape')
 
     # -1. Replace HTML entity forms of soft hyphen (common in scraped HTML)
     text = text.replace("&shy;", "").replace("&#173;", "")
