@@ -17,38 +17,35 @@ function showHelp() {
     }
 
     const categories = {
-      'General & Verification': ['help', 'verify:data', 'docker:check'],
-      'Docker Workflow': ['docker:build', 'docker:up', 'docker:down', 'docker:verify'],
-      'APP Scraper': ['app:lists:help', 'app:lists:latest', 'app:articles', 'app:articles:retry'],
-      'Dawn Scraper': ['dawn:lists', 'dawn:articles', 'dawn:range'],
-      'Data Utilities': ['data:clean', 'data:clean:force:app', 'data:clean:force:dawn', 'data:refetch:nulls', 'data:migrate', 'azure:upload', 'clear-cache'],
-      'Development': ['fix-conflicts'],
+      'Primary Workflow': ['pipeline:run', 'pipeline:run:date'],
+      'Docker Utilities': ['docker:build', 'docker:up', 'docker:down', 'docker:verify'],
+      'Manual Data Tasks': ['data:clean', 'data:clean:force:app', 'data:clean:force:dawn', 'data:refetch:nulls'],
+      'Individual Scrapers': ['app:lists:latest', 'app:articles', 'dawn:lists', 'dawn:articles'],
+      'General & Deprecated': ['help', 'verify:data', 'docker:check', 'azure:upload', 'clear-cache'],
     };
 
     const getScriptDescription = (key) => {
         const descriptions = {
-            'help': 'Shows this help message.',
-            'verify:data': 'Verifies the structure of the scraped data files.',
-            'docker:check': 'Checks if Docker is running.',
-            'docker:build': 'Builds the Docker images for the scraper.',
-            'docker:up': 'Starts the services in Docker Compose.',
-            'docker:down': 'Stops the services in Docker Compose.',
+            'pipeline:run': 'Runs the full scraping and cleaning pipeline for the current date.',
+            'pipeline:run:date': 'Runs the full pipeline for a specific date. Usage: pnpm pipeline:run:date --date=YYYY-MM-DD',
+            'docker:build': 'Builds or rebuilds the Docker images.',
+            'docker:up': 'Starts the long-running services (e.g., scraper) in Docker Compose.',
+            'docker:down': 'Stops all running Docker Compose services.',
             'docker:verify': 'Runs the data verification script inside the Docker container.',
-            'app:lists:help': 'Shows help for the APP list scraper.',
-            'app:lists:latest': 'Scrapes the latest article list from APP.',
-            'app:articles': 'Scrapes full articles from APP.',
-            'app:articles:retry': 'Retries scraping failed APP articles.',
-            'dawn:lists': 'Scrapes article lists from Dawn.',
-            'dawn:articles': 'Scrapes full articles from Dawn.',
-            'dawn:range': 'Runs the full Dawn scraping pipeline for a date range.',
-            'data:clean': 'Runs the Python data cleaning and transformation script.',
+            'data:clean': 'Runs the Python data cleaning script on all sources.',
             'data:clean:force:app': "Forces reprocessing of the 'app' source.",
             'data:clean:force:dawn': "Forces reprocessing of the 'dawn' source.",
             'data:refetch:nulls': 'Refetches articles that have null content.',
-            'data:migrate': 'Migrates data from an old format to a new one.',
-            'azure:upload': 'Uploads scraped data to Azure Blob Storage.',
+            'app:lists:latest': 'Scrapes the latest article list from APP.',
+            'app:articles': 'Scrapes full articles from APP.',
+
+            'dawn:lists': 'Scrapes article lists from Dawn.',
+            'dawn:articles': 'Scrapes full articles from Dawn.',
+            'help': 'Shows this help message.',
+            'verify:data': 'Verifies the structure of the scraped data files.',
+            'docker:check': 'Checks if Docker is running.',
+            'azure:upload': '[DEPRECATED] This is now handled by a separate process.',
             'clear-cache': 'Clears the Puppeteer browser cache.',
-            'fix-conflicts': 'Helps resolve git merge conflicts in JSON files.'
         };
         return descriptions[key] || '';
     };

@@ -1,24 +1,24 @@
 # xai_articles
 
-A robust web scraping system for collecting news articles from Pakistani news sources (Dawn and APP) using Puppeteer in Docker.
+A robust, containerized data pipeline for scraping, cleaning, and transforming news articles from Pakistani news sources (Dawn and APP).
 
 ## Overview
 
-This project automates the collection of news articles from:
-- **Dawn.com** - Pakistan section articles
-- **APP.com.pk** - Associated Press of Pakistan national section
+This project provides a fully automated, two-stage pipeline using Docker Compose:
+1.  **Scraping**: A Node.js service using Puppeteer scrapes article data from Dawn.com and APP.com.pk.
+2.  **Cleaning**: A Python service cleans, normalizes, and enriches the raw JSON data into a structured format.
 
-The scraper runs in Docker with Chromium/Puppeteer for reliable, consistent scraping across different environments.
+The entire workflow is orchestrated with Docker Compose, ensuring consistency and reliability across different environments.
 
 ## Features
 
-- 🐳 **Dockerized Environment** - Consistent scraping across Windows, Mac, and Linux
-- 🚀 **Automated Pipeline** - One-command daily scraping with 4-step process
-- 📰 **Dual Source Support** - Scrapes both Dawn and APP news sources
-- 🔄 **Auto-Retry Logic** - Refetches failed/empty articles automatically
-- 📊 **Progress Tracking** - Detailed logs and statistics for each scraping session
-- 🛡️ **Error Handling** - Graceful handling of network failures and scraping errors
-- 💾 **Structured Storage** - Organized JSON files by date and source
+- 🐳 **Fully Containerized**: The entire scrape-and-clean pipeline runs in Docker.
+- 🚀 **Automated Sequential Pipeline**: One command runs the scraping and cleaning steps in the correct order.
+- 🐍 **Python Data Cleaning**: A dedicated Python service for robust data transformation and enrichment.
+- 📰 **Dual Source Support**: Scrapes both Dawn and APP news sources.
+- 🔄 **Delta Processing**: The cleaning script intelligently processes only new or updated articles, skipping work that has already been done.
+- 🛡️ **Robust Error Handling**: Gracefully handles common scraping and data processing issues like empty files or bad JSON.
+- 💾 **Structured Storage**: Raw and transformed data are stored in a clean, organized directory structure.
 
 ## Quick Start
 
@@ -30,58 +30,75 @@ The scraper runs in Docker with Chromium/Puppeteer for reliable, consistent scra
 
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/gitcodeuu/xai_articles.git
-   cd xai_articles
-   ```
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/gitcodeuu/xai_articles.git
+    cd xai_articles
+    ```
 
-2. Build the Docker image:
-   ```bash
-   docker-compose build
-   ```
+2.  (Optional) Create a `.env` file if you need to override default settings.
 
-3. Run the scraper:
-   ```bash
-   docker-compose up
-   ```
+### Running the Pipeline
 
-## Usage
+This is the primary command to run the entire end-to-end pipeline.
 
-To run the scraper, execute the following command:
+- **Run for the current date**:
+  ```bash
+  docker-compose -f docker-compose.pipeline.yml up --build
+  ```
+
+- **Run for a specific date**:
+  ```bash
+  # For PowerShell (Windows)
+  $env:DATE="YYYY-MM-DD"; docker-compose -f docker-compose.pipeline.yml up --build
+
+  # For bash/zsh (macOS/Linux)
+  DATE="YYYY-MM-DD" docker-compose -f docker-compose.pipeline.yml up --build
+  ```
+
+This command will:
+1.  Build the Docker images (if they've changed).
+2.  Run the `scraper-daily` service to scrape the data.
+3.  Once scraping is complete, automatically run the `data-cleaner` service.
+4.  Shut down cleanly when the process is finished.
+
+## Development
+
+### Manual Tasks
+
+You can run individual services or scripts for debugging purposes.
+
+- **Start long-running services** (keeps a container alive for `exec` commands):
+  ```bash
+  docker-compose up -d
+  ```
+
+- **Run a single script inside the container**:
+  ```bash
+  docker-compose run --rm scraper-daily node scrape_articles_dawn.js --fromDate 2025-10-21
+  ```
+
+- **Force re-cleaning of a data source**:
+  ```bash
+  docker-compose run --rm data-cleaner --force dawn
+  ```
+
+### Help Script
+
+For a full list of available `pnpm` scripts and their descriptions, run:
 ```bash
-docker-compose run --rm scraper
+pnpm help
 ```
 
-### Testing Changes
+## Project Structure
 
-1. Make code changes
-2. Rebuild Docker image
-   ```bash
-   docker-compose build --no-cache
-   ```
-3. Test with manual command
-   ```bash
-   docker-compose run --rm scraper node run_range_dawn.js 2025-10-21
-   ```
-4. Run full pipeline
-   ```bash
-   docker-compose run --rm scraper-daily
-   ```
-
-## Adding New Sources
-
-1. Create new scraper file (e.g., `scrape_lists_newsource.js`)
-2. Follow Puppeteer patterns from existing scrapers
-3. Update `docker-compose.yml` pipeline command
-4. Add help documentation to `help.js`
-5. Update this README
-
-## Performance
-
-Typical scraping times (depends on network and article count):
-- **Dawn**: ~5-10 minutes for a single day
-- **APP**: ~5-10 minutes for a single day
+- `docker-compose.yml`: Defines the long-running services.
+- `docker-compose.pipeline.yml`: Defines the sequential, task-based pipeline.
+- `entrypoint.sh`: The main script for the scraping service.
+- `data_cleaner/`: Contains the Python cleaning script and its own Dockerfile.
+- `scripts/`: Contains helper and utility scripts, including `help.js`.
+- `data/`: The output directory for all raw and transformed data.
+- `documentation/`: Contains detailed developer notes and requirements.
 
 ## License
 
@@ -90,20 +107,14 @@ This project is licensed under the MIT License.
 ## Support
 
 For issues or questions:
-1. Check [README-DOCKER.md](README-DOCKER.md) for Docker-specific issues
-2. Run `node help.js` for command documentation
-3. View logs in `./data/<source>/logs/`
-4. Open GitHub Issue with:
-   - Error message
-   - Command used
-   - Docker logs output
-   - System info (OS, Docker version)
-
-## Acknowledgments
-
-- [Puppeteer](https://pptr.dev/) - Headless Chrome Node.js API
-- [Dawn.com](https://www.dawn.com/) - Source of news content
-- [APP](https://www.app.com.pk/) - Associated Press of Pakistan
+1.  Run `pnpm help` for command documentation.
+2.  View logs in `./logs/`.
+3.  Check the detailed developer notes in the `documentation/` folder.
+4.  Open a GitHub Issue with:
+    -   Error message
+    -   Command used
+    -   Docker logs output
+    -   System info (OS, Docker version)
 
 ---
 
