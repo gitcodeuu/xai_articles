@@ -10,7 +10,7 @@ services:
     env_file:
       - .env
     environment:
-      - DATE
+      - DATE=
       - PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
       - PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
       - DOCKER_ENV=true
