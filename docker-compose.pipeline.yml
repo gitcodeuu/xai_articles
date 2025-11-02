@@ -17,7 +17,7 @@ services:
       - NODE_ENV=production
       - TZ=UTC
     networks:
-      - scraper-network
+      - xai-network
     entrypoint: ["/entrypoint.sh"]
 
   data-cleaner:
@@ -26,9 +26,9 @@ services:
       dockerfile: Dockerfile
     container_name: xai_data_cleaner_task
     volumes:
-      - ./data:/app/data:rw
+      - ./data:/data:rw
     networks:
-      - scraper-network
+      - xai-network
     deploy:
       resources:
         limits:
@@ -41,6 +41,46 @@ services:
       scraper-daily:
         condition: service_completed_successfully
 
+  llama-model:
+    image: ai/llama3.2:latest
+    container_name: llama-model
+    ports:
+      - "8080:8080"
+    networks:
+      - xai-network
+    # This is a placeholder. For a real GPU-accelerated model,
+    # you would need to configure the appropriate runtime and capabilities.
+    deploy:
+      resources:
+        limits:
+          memory: 16G
+        reservations:
+          memory: 8G
+
+  data-enrichment:
+    build:
+      context: ./data_enrichment
+      dockerfile: Dockerfile
+    container_name: xai_data_enrichment_task
+    volumes:
+      - ./data:/data:rw
+      - ./logs:/app/logs:rw
+    networks:
+      - xai-network
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 1G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
+    depends_on:
+      data-cleaner:
+        condition: service_completed_successfully
+      llama-model:
+        condition: service_started # The script will wait for the model to be healthy
+
 networks:
-  scraper-network:
+  xai-network:
     driver: bridge
