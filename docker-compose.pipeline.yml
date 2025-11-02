@@ -26,7 +26,7 @@ services:
       dockerfile: Dockerfile
     container_name: xai_data_cleaner_task
     volumes:
-      - ./data:/data:rw
+      - ./data:/app/data:rw
     networks:
       - xai-network
     deploy:
@@ -41,22 +41,6 @@ services:
       scraper-daily:
         condition: service_completed_successfully
 
-  llama-model:
-    image: ai/llama3.2:latest
-    container_name: llama-model
-    ports:
-      - "8080:8080"
-    networks:
-      - xai-network
-    # This is a placeholder. For a real GPU-accelerated model,
-    # you would need to configure the appropriate runtime and capabilities.
-    deploy:
-      resources:
-        limits:
-          memory: 16G
-        reservations:
-          memory: 8G
-
   data-enrichment:
     build:
       context: ./data_enrichment
@@ -67,6 +51,8 @@ services:
       - ./logs:/app/logs:rw
     networks:
       - xai-network
+    env_file:
+      - .env # GOOGLE_API_KEY should be defined in this file
     deploy:
       resources:
         limits:
@@ -78,8 +64,6 @@ services:
     depends_on:
       data-cleaner:
         condition: service_completed_successfully
-      llama-model:
-        condition: service_started # The script will wait for the model to be healthy
 
 networks:
   xai-network:
