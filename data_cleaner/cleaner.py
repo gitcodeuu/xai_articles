@@ -171,15 +171,17 @@ def _deep_clean(obj):
 def process_article_file(file_path: Path, base_input_dir: Path, base_output_dir: Path):
     """
     Reads an article JSON, cleans and transforms it into the new,
-    enriched structure, and saves it.
+    enriched structure, and saves it. This function no longer checks for
+    the output file's existence, as that logic is now handled in the main loop.
     """
     try:
         # Determine the output path
         relative_path = file_path.relative_to(base_input_dir)
         output_path = base_output_dir / relative_path
         
-        if output_path.exists():
-            print(f"⏭️  Skipping, already exists: {output_path}")
+        # Defensively check for empty files before trying to parse
+        if file_path.stat().st_size == 0:
+            print(f"⚠️  Skipping empty file: {file_path}")
             return
 
         with open(file_path, 'r', encoding='utf-8') as f:
@@ -251,7 +253,9 @@ def process_article_file(file_path: Path, base_input_dir: Path, base_output_dir:
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(transformed_data, f, indent=2, ensure_ascii=False)
         
-        print(f"✅ Transformed and saved: {output_path}")
+        # This print statement is being removed to reduce log noise.
+        # A summary will be provided by the main loop.
+        # print(f"✅ Transformed and saved: {output_path}")
 
     except json.JSONDecodeError:
         print(f"❌ Error decoding JSON from: {file_path}")
@@ -267,16 +271,17 @@ def main(data_root_dir: str, force_source: str = None):
     
     # Determine which sources to process
     if force_source:
-        sources = [force_source]
+        sources_to_process = [force_source]
         print(f"Processing specified source: {force_source}")
     else:
-        sources = [d.name for d in base_path.iterdir() if d.is_dir()]
-        if not sources:
+        # Exclude 'progress' directory from the list of sources
+        sources_to_process = [d.name for d in base_path.iterdir() if d.is_dir() and d.name != 'progress']
+        if not sources_to_process:
             print(f"No source directories found in {data_root_dir}. Exiting.")
             return
-        print(f"Found sources: {', '.join(sources)}")
+        print(f"Found sources: {', '.join(sources_to_process)}")
 
-    for source in sources:
+    for source in sources_to_process:
         articles_dir = base_path / source / 'articles'
         transformed_articles_dir = base_path / source / 'transformed_articles'
 
@@ -291,12 +296,31 @@ def main(data_root_dir: str, force_source: str = None):
 
         print(f"\n🔎 Processing source: {source}")
         
-        article_files = list(articles_dir.rglob('*.json'))
-        if not article_files:
-            print("   No articles found to process.")
+        # 1. Get all source file paths
+        all_source_files = {p.relative_to(articles_dir): p for p in articles_dir.rglob('*.json')}
+        
+        # 2. Get all destination file paths
+        transformed_articles_dir.mkdir(parents=True, exist_ok=True) # Ensure dir exists
+        all_dest_files = {p.relative_to(transformed_articles_dir): p for p in transformed_articles_dir.rglob('*.json')}
+        
+        # 3. Calculate the difference
+        files_to_process_relative = all_source_files.keys() - all_dest_files.keys()
+        
+        # 4. Get the full paths for the files that need processing
+        files_to_process = [all_source_files[rel_path] for rel_path in files_to_process_relative]
+        
+        total_files = len(files_to_process)
+        
+        if not files_to_process:
+            print("   ✅ No new articles to process. All transformed files are up to date.")
             continue
 
-        for file_path in article_files:
+        print(f"   Found {total_files} new article(s) to process.")
+
+        # Now, loop through the smaller list and process one by one.
+        for i, file_path in enumerate(files_to_process):
+            # Provide some progress feedback
+            print(f"   [{i+1}/{total_files}] Processing: {file_path.name}")
             process_article_file(file_path, articles_dir, transformed_articles_dir)
 
     print("\n✅ Data transformation process completed.")
