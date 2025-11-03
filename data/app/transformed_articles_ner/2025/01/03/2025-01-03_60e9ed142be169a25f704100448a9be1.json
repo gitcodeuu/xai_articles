@@ -1,0 +1,67 @@
+{
+  "article_id": "2025-01-03_60e9ed142be169a25f704100448a9be1",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/na-speaker-calls-pakistans-unsc-seat-a-diplomatic-milestone/",
+    "retrieved_at": "2025-08-27T11:17:53.993Z"
+  },
+  "metadata": {
+    "title": "NA speaker calls PakistanÃ¢ÂÂs UNSC seat a diplomatic milestone",
+    "author": null,
+    "date_published": "2025-01-03T16:40:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 187,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 03 (APP):National Assembly Speaker Sardar Ayaz Sadiq extended congratulations to the nation as Pakistan assumed its position as a non-permanent member of the UN Security Council, describing it as a testament to the countryas diplomacy and dedication to global peace. Sardar Ayaz Sadiq in a statement emphasized that Pakistan has been an active and proactive participant in the United Nations, consistently contributing to global peace, human rights protection, and the promotion of the rule of law. He expressed optimism that Pakistanas membership in the Security Council will be instrumental in advancing worldwide peace and stability. The speaker portrayed non-permanent member of the UN Security Council as a major diplomatic achievement. He praised Prime Minister Mian Muhammad Shehbaz Sharif, Deputy Prime Minister and Foreign Minister Senator Ishaq Dar, and Pakistanas Permanent Mission to the United Nations for their commitment and efforts that led to this remarkable success. He remarked that this accomplishment brings pride to the Pakistani nation and serves as a testament to Pakistanas positive and constructive engagement on the global stage. The speaker extended his heartfelt wishes for Pakistanas continued success and future achievements.",
+    "summary": "National Assembly Speaker Sardar Ayaz Sadiq congratulated Pakistan on assuming its non-permanent seat in the UN Security Council, viewing it as a diplomatic achievement. He highlighted Pakistan's commitment to global peace and its proactive role in the United Nations. The speaker praised the efforts of key figures, including Prime Minister Shehbaz Sharif, in achieving this milestone.",
+    "keywords": [
+      "Pakistan",
+      "UN Security Council",
+      "diplomacy",
+      "Sardar Ayaz Sadiq",
+      "global peace",
+      "United Nations",
+      "Shehbaz Sharif"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Sardar Ayaz Sadiq",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Pakistan",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1000"
+    },
+    {
+      "text": "UN Security Council",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q10630"
+    },
+    {
+      "text": "United Nations",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1065"
+    },
+    {
+      "text": "Mian Muhammad Shehbaz Sharif",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Senator Ishaq Dar",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "article_id": "2025-01-01_fa813132d1d92afb156f2f6067a419cc",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/famous-actor-rangeela-remembered-on-birth-anniversary/",
+    "retrieved_at": "2025-08-27T11:14:30.156Z"
+  },
+  "metadata": {
+    "title": "Famous actor Rangeela remembered on birth anniversary",
+    "author": null,
+    "date_published": "2025-01-01T08:05:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 158,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Dec 27 (APP):Famous comedian and filmstar Rangeela was remembered on his birth anniversary on Wednesday. he was born on January 1,1937 , Rangeela started his professional career in 1957 with Urdu film `Daataa, and shot to fame with films `Suryaa and `Gehra Daagha. He contributed as musician, singer, lyricist, writer and distributor as well. Rangeela who took a keen interest in body-building and physical exercises as a teenager, moved to Lahore at a young age and earned his livelihood by painting billboards for the Lahore movie industry. Rangeela made his professional cinematic debut inA 1958 in a Punjabi film. Besides acting in movies, he also directed many, sang songs, and wrote some scripts. The film `Diya Aur Toofana was Rangeelaas directional debut. He directed numerous movies under the banner of `Rangeela productionsa. Overall he acted in over 550 films in a career spanning over 4 decades. Rangeela died on May 24, 2005 at the age of 68.",
+    "summary": "Rangeela, a famous comedian and filmstar, was remembered on his birth anniversary. He began his career in 1957 and gained fame through films like 'Suryaa' and 'Gehra Daagha'. Rangeela was also a musician, singer, lyricist, writer, and distributor, and directed numerous movies.",
+    "keywords": [
+      "Rangeela",
+      "filmstar",
+      "comedian",
+      "Lahore",
+      "movies",
+      "birth anniversary"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Rangeela",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Lahore",
+      "label": "LOCATION",
+      "wikidata_id": "Q5597"
+    }
+  ]
+}

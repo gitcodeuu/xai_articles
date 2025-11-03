@@ -1,0 +1,67 @@
+{
+  "article_id": "2025-01-05_3c2922aee092804fdd2a731407bfa577",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/jui-chief-calls-for-global-support-on-kashmiris-right-to-self-determination-day/",
+    "retrieved_at": "2025-08-27T11:23:38.896Z"
+  },
+  "metadata": {
+    "title": "JUI chief calls for global support on KashmirisÃ¢ÂÂ Right to Self-Determination day",
+    "author": null,
+    "date_published": "2025-01-05T08:42:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 287,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 05 (APP):Jamiat Ulema-e-Islam (JUI) Chief Maulana Fazlur Rehman has issued a strong statement reaffirming the unwavering resolve of the Kashmiri people to continue their struggle until their globally recognized right to self-determination is achieved. aThe Kashmiri people will persevere in their struggle until they attain their right to self-determination, as recognized by international resolutions,a said Maulana Fazlur Rehman. The JUI chief, on the occasion of Kashmirisa Right to Self-Determination Day being observed today by Kashmiri people across the globe, criticized Indiaas intransigence and negative attitude as the main obstacle to the implementation of United Nations resolutions on Kashmir. He also expressed disappointment over the UNas failure to fulfill its responsibility to hold a plebiscite in the region. aThe United Nations has failed to honor its commitment to conduct a plebiscite in Kashmir as per its 1948 and 1949 resolutions, even after more than seven decades,a he stated. The JUI chief condemned India for its brutal repression and ongoing genocide of Kashmiri Muslims, urging the global community to take notice of the grave human rights violations. aThe Kashmiri Muslims are enduring Indiaas worst atrocities and ethnic cleansing,a he remarked. Reiterating his support for the Kashmiri freedom struggle, Maulana Fazlur Rehman declared, aWe stand shoulder to shoulder with our Kashmiri brethren in their quest for freedom.a He called on the international community to recognize the Kashmiri peopleas demand for self-determination and to hold India accountable for its illegal occupation of the region. The JUI chief concluded by expressing solidarity with the Kashmiri people and urged global powers to ensure the implementation of the UN resolutions. aIndiaas illegal occupation of Kashmir must end, and the international community must take immediate action to uphold justice and peace,a he emphasized.",
+    "summary": "Maulana Fazlur Rehman, the JUI chief, issued a statement on Kashmiris' Right to Self-Determination Day, criticizing India's stance and the UN's inaction. He condemned India's actions and called for global support for the Kashmiri people's right to self-determination, urging the international community to hold India accountable.",
+    "keywords": [
+      "Kashmir",
+      "JUI",
+      "Maulana Fazlur Rehman",
+      "Self-determination",
+      "India",
+      "UN resolutions",
+      "Human rights"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Maulana Fazlur Rehman",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Jamiat Ulema-e-Islam",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "JUI",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q611088"
+    },
+    {
+      "text": "Kashmiri",
+      "label": "PERSON",
+      "wikidata_id": "Q1078749"
+    },
+    {
+      "text": "India",
+      "label": "LOCATION",
+      "wikidata_id": "Q668"
+    },
+    {
+      "text": "United Nations",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1065"
+    },
+    {
+      "text": "Kashmir",
+      "label": "LOCATION",
+      "wikidata_id": "Q12081"
+    }
+  ]
+}

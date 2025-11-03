@@ -1,0 +1,47 @@
+{
+  "article_id": "2025-01-04_6ac9cc9b23dc0a83061eb0c89b241cf9",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/eye-specialist-advises-early-diagnosis-to-cure-colour-blindness-in-children/",
+    "retrieved_at": "2025-08-27T11:20:31.654Z"
+  },
+  "metadata": {
+    "title": "Eye specialist advises early diagnosis to cure colour blindness in children",
+    "author": null,
+    "date_published": "2025-01-04T09:08:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 202,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 4 (APP):A renowned eye surgeon Dr. Umair Kidwai on Saturday while explaining the conditions of colour blindness disorder said thatA aColour blindness is a vision problem where a person has difficulty distinguishing between certain colours, especially red and green. Talking to a private news channel, he said that this happens when the colour-detecting cells in the eye, called cones, do not work properly. He noted that colour blindness is usually inherited and passed down through families. aIt is more common in men than women because it is linked to the X chromosome,a he added. Dr. Kidwai highlighted the different types of colour blindness, such as red-green colour blindness, blue-yellow colour blindness, and a rare condition called total colour blindness, where a person sees only in shades of gray. Regarding treatment, he explained that while there is no cure for inherited colour blindness, special glasses or contact lenses can help some people see colours better. aIn cases where colour blindness is caused by an illness or injury, treating the underlying issue may improve vision,a he said. Dr. Kidwai emphasized the importance of early diagnosis, especially for children, as it can help them adapt and perform better in school and daily life.",
+    "summary": "Dr. Umair Kidwai, an eye surgeon, discussed color blindness, a vision problem affecting color differentiation, particularly red and green. He explained its causes, types, and the importance of early diagnosis, especially for children, to aid adaptation and performance.",
+    "keywords": [
+      "color blindness",
+      "eye surgeon",
+      "diagnosis",
+      "children",
+      "vision",
+      "Dr. Umair Kidwai",
+      "treatment"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Umair Kidwai",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Saturday",
+      "label": "DATE",
+      "wikidata_id": "Q12198"
+    },
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    }
+  ]
+}

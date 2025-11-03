@@ -1,0 +1,67 @@
+{
+  "article_id": "2025-01-05_75a2d246141335882f13c32bce3425bd",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/one-brother-died-2-injured-in-road-accident/",
+    "retrieved_at": "2025-08-27T11:23:11.259Z"
+  },
+  "metadata": {
+    "title": "One brother died, 2 injured in road accident",
+    "author": null,
+    "date_published": "2025-01-05T10:36:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 131,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "DERA ISMAIL KHAN, Jan 05 (APP):A teenager was died and his two brothers got injured as their motorcycle was hit by a rickshaw-loader and sugarcane-loaded trolley here in the limits of Bandkorai police station. According to details, three brothers were riding a motorcycle on old Paharpur-Bandkorai road when their two-wheeler was hit by a rickshaw-loader from back side and then it was rammed into a tractor trolley loaded with sugarcane. As a result, Hassan Zahur (15) was died on the spot while 19-year-old Saad Zahur and 18-year-old Faizan Zahur got injured. The body and injured were shifted to District Headquarters Hospital Dera. The Bandkorai police have registered a case on the report of injured Saad Zahur. Later, the funeral prayers of deceased Hassan Zahur were offered here at Science College ground.",
+    "summary": "A teenager, Hassan Zahur, died and his two brothers were injured in a road accident in Dera Ismail Khan. Their motorcycle was hit by a rickshaw-loader and then a tractor trolley. The Bandkorai police have registered a case.",
+    "keywords": [
+      "accident",
+      "motorcycle",
+      "injuries",
+      "Bandkorai",
+      "Hassan Zahur",
+      "Dera Ismail Khan",
+      "police"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Hassan Zahur",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Saad Zahur",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Faizan Zahur",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Bandkorai",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "District Headquarters Hospital Dera",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Dera Ismail Khan",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    },
+    {
+      "text": "Science College",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q7434989"
+    }
+  ]
+}

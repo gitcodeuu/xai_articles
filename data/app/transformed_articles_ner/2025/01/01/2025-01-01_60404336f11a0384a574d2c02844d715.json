@@ -1,0 +1,77 @@
+{
+  "article_id": "2025-01-01_60404336f11a0384a574d2c02844d715",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/pta-signs-mou-with-deaftawk-to-advance-accessibility-for-the-special-need/",
+    "retrieved_at": "2025-08-27T11:14:55.540Z"
+  },
+  "metadata": {
+    "title": "PTA signs MoU with DeafTawk to advance accessibility for the special need",
+    "author": null,
+    "date_published": "2025-01-01T16:03:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 154,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 01 (APP):The Pakistan Telecommunication Authority (PTA) on Wednesday signed an MoU with DeafTawk to advance accessibility for people with special needs (hearing impairments) in public services. The signing ceremony, held at PTA Headquarters, marked a significant step toward inclusivity in the public sector, said a news release. Through this partnership, DeafTawk will provide aDeafTawk Plus,a enabling online sign language interpretation for deaf visitors at PTA offices. PTA will also integrate AI-powered text-to-sign and speech-to-sign tools into its digital platforms, with annual accessibility audits to ensure continuous improvement. Chairman PTA, Maj. Gen. (R) Hafeez ur Rehman, highlighted the initiativeas importance, stating, aAccessibility is a fundamental right. This partnership bridges the digital divide and empowers marginalized communities.a Ali Shabbar, CEO of DeafTawk, and Risham Raja, Country Head, applauded PTAas leadership in prioritizing inclusivity. This groundbreaking initiative addresses communication challenges faced by over 10 million deaf individuals in Pakistan, promoting an equitable and inclusive society.",
+    "summary": "The Pakistan Telecommunication Authority (PTA) signed a Memorandum of Understanding (MoU) with DeafTawk to improve accessibility for people with hearing impairments in public services. This partnership will provide online sign language interpretation and integrate AI-powered tools into PTA's digital platforms. The initiative aims to address communication challenges and promote an inclusive society for over 10 million deaf individuals in Pakistan.",
+    "keywords": [
+      "PTA",
+      "DeafTawk",
+      "accessibility",
+      "hearing impairments",
+      "sign language",
+      "inclusivity",
+      "Pakistan"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Pakistan Telecommunication Authority",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "PTA",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "DeafTawk",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Wednesday",
+      "label": "DATE",
+      "wikidata_id": "Q11305"
+    },
+    {
+      "text": "ISLAMABAD",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    },
+    {
+      "text": "Maj. Gen. (R) Hafeez ur Rehman",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Ali Shabbar",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Risham Raja",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Pakistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q1042"
+    }
+  ]
+}

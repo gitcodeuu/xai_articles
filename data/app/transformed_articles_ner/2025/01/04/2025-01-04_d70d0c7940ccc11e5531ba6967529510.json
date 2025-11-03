@@ -1,0 +1,106 @@
+{
+  "article_id": "2025-01-04_d70d0c7940ccc11e5531ba6967529510",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/irsa-releases-28400-cusecs-water/",
+    "retrieved_at": "2025-08-27T11:21:36.423Z"
+  },
+  "metadata": {
+    "title": "IRSA releases 28,400 cusecs water",
+    "author": null,
+    "date_published": "2025-01-04T13:06:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 151,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 04 (APP):Indus River System Authority (IRSA) on Saturday released 28,400 cusecs water from various rim stations with inflow of 40,700 cusecs. According to the data released by IRSA, water level in River Indus at Tarbela Dam was 1474.03 feet and was 76.03 feet higher than its dead level of 1,398 feet. Water inflow and outflow in the dam was recorded as 17,500 cusecs and 6,000 cusecs respectively. The water level in River Jhelum at Mangla Dam was 1133.00 feet, which was 83.00 feet higher than its dead level of 1,050 feet. The inflow and outflow of water was recorded 4,800 cusecs and 4,000 cusecs respectively. The release of water at Kalabagh, Taunsa , Guddu and Sukkur was recorded as 8,300, 19,600, 9,000 and 1,100 cusecs respectively. Similarly, from River Kabul, a total of 12,900 cusecs of water released at Nowshera and 5,500 cusecs released from River Chenab at Marala.",
+    "summary": "The Indus River System Authority (IRSA) released 28,400 cusecs of water from various rim stations on Saturday. The water levels and inflows/outflows were detailed for Tarbela Dam, Mangla Dam, and several other locations along the Indus, Jhelum, Kabul, and Chenab rivers.",
+    "keywords": [
+      "IRSA",
+      "water release",
+      "Tarbela Dam",
+      "Mangla Dam",
+      "cusecs",
+      "River Indus"
+    ]
+  },
+  "entities": [
+    {
+      "text": "IRSA",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Indus River System Authority",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Saturday",
+      "label": "DATE",
+      "wikidata_id": "Q121"
+    },
+    {
+      "text": "Tarbela Dam",
+      "label": "LOCATION",
+      "wikidata_id": "Q337583"
+    },
+    {
+      "text": "River Indus",
+      "label": "LOCATION",
+      "wikidata_id": "Q413"
+    },
+    {
+      "text": "River Jhelum",
+      "label": "LOCATION",
+      "wikidata_id": "Q188686"
+    },
+    {
+      "text": "Mangla Dam",
+      "label": "LOCATION",
+      "wikidata_id": "Q337581"
+    },
+    {
+      "text": "Kalabagh",
+      "label": "LOCATION",
+      "wikidata_id": "Q6351187"
+    },
+    {
+      "text": "Taunsa",
+      "label": "LOCATION",
+      "wikidata_id": "Q7687009"
+    },
+    {
+      "text": "Guddu",
+      "label": "LOCATION",
+      "wikidata_id": "Q5615028"
+    },
+    {
+      "text": "Sukkur",
+      "label": "LOCATION",
+      "wikidata_id": "Q39127"
+    },
+    {
+      "text": "River Kabul",
+      "label": "LOCATION",
+      "wikidata_id": "Q188684"
+    },
+    {
+      "text": "Nowshera",
+      "label": "LOCATION",
+      "wikidata_id": "Q36940"
+    },
+    {
+      "text": "River Chenab",
+      "label": "LOCATION",
+      "wikidata_id": "Q188687"
+    },
+    {
+      "text": "Marala",
+      "label": "LOCATION",
+      "wikidata_id": "Q6765272"
+    }
+  ]
+}

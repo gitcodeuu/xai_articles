@@ -1,0 +1,77 @@
+{
+  "article_id": "2025-01-03_8b6b21ad0af65c2c256e7477a916059a",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/pak-navy-holds-fleet-annual-efficiency-competition-parade/",
+    "retrieved_at": "2025-08-27T11:18:28.593Z"
+  },
+  "metadata": {
+    "title": "Pak Navy holds fleet annual efficiency competition parade",
+    "author": null,
+    "date_published": "2025-01-03T12:06:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 302,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 03 (APP): Pakistan Navy fleet annual efficiency competition parade was held Friday at Pakistan Navy Dockyard, Karachi. Chief of the Naval Staff (CNS) Admiral Naveed Ashraf, was the chief guest, said a news release issued by Directorate General Public Relations (Pak Navy). The event marked the culmination of a professionally rewarding and eventful operational year for the combatants of Pakistan Navy Fleet, including warships, submarines, and aviation assets. Upon arrival, the chief guest was received by Commander Pakistan Fleet, Rear Admiral Abdul Munib, and a smartly turned-out contingent presented the Guard of Honour. In his address, Chief of the Naval Staff expressed complete satisfaction and confidence in the operational readiness of Pakistan Navy Fleet. He lauded the dedication and professionalism of officers and sailors in safely and efficiently achieving the operational objectives and milestones for the year 2024. The CNS acknowledged the valuable contributions of Fleet towards maritime security and the protection of national and international Sea Lines of Communication. He highlighted Pakistan Navyas efforts to ensure the security of strategic maritime zones, particularly Gwadar Port and maritime projects under CPEC. The CNS also elaborated on the evolving dynamics of the region, particularly the maritime security environment, which necessitated that Pakistan Navy remained ever-ready to address any threats to the nationas maritime frontiers. Earlier, in his welcome address, the Commander Pakistan Fleet highlighted the operational achievements of the Fleet during the preceding year. He emphasized that the Fleet maintained a high level of combat readiness throughout the year, with its units participating in various bilateral and multilateral exercises in both home and foreign waters. The Fleet undertook multiple Regional Maritime Security Patrols and Overseas Deployments. During the ceremony, the Chief of the Naval Staff presented efficiency awards and trophies to the best-performing squadrons and units of Pakistan Navy Fleet Command.",
+    "summary": "The Pakistan Navy held its annual fleet efficiency competition parade at the Pakistan Navy Dockyard in Karachi. Admiral Naveed Ashraf, Chief of the Naval Staff, was the chief guest and praised the fleet's operational readiness and contributions to maritime security. The event recognized the achievements of the Pakistan Navy Fleet, including warships, submarines, and aviation assets.",
+    "keywords": [
+      "Pakistan Navy",
+      "Fleet",
+      "Karachi",
+      "Admiral Naveed Ashraf",
+      "maritime security",
+      "CPEC",
+      "Gwadar Port"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Pakistan Navy",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q7126812"
+    },
+    {
+      "text": "Karachi",
+      "label": "LOCATION",
+      "wikidata_id": "Q1017"
+    },
+    {
+      "text": "Chief of the Naval Staff",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Admiral Naveed Ashraf",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Directorate General Public Relations",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Commander Pakistan Fleet",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Rear Admiral Abdul Munib",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Gwadar Port",
+      "label": "LOCATION",
+      "wikidata_id": "Q3114946"
+    },
+    {
+      "text": "CPEC",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q18166675"
+    }
+  ]
+}

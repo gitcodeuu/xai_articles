@@ -1,0 +1,155 @@
+{
+  "article_id": "2025-01-03_cc4f668f574c9179c8e1691636f8171d",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/rain-and-snow-forecast-for-upper-regions-dense-fog-to-persist-in-plains-pmd/",
+    "retrieved_at": "2025-08-27T11:17:54.003Z"
+  },
+  "metadata": {
+    "title": "Rain and snow forecast for Upper regions; dense fog to persist in plains: PMD",
+    "author": null,
+    "date_published": "2025-01-03T15:46:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 257,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 03 (APP):The Pakistan Meteorological Department (PMD) on Friday forecasted rain with snowfall over the hills in Upper Khyber Pakhtunkhwa, Northern Balochistan, Gilgit-Baltistan, Kashmir, and adjoining hilly areas. Dense to moderate fog is likely to persist during morning and night in the plains of Punjab, Khyber Pakhtunkhwa, and Upper Sindh. A frontal weather system is currently influencing the upper parts of the country and is expected to persist until the morning of January 6, according to PMD. Rain and snowfall were recorded in several regions, including Upper Khyber Pakhtunkhwa, Northern Balochistan, Gilgit-Baltistan, and Kashmir. Other parts of the country experienced cold and partly cloudy weather, while moderate to dense fog continued to blanket most districts of Punjab and Upper Sindh. Rainfall in millimeters was recorded in Chitral (22), Kalam (20), Drosh (17), Pattan (16), Mir Khani (15), Upper Dir (14), Saidu Sharif (2), and Malam Jabba (1) in Khyber Pakhtunkhwa, while in Balochistan, Dalbandin received 18 mm and Kalat 1 mm. Gopis and Astore in Gilgit-Baltistan recorded 13 mm and 1 mm, respectively, while Muzaffarabad Airport and City in Kashmir received 2 mm and 1 mm of rain, respectively. Snowfall in inches was recorded in Kalam (14), Chitral and Gupis (7), Astore (1), Skardu (0.8), and Malam Jabba (0.5). The lowest temperatures recorded were -8 C in Gupis, -4 in Leh and Parachinar, -3 in Mirkhani and Hunza, and -2 C in Skardu. Citizens in the affected regions are advised to exercise caution while traveling, especially in foggy conditions, and remain updated with PMDas weather advisories.",
+    "summary": "The Pakistan Meteorological Department (PMD) forecasts rain and snowfall in upper regions, including Khyber Pakhtunkhwa, Balochistan, Gilgit-Baltistan, and Kashmir, while dense fog is expected in the plains. A frontal weather system is influencing the upper parts of the country until January 6th. Rainfall and snowfall amounts were recorded in various locations, and citizens are advised to take caution due to the weather conditions.",
+    "keywords": [
+      "rain",
+      "snowfall",
+      "fog",
+      "PMD",
+      "weather"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Pakistan Meteorological Department",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q7124978"
+    },
+    {
+      "text": "Khyber Pakhtunkhwa",
+      "label": "LOCATION",
+      "wikidata_id": "Q35999"
+    },
+    {
+      "text": "Northern Balochistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q36502"
+    },
+    {
+      "text": "Gilgit-Baltistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q18596"
+    },
+    {
+      "text": "Kashmir",
+      "label": "LOCATION",
+      "wikidata_id": "Q7338"
+    },
+    {
+      "text": "Punjab",
+      "label": "LOCATION",
+      "wikidata_id": "Q35985"
+    },
+    {
+      "text": "Upper Sindh",
+      "label": "LOCATION",
+      "wikidata_id": "Q36504"
+    },
+    {
+      "text": "Chitral",
+      "label": "LOCATION",
+      "wikidata_id": "Q39130"
+    },
+    {
+      "text": "Kalam",
+      "label": "LOCATION",
+      "wikidata_id": "Q6353970"
+    },
+    {
+      "text": "Drosh",
+      "label": "LOCATION",
+      "wikidata_id": "Q5308696"
+    },
+    {
+      "text": "Pattan",
+      "label": "LOCATION",
+      "wikidata_id": "Q7145719"
+    },
+    {
+      "text": "Mir Khani",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Upper Dir",
+      "label": "LOCATION",
+      "wikidata_id": "Q7898086"
+    },
+    {
+      "text": "Saidu Sharif",
+      "label": "LOCATION",
+      "wikidata_id": "Q7400588"
+    },
+    {
+      "text": "Malam Jabba",
+      "label": "LOCATION",
+      "wikidata_id": "Q6742598"
+    },
+    {
+      "text": "Balochistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q36502"
+    },
+    {
+      "text": "Dalbandin",
+      "label": "LOCATION",
+      "wikidata_id": "Q3704815"
+    },
+    {
+      "text": "Kalat",
+      "label": "LOCATION",
+      "wikidata_id": "Q1000497"
+    },
+    {
+      "text": "Gopis",
+      "label": "LOCATION",
+      "wikidata_id": "Q645495"
+    },
+    {
+      "text": "Astore",
+      "label": "LOCATION",
+      "wikidata_id": "Q3300589"
+    },
+    {
+      "text": "Muzaffarabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q18597"
+    },
+    {
+      "text": "Skardu",
+      "label": "LOCATION",
+      "wikidata_id": "Q39106"
+    },
+    {
+      "text": "Leh",
+      "label": "LOCATION",
+      "wikidata_id": "Q100063"
+    },
+    {
+      "text": "Parachinar",
+      "label": "LOCATION",
+      "wikidata_id": "Q3705059"
+    },
+    {
+      "text": "Hunza",
+      "label": "LOCATION",
+      "wikidata_id": "Q100050"
+    }
+  ]
+}

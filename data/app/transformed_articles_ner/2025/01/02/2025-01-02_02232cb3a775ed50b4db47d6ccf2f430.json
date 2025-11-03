@@ -1,0 +1,60 @@
+{
+  "article_id": "2025-01-02_02232cb3a775ed50b4db47d6ccf2f430",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/psca-introduces-virtual-blood-bank-facility/",
+    "retrieved_at": "2025-08-27T11:16:00.501Z"
+  },
+  "metadata": {
+    "title": "PSCA introduces virtual blood bank facility",
+    "author": null,
+    "date_published": "2025-01-02T10:50:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 214,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "LAHORE, Jan 02 (APP):Punjab Safe Cities Authority (PSCA) has introduced a virtual blood bankA facility on Punjab Emergency Helpline 15 on a trial basis. According to PSCA spokesman, the Safe City Emergency Virtual BloodA Bank had been established under the special direction of Punjab ChiefA Minister Maryam Nawaz Sharif. Citizens could easily access the SafeA City Emergency Blood Bank by calling 15 and pressing 4.A Upon receiving the call, a Safe City officer would connect the caller with a registered donor from the blood bank database via a conference call. Blood donor agencies, NGOs and blood banks of colleges and universities have been linked to the Safe City Blood Bank database. Citizens, students, and members of civil society could register themselves as blood donors by calling 15 or through the safe city website. Additionally, citizens could submit blood donation or request forms at the police facilitation counters set up in all government hospitals. They could alsoA register themselves and request blood donations through the emergency helpline 15. Initially, officers and personnel of the Punjab police were getting registeredA themselves as donors. Over 10,000 personnel have registered blood donorsA in the Safe City Blood Bank. All citizens were urged to actively participateA in the noble cause and donate blood to save lives and stay healthy.",
+    "summary": "The Punjab Safe Cities Authority (PSCA) has launched a virtual blood bank on the Punjab Emergency Helpline 15. This initiative, under the direction of Chief Minister Maryam Nawaz Sharif, allows citizens to connect with blood donors through a conference call.",
+    "keywords": [
+      "PSCA",
+      "blood bank",
+      "Punjab Emergency Helpline 15",
+      "Maryam Nawaz Sharif",
+      "blood donors"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Punjab Safe Cities Authority",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Punjab Emergency Helpline 15",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Punjab",
+      "label": "LOCATION",
+      "wikidata_id": "Q20076"
+    },
+    {
+      "text": "Maryam Nawaz Sharif",
+      "label": "PERSON",
+      "wikidata_id": "Q18177582"
+    },
+    {
+      "text": "LAHORE",
+      "label": "LOCATION",
+      "wikidata_id": "Q1003"
+    },
+    {
+      "text": "PSCA",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "article_id": "2025-01-04_2b6d7279c7ee7640c39b3151bd8fefe6",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/na-speaker-condemns-turbat-blast-expresses-sorrow-over-loss-of-lives/",
+    "retrieved_at": "2025-08-27T11:20:50.472Z"
+  },
+  "metadata": {
+    "title": "NA speaker condemns Turbat blast, expresses sorrow over loss of lives",
+    "author": null,
+    "date_published": "2025-01-04T16:15:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 119,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 04 (APP): National Assembly Speaker Sardar Ayaz Sadiq on Saturday strongly condemned the blast in Dhang, near Turbat, Balochistan, and expressed deep sorrow over the tragic loss of lives. In his condolence message, the speaker conveyed heartfelt sympathies to the families of the deceased and prayed for the swift recovery of those injured in the attack. He expressed solidarity with the grieving families, emphasizing that those who target innocent civilians are enemies of humanity. The speaker prayed to Allah Almighty to elevate the ranks of the deceased and grant patience to their families in this difficult time. He also affirmed that terrorist acts by malicious elements would not weaken the nationas resolve in its fight against terrorism.",
+    "summary": "National Assembly Speaker Sardar Ayaz Sadiq condemned the blast in Dhang, near Turbat, Balochistan, and expressed sorrow over the loss of lives. He conveyed sympathies to the families of the deceased and prayed for the swift recovery of the injured. The speaker affirmed that terrorist acts would not weaken the nation's resolve against terrorism.",
+    "keywords": [
+      "Turbat",
+      "blast",
+      "National Assembly Speaker",
+      "terrorism",
+      "Balochistan",
+      "condemnation",
+      "Sardar Ayaz Sadiq"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Sardar Ayaz Sadiq",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Turbat",
+      "label": "LOCATION",
+      "wikidata_id": "Q737033"
+    },
+    {
+      "text": "Balochistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q18189"
+    },
+    {
+      "text": "National Assembly",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1079986"
+    },
+    {
+      "text": "Allah Almighty",
+      "label": "PERSON",
+      "wikidata_id": "Q10899"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "article_id": "2025-01-03_fe25e4aff388fd583e85d60c25d1e308",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/pharmacy-council-to-be-fully-automated-khawaja-salman/",
+    "retrieved_at": "2025-08-27T11:17:54.061Z"
+  },
+  "metadata": {
+    "title": "Pharmacy Council to be fully automated: Khawaja Salman",
+    "author": null,
+    "date_published": "2025-01-03T15:51:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 184,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "LAHORE, Jan 03 (APP):Punjab Health Minister Khawaja Salman Rafique announced the governmentas plan to fully automate the Punjab Pharmacy Council (PPC) during his visit to the institution on Friday. Chairing a meeting to review PPCas performance, the minister emphasized the importance of modernizing pharmacy education and training to enhance the capacity of pharmacists and pharmacy technicians in the province. Speaking on the occasion, Khawaja Salman Rafique said, aModern subjects will be introduced into the curriculum of pharmacists and pharmacy technicians in medical colleges and universities across Punjab. Specialized training courses will be launched to improve their skills and capacity.a He also highlighted the collaborative efforts of the Punjab and federal governments to strengthen the pharmacy sector. The minister expressed his determination to enhance the Punjab Pharmacy Councilas capacity, enabling it to play a pivotal role in improving healthcare delivery. During the visit, Secretary Punjab Pharmacy Council, Dr. Zaka-ur-Rehman, briefed the minister on the councilas performance and initiatives. Deputy Secretary Technical Department Specialized Health Care and Medical Education, Dr. Abdul Rehman, accompanied the minister, while Registrar Syed Ahmad Nazir Gilani and other officials were present.",
+    "summary": "Punjab Health Minister Khawaja Salman Rafique announced plans to fully automate the Punjab Pharmacy Council (PPC). The minister emphasized modernizing pharmacy education and training to improve the skills of pharmacists and technicians. Collaborative efforts between the Punjab and federal governments were also highlighted.",
+    "keywords": [
+      "Punjab Pharmacy Council",
+      "automation",
+      "pharmacists",
+      "training",
+      "healthcare",
+      "Punjab",
+      "education"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Khawaja Salman Rafique",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Punjab Pharmacy Council",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "PPC",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Punjab",
+      "label": "LOCATION",
+      "wikidata_id": "Q2005"
+    },
+    {
+      "text": "Dr. Zaka-ur-Rehman",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Dr. Abdul Rehman",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Syed Ahmad Nazir Gilani",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    }
+  ]
+}

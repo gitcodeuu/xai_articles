@@ -1,0 +1,140 @@
+{
+  "article_id": "2025-01-01_0bae1814a0054f4082f3dd6ec96ba50c",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/russia-central-asian-countries-want-to-trade-through-pakistani-ports-qaiser/",
+    "retrieved_at": "2025-08-27T11:14:54.966Z"
+  },
+  "metadata": {
+    "title": "Russia, Central Asian countries want to trade through Pakistani ports: Qaiser",
+    "author": null,
+    "date_published": "2025-01-01T16:08:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 661,
+    "reading_time_minutes": 4
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 1 (APP):Federal Minister for Maritime Affairs, Qaiser Ahmed Sheikh on Wednesday said that Russia and Central Asian countries wanted to trade through Pakistani ports as the worldas major shipping companies were investing here which will make Pakistan an important trade hub in the region. Addressing a press conference here, the minister said that Central Asian countries had made a lot of progress and development in the last ten years in that regard but they do not have their own ports and were intending to sell their goods through Pakistan. He said that the institutions of the Ministry of Maritime Affairs earned a profit of Rs 90 billion last year. The profit has increased by 25 percent compared to the previous year and will increase further in the next financial year. aPakistan has become a gateway for maritime trade as 95 percent of the countryas trade is done through Karachi Port and Port Qasim,a he added. Qaiser Ahmed Sheikh said the present government was making all-out efforts in deepening the countryas ports because the eyes of the whole world are Pakistani port and interested to trade through these ports. aCheap goods and commodities from Central Asian countries can export through Pakistan and major companies of the world interested in investing in Pakistan, we are examining various aspects in this regard,a he maintained. When the Pakistan Muslim League-Nawaz government incepted, the minister said that the profit of Karachi Port was Rs 2 billion, now its profit has increased from Rs 2 billion to Rs 10 billion, efforts were underway to further improve it, adding that the profit of Port Qasim had increased to Rs 40 billion. aI personally sit with the Pakistan National Shipping Corporation (PNSC) for two hours in the first week of every month to discuss all issues pertaining to the corporation,a he informed. He said that 95 percent of Pakistanas imports and exports were handled through Karachi Port and Port Qasim. Qaiser Ahmed Sheikh highlighted the important role of the maritime sector in Pakistanas economy. He said that the Ministry of Maritimeas trade and oversees were the annual export of 400 million tons of fishery products, adding that Hutchison Ports has announced an investment of $1 billion in Pakistan and AD Ports has announced an investment of $330 million in the next three years. He said that Central Asian countries and Russia were planning to carry out their trade through Karachi Port, which will make Pakistan an important trade hub in the region. Moreover, he apprised that some 60 percent of Pakistanas imports and exports will be done through Gwadar Port, adding that the ministry has suggested that China relocate industries to the Gwadar Free Zone to avoid US tariffs, which would be beneficial for both countries. aSteps are being taken to further improve Gwadar port, including increasing the depth to 14.5 meters, strengthening security arrangements and making 60 percent of public sector imports mandatory through Gwadar,a he highlighted. He underscored that work was underway to introduce insurance guarantees instead of bank guarantees to facilitate Afghan transit trade. He said that International cooperation includes a $ 2 billion agreement with Denmark and exports of Pakistani fishery products to the European Union and the United States. The minister said that Pakistan has improved shipbreaking standards by signing the Hong Kong Convention and reforms had been made in the Karachi Dock Labor Board, while the profits of the Karachi Port Trust and Port Qasim Authority had increased significantly. He said that Pakistanas first classification society had already been established to improve institutions, maritime operations had been integrated with the Pakistan Single Window, and work was underway to formulate national maritime and shipping policies. The Pakistan National Shipping Corporation was in the process of purchasing four more ships to reduce freight costs. Qaiser Ahmed Sheikh while emphasizing Pakistanas sovereignty, highlighted the importance of the maritime sector in the countryas economy and called it an important source of national development and stability.",
+    "summary": "Qaiser Ahmed Sheikh, the Federal Minister for Maritime Affairs, announced that Russia and Central Asian countries are interested in trading through Pakistani ports, making Pakistan a key trade hub. He highlighted the growth of profits in the maritime sector and ongoing investments in port infrastructure, particularly in Karachi, Port Qasim, and Gwadar.",
+    "keywords": [
+      "Pakistan",
+      "ports",
+      "trade",
+      "Central Asian countries",
+      "maritime"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Qaiser Ahmed Sheikh",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Russia",
+      "label": "LOCATION",
+      "wikidata_id": "Q227"
+    },
+    {
+      "text": "Central Asian countries",
+      "label": "LOCATION",
+      "wikidata_id": "Q10084"
+    },
+    {
+      "text": "Pakistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q1046"
+    },
+    {
+      "text": "Karachi Port",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q3364995"
+    },
+    {
+      "text": "Port Qasim",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q7231011"
+    },
+    {
+      "text": "Pakistan Muslim League-Nawaz",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1197412"
+    },
+    {
+      "text": "PNSC",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q7125348"
+    },
+    {
+      "text": "Hutchison Ports",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1633512"
+    },
+    {
+      "text": "AD Ports",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q123793774"
+    },
+    {
+      "text": "Gwadar Port",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q3119106"
+    },
+    {
+      "text": "China",
+      "label": "LOCATION",
+      "wikidata_id": "Q148"
+    },
+    {
+      "text": "US",
+      "label": "LOCATION",
+      "wikidata_id": "Q30"
+    },
+    {
+      "text": "Denmark",
+      "label": "LOCATION",
+      "wikidata_id": "Q35"
+    },
+    {
+      "text": "European Union",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q458"
+    },
+    {
+      "text": "United States",
+      "label": "LOCATION",
+      "wikidata_id": "Q30"
+    },
+    {
+      "text": "Hong Kong",
+      "label": "LOCATION",
+      "wikidata_id": "Q8649"
+    },
+    {
+      "text": "Karachi Dock Labor Board",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Karachi Port Trust",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q6372070"
+    },
+    {
+      "text": "Port Qasim Authority",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Pakistan National Shipping Corporation",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q7125348"
+    },
+    {
+      "text": "Afghan",
+      "label": "PERSON",
+      "wikidata_id": "Q200020"
+    }
+  ]
+}

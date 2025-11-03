@@ -1,0 +1,57 @@
+{
+  "article_id": "2025-01-02_fb20f3c902c14dd4037bfe155acfdd84",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/serena-chowk-interchange-near-completion/",
+    "retrieved_at": "2025-08-27T11:16:51.894Z"
+  },
+  "metadata": {
+    "title": "Serena chowk interchange near completion",
+    "author": null,
+    "date_published": "2025-01-02T16:24:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 205,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 02 (APP):Another public welfare project in Islamabad is nearing completion at an incredible pace. The work on Serena Chowk Interchange project which comprises of three underpasses is being carried out day and night. Federal Minister for Interior Mohsin Naqvi visited the project site and directed its completion within the deadline. Minister reviewed the beautification plan of Serena Chowk and accorded its approval. He highlighted that the underpass will be completed in the next 5 days but it will be opened for the traffic after the completion of work on sewer. He directed to complete the work on sewer immediately. He said that the work on the project started with a delay of 10 days but it should be completed within the stipulated time by making all out efforts. Interior Minister also inspected the ongoing construction work of the project, directing that all possible resources be utilized for the timely completion of the project. Mohsin Naqvi directed that the surroundings of the project should be decorated with plants and flowers. He added that all possible efforts should be made to save the trees around the project. On the occasion, Chairman CDA Muhammad Ali Randhawa gave a briefing about the construction activities of the project.",
+    "summary": "The Serena Chowk Interchange project in Islamabad is nearing completion, with the Federal Minister for Interior, Mohsin Naqvi, overseeing the project. The project includes three underpasses and is expected to be completed soon, with the minister emphasizing the importance of timely completion and beautification of the area. The minister also inspected the ongoing construction and directed the use of all available resources.",
+    "keywords": [
+      "Serena Chowk Interchange",
+      "Islamabad",
+      "Mohsin Naqvi",
+      "underpasses",
+      "construction",
+      "completion",
+      "beautification"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    },
+    {
+      "text": "Mohsin Naqvi",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Serena Chowk",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "APP",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q465666"
+    },
+    {
+      "text": "Chairman CDA Muhammad Ali Randhawa",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    }
+  ]
+}

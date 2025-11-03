@@ -1,0 +1,67 @@
+{
+  "article_id": "2025-01-02_8b527432603cf91987a37eea045486d1",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/awais-writes-letters-to-cms-ajk-pm-for-implementation-of-energy-conservation-building-code/",
+    "retrieved_at": "2025-08-27T11:16:05.137Z"
+  },
+  "metadata": {
+    "title": "Awais writes letters to CMs, AJK PM for implementation of energy conservation building code",
+    "author": null,
+    "date_published": "2025-01-02T07:55:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 374,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 02 (APP): Federal Minister for Energy (Power Division) Sardar Awais Ahmed Khan Leghari has written letters to all Chief Ministers (CMs) , Prime Minister of Azad Jammu and Kashmir (AJK), Federal Ministers for Planning and Science and Technology for implementation of Energy Conservation Building Code 2023 (ECBC-2023) in the relevant building laws under their domain. In order to increase efficient utilization of energy and reduce its leakages/wastage, the federal minister has stressed on implementation of this code for mutual benefit of government and consumers, said a statement issued by Ministry of Power Division here Thursday. An inefficient utilization of electricity in buildings results in an increase in utility bills. Similarly in peak summers for managing peak load of 60 to 80 hours, the power sector has to maintain a number of power plants which remain idle for rest of the year due to lower demands resulting in capacity and other allied payments making part of overall electricity tariff. Additionally, energy-efficient buildings contribute to the conservation of natural gas by reducing the need for heating during the winter season. As the federal minister has identified peak load and its very short duration as one of the major reason for maintaining many power plants in the system, the implementation of the Code will also help in managing the peak demand helping the power sector to reduce operational costs and energy consumption. The Minister in his letter has proposed two pronged strategy to ensure sustainable development of the power sector and bolster economy of the country through energy efficiency in building sector. First revision of existing bye-laws by the relevant development authorities/building control authorities, municipalities and local governments to incorporate the ECBC-2023 and secondly integration of this code in the Annual Development programs for public sector infrastructure development. Awais Leghari expressed confidence that implementing this Code will result in lower operational costs and promote sustainable growth. The Minister in his letter, mentioned approval of the ECBC-23 by Federal Cabinet and subsequently by National Economic Council (NEC). The ECBC-2023 is now accessible on the National Energy Efficiency and Conservation Authority (NEECA) website (https://neeca.gov.pk/Download) for the information and use of the general public. The public is encouraged to utilize this extremely useful resource to advance sustainability efforts.",
+    "summary": "Federal Minister for Energy, Sardar Awais Ahmed Khan Leghari, has urged Chief Ministers and the Prime Minister of Azad Jammu and Kashmir to implement the Energy Conservation Building Code 2023. The code aims to improve energy efficiency in buildings, reduce electricity wastage, and lower operational costs in the power sector. Implementation involves revising building laws and integrating the code into development programs.",
+    "keywords": [
+      "Energy Conservation Building Code",
+      "ECBC-2023",
+      "energy efficiency",
+      "power sector",
+      "Awais Leghari",
+      "building code",
+      "sustainable development"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Sardar Awais Ahmed Khan Leghari",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Chief Ministers",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Prime Minister of Azad Jammu and Kashmir",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Azad Jammu and Kashmir",
+      "label": "LOCATION",
+      "wikidata_id": "Q48259"
+    },
+    {
+      "text": "Ministry of Power Division",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "National Economic Council",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q6971439"
+    },
+    {
+      "text": "NEECA",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q125345701"
+    }
+  ]
+}

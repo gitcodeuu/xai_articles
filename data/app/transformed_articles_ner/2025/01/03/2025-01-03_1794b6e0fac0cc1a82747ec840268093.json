@@ -1,0 +1,86 @@
+{
+  "article_id": "2025-01-03_1794b6e0fac0cc1a82747ec840268093",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/ihc-decides-10571-cases-during-2024/",
+    "retrieved_at": "2025-08-27T11:18:48.797Z"
+  },
+  "metadata": {
+    "title": "IHC decides 10,571 cases during 2024",
+    "author": null,
+    "date_published": "2025-01-03T12:41:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 105,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 03 (APP):The Islamabad High Court (IHC) had decided a total of 10,571 cases during the year 2024. Chief Justice Aamer Farooq delivered the highest 2,525 verdicts during last year, said a reportA of IHC. According to the report, Justice Mohsin Akhtar Kayani delivered 1,616 cases, while Justice Sardar Ijaz IshaqA Khan decided 1,490 cases. Similarly, Justice Miangul Hassan Aurangzeb decided 1,021 cases throughout the year, while Justice Tariq Mahmood Jahangiri disposed of 925 cases in 2024. The report said that Justice Babar Sattar decided 964, Justice Arbab Muhammad Tahir 1,195 cases and Justice Saman Rafat Imtiaz disposed of 835 cases throughout the year.",
+    "summary": "The Islamabad High Court (IHC) resolved a total of 10,571 cases in 2024. Chief Justice Aamer Farooq delivered the most verdicts, with 2,525 cases decided. Other justices, including Mohsin Akhtar Kayani and Sardar Ijaz Ishaq Khan, also contributed significantly to the court's case resolution.",
+    "keywords": [
+      "Islamabad High Court",
+      "IHC",
+      "cases",
+      "verdicts",
+      "Aamer Farooq",
+      "Justice"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Islamabad High Court",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "IHC",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Aamer Farooq",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Mohsin Akhtar Kayani",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Sardar Ijaz Ishaq Khan",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Miangul Hassan Aurangzeb",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Tariq Mahmood Jahangiri",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Babar Sattar",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Arbab Muhammad Tahir",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Saman Rafat Imtiaz",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    }
+  ]
+}

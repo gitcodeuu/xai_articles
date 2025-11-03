@@ -1,0 +1,67 @@
+{
+  "article_id": "2025-01-01_f8a77ce6c76d454acf447507cc706c1f",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/bisp-beneficiaries-to-get-increased-benazir-kafalat-stipends-in-new-year/",
+    "retrieved_at": "2025-08-27T11:14:30.162Z"
+  },
+  "metadata": {
+    "title": "BISP beneficiaries to get increased Benazir Kafalat stipends in New Year",
+    "author": null,
+    "date_published": "2025-01-01T08:59:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 193,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 1 (APP):Chairperson of the Benazir Income Support Programme (BISP), Senator Rubina Khalid Wednesday announced an increase in the quarterly installment under the Benazir Kafalat Programme from Rs. 10,500 to Rs. 13,500 with advent of the year. The amount has been raised for providing much-needed financial relief to deserving women across Pakistan. The announcement was made at a ceremony where Senator Rubina Khalid, along with Secretary Amir Ali Ahmed, Additional Secretary Dr. Tahir Noor, and other staff members, celebrated the New Year by cutting a cake. Senator Rubina Khalid declared 2025 as the aYear of the Benazir Hunarmand Programmea, emphasizing the initiativeas potential to empower underprivileged individuals by equipping them with skills to earn a livelihood and achieve self-sufficiency. aThis year, we are committed to continuing our work with honesty and dedication to serve the marginalized segments of society,a said Senator Rubina Khalid during her New Year message. The chairperson BISP extended her heartfelt New Year greetings to all citizens on behalf of the BISP team. The Benazir Income Support Programme remains a cornerstone of Pakistanas social protection efforts, ensuring financial stability and skill development opportunities for the countryas most vulnerable communities.",
+    "summary": "The Benazir Income Support Programme (BISP) announced an increase in the quarterly installment under the Benazir Kafalat Programme from Rs. 10,500 to Rs. 13,500. Senator Rubina Khalid declared 2025 as the \"Year of the Benazir Hunarmand Programme\" to empower underprivileged individuals. The BISP remains a cornerstone of Pakistan's social protection efforts.",
+    "keywords": [
+      "BISP",
+      "Benazir Kafalat Programme",
+      "Rubina Khalid",
+      "Pakistan",
+      "social protection",
+      "Benazir Hunarmand Programme",
+      "stipends"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Rubina Khalid",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Amir Ali Ahmed",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Tahir Noor",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "BISP",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q4889753"
+    },
+    {
+      "text": "Benazir Kafalat Programme",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Pakistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q1045"
+    },
+    {
+      "text": "Benazir Hunarmand Programme",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    }
+  ]
+}

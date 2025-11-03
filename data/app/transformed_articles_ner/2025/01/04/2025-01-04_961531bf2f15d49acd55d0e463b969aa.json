@@ -1,0 +1,56 @@
+{
+  "article_id": "2025-01-04_961531bf2f15d49acd55d0e463b969aa",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/president-strongly-condemns-firing-incident-in-kurram/",
+    "retrieved_at": "2025-08-27T11:20:13.796Z"
+  },
+  "metadata": {
+    "title": "President strongly condemns firing incident in Kurram",
+    "author": null,
+    "date_published": "2025-01-04T09:01:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 90,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Dec 04 (APP): President Asif Ali Zardari on Saturday strongly condemned a firing incident at Lower Kurram and emphasized the need to take strict action against those elements trying to disrupt peace efforts in the area. The president prayed for the swift recovery of the Deputy Commissioner and others who were injured in the firing incident, President Secretariat Press Wing said in a press release. The president observed that miscreants wanted to stir chaos and stressed upon the people not to let these elements succeed in their malicious objectives.",
+    "summary": "President Asif Ali Zardari condemned a firing incident in Lower Kurram and called for strict action against those disrupting peace. He prayed for the injured, including the Deputy Commissioner, and urged the public to resist those seeking to create chaos.",
+    "keywords": [
+      "President",
+      "firing incident",
+      "Kurram",
+      "peace",
+      "Deputy Commissioner",
+      "Asif Ali Zardari"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Asif Ali Zardari",
+      "label": "PERSON",
+      "wikidata_id": "Q47990"
+    },
+    {
+      "text": "Lower Kurram",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Deputy Commissioner",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "President Secretariat Press Wing",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "ISLAMABAD",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    }
+  ]
+}

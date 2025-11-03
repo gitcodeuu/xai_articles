@@ -1,0 +1,65 @@
+{
+  "article_id": "2025-01-01_518ebedba4352ddd2c5341675a7b1e55",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/pakistan-vows-to-work-constructively-with-unsc-members-as-two-year-term-starts/",
+    "retrieved_at": "2025-08-27T11:14:08.865Z"
+  },
+  "metadata": {
+    "title": "Pakistan vows to work constructively with UNSC members as two-year term starts",
+    "author": null,
+    "date_published": "2025-01-01T07:36:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 240,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 01 (APP): As Pakistan begins a two-year term as a non-permanent member of the United Nations Security Council (UNSC) for the years 2025-2026, Deputy Prime Minister and Foreign Minister Ishaq Dar on Wednesday reaffirmed the countryas commitment to working constructively with all UNSC members and with the broader UN membership. The deputy prime minister, addressing a reception he hosted for the heads of resident missions of the UNSC member states here at the Ministry of Foreign Affairs, said that Pakistan would work to bridge divides, foster consensus, and uphold the UNSCas mandate in accordance with the purposes and principles of the UN Charter. He said that elected for the eighth time, Pakistan brought to the Security Council a rich legacy of experience and an unwavering commitment to the principles and purposes of the UN Charter. Ishaq Dar highlighted Pakistanas contributions to international peace and security, especially through its active role in UN peacekeeping and peacebuilding endeavors worldwide. The deputy prime minister underlined that Pakistan looked forward to seeking just and peaceful resolution of situations on the agenda of the UN Security Council. aAs a member of the Council, Pakistan will continue to oppose the unilateral and illegal use or threat of force; combat terrorism in all its forms and manifestations; and support effective UN peacekeeping, and peacebuilding efforts.a He also expressed gratitude to all UN member states for their resounding support in electing Pakistan to UN Security Council.",
+    "summary": "Pakistan has begun a two-year term as a non-permanent member of the United Nations Security Council (UNSC) for 2025-2026. Deputy Prime Minister and Foreign Minister Ishaq Dar stated Pakistan's commitment to working constructively with all UNSC members. Pakistan will focus on bridging divides, upholding the UN's mandate, and contributing to international peace and security.",
+    "keywords": [
+      "Pakistan",
+      "UNSC",
+      "Ishaq Dar",
+      "UN Charter",
+      "peacekeeping"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Pakistan",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1000"
+    },
+    {
+      "text": "UNSC",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q37534"
+    },
+    {
+      "text": "Ishaq Dar",
+      "label": "PERSON",
+      "wikidata_id": "Q6077582"
+    },
+    {
+      "text": "United Nations Security Council",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q37534"
+    },
+    {
+      "text": "UN",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1065"
+    },
+    {
+      "text": "Ministry of Foreign Affairs",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q199411"
+    },
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    }
+  ]
+}

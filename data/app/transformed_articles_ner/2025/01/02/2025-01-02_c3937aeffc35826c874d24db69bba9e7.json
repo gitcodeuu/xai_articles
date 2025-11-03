@@ -1,0 +1,82 @@
+{
+  "article_id": "2025-01-02_c3937aeffc35826c874d24db69bba9e7",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/ihc-issues-written-order-regarding-hearing-on-dr-aafia-case/",
+    "retrieved_at": "2025-08-27T11:17:14.524Z"
+  },
+  "metadata": {
+    "title": "IHC issues written order regarding hearing on Dr. Aafia case",
+    "author": null,
+    "date_published": "2025-01-02T15:01:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 228,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 02 (APP):The Islamabad High Court (IHC) on Thursday issued written order in a petition regarding release and repatriation of Dr. Aafia Siddiqui from a U.S. jail. IHCas Justice Sardar Ijaz Ishaq Khan issued the order in which the Ministry of Foreign Affairs (MoFA)A has been directed to submit a report after taking a stance of the Pakistani embassy in the United States. The order mentioned that according to the MoFA, there was no response to the letter written by Pakistanas Prime Minister to the U.S. President regarding the release of Dr. Aafia. It further said that according to MoFA, the Pakistani embassy in the U.S. played a role regarding meetings of the countryas official delegation with the State Department and Dr. Aafia Siddiqui. The court asked the Ministry of Foreign Affairs to submit a response regarding the declaration of Dr. Aafia Siddiquias lawyer in the U.S. It stated that Dr. Fauzia Siddiqui, the sister of Dr Aafia informed that according to her visa portal, she was denied a visa. She stated that it is a matter of concern that she would be prevented from entering for meetings in mid-January. The court said that the Ministry of Foreign Affairs should try within its powers that Dr. Fauzia Siddiqui does not face unnecessary difficulties in her journey. The case is scheduled for the next hearing on January 13.",
+    "summary": "The Islamabad High Court (IHC) issued a written order concerning the release and repatriation of Dr. Aafia Siddiqui from a U.S. jail. The court directed the Ministry of Foreign Affairs (MoFA) to submit a report and address concerns about Dr. Fauzia Siddiqui's visa issues. The next hearing for the case is scheduled for January 13th.",
+    "keywords": [
+      "Islamabad High Court",
+      "Dr. Aafia Siddiqui",
+      "Ministry of Foreign Affairs",
+      "Repatriation",
+      "U.S. jail",
+      "Dr. Fauzia Siddiqui",
+      "Visa"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Islamabad High Court",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Dr. Aafia Siddiqui",
+      "label": "PERSON",
+      "wikidata_id": "Q464286"
+    },
+    {
+      "text": "U.S.",
+      "label": "LOCATION",
+      "wikidata_id": "Q30"
+    },
+    {
+      "text": "Justice Sardar Ijaz Ishaq Khan",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Ministry of Foreign Affairs",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q196603"
+    },
+    {
+      "text": "Pakistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q1045"
+    },
+    {
+      "text": "Prime Minister",
+      "label": "PERSON",
+      "wikidata_id": "Q14211"
+    },
+    {
+      "text": "U.S.",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q30"
+    },
+    {
+      "text": "State Department",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q62648"
+    },
+    {
+      "text": "Dr. Fauzia Siddiqui",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "article_id": "2025-01-05_6dc78013acdd5f58278e213c81de0fd4",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/pml-n-always-supports-meaningful-dialogue-khawaja-asif/",
+    "retrieved_at": "2025-08-27T11:23:39.480Z"
+  },
+  "metadata": {
+    "title": "PML-N always supports meaningful dialogue: Khawaja Asif",
+    "author": null,
+    "date_published": "2025-01-05T07:33:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 167,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 5 (APP):Defense Minister Khawaja Asif emphasized on Sunday that the Pakistan Muslim League Nawaz (PML-N) as a political party is always committed to hold dialogue for resolution of the issues. Talking on a private news channel, he said, aPML-N has consistently encouraged negotiations to strengthen democracy in the country. aWe have done numerous past efforts to promote democratic supremacy,a he added. The minister also addressed the ongoing talks between the government and the Pakistan Tehreek-e-Insaf (PTI). The negotiations have so far been limited to discussions without any concrete outcomes, he said. He further added, aPTI has been given a weekas time, and we are hopeful for positive developments in the negotiations.a Khawaja Asif condemned the recent firing on a government convoy in Kurram following a peace agreement in the region. He assured that the federal government would stand shoulder to shoulder with the provincial administration to address such threats. aThe federal government is fully committed to combating this menace alongside the provincial government,a he said.",
+    "summary": "Khawaja Asif, representing the Pakistan Muslim League Nawaz (PML-N), stated the party's commitment to dialogue for resolving issues and strengthening democracy. He commented on ongoing talks between the government and Pakistan Tehreek-e-Insaf (PTI), expressing hope for positive developments. Asif also addressed the recent firing on a government convoy in Kurram, assuring federal support to the provincial administration.",
+    "keywords": [
+      "PML-N",
+      "Khawaja Asif",
+      "dialogue",
+      "PTI",
+      "government",
+      "Kurram",
+      "negotiations"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Khawaja Asif",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Pakistan Muslim League Nawaz",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q509939"
+    },
+    {
+      "text": "PML-N",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q509939"
+    },
+    {
+      "text": "Pakistan Tehreek-e-Insaf",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q7124978"
+    },
+    {
+      "text": "PTI",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q7124978"
+    },
+    {
+      "text": "Kurram",
+      "label": "LOCATION",
+      "wikidata_id": "Q3308899"
+    }
+  ]
+}

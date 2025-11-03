@@ -1,0 +1,62 @@
+{
+  "article_id": "2025-01-03_58911b005759fe7796fd096e788f7779",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/nadra-revamps-services-with-technology-awareness-push-spokesperson/",
+    "retrieved_at": "2025-08-27T11:19:07.717Z"
+  },
+  "metadata": {
+    "title": "NADRA revamps services with technology, awareness push: spokesperson",
+    "author": null,
+    "date_published": "2025-01-03T09:57:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 419,
+    "reading_time_minutes": 3
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 3 (APP):NADRA Spokesperson Syed Shabahat Friday said that NADRA Friday stressed the importance of national and civil registration awareness for public, unveiling plans to revolutionize services with cutting-edge technology and new offices nationwide. aNADRA is committed to revolutionizing its services through cutting-edge technology and enhancing public awareness about the importance of civil registration,a said Syed Shabahat, NADRA Spokesperson said while talking to a private news channel. He emphasized the importance of registering life events, such as deaths, marriages and births, with NADRA, stressing that it would greatly facilitate citizens in obtaining other essential documents and traveling. Moreover, he highlighted the crucial role of the media in raising awareness about the significance of registering life events, appealing to the media to encourage citizens to take advantage of NADRAas services. By doing so, citizens would not only ensure their own convenience but also contribute to their safety and security. He emphasized that these documents are vital for civil registration, which in turn plays a crucial role in national registration. Essentially, identification documents serve as a bridge between citizens and government services, facilitating access to essential services and benefits, he added. Responding to a question, he revealed that to combat child trafficking and safeguard minors, NADRA is set to incorporate advanced security features in the B Form registration certificate for children above 10 years, clarifying that this new measure will not be retroactive for existing B Form holders. He pointed out that these enhanced security features will effectively prevent identity theft and misuse, thereby playing a vital role in curbing crimes such as fraudulent identity cards, illegal passport issuance and human trafficking. To another question, he also encouraged mobile users to shift to digital platforms, advising them to visit NADRAas social media sites and website before physically visiting the office. By doing so, citizens can utilize the NADRA PAK ID website and mobile app to fulfill their document requirements, thereby avoiding office rush, he added. He announced that NADRA is set to introduce further modifications and technological advancements in its services, revealing that Artificial Intelligence (AI) technology will soon be integrated to enhance efficiency and user experience. He advised citizens to call NADRAas helpline number prior to visiting the office, ensuring they have all necessary documents completed to avoid any inconvenience and facilitate a smoother experience. He revealed that NADRA plans to expand its reach by opening new office branches in multiple cities across the country, aiming to reduce congestion and provide more convenient access to its services for citizens.",
+    "summary": "NADRA is revamping its services by incorporating new technology and expanding its reach with new offices. The spokesperson emphasized the importance of civil registration and the role of media in raising awareness. New security features will be added to B Form registration certificates to combat child trafficking and identity theft.",
+    "keywords": [
+      "NADRA",
+      "civil registration",
+      "technology",
+      "awareness",
+      "B Form",
+      "identity theft",
+      "AI"
+    ]
+  },
+  "entities": [
+    {
+      "text": "NADRA",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q6956489"
+    },
+    {
+      "text": "Syed Shabahat",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Friday",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    },
+    {
+      "text": "B Form",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Artificial Intelligence",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q4065"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "article_id": "2025-01-02_86f01bacf475ba59444b299ad5078c49",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/unchr-ppaf-host-youths-graduation-ceremony/",
+    "retrieved_at": "2025-08-27T11:15:58.612Z"
+  },
+  "metadata": {
+    "title": "UNCHR -PPAF host youthsÃ¢ÂÂ graduation ceremony",
+    "author": null,
+    "date_published": "2025-01-02T11:35:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 499,
+    "reading_time_minutes": 3
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 02 (APP):The National Science and Technology Park (NSTP)-NUST recently hosted a graduation ceremony to celebrate the achievements of 30 Afghan refugee graduates, marking the successful completion of the UNHCR-funded Poverty Graduation Programme. This initiative, led by the Pakistan Poverty Alleviation Fund (PPAF) and implemented by IDEA, aims to empower Afghan refugees through entrepreneurial skills development and support for sustainable livelihoods. The ceremony recognized the remarkable journey of 30 startups, which underwent four months of intensive training and mentorship. Notable dignitaries at the event included Mr. Sohail Sajid, Country Head of Turkish Aerospace Industries; Dr. Usman Hassan, Pro-Rector Academics, NUST; Arshad Rashid, Chief Programmes, PPAF; Ms. Saadia Tariq, Project Manager, PPAF; Muhammad Riaz, Livelihood and Economic Inclusion Officer, UNHCR; andA Muhammad Ammad, Executive Director, IDEA. The event was graced by Dr. Usman Hassan, Pro-Rector Academics, NUST, who served as the Chief Guest, and Sohail Sajid, CEO of Turkish Aerospace Industries, who participated as the Guest of Honor. Distinguished speakers highlighted the programas significant impact in fostering self-reliance, resilience, and sustainable livelihoods for Afghan refugees in Pakistan. Dr. Hassan expressed his admiration for the participantsa dedication and resilience, emphasizing the critical role of entrepreneurship in empowering youth and building stronger communities. Muhammad Riaz, Livelihood and Economic Inclusion Officer at UNHCR, highlighted the importance of the Entrepreneurship Skills Program in empowering Afghan refugee youth. aThrough this initiative, UNHCR has equipped young refugees with the skills and resources they need to create sustainable livelihoods, enabling them to build a better future. The graduates are now empowered to drive positive change in their communities,a he said. Mr. Arshad Rashid, Chief Programmes at PPAF, thanked UNHCR for its longstanding partnership with PPAF since 2017, emphasizing the shared commitment to improving the livelihoods of marginalized populations. He proudly shared that the program had achieved a 54% graduation rate out of poverty among its beneficiaries, alongside significant improvements in household income and the quality of productive assets. aThis graduation ceremony represents not only the completion of a training program but the beginning of a new chapter for these entrepreneurial graduates,a he remarked. The ceremony also featured speeches from representatives of IDEA, with Mr. Ammad, Executive Director, commending NSTP-NUST for its exceptional role in providing high-quality training and mentorship. He stressed the importance of such programs in preparing Afghan refugees to overcome entrepreneurial challenges and succeed in the business world. The Entrepreneurial Skill Development for Startups and Youth program provided a comprehensive curriculum covering customer discovery, market research, business model development, and financial planning. Participants received hands-on guidance from experienced trainers and industry experts, ensuring they were well-equipped to launch and sustain their startups. The highlight of the event was the distribution of cheques worth PKR 400,000 per participant, intended as seed funding to help graduates further develop their businesses. This graduation ceremony serves as a testament to the transformative impact of the UNHCR-PPAF Poverty Graduation Programme, which has successfully empowered Afghan refugees, providing them with the skills and support necessary to build a brighter future.",
+    "summary": "The National Science and Technology Park (NSTP)-NUST hosted a graduation ceremony for 30 Afghan refugee graduates who completed the UNHCR-funded Poverty Graduation Programme. The program, led by the Pakistan Poverty Alleviation Fund (PPAF) and implemented by IDEA, focused on entrepreneurial skills development. The ceremony highlighted the program's success in empowering Afghan refugees and providing them with resources for sustainable livelihoods.",
+    "keywords": [
+      "Afghan refugees",
+      "graduation ceremony",
+      "entrepreneurship",
+      "PPAF",
+      "UNHCR"
+    ]
+  },
+  "entities": [
+    {
+      "text": "UNCHR",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q3715"
+    },
+    {
+      "text": "PPAF",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "IDEA",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q168374"
+    },
+    {
+      "text": "Mr. Sohail Sajid",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Dr. Usman Hassan",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Arshad Rashid",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Ms. Saadia Tariq",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Muhammad Riaz",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "A Muhammad Ammad",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Turkish Aerospace Industries",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1665671"
+    },
+    {
+      "text": "NUST",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q7077059"
+    },
+    {
+      "text": "Pakistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q1046"
+    },
+    {
+      "text": "ISLAMABAD",
+      "label": "LOCATION",
+      "wikidata_id": "Q1035"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "article_id": "2025-01-03_b2cbd82f1df033f651eb3105aebce9cf",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/punjab-to-establish-province-wide-simulation-centers-health-minister/",
+    "retrieved_at": "2025-08-27T11:17:53.889Z"
+  },
+  "metadata": {
+    "title": "Punjab to establish province-wide simulation centers: Health minister",
+    "author": null,
+    "date_published": "2025-01-03T16:02:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 218,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "LAHORE, Jan 03 (APP):Punjab Health Minister Khawaja Salman Rafique has announced plans to establish a simulation center across the province following the successful implementation of a simulation center at King Edward Medical University (KEMU) in collaboration with the American Heart Association (AHA). Presiding over a meeting on simulation training at KEMU on Friday, the minister stated, aThis training will significantly enhance the skills of doctors and paramedics. Regular simulation training will be initiated at KEMU and Services Institute of Medical Sciences (SIMS), while Rescue 1122 paramedics will also benefit from these programs.a KEMU Vice Chancellor Professor Mahmood Ayaz assured full support for expanding simulation training programs at the university. Dr. Anjum from the University of Washington provided a detailed briefing on the effectiveness of simulation labs, showcasing their role in improving medical education and practice. Minister Khawaja Salman Rafique appreciated Dr. Anjumas presentation and stressed the importance of introducing simulation training in all medical schools in Lahore. He highlighted that departments such as gynecology, orthopedics, and surgery would greatly benefit from this modern approach. Professor Abrar Ashraf and Professor Ahmed Uzair Qureshi echoed the need for simulation-based learning in medical education. The meeting was attended by prominent medical professionals, including Professor Muhammad Moin, CEO Mayo Hospital Professor Faisal Masood, Professor Saima Iqbal, Dr. Irfan Asmat Butt, and others.",
+    "summary": "The Punjab Health Minister announced plans to establish simulation centers across the province, following the success of a similar center at King Edward Medical University (KEMU). These centers aim to enhance the skills of doctors and paramedics through simulation training. The initiative will expand to include other medical institutions and departments, improving medical education and practice.",
+    "keywords": [
+      "simulation training",
+      "Punjab",
+      "KEMU",
+      "medical education",
+      "doctors",
+      "paramedics",
+      "health minister"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Punjab",
+      "label": "LOCATION",
+      "wikidata_id": "Q20002"
+    },
+    {
+      "text": "Khawaja Salman Rafique",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "King Edward Medical University",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "KEMU",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "American Heart Association",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q38787"
+    },
+    {
+      "text": "Friday",
+      "label": "DATE",
+      "wikidata_id": "Q127"
+    },
+    {
+      "text": "Services Institute of Medical Sciences",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "SIMS",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Rescue 1122",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Professor Mahmood Ayaz",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Dr. Anjum",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "University of Washington",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q13278"
+    },
+    {
+      "text": "Lahore",
+      "label": "LOCATION",
+      "wikidata_id": "Q1003"
+    },
+    {
+      "text": "Professor Abrar Ashraf",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Professor Ahmed Uzair Qureshi",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Professor Muhammad Moin",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "CEO Mayo Hospital Professor Faisal Masood",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Professor Saima Iqbal",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Dr. Irfan Asmat Butt",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    }
+  ]
+}

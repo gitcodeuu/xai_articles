@@ -1,0 +1,95 @@
+{
+  "article_id": "2025-01-01_b701db351813139588a65c668a5ebd6d",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/senate-it-committee-expresses-concerns-over-internet-shutdowns/",
+    "retrieved_at": "2025-08-27T11:15:18.158Z"
+  },
+  "metadata": {
+    "title": "Senate IT committee expresses concerns over internet shutdowns",
+    "author": null,
+    "date_published": "2025-01-01T13:52:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 322,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 01 (APP):Senate Standing Committee on Information Technology and Telecommunication on Wednesday voiced serious concerns over persistent connectivity issues and expressed concerns about the arbitrary shutdown of internet services without justification. Presided over by Senator Palwasha Mohammad Zai Khan, the meeting scrutinized the deficiencies in monitoring mechanisms. It criticized the lack of transparency surrounding internet disruptions, even after a detailed briefing by the Pakistan Telecommunication Authority (PTA) Chairman. The Chairperson emphasized the distinction between blocking specific content and implementing a complete internet shutdown, asserting that the latter is unwarranted. Senator Kamran Murtaza echoed this sentiment, suggesting that such shutdowns appear politically motivated rather than based on technical considerations, and called for the process to be politicized. Highlighting a report published in Dawn that estimated financial losses in billions due to internet disruptions, Senator Palwasha expressed concern over the poor quality of internet services in Pakistan, which ranks just above Myanmar globally despite significant investments. She underscored that such reports often have some factual basis, though Ministry officials denied the claims, clarifying that national outages referenced in the media occurred only during elections. The PTA Chairman informed the committee that social media applications are restricted based on the Supreme Courtas and High Courtas directives. To address legal ambiguities, the Committee instructed that the Law Division provide clarity on the rules framed under the PECA Act, 2016, particularly regarding internet outages, and report back to the Committee. The Secretary of the Ministry of Information Technology and Telecommunication (MoITT) acknowledged the significant impacts of internet shutdowns and stressed the importance of addressing public perceptions about such actions. The Chairperson emphasized that negative narratives often stem from genuine concerns and urged the Ministry to devise policies to counter misinformation effectively. The Committee reviewed plans to boost the countryas IT exports. The MoITT Secretary reported aggregated growth for 2023a2024 and highlighted ongoing efforts to align public perception with the progress being made in the IT sector.",
+    "summary": "The Senate Standing Committee on Information Technology and Telecommunication expressed serious concerns over internet shutdowns and lack of transparency. The committee, led by Senator Palwasha Mohammad Zai Khan, criticized the arbitrary nature of these shutdowns and the resulting financial losses. The committee also reviewed plans to boost the country's IT exports.",
+    "keywords": [
+      "internet shutdowns",
+      "transparency",
+      "Pakistan Telecommunication Authority",
+      "IT exports",
+      "Senate Committee"
+    ]
+  },
+  "entities": [
+    {
+      "text": "ISLAMABAD",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    },
+    {
+      "text": "Senate Standing Committee on Information Technology and Telecommunication",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Senator Palwasha Mohammad Zai Khan",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Pakistan Telecommunication Authority",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q7125749"
+    },
+    {
+      "text": "Senator Kamran Murtaza",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Dawn",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q5240561"
+    },
+    {
+      "text": "Myanmar",
+      "label": "LOCATION",
+      "wikidata_id": "Q836"
+    },
+    {
+      "text": "Supreme Courtas",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q23667"
+    },
+    {
+      "text": "High Courtas",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q107886"
+    },
+    {
+      "text": "Law Division",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "PECA Act",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Ministry of Information Technology and Telecommunication",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "MoITT",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "article_id": "2025-01-02_1d297206bff424dd5256d7cdcc8b03d4",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/economic-development-directly-linked-with-political-stability-pm/",
+    "retrieved_at": "2025-08-27T11:15:33.481Z"
+  },
+  "metadata": {
+    "title": "Economic development directly linked with political stability: PM",
+    "author": null,
+    "date_published": "2025-01-02T11:51:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 395,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 2 (APP): Prime Minister Shehbaz Sharif on Thursday underlined that the economic development was directly linked with political stability as the strength of a countryas economy was deeply rooted in its political framework. Chairing a meeting on Special Investment Facilitation Council (SIFC), the prime minister said the countryas macroeconomic indicators had significantly improved due to the untiring efforts of the economic team, expressing his confidence that the year 2025 will bring prosperity and growth in the country. For the first time after 2018, the inflation rate has been eased down to 4.1%, foreign remittances have posted increase of 34%, exports have also jumped, and foreign exchange reserves have jumped from $4 billion to $12.5 billion,a PM Shehbaz said adding that the policy rate which was now at 13% had space of further 8% keeping in view the inflation rate. As regards, foreign investment, the prime minister emphasized that MoUs worth billions of dollars had already been signed with Saudi Arabia, Qatar and UAE. He said having achieved economic stability, the country had now entered the growth stage. aIf we want to achieve the economic development, then we will have to focus on export-led growth a..and we have no other optiona. The prime minister also appreciate the efforts of Federal Board of Revenue and the economic team for collecting additional Rs 72 billion under ADR (advance-to-tax ratio) due to which the governmentas target of tax revenue for December 2024 had almost been achieved. The prime minister noted that due to the faceless interaction facility, 39% time duration of container inspection had been reduced while the businessmen got relief of 89%. Additionally, he said smuggling of sugar through Afghanistan had been reduced to zero which was a positive sign for the countryas economy. He informed that the national exchequer received $0.5 billion in term of sugar export while the rice exports posted $4 billion. As regards, terrorism in the country, the prime minister vowed that the law enforcing agencies were fully committed to halt the nefarious designs of the enemies. aSecurity has become a big challenge today and without crushing the menace of terrorism, we cannot move forward,a he said. The prime minister also congratulated the relevant stakeholders on the agreement between tribes to normalize the situation in Kurrum. However he expressed deep grief over the loss of dozens of innocent lives in the area.",
+    "summary": "Prime Minister Shehbaz Sharif stated that economic development is directly linked to political stability. He highlighted improvements in macroeconomic indicators, including reduced inflation, increased remittances and exports, and a rise in foreign exchange reserves. The Prime Minister also discussed foreign investment, tax revenue, and efforts to combat smuggling and terrorism.",
+    "keywords": [
+      "economic development",
+      "political stability",
+      "Shehbaz Sharif",
+      "foreign investment",
+      "terrorism"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Shehbaz Sharif",
+      "label": "PERSON",
+      "wikidata_id": "Q7493017"
+    },
+    {
+      "text": "Special Investment Facilitation Council",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Saudi Arabia",
+      "label": "LOCATION",
+      "wikidata_id": "Q651"
+    },
+    {
+      "text": "Qatar",
+      "label": "LOCATION",
+      "wikidata_id": "Q846"
+    },
+    {
+      "text": "UAE",
+      "label": "LOCATION",
+      "wikidata_id": "Q878"
+    },
+    {
+      "text": "Federal Board of Revenue",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Afghanistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q20"
+    },
+    {
+      "text": "Kurrum",
+      "label": "LOCATION",
+      "wikidata_id": "Q3329249"
+    }
+  ]
+}

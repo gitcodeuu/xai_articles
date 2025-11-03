@@ -1,0 +1,92 @@
+{
+  "article_id": "2025-01-03_026e0f4091ef920c431a635e4205dfc3",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/syedaal-discusses-progress-on-development-projects-in-balochistan/",
+    "retrieved_at": "2025-08-27T11:18:29.331Z"
+  },
+  "metadata": {
+    "title": "Syedaal discusses progress on development projects in Balochistan",
+    "author": null,
+    "date_published": "2025-01-03T11:53:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 278,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 03 (APP): Deputy Chairman Senate Syedaal Khan here on Friday held meetings with Members of the National Assembly, Senators and tribal leaders to discuss legislative matters, progress on development projects in Balochistan, and other key issues. During a meeting with Shahadat Awan, Hidayat Ullah Khan, Manzoor Ahmed Kakar and others, the Deputy Chairman Senate highlighted the governmentas successful economic policies and said that the countryas economy is on the right track. Referring to the Urhaan Pakistan initiative, he described it as a testament to these policies and expressed confidence that it would fulfill Pakistanas vision for economic progress. aThe Uraan Pakistan initiative is gaining public support and reflects our commitment to economic growth,a he said, applauding Prime Minister Shehbaz Sharif and his team for their commendable efforts. Syedaal Khan reiterated the governmentas priority of providing relief to the common man, stressing the importance of collective efforts to address national challenges. He said that Pakistanas economic reforms have been well-received internationally and called for setting aside differences to ensure the countryas forward momentum. aDialogue and negotiations are the only way to resolve issues,a he said, commending the nationas leadership for prioritizing communication and consensus-building on critical matters. Addressing development in Balochistan, he praised the launch of new projects and underscored the importance of inclusivity in the provinceas growth. aDevelopment in Balochistan can only be achieved with the participation of every citizen,a he said, adding that the government is actively involving the public in the development process. He also highlighted the transformative potential of initiatives like the Gwadar Port, CPEC projects, and other ventures, which are expected to create job opportunities and uplift living standards in the region.",
+    "summary": "Deputy Chairman Senate Syedaal Khan met with members of the National Assembly, Senators, and tribal leaders to discuss legislative matters and development projects in Balochistan. He highlighted the government's economic policies and the Urhaan Pakistan initiative, emphasizing the importance of collective efforts and inclusivity in Balochistan's growth. Khan also praised the launch of new projects and initiatives like the Gwadar Port and CPEC projects.",
+    "keywords": [
+      "Syedaal Khan",
+      "Balochistan",
+      "development projects",
+      "Urhaan Pakistan",
+      "economic growth",
+      "Gwadar Port",
+      "CPEC"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Syedaal Khan",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Balochistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q1050"
+    },
+    {
+      "text": "Shahadat Awan",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Hidayat Ullah Khan",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Manzoor Ahmed Kakar",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Senate",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q13339"
+    },
+    {
+      "text": "National Assembly",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1063251"
+    },
+    {
+      "text": "Urhaan Pakistan",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Pakistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q1045"
+    },
+    {
+      "text": "Prime Minister Shehbaz Sharif",
+      "label": "PERSON",
+      "wikidata_id": "Q108745893"
+    },
+    {
+      "text": "Gwadar Port",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q5623086"
+    },
+    {
+      "text": "CPEC",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q2995958"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "article_id": "2025-01-05_cbe817ac269fa482ffcbb6092a3991ab",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/poisonous-parthenium-weed-threatens-farmers-public-health-in-pakistan/",
+    "retrieved_at": "2025-08-27T11:23:11.262Z"
+  },
+  "metadata": {
+    "title": "Poisonous Parthenium weed threatens farmers, public health in Pakistan",
+    "author": null,
+    "date_published": "2025-01-05T10:40:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 444,
+    "reading_time_minutes": 3
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 05 (APP):Farmers in the outskirts of Islamabad are grappling with the rapid spread of Parthenium, a toxic weed locally referred to as the apoisonous carrot weed.a This invasive plant is wreaking havoc on crops, degrading soil quality, and posing significant health risks to humans and animals. aThis weed destroys crops, and once it infests the soil, it becomes unsuitable for cultivation. Even livestock are at risk,a a distressed farmer told APP on Sunday. According to recent data, around 8.6 million people in Pakistan faced food insecurity between March and June 2024. Experts warn that Parthenium could worsen this crisis. Dr Imtiaz Hussain of the Pakistan Agricultural Research Council highlighted its alarming spread: aA single plant can produce 10,000 to 15,000 seeds. This can lead to a 30-40% reduction in crop yields if it infests agricultural fields.a Initially confined to rural areas, Parthenium has now spread to cities, causing allergies and health complications. When contacted Pulmonologist Dr Asadullah Naeem warned, aThe plantas pollen can trigger eye and nasal allergies, causing symptoms such as redness, watering, sneezing, and itching. Direct contact can result in severe skin conditions like contact dermatitis.a Despite these dangers, Parthenium is increasingly used in floral decorations, replacing the imported ababyas breatha flower. Florists, unaware of its risks, prefer it for its affordability and aesthetic appeal. aWe use this weed because imported alternatives are too expensive, but handling it causes skin irritation,a said Imran Tariq, a local florist while talking to APP. The Centre for Agriculture and Biosciences International (CABI) has been working to control the Parthenium since 2017. Abdul Rehman, CABIas Deputy Director, explained APP their strategy, saying that his organisation, under a short-term plan, had launched a public awareness campaign by engaging agricultural departments, university students, and extension workers. Under medium-term actions, he said educational video clips and social media campaigns were launched to spread the information. For long-term solutions, Rehman said biological control will be used as a natural predator of the weed. In 2019, he said CABI imported a stem-boring weevil from South Africa, a biological agent that feeds on Parthenium. After receiving approval in 2022, the weevil has been released in various regions. Plans are also underway to import two additional control agents from Australia, Rehman concluded. Parthenium not only threatens agricultural productivity but also endangers public health and ecosystems. Experts stress the need for coordinated efforts to raise awareness and implement sustainable solutions to mitigate its impact. Without swift action, this toxic weed could deepen Pakistanas food security and public health crises. Parthenium weed is a fast-growing plant with small white flowers. It can cause allergic reactions in humans and is a serious agricultural weed.",
+    "summary": "Parthenium, a toxic weed, is rapidly spreading in Pakistan, threatening crops, soil quality, and public health. Experts warn that the weed could worsen food insecurity and cause allergic reactions. Efforts are underway to control the weed through awareness campaigns and biological agents.",
+    "keywords": [
+      "Parthenium",
+      "weed",
+      "Pakistan",
+      "food insecurity",
+      "allergies",
+      "CABI",
+      "agricultural"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    },
+    {
+      "text": "APP",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Pakistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q843"
+    },
+    {
+      "text": "Dr Imtiaz Hussain",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Pakistan Agricultural Research Council",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Dr Asadullah Naeem",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Imran Tariq",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Centre for Agriculture and Biosciences International",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q5064567"
+    },
+    {
+      "text": "CABI",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q5064567"
+    },
+    {
+      "text": "Abdul Rehman",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "South Africa",
+      "label": "LOCATION",
+      "wikidata_id": "Q258"
+    },
+    {
+      "text": "Australia",
+      "label": "LOCATION",
+      "wikidata_id": "Q408"
+    }
+  ]
+}

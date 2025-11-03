@@ -1,0 +1,66 @@
+{
+  "article_id": "2025-01-05_f746db3e8c7fd2a805485b3ddcac7f15",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/ptis-delay-in-written-demands-barrier-in-talk-process-irfan-siddiqui/",
+    "retrieved_at": "2025-08-27T11:23:23.288Z"
+  },
+  "metadata": {
+    "title": "PTIÃ¢ÂÂs delay in written demands barrier in talk process: Irfan Siddiqui",
+    "author": null,
+    "date_published": "2025-01-05T09:22:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 124,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 5 (APP):Spokesperson for the governmentas coalition dialogue committee, Senator Irfan Siddiqui, on Saturday revealed that no progress has been made in the ongoing talks with Pakistan Tehreek-e-Insaf (PTI) as the party has yet to present its demands. Talking to a private news channel, Siddiqui said the dialogue process had not been proceeded a bit for the last 12 days. The Pakistan Muslim League Nawaz (PML-N) offered the dialogue several times before to strengthen democracy, he added. He said that the government under the leadership of Prime Minister Shehbaz Sharif is striving for the welfare of the country while PTI is trying to create facilities for its leader. The PML-N government has overcome the economic downturn due to its consistent policies, he added.",
+    "summary": "Senator Irfan Siddiqui stated that talks with Pakistan Tehreek-e-Insaf (PTI) have stalled because the party has not presented its demands. Siddiqui mentioned that the dialogue process has been stagnant for 12 days, while the government, led by Prime Minister Shehbaz Sharif, focuses on the country's welfare.",
+    "keywords": [
+      "PTI",
+      "Irfan Siddiqui",
+      "dialogue",
+      "PML-N",
+      "Shehbaz Sharif",
+      "government"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Irfan Siddiqui",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Pakistan Tehreek-e-Insaf",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q7126139"
+    },
+    {
+      "text": "PTI",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q7126139"
+    },
+    {
+      "text": "Pakistan Muslim League Nawaz",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1197996"
+    },
+    {
+      "text": "PML-N",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1197996"
+    },
+    {
+      "text": "Shehbaz Sharif",
+      "label": "PERSON",
+      "wikidata_id": "Q7493775"
+    },
+    {
+      "text": "ISLAMABAD",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    }
+  ]
+}

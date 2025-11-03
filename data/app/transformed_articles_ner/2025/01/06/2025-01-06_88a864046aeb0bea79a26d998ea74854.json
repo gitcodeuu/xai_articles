@@ -1,0 +1,62 @@
+{
+  "article_id": "2025-01-06_88a864046aeb0bea79a26d998ea74854",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/nhmp-organize-free-eye-check-up-camp-at-isb-toll-plaza/",
+    "retrieved_at": "2025-08-27T11:25:03.635Z"
+  },
+  "metadata": {
+    "title": "NHMP organize free eye check-up camp at ISB Toll Plaza",
+    "author": null,
+    "date_published": "2025-01-06T14:17:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 139,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 06 (APP):The National Highways and Motorway Police (NHMP)in collaboration with Al-Shifa Trust Eye Hospital organised a free eye check-up camp at the Islamabad Toll Plaza M-2 here on Monday. According to the Motorway Police spokesman, the camp was organized on the instructions of IG Motorway police Rifat Mukhtar Raja, and aimed to provide free eye examinations to drivers using the motorway, especially drivers of public vehicles and trucks. In addition, blood pressure and sugar tests were also conducted on the occasion while free-of-cost glasses and medicines were provided to drivers having weak eye vision. A large number of drivers benefited and appreciated the initiative of the Motorway Police. IG Motorways Rifat Mukhtar Raja in a message said that for safe travelling it was essential for the driver to have good vision so that accidents could be controlled.",
+    "summary": "The National Highways and Motorway Police (NHMP) organized a free eye check-up camp at the Islamabad Toll Plaza M-2 in collaboration with Al-Shifa Trust Eye Hospital. The camp provided free eye examinations, blood pressure and sugar tests, and free glasses and medicines to drivers. The initiative aimed to ensure safe travel by addressing drivers' vision health.",
+    "keywords": [
+      "NHMP",
+      "eye check-up",
+      "Islamabad Toll Plaza",
+      "drivers",
+      "Al-Shifa Trust Eye Hospital",
+      "Motorway Police",
+      "vision"
+    ]
+  },
+  "entities": [
+    {
+      "text": "National Highways and Motorway Police",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Al-Shifa Trust Eye Hospital",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Islamabad Toll Plaza M-2",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    },
+    {
+      "text": "Monday",
+      "label": "DATE",
+      "wikidata_id": "Q127"
+    },
+    {
+      "text": "Rifat Mukhtar Raja",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "IG Motorway",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    }
+  ]
+}

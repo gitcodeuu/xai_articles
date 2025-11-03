@@ -1,0 +1,105 @@
+{
+  "article_id": "2025-01-05_f0d8d413d388e4dc2e93f2c6656df0d0",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/peace-in-kp-vital-for-pakistans-prosperity-muqam/",
+    "retrieved_at": "2025-08-27T11:22:45.466Z"
+  },
+  "metadata": {
+    "title": "Peace in KP vital for PakistanÃ¢ÂÂs prosperity: Muqam",
+    "author": null,
+    "date_published": "2025-01-05T11:36:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 597,
+    "reading_time_minutes": 3
+  },
+  "content": {
+    "article_body": "SWAT, Jan 05 (APP):Federal Minister for StatesA and Frontier Regions, Gilgit Baltistan and Kashmir Affairs, Engr Amir Muqam said here Sunday that peace in the province was vital for the sustainable progress and prosperity of Pakistan. Addressing a function hosted in the honour of Rana Mashood Ahmad Khan, Chairman Prime Ministeras Youth Programme here at Malam Jabba, Engr Amir Muqam said that people of KP had rendered great sacrifices for the country and special focus should be made on socioeconomic empowerment of its youth imperative for lasting peace and economic prosperity of the province. He said the countryas overall stability and prosperity was linked with the peace of Khyber Pakthunkhwa. Engr Amir Muqam said that terrorism was one of the major challenges confronted to Khyber Pakthunkhwa and collective efforts were required to wipe out this menace completely. He said that Prime Minister Muhammad Shehbaz Sharif has accorded highest priority to socioeconomic empowerment of youth and Uran Pakistan has provided an excellent opportunity to youth to contribute in the countryas development progress. Engr Amir Muqam said that people of Khyber Pakthunkhwa was eagerly awaiting the visits of PMLN central leadership to the province. He said that whenever difficult situation came on Pakistan the people of Khyber Pakhtunkhwa stood like a solid record for defense of its country. Engr Amir Muqam said that due to sacrfices of people of Swat, terrorism has been defeated in Malakand Division and the national flag was hoisted on top here. The Federal Minister said that he also faced several terror attacks in the past with steadfastness and allways raised voices against terrorism. He said that when a then Prime Minister Muhammad Nawaz Sharif was disqualified the people of Khyber Pakthunkhwa staged big protest rallies to express solidarity with PMLN Quaid Nawaz Sharif. He said that PMLN leadership faced all cases in courts and later acquitted after allegations against them proved incorrect. He said courts would decide the cases of PTI founder rather by the negotiation committee. He said that in 2024 General Election, PMLN had emerged as the second largest political party in Khyber Pakhtunkhwa, and his party enjoys an important position of opposition leader in KP Assembly today. He said that people of Khyber Pakthunkhwa had also voted during referendum in favour of Pakistan in 1947. Engr Amir Muqam said that on the other hands, the people of Khyber Pakthunkhwa were deceived on the name of so called change for third time by PTI where problems of masses increased significantly due to poor governance, ramage of corruption and the use of financial resources on agitation politics. He said that it would have been made better if the share of NFC award given to KP was used on the people welfare, strengthening of counter terrorism department and police in Khyber Pakhtunkhwa rather than launching attacks on Islamabad. He said that PTI agenda was not welfare of masses rather person-specific. He said that PMLN was the only party that can give tough time to PTI in Khyber Pakhtunkhwa. Engr Amir Muqam said that Pakistan was making rapid progress under the leadership of Prime Minister Muhammad Shehbaz Sharif who has significantly improved Pakistanas image on international front in short time. The foreign investment started coming back to Pakistan, confidence of international monetary institutions restored, stock exchange achieved record progress and price hike decreased to below four digit due to prudent policies of Shehbaz Sharif Govt, he said. Engr Amir Muqam expressed the hope that Rana Mashood would give special focus on welfare and development of youth in KP and will launch specialA projects for them.",
+    "summary": "Engr Amir Muqam emphasized the importance of peace in Khyber Pakhtunkhwa (KP) for Pakistan's overall prosperity. He highlighted the need for socioeconomic empowerment of the youth in KP and criticized the previous government's performance. Muqam also discussed the current government's efforts to improve Pakistan's image and economy.",
+    "keywords": [
+      "Khyber Pakhtunkhwa",
+      "Engr Amir Muqam",
+      "Pakistan",
+      "youth empowerment",
+      "PMLN"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Engr Amir Muqam",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Pakistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q843"
+    },
+    {
+      "text": "KP",
+      "label": "LOCATION",
+      "wikidata_id": "Q10582"
+    },
+    {
+      "text": "Rana Mashood Ahmad Khan",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Prime Minister",
+      "label": "PERSON",
+      "wikidata_id": "Q14211"
+    },
+    {
+      "text": "Muhammad Shehbaz Sharif",
+      "label": "PERSON",
+      "wikidata_id": "Q763076"
+    },
+    {
+      "text": "Uran Pakistan",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "PMLN",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q7124995"
+    },
+    {
+      "text": "Khyber Pakhtunkhwa",
+      "label": "LOCATION",
+      "wikidata_id": "Q10582"
+    },
+    {
+      "text": "PTI",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q170068"
+    },
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1057"
+    },
+    {
+      "text": "Muhammad Nawaz Sharif",
+      "label": "PERSON",
+      "wikidata_id": "Q57388"
+    },
+    {
+      "text": "Swat",
+      "label": "LOCATION",
+      "wikidata_id": "Q188995"
+    },
+    {
+      "text": "Malakand Division",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Malakand",
+      "label": "LOCATION",
+      "wikidata_id": "Q188995"
+    }
+  ]
+}

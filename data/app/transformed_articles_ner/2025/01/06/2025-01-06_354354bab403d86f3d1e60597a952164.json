@@ -1,0 +1,51 @@
+{
+  "article_id": "2025-01-06_354354bab403d86f3d1e60597a952164",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/president-congratulates-sohail-adnan-on-winning-british-junior-squash-championship/",
+    "retrieved_at": "2025-08-27T11:23:59.337Z"
+  },
+  "metadata": {
+    "title": "President congratulates Sohail Adnan on winning British Junior Squash Championship",
+    "author": null,
+    "date_published": "2025-01-06T17:17:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 55,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 06 (APP): President Asif Ali Zardari Monday congratulated Sohail Adnan on winning British Junior Squash Championship. He lauded Sohail Adnan for winning Junior Squash Championship after a lapse of 18 years. He said Sohail Adnan brought laurels to Pakistan in the field of squash and he prays for his success in the future.",
+    "summary": "President Asif Ali Zardari congratulated Sohail Adnan on winning the British Junior Squash Championship. Sohail Adnan won the Junior Squash Championship after 18 years. The President praised Adnan for bringing honor to Pakistan.",
+    "keywords": [
+      "Sohail Adnan",
+      "British Junior Squash Championship",
+      "President",
+      "Pakistan",
+      "squash",
+      "congratulations"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Asif Ali Zardari",
+      "label": "PERSON",
+      "wikidata_id": "Q47990"
+    },
+    {
+      "text": "Sohail Adnan",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "British Junior Squash Championship",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Pakistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q843"
+    }
+  ]
+}

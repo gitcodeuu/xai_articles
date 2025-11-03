@@ -1,0 +1,57 @@
+{
+  "article_id": "2025-01-03_abea5e520c93c1eeb86b1f375aabf663",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/federal-interior-minister-mohsin-naqvi-announces-upgradation-of-npa/",
+    "retrieved_at": "2025-08-27T11:19:10.938Z"
+  },
+  "metadata": {
+    "title": "Federal Interior Minister Mohsin Naqvi announces upgradation of NPA",
+    "author": null,
+    "date_published": "2025-01-03T09:16:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 332,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 03 (APP):Federal Interior Minister Mohsin Naqvi on Friday visited the National Police Academy (NPA) and announced its upgradation. During his visit, Interior Minister conducted a detailed inspection of the academy, hostels, and mess, and reviewed the facilities provided to the probationers. He met with the under training officers and inquired about the facilities. He also visited the officersa mess, where he had a meal, checked its quality and praised food. He directed that high-standard residential facilities should be provided to the probationary officers and also sought the master plan of the National Police Academy. Mohsin Naqvi stated that a new master plan for the NPA should be prepared by an international consultant. He announced that a check of Rs. 250 million from the National Police Foundation would be handed over to the NPA soon. He added that NPA should be made a financially autonomous institution. He directed that the reorganization of the National Police Academy should be completed within three months. He also emphasized that all necessary measures must be taken immediately to grant the status of university to the National Police Academy. Mohsin Naqvi underscored the need to update the ASPsa courses according to modern requirements. He also announced the addition of new courses on counter-terrorism, anti-riots, cyber, and other fields at the academy. He stated that the best officers would be appointed in the National Police Academy like the Military Academy Kakul. He said that officers appointed in the police academy would receive better allowances and facilities. He stated that a model police station and training laboratories would also be established at the National Police Academy to provide training to the officers in this regard. Federal Interior Minister Mohsin Naqvi also chaired a high-level meeting to discuss the reorganization of the National Police Academy. He stated that the National Police Academy would be transformed into an international-standard institution, attracting officers from other countries for training. Commandant National Police Academy and relevant officials were also present on the occasion.",
+    "summary": "Federal Interior Minister Mohsin Naqvi announced the upgradation of the National Police Academy (NPA). He inspected the academy, met with officers, and directed improvements to facilities and the development of a new master plan. Naqvi also announced financial support and plans to transform the NPA into an international-standard institution.",
+    "keywords": [
+      "Mohsin Naqvi",
+      "National Police Academy",
+      "upgradation",
+      "training",
+      "officers",
+      "courses",
+      "international standard"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Mohsin Naqvi",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "National Police Academy",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "NPA",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Military Academy Kakul",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    }
+  ]
+}

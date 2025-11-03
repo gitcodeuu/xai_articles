@@ -1,0 +1,62 @@
+{
+  "article_id": "2025-01-03_4e3c3b1e35299ed43eb431719883b5b9",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/ihc-seeks-ministrys-comments-regarding-selection-of-hajj-assistance/",
+    "retrieved_at": "2025-08-27T11:18:21.587Z"
+  },
+  "metadata": {
+    "title": "IHC seeks ministryÃ¢ÂÂs comments regarding selection of Hajj assistance",
+    "author": null,
+    "date_published": "2025-01-03T15:22:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 58,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 03 (APP):The Islamabad High Court (IHC) on Friday sought comments from Ministry of Religious Affairs till January 20, in a case pertaining to the selections of Hajj assistants. The court also served notices to the ministry on plea seeking a stay order against the process. The petition said that the selection should be done through NTS.",
+    "summary": "The Islamabad High Court (IHC) has requested comments from the Ministry of Religious Affairs by January 20 regarding the selection of Hajj assistants. The court also issued notices to the ministry concerning a petition that sought a stay order against the selection process. The petition argues that the selection should be conducted through NTS.",
+    "keywords": [
+      "Islamabad High Court",
+      "Ministry of Religious Affairs",
+      "Hajj assistants",
+      "selection process",
+      "NTS",
+      "petition",
+      "stay order"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Islamabad High Court",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "IHC",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Ministry of Religious Affairs",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "January",
+      "label": "DATE",
+      "wikidata_id": "Q11395"
+    },
+    {
+      "text": "NTS",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    }
+  ]
+}

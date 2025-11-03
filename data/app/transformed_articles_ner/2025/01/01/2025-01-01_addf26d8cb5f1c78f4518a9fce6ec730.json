@@ -1,0 +1,62 @@
+{
+  "article_id": "2025-01-01_addf26d8cb5f1c78f4518a9fce6ec730",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/gilani-extends-new-year-greetings-to-nation-calls-for-unity/",
+    "retrieved_at": "2025-08-27T11:14:10.752Z"
+  },
+  "metadata": {
+    "title": "Gilani extends new year greetings to nation, calls for unity",
+    "author": null,
+    "date_published": "2025-01-01T07:36:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 218,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 1 (APP): Chairman Senate Syed Yusuf Raza Gilani extended heartfelt New Year greetings to the nation on Wednesday, urging collective efforts toward progress, unity, and prosperity in the year ahead. In his special message marking the beginning of the New Year, he said, aThe start of a new year brings fresh aspirations, ambitions, and objectives. It is an opportunity to learn from past mistakes, realign with our purpose, and dedicate our energies to the progress and prosperity of our nation.a He said, aThe great people of Pakistan have always faced challenges head-on. As we step into another year, it calls for determination, courage, and unity from all of us. Each individual must fulfil their personal and collective responsibilities wholeheartedly to place our country on the path of peace, development, and prosperity.a Highlighting the importance of national unity, the chairman said, aThe New Year reminds us that our greatest strength lies in our unity as a nation. Let us set aside our differences and work toward building a society where every individual is entitled to equality, justice, and respect.a He said, aMay the New Year bring growth, harmony, and peace to our country. May Allah bless our nation with greater achievements and elevate its stature. Let us continue our endeavours to serve and uplift our beloved homeland.a",
+    "summary": "Syed Yusuf Raza Gilani, Chairman of the Senate, extended New Year greetings to the nation, emphasizing the importance of unity, progress, and prosperity. He urged collective efforts to overcome challenges and build a society based on equality and justice. Gilani expressed hope for a peaceful and prosperous year for Pakistan.",
+    "keywords": [
+      "New Year",
+      "Syed Yusuf Raza Gilani",
+      "unity",
+      "prosperity",
+      "Pakistan",
+      "Senate",
+      "national unity"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Syed Yusuf Raza Gilani",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Senate",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q133391"
+    },
+    {
+      "text": "New Year",
+      "label": "EVENT",
+      "wikidata_id": "Q19635"
+    },
+    {
+      "text": "Pakistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q1045"
+    },
+    {
+      "text": "ISLAMABAD",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    },
+    {
+      "text": "Allah",
+      "label": "PERSON",
+      "wikidata_id": "Q10896"
+    }
+  ]
+}

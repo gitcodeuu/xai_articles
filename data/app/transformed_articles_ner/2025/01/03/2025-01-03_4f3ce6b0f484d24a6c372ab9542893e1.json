@@ -1,0 +1,87 @@
+{
+  "article_id": "2025-01-03_4f3ce6b0f484d24a6c372ab9542893e1",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/anf-recovers-over-10-kg-drugs-in-five-operations/",
+    "retrieved_at": "2025-08-27T11:19:37.880Z"
+  },
+  "metadata": {
+    "title": "ANF recovers over 10 kg drugs in five operations",
+    "author": null,
+    "date_published": "2025-01-03T08:11:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 152,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "RAWALPINDI, Jan 03 (APP):Anti-Narcotics Force (ANF) while conducting five operations recovered over 10 drugs worth Rs 1.8 million and arrested five accused, said an ANF Headquarters spokesman on Friday. He informed that 1.605 kg drug was recovered from the possession of an accused rounded up near a hospital in Korangi, Karachi. The arrested accused confessed to selling drugs to the students of educational institutions. 3.6 kg hashish was recovered from the possession of the accused arrested near a mosque in Sector G-9, Islamabad. 3.6 kg hashish was recovered from a drug dealer arrested near Sona Khan Chowk, Quetta. 1 kg ice was recovered from the accused held near Bohana Chowk on Jhang Road, Faisalabad. 500 grams heroin hidden in 6 bags was recovered near Bahria Town in Islamabad and a suspect was arrested. Cases have been registered against the arrested suspects under the Narcotics Control Act and further investigations are under process.",
+    "summary": "The Anti-Narcotics Force (ANF) conducted five operations and seized over 10 kilograms of drugs. Five suspects were arrested in connection with the drug seizures across multiple locations. Investigations are ongoing following the registration of cases under the Narcotics Control Act.",
+    "keywords": [
+      "ANF",
+      "drugs",
+      "arrests",
+      "operations",
+      "Islamabad",
+      "Karachi",
+      "Quetta"
+    ]
+  },
+  "entities": [
+    {
+      "text": "ANF",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Korangi",
+      "label": "LOCATION",
+      "wikidata_id": "Q6432752"
+    },
+    {
+      "text": "Karachi",
+      "label": "LOCATION",
+      "wikidata_id": "Q1017"
+    },
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    },
+    {
+      "text": "Sector G-9",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Quetta",
+      "label": "LOCATION",
+      "wikidata_id": "Q102078"
+    },
+    {
+      "text": "Sona Khan Chowk",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Faisalabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q18074"
+    },
+    {
+      "text": "Bohana Chowk",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Jhang Road",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Bahria Town",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    }
+  ]
+}

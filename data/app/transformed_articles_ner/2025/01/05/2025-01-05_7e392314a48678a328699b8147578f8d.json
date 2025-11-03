@@ -1,0 +1,62 @@
+{
+  "article_id": "2025-01-05_7e392314a48678a328699b8147578f8d",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/aiou-offers-free-matric-education-to-children-of-balochistan-ex-fata-gb/",
+    "retrieved_at": "2025-08-27T11:22:44.962Z"
+  },
+  "metadata": {
+    "title": "AIOU offers Free Matric Education to Children of Balochistan, Ex-FATA & GB",
+    "author": null,
+    "date_published": "2025-01-05T11:44:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 151,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 05 (APP):Vice Chancellor, Prof. Dr. Nasir Mahmood Sunday said that Allama Iqbal Open University (AIOU) offered free matric education to children of Balochistan, Ex-FATA, and Gilgit-Baltistan (GB). Nasir Mahmood said this while sharing details about the free education policy for matric education. aBy making education accessible to children in remote and neglected regions, we can uplift these far-flung areas,a he noted. Admissions for the Spring 2025 semester are open for programs ranging from matric to PhD. Children residing in these areas can avail themselves of free education by contacting the universityas regional campuses in their respective regions. Professor Dr. Nasir Mahmood emphasised that the university had redirected its educational mission toward underprivileged areas. He highlighted, aThe university will further strengthen its educational network to provide facilities to children residing in the most neglected remote areas, ensuring they have access to educational opportunities comparable to those available in urban regions.a",
+    "summary": "Allama Iqbal Open University (AIOU) is offering free matric education to children in Balochistan, Ex-FATA, and Gilgit-Baltistan (GB). The Vice Chancellor, Prof. Dr. Nasir Mahmood, announced the policy to make education accessible in remote areas. Admissions for the Spring 2025 semester are open for various programs.",
+    "keywords": [
+      "AIOU",
+      "matric education",
+      "Balochistan",
+      "Ex-FATA",
+      "Gilgit-Baltistan",
+      "Nasir Mahmood",
+      "free education"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Allama Iqbal Open University",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q4733975"
+    },
+    {
+      "text": "Nasir Mahmood",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Balochistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q27352"
+    },
+    {
+      "text": "Ex-FATA",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Gilgit-Baltistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q170799"
+    },
+    {
+      "text": "ISLAMABAD",
+      "label": "LOCATION",
+      "wikidata_id": "Q1030"
+    }
+  ]
+}

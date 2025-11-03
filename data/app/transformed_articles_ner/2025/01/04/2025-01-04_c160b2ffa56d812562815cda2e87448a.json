@@ -1,0 +1,102 @@
+{
+  "article_id": "2025-01-04_c160b2ffa56d812562815cda2e87448a",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/national-outreach-program-for-higher-education-faculty-training-held/",
+    "retrieved_at": "2025-08-27T11:20:31.710Z"
+  },
+  "metadata": {
+    "title": "National Outreach Program for Higher Education Faculty Training held",
+    "author": null,
+    "date_published": "2025-01-04T09:01:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 296,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "LARKANA, Jan 04 (APP):Inauguration Ceremony of Higher Education commission (HEC) National Outreach Program for Higher Education Faculty Training held at video conference hall of Chandka Medical College (CMC), Shaheed Mohtarma Benazir Bhutto(SMBB) Medical University, Larkana on Saturday. The event was presided over by Prof. Dr. Nusrat Shah, Vice Chancellor of SMBBMU, alongside Prof. Zameer Ahmed Soomro, Principal of CMC, Prof. Mehmood ul Hassan, Vice Chancellor of Sindh Agriculture University (SAU), Shikarpur, Mr. Sohail Raza Mangi, Assistant Director of Quality Assurance at the National Academy of Higher Education (NAHE), and Mr. Altamash Sheeraz Soomro, Director of the Quality Enhancement Cell (QEC) at SMBBMU. Dr. Noor Amna Malik, Managing Director of NAHE, attended the ceremony virtually via Zoom. More than 30 faculty members from various institutions participated in the training program, designed to enhance their professional capabilities and address emerging challenges in higher education. In her inaugural address, Prof. Dr. Nusrat Shah emphasized the critical importance of faculty development in achieving academic excellence. She highlighted the programas unique features, stating, aThis initiative will not only enrich the professional skills of the participating faculty members but will also contribute significantly to advancements in the health and education sectors.a Dr. Noor Amna Malik, Managing Director of NAHE, addressed the participants virtually. She said, aThe National Outreach Program for Higher Education Faculty Training is meticulously designed to provide hands-on training and practical experience. Covering essential teaching modules, this program will be delivered by highly experienced resource persons from diverse professional backgrounds.a The ceremony concluded with a gesture of appreciation in recognition of their valuable contributions to the program. This training initiative is a testament to SMBBMUas commitment to fostering excellence in higher education and aligns with its vision to build capacities within the academic sector through innovation, collaboration, and sustainability-focused development",
+    "summary": "The Higher Education Commission (HEC) held a National Outreach Program for Higher Education Faculty Training at Chandka Medical College (CMC) in Larkana. The program, attended by faculty members from various institutions, aimed to enhance professional capabilities and address challenges in higher education. Key figures like Prof. Dr. Nusrat Shah and Dr. Noor Amna Malik emphasized the importance of faculty development and the program's contribution to academic excellence.",
+    "keywords": [
+      "faculty training",
+      "Higher Education Commission (HEC)",
+      "Chandka Medical College (CMC)",
+      "Larkana",
+      "academic excellence",
+      "National Outreach Program",
+      "NAHE"
+    ]
+  },
+  "entities": [
+    {
+      "text": "HEC",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q15967562"
+    },
+    {
+      "text": "Chandka Medical College (CMC)",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Shaheed Mohtarma Benazir Bhutto(SMBB) Medical University",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Larkana",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    },
+    {
+      "text": "Prof. Dr. Nusrat Shah",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Prof. Zameer Ahmed Soomro",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Prof. Mehmood ul Hassan",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Sindh Agriculture University (SAU)",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Shikarpur",
+      "label": "LOCATION",
+      "wikidata_id": "Q36746"
+    },
+    {
+      "text": "Mr. Sohail Raza Mangi",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "National Academy of Higher Education (NAHE)",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Mr. Altamash Sheeraz Soomro",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Dr. Noor Amna Malik",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Zoom",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q22787"
+    }
+  ]
+}

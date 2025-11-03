@@ -1,0 +1,87 @@
+{
+  "article_id": "2025-01-05_471519d2b8fb3b64ad28b3522d3b8d7f",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/pm-uae-president-discuss-ways-to-enhance-ties/",
+    "retrieved_at": "2025-08-27T11:21:52.537Z"
+  },
+  "metadata": {
+    "title": "PM, UAE President discuss ways to enhance ties",
+    "author": null,
+    "date_published": "2025-01-05T15:06:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 386,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "Rahim Yar Khan, Jan 05 (APP): Prime Minister Shehbaz Sharif Sunday met with His Highness Sheikh Mohammed bin Zayed Al Nahyan, President of the United Arab Emirates here and discussed matters of mutual and bilateral interest. During the meeting, both leaders expressed their shared commitment to deepening economic, political, and cultural ties. They discussed a wide range of issues, including economic collaboration, regional stability, climate change, and the promotion of mutual interests on the global stage. Prime Minister Shehbaz Sharif praised the UAEas visionary leadership and its role as a key partner for Pakistan in development and investment. He underscored Pakistanas readiness to expand cooperation in sectors such as renewable energy, technology, trade, infrastructure and skill development. His Highness Sheikh Mohammed bin Zayed Al Nahyan highlighted the UAEas keen interest in collaborating with Pakistan in the mining, minerals, and agriculture sectors. He expressed admiration for the manner in which Pakistanas economy has stabilized and is moving in the right direction under the leadership of Prime Minister Shehbaz Sharif. He emphasized that this renewed economic vigor has created prospects for enhanced bilateral investment and collaboration. In his remarks, His Highness also reiterated the UAEas commitment to enhancing its longstanding partnership with Pakistan, emphasizing the importance of people-to-people connections and shared prosperity. Prime Minister Sharif extended his gratitude to His Highness for the UAEas unwavering support during critical times, particularly in humanitarian assistance and development aid. Both leaders reaffirmed their dedication to peace and progress in the region, vowing to work closely on matters of mutual interest. The meeting concluded with a joint resolve to foster greater cooperation, particularly in priority sectors, ensuring a brighter future for both nations. During the meeting, Deputy Prime Minister Muhammad Ishaq Dar, Chief Minister of Punjab Ms. Maryam Nawaz, Defense Minister Khawaja Muhammad Asif, Federal Minister for Information and Broadcasting Attaullah Tarar, and Special Assistant to the Prime Minister Syed Tariq Fatemi were present. In a post on X, the prime minister later said, aDelighted to meet with my dear brother, His Highness Sheikh Mohamed bin Zayed Al Nahyan, President of UAE, today in Rahimyar Khan. Reaffirmed Pakistanas strong commitment to further strengthen Pak-UAE cooperation and elevate our ties to a mutually beneficial strategic partnership. Matters of mutual interest including investments in Pakistan were discussed with a resolve to move forward together.a",
+    "summary": "Prime Minister Shehbaz Sharif met with UAE President Sheikh Mohammed bin Zayed Al Nahyan to discuss enhancing bilateral ties. They covered economic collaboration, regional stability, and other mutual interests, with both leaders expressing commitment to deeper cooperation. Discussions included potential investments and partnerships in various sectors, aiming for a mutually beneficial strategic partnership.",
+    "keywords": [
+      "Shehbaz Sharif",
+      "UAE",
+      "Sheikh Mohammed bin Zayed Al Nahyan",
+      "bilateral ties",
+      "economic cooperation",
+      "investment",
+      "Pakistan"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Shehbaz Sharif",
+      "label": "PERSON",
+      "wikidata_id": "Q7493037"
+    },
+    {
+      "text": "Sheikh Mohammed bin Zayed Al Nahyan",
+      "label": "PERSON",
+      "wikidata_id": "Q600645"
+    },
+    {
+      "text": "United Arab Emirates",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q878"
+    },
+    {
+      "text": "UAE",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q878"
+    },
+    {
+      "text": "Pakistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q1045"
+    },
+    {
+      "text": "Rahim Yar Khan",
+      "label": "LOCATION",
+      "wikidata_id": "Q370422"
+    },
+    {
+      "text": "Muhammad Ishaq Dar",
+      "label": "PERSON",
+      "wikidata_id": "Q6935270"
+    },
+    {
+      "text": "Maryam Nawaz",
+      "label": "PERSON",
+      "wikidata_id": "Q18171059"
+    },
+    {
+      "text": "Khawaja Muhammad Asif",
+      "label": "PERSON",
+      "wikidata_id": "Q6400595"
+    },
+    {
+      "text": "Attaullah Tarar",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Syed Tariq Fatemi",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    }
+  ]
+}

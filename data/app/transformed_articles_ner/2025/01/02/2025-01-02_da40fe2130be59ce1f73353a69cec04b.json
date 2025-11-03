@@ -1,0 +1,57 @@
+{
+  "article_id": "2025-01-02_da40fe2130be59ce1f73353a69cec04b",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/political-stability-and-export-led-growth-key-to-economic-prosperity-qaiser-sheikh/",
+    "retrieved_at": "2025-08-27T11:15:57.482Z"
+  },
+  "metadata": {
+    "title": "Political stability and export-led growth key to economic prosperity: Qaiser Sheikh",
+    "author": null,
+    "date_published": "2025-01-02T11:16:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 125,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 2 (APP):Federal Maritime Affairs Minister Qaiser Ahmed Sheikh emphasized the importance of political stability and export-led growth for Pakistanas economic development. Talking to Pakistan Television, he highlighted the governmentas efforts to set a clear path for sustainable progress. He shared that Prime Minister Shehbaz Sharif recently launched the Uraan Pakistan program, a five-year plan aimed at achieving 6 percent growth and boosting exports to $60 billion. Sheikh noted that the government achieves success in curbing inflation, which has dropped from a staggering 38 percent to single digits. aThe other economic indicators are also improving, and weare managing to repair the damage to the economy,a he added. The minister reiterated the governmentas commitment to implementing effective policies to stabilize the economy and drive growth.",
+    "summary": "Federal Maritime Affairs Minister Qaiser Ahmed Sheikh discussed the importance of political stability and export-led growth for Pakistan's economic development. He highlighted the government's efforts, including the Uraan Pakistan program, aimed at achieving 6 percent growth and boosting exports.",
+    "keywords": [
+      "political stability",
+      "export-led growth",
+      "Pakistan",
+      "economic development",
+      "Uraan Pakistan program",
+      "Shehbaz Sharif",
+      "inflation"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Qaiser Ahmed Sheikh",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Pakistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q1045"
+    },
+    {
+      "text": "Pakistan Television",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Shehbaz Sharif",
+      "label": "PERSON",
+      "wikidata_id": "Q6171739"
+    },
+    {
+      "text": "Uraan Pakistan",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    }
+  ]
+}

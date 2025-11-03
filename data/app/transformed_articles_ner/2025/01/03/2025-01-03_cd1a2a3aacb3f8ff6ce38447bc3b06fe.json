@@ -1,0 +1,62 @@
+{
+  "article_id": "2025-01-03_cd1a2a3aacb3f8ff6ce38447bc3b06fe",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/pm-vows-to-combat-challenge-of-misinformation-fake-news-on-social-media/",
+    "retrieved_at": "2025-08-27T11:18:41.671Z"
+  },
+  "metadata": {
+    "title": "PM vows to combat challenge of misinformation, fake news on social media",
+    "author": null,
+    "date_published": "2025-01-03T10:11:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 375,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 3 (APP): Prime Minister Muhammad Shehbaz Sharif on Friday vowed to tackle the growing challenge of digital media including the fake news and misinformation on social media platforms calling it inevitable for elimination of terrorism and extremism from the country. aOn digital front, the venom against Pakistan is being spitted through social media from some elements abroad. This is also a big challenge, which is supported by distorted facts and twisted reality,a the prime minister said while chairing the meeting of the Apex Committee of National Action Plan. The meeting was attended by Deputy Prime Minister and Foreign Minister Ishaq Dar, the federal cabinet members, chief ministers of all provinces, Chief of Army Staff and other high officials. The prime minister said that certain questions were being raised by distorting facts and twisting the reality on social media that were denting the stateas image. aIf we donat counter this challenge, all efforts (to eliminate terrorism and extremism in the country) will go waste,a he said expressing the confidence that the government would overcome such challenges. The prime minister recalled how fake news were spread with regard to martyrdom of personnel of Rangers on November 26. The sacrifices of the armed forces are immense which would not go waste and Pakistan will continue its journey towards peace, stability and prosperity, he added. PM Shehbaz Sharif on the occasion congratulated the nation as Pakistan assumed non-permanent membership of United Nation Security Council. He emphasized that some Khawarij intruders were living in Pakistan especially in Khyber Pakhtunkhwa to disturb the countryas peace. The prime minister pointed out that the agenda of prosperity and development was discussed in the previous dayas meeting where it was agreed that without bringing peace and stability in the country, economic development was not possible. The government, he said was determined to completely eliminate Fitna Al-Khawarij from the country to ensure socio-economic development of the country. The prime minister stressed that the federal government, the provinces and all relevant stakeholders in collaboration with the Pakistan security forces should make a comprehensive plan in this regard. He pledged that with unity of thought and action, the government will implement such plans in letter and spirit to resolve all challenges faced by the country.",
+    "summary": "Prime Minister Muhammad Shehbaz Sharif vowed to combat misinformation and fake news on social media, emphasizing its importance for eliminating terrorism and extremism. He highlighted the challenges posed by distorted information and the need for a comprehensive plan involving the government, provinces, and security forces. The Prime Minister also discussed the importance of peace and stability for economic development.",
+    "keywords": [
+      "misinformation",
+      "fake news",
+      "social media",
+      "terrorism",
+      "extremism",
+      "Pakistan",
+      "government"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Muhammad Shehbaz Sharif",
+      "label": "PERSON",
+      "wikidata_id": "Q21008044"
+    },
+    {
+      "text": "Pakistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q843"
+    },
+    {
+      "text": "Ishaq Dar",
+      "label": "PERSON",
+      "wikidata_id": "Q6078044"
+    },
+    {
+      "text": "United Nation Security Council",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q10645"
+    },
+    {
+      "text": "Khyber Pakhtunkhwa",
+      "label": "LOCATION",
+      "wikidata_id": "Q33900"
+    },
+    {
+      "text": "Fitna Al-Khawarij",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    }
+  ]
+}

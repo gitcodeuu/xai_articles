@@ -1,0 +1,47 @@
+{
+  "article_id": "2025-01-02_edef2ec70e37e3d6f2bdbc75c6d1b3b1",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/submarine-cable-fault-may-impact-internet-services-in-pakistan-pta/",
+    "retrieved_at": "2025-08-27T11:16:48.145Z"
+  },
+  "metadata": {
+    "title": "Submarine cable fault may impact internet services in Pakistan: PTA",
+    "author": null,
+    "date_published": "2025-01-02T16:59:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 71,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 02 (APP):Pakistan Telecommunication Authority (PTA) has said that a fault has been reported in the submarine cable AAE-1 near Qatar (one of the seven international undersea cables connecting Pakistan for international internet traffic). According to a news release, this may impact internet and broadband user experience across Pakistan. The concerned teams are working to fix the fault. PTA is monitoring the situation and will keep updating telecom users accordingly.",
+    "summary": "A fault in the AAE-1 submarine cable near Qatar may impact internet services in Pakistan. The Pakistan Telecommunication Authority (PTA) is monitoring the situation and working to resolve the issue. Updates will be provided to telecom users.",
+    "keywords": [
+      "submarine cable",
+      "AAE-1",
+      "Pakistan",
+      "internet",
+      "PTA",
+      "Qatar",
+      "fault"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Pakistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q1009"
+    },
+    {
+      "text": "PTA",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Qatar",
+      "label": "LOCATION",
+      "wikidata_id": "Q846"
+    }
+  ]
+}

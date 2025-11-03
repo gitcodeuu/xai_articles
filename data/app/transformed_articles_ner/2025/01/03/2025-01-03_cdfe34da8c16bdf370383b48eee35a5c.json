@@ -1,0 +1,77 @@
+{
+  "article_id": "2025-01-03_cdfe34da8c16bdf370383b48eee35a5c",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/death-anniversary-of-music-composer-shaukat-ali-nashad-observed/",
+    "retrieved_at": "2025-08-27T11:18:49.810Z"
+  },
+  "metadata": {
+    "title": "Death anniversary of music composer Shaukat Ali Nashad observed",
+    "author": null,
+    "date_published": "2025-01-03T12:11:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 129,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 3 (APP):The forty-fourth death anniversary of the music composer, Shaukat Ali Nashad, is being observed on Friday. He was born in Delhi, British India, on 11th July 1923. Shaukat Ali Nashad, through his father Ghulam Hussain Khan, delved into the intricacies of the music. He created remarkable melodies such as aJaane Keh Kar Jo Bulaaya To Bura Maan Gaye,a sung by Saleem Raza; aUn Ki Nazron Se Mohabbat Ka Jo Paighaam Mila,a performed by Runa Laila; and Noor Jehanas unforgettable classics, aMeri Zindagi Hai Naghma Meri Zindagi Taranaa and aLe Aayi Phir Kahan Par Qismat Humein Kahan Se.a Shaukat Ali Nashad composed over 400 songs for more than 63 Pakistani films from 1964 to 1980. He died on January 3, 1981, and rests in peace in Lahore.",
+    "summary": "The forty-fourth death anniversary of music composer Shaukat Ali Nashad was observed. He was born in Delhi, British India, and composed over 400 songs for Pakistani films. Nashad died on January 3, 1981, and is buried in Lahore.",
+    "keywords": [
+      "Shaukat Ali Nashad",
+      "music composer",
+      "death anniversary",
+      "Pakistani films",
+      "Delhi",
+      "Lahore",
+      "songs"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Shaukat Ali Nashad",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Delhi",
+      "label": "LOCATION",
+      "wikidata_id": "Q5496"
+    },
+    {
+      "text": "British India",
+      "label": "LOCATION",
+      "wikidata_id": "Q7397"
+    },
+    {
+      "text": "Ghulam Hussain Khan",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Saleem Raza",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Runa Laila",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Noor Jehan",
+      "label": "PERSON",
+      "wikidata_id": "Q464879"
+    },
+    {
+      "text": "Pakistani",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1009"
+    },
+    {
+      "text": "Lahore",
+      "label": "LOCATION",
+      "wikidata_id": "Q1009"
+    }
+  ]
+}

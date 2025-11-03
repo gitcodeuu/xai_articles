@@ -1,0 +1,51 @@
+{
+  "article_id": "2025-01-04_bb70b2ddfe0bbee173d091273586b36a",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/president-visits-nayyar-bukhari-to-condole-over-wifes-death/",
+    "retrieved_at": "2025-08-27T11:20:54.531Z"
+  },
+  "metadata": {
+    "title": "President visits Nayyar Bukhari to condole over wifeÃ¢ÂÂs death",
+    "author": null,
+    "date_published": "2025-01-04T16:01:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 74,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 04 (APP): President Asif Ali Zardari Saturday visited the house of Secretary General of Pakistan Peoples Party Parliamentarians Nayyar Hussain Bukhari and condoled with him over death of his wife and offered Fateha. He expressed grief and sorrow over the demise of his wife and sympathised with the bereaved family. The President prayed for the elevation of ranks of the departed soul in Jannah and for grant of fortitude to the heirs.",
+    "summary": "President Asif Ali Zardari visited Nayyar Hussain Bukhari to offer condolences on the death of his wife. He expressed his sorrow and offered prayers for the departed soul and strength for the family.",
+    "keywords": [
+      "President",
+      "condolences",
+      "Nayyar Hussain Bukhari",
+      "wife",
+      "death",
+      "prayers"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Asif Ali Zardari",
+      "label": "PERSON",
+      "wikidata_id": "Q47990"
+    },
+    {
+      "text": "Nayyar Hussain Bukhari",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Pakistan Peoples Party Parliamentarians",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "ISLAMABAD",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    }
+  ]
+}

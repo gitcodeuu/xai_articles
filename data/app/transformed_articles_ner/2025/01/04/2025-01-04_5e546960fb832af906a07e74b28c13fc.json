@@ -1,0 +1,62 @@
+{
+  "article_id": "2025-01-04_5e546960fb832af906a07e74b28c13fc",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/pm-calls-for-grant-of-right-to-self-determination-to-people-of-jk/",
+    "retrieved_at": "2025-08-27T11:20:49.472Z"
+  },
+  "metadata": {
+    "title": "PM calls for grant of right to self-determination to people of J&K",
+    "author": null,
+    "date_published": "2025-01-04T18:59:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 385,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 04 (APP): Prime Minister Shehbaz Sharif said it was time for the international community, including the United Nations, to live up to their promises and take meaningful measures, enabling the people of Jammu and Kashmir to exercise their inalienable right to self-determination. In a message on Right to Self-Determination Day for the People of Jammu & Kashmir observed on 5 January 2025, he said the fifth of January is annually observed as the aRight to Self-Determination Daya for the people of Jammu and Kashmir. On this day in 1949, he said the United Nations Commission for India and Pakistan (UNCIP) adopted the historic resolution that guarantees a free and fair plebiscite in Jammu and Kashmir, to enable the Kashmiri people to realize their inalienable right to self-determination. aRight to self-determination is a core principle of the UN Charter, as well as of international law. Every year, the UN General Assembly adopts a resolution that advocates the legal right of people to decide their own destiny. It expresses unequivocal support for the realization of the right to self-determination for peoples under foreign occupation. Regrettably, the Kashmiri people have not been able to exercise this inalienable right for over seven decades,a he explained. He said the international community must also call for immediate cessation of human rights violations, release of political prisoners, and restoration of fundamental rights and freedoms of the Kashmiri people. aToday, India continues to take multiple steps to consolidate its occupation of the Indian Illegally Occupied Jammu and Kashmir (IIOJK), undermining the internationally recognized disputed nature of this territory. Through a series of illegal and unilateral actions taken since 5 August 2019, India is trying to alter the demographic and political structure of the disputed territory, aimed at transforming the majority Kashmiri people into a disempowered minority community, in their own homeland.a aIndia is also subjecting the Kashmiri people to wide-ranging gross, systematic human rights violations, while crushing the legitimate struggle of the Kashmiri people for self-determination and freedom,a the prime minister added. He said Pakistan reaffirmed its strong resolve to continue extending its full moral, political and diplomatic support to the Kashmiri people, in their just struggle for realization of their right to self-determination, as enshrined in the Charter and relevant resolutions of the UN, as well as in international law.",
+    "summary": "Prime Minister Shehbaz Sharif urged the international community to ensure the right to self-determination for the people of Jammu and Kashmir. He highlighted the ongoing human rights violations and the need for the Kashmiri people to exercise their rights as guaranteed by the UN. Pakistan reaffirmed its support for the Kashmiri people's struggle.",
+    "keywords": [
+      "Jammu and Kashmir",
+      "self-determination",
+      "United Nations",
+      "human rights",
+      "Kashmiri people",
+      "Pakistan",
+      "India"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Shehbaz Sharif",
+      "label": "PERSON",
+      "wikidata_id": "Q7492987"
+    },
+    {
+      "text": "Jammu and Kashmir",
+      "label": "LOCATION",
+      "wikidata_id": "Q12059"
+    },
+    {
+      "text": "United Nations",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1065"
+    },
+    {
+      "text": "UNCIP",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "India",
+      "label": "LOCATION",
+      "wikidata_id": "Q668"
+    },
+    {
+      "text": "Pakistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q843"
+    }
+  ]
+}

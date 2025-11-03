@@ -1,0 +1,82 @@
+{
+  "article_id": "2025-01-05_e90ce54249c3e70ba755506a491d8a1f",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/death-anniversary-of-musician-master-nazir-ali-observed/",
+    "retrieved_at": "2025-08-27T11:23:47.185Z"
+  },
+  "metadata": {
+    "title": "Death anniversary of musician Master Nazir Ali observed",
+    "author": null,
+    "date_published": "2025-01-05T06:50:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 142,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 5 (APP):The twenty-second death anniversary of musician Master Nazir Ali was observed on Sunday. He started his music career as an assistant musician for M. Ashraf in 1961. Nazir Ali received his music education from Ustad Akhtar Hussain and acquired expertise in composing film music from an early age. He gained a chance as a solo music director with a film, aPaidagir,a that was released in 1966. aLal Meri Pat Rakhiyo Bala Jhole Lalana brought Nazir Ali to the ranks of the great musicians of the film industry. His other Dhamaals, which received public acclaim, include aHussaini Lal Qalandara and aShahbaz Kare Parwaaz.a. He composed 123 songs for 39 Urdu films and 435 songs for 115 Punjabi films during his career. He also won two Nigar Awards for his masterwork. Master Nazir Ali passed away on January 5 in 2003.",
+    "summary": "The twenty-second death anniversary of musician Master Nazir Ali was observed. He began his music career in 1961 and composed numerous songs for Urdu and Punjabi films. Nazir Ali passed away on January 5, 2003.",
+    "keywords": [
+      "Master Nazir Ali",
+      "musician",
+      "death anniversary",
+      "film music",
+      "Urdu films",
+      "Punjabi films",
+      "Nigar Awards"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Master Nazir Ali",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "M. Ashraf",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Ustad Akhtar Hussain",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Lal Meri Pat Rakhiyo Bala Jhole Lalana",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Hussaini Lal Qalandara",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Shahbaz Kare Parwaaz",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Nigar Awards",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "January 5",
+      "label": "DATE",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "2003",
+      "label": "DATE",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "ISLAMABAD",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    }
+  ]
+}

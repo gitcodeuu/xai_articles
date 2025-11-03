@@ -1,0 +1,57 @@
+{
+  "article_id": "2025-01-03_6ee4df62371aba75f14b5806dd71ebb1",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/govt-committed-to-empower-people-through-education-pm/",
+    "retrieved_at": "2025-08-27T11:17:53.878Z"
+  },
+  "metadata": {
+    "title": "Govt committed to empower people through education: PM",
+    "author": null,
+    "date_published": "2025-01-03T18:59:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 183,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 03 (APP):Prime Minister Shehbaz Sharif said the government was committed in its resolve for creating enablers in society that empowered all individuals through accessible education, equipping schools with Braille books, enhancing teacher training, and establishing specialized centres for visually impaired students. In a message on World Braille Day on January 4, 2024, he said, aToday, on World Braille Day, we join the global community in celebrating the transformative power of Braille, a remarkable system that has opened doors to knowledge, communication, and independence for millions of visually impaired individuals worldwide.a He said, aBraille is not just a tool for reading and writing; it is a window to inclusivity and equal opportunities, empowering individuals to lead independent and dignified lives. aWorld Braille Day is a reminder that true progress is measured by how open and equitable our society is and a day for the reinforcement of our pledge to build a Pakistan where every citizen has the platform and opportunities to thrive, and I urge every individual and institution to play their part in promoting inclusivity and accessibility for all,a he added.",
+    "summary": "Prime Minister Shehbaz Sharif emphasized the government's commitment to empowering individuals through accessible education, particularly for the visually impaired. He highlighted the importance of Braille in promoting inclusivity and equal opportunities on World Braille Day. The Prime Minister urged everyone to contribute to building an inclusive Pakistan.",
+    "keywords": [
+      "Braille",
+      "education",
+      "inclusivity",
+      "visually impaired",
+      "Shehbaz Sharif",
+      "World Braille Day",
+      "Pakistan"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Shehbaz Sharif",
+      "label": "PERSON",
+      "wikidata_id": "Q12053005"
+    },
+    {
+      "text": "World Braille Day",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Pakistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q1000"
+    },
+    {
+      "text": "ISLAMABAD",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    },
+    {
+      "text": "APP",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    }
+  ]
+}

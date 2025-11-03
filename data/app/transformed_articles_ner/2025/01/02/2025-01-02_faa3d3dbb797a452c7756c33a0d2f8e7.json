@@ -1,0 +1,102 @@
+{
+  "article_id": "2025-01-02_faa3d3dbb797a452c7756c33a0d2f8e7",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/versatile-comedian-lehri-remembered-on-birth-anniversary/",
+    "retrieved_at": "2025-08-27T11:16:42.625Z"
+  },
+  "metadata": {
+    "title": "Versatile comedian Lehri remembered on birth anniversary",
+    "author": null,
+    "date_published": "2025-01-02T07:04:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 107,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 2 (APP):Birth anniversary of versatile comedian Safeer Ullah Siddqui better known as Lehri was observed on Thursday. Born on January 2,1929, Lehri was one of the greatest comedians who made his name through film career spanning over three decades from from 1950s to 1980s. His first film, Anokhi, was released in 1956, and his last production was Dhanak in 1986. The vast majority of his films have been in Urdu, though he did perform in a few Punjabi productions. He won the Nigar Award 12 times for various films between 1963 and 1986. He died on September 12,2012 in Karachi at the age of 83.",
+    "summary": "The birth anniversary of Safeer Ullah Siddqui, also known as Lehri, a versatile comedian, was observed. Lehri, born in 1929, had a film career spanning from the 1950s to the 1980s, with his first film being released in 1956 and his last in 1986. He won the Nigar Award 12 times and passed away in Karachi in 2012.",
+    "keywords": [
+      "Lehri",
+      "comedian",
+      "birth anniversary",
+      "film career",
+      "Nigar Award",
+      "Karachi",
+      "Urdu"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Safeer Ullah Siddqui",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Lehri",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Thursday",
+      "label": "DATE",
+      "wikidata_id": "Q11349"
+    },
+    {
+      "text": "January 2,1929",
+      "label": "DATE",
+      "wikidata_id": "Q2882"
+    },
+    {
+      "text": "Anokhi",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "1956",
+      "label": "DATE",
+      "wikidata_id": "Q2498"
+    },
+    {
+      "text": "Dhanak",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "1986",
+      "label": "DATE",
+      "wikidata_id": "Q2499"
+    },
+    {
+      "text": "Urdu",
+      "label": "LANGUAGE",
+      "wikidata_id": "Q13478"
+    },
+    {
+      "text": "Punjabi",
+      "label": "LANGUAGE",
+      "wikidata_id": "Q13349"
+    },
+    {
+      "text": "Nigar Award",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "1963",
+      "label": "DATE",
+      "wikidata_id": "Q2489"
+    },
+    {
+      "text": "September 12,2012",
+      "label": "DATE",
+      "wikidata_id": "Q2387"
+    },
+    {
+      "text": "Karachi",
+      "label": "LOCATION",
+      "wikidata_id": "Q1008"
+    }
+  ]
+}

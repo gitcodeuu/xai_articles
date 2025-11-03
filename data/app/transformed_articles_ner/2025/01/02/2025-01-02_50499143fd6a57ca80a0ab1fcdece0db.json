@@ -1,0 +1,87 @@
+{
+  "article_id": "2025-01-02_50499143fd6a57ca80a0ab1fcdece0db",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/13-outlaws-nabbed-drugs-illegal-weapons-seized/",
+    "retrieved_at": "2025-08-27T11:15:51.771Z"
+  },
+  "metadata": {
+    "title": "13 outlaws nabbed; drugs, illegal weapons seized",
+    "author": null,
+    "date_published": "2025-01-02T14:01:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 161,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 02 (APP):Islamabad Capital Territory (ICT) Police arrested 13 outlaws involved in various criminal activities, including drug peddling and possession of illegal weapons, recovering firearms, ammunition, and narcotics during separate operations on Thursday. A police spokesman told that the (ICT) Police Aabpara, Margalla, Shalimar, Industrial Area, Sabzi Mandi, Shams Colony, Khanna and Bhara Kahu police teams took legal action against accused involved in possessing illegal weapons, and drug peddling activities. He said the police team arrested 11 accused and recovered 08 pistols, one 8mm rifle with ammunition and dagger from their possession. Moreover, 02 absconders were also arrested from various areas of the city during the last 24 hours. SSP Operation Muhammad Arslan Shahzaib said that the Islamabad Police is actively working to ensure the safety of citizensa lives and property in the federal capital, emphasizing that no elements will be allowed to disrupt citizensa peace. Protecting the lives, property, and dignity of citizens is the Islamabad Policeas top priority.",
+    "summary": "Islamabad Capital Territory (ICT) Police arrested 13 outlaws in various operations on Thursday. The outlaws were involved in criminal activities such as drug peddling and possession of illegal weapons. The police recovered firearms, ammunition, and narcotics during the operations.",
+    "keywords": [
+      "Islamabad",
+      "Police",
+      "outlaws",
+      "drugs",
+      "weapons",
+      "arrested",
+      "operations"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Islamabad Capital Territory (ICT) Police",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    },
+    {
+      "text": "Aabpara",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Margalla",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Shalimar",
+      "label": "LOCATION",
+      "wikidata_id": "Q7487265"
+    },
+    {
+      "text": "Industrial Area",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Sabzi Mandi",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Shams Colony",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Khanna",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Bhara Kahu",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "SSP Operation Muhammad Arslan Shahzaib",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    }
+  ]
+}

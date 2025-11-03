@@ -1,0 +1,67 @@
+{
+  "article_id": "2025-01-01_9e38dd39ce695187d587d2a42773248e",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/aiou-offers-80-educational-programs-for-intl-students/",
+    "retrieved_at": "2025-08-27T11:14:30.203Z"
+  },
+  "metadata": {
+    "title": "AIOU Offers 80 Educational Programs for IntÃ¢ÂÂl students",
+    "author": null,
+    "date_published": "2025-01-01T09:59:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 225,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 01 (APP):Allama Iqbal Open University (AIOU) has offered over 80 educational programs for overseas Pakistanis and international students in its admissions for the Semester Spring 2025. These programs include Matriculation, FA, I.Com, Associate Degrees in Arts, Commerce, and Education, BS programs, B.Ed programs of 1.5, 2.5, and 4 years, and Diploma Programs in 12 disciplines. The university is offering these educational programs to international students through an online management system. All academic activities, from admissions to examinations, will be conducted online. For monitoring online examinations, MS Teams or a monitoring application approved by the authorities will be used. The last date for admissions is February 10. Students can apply online through the link http://fmbp.aiou.edu.pk. It is noteworthy that to facilitate international students, Vice-Chancellor Professor Dr. Nasir Mahmood has activated and empowered the International Collaboration and Exchange Office at the university. This office maintains continuous contact with international students, provides them with extensive guidance, and arranges orientation sessions for new international enrollees. While discussing international admissions, the Vice-Chancellor stated, aIt is a matter of pride for us that 1,007 students from 37 countries have already enrolled, and we aim to increase this number to 5,000 within the next five years.a Overseas Pakistanis and international students can contact the International Collaboration and Exchange Office for further details via email at overseas@aiou.edu.pk or phone at +92519572495.",
+    "summary": "Allama Iqbal Open University (AIOU) is offering over 80 educational programs for international students for the Spring 2025 semester. These programs will be conducted online, from admissions to examinations. The university aims to increase the number of international students to 5,000 within five years.",
+    "keywords": [
+      "AIOU",
+      "international students",
+      "educational programs",
+      "online",
+      "admissions",
+      "examinations",
+      "overseas Pakistanis"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Allama Iqbal Open University (AIOU)",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q4732657"
+    },
+    {
+      "text": "Pakistanis",
+      "label": "PERSON",
+      "wikidata_id": "Q843"
+    },
+    {
+      "text": "Semester Spring 2025",
+      "label": "DATE",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "MS Teams",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q106888476"
+    },
+    {
+      "text": "Professor Dr. Nasir Mahmood",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "International Collaboration and Exchange Office",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    }
+  ]
+}

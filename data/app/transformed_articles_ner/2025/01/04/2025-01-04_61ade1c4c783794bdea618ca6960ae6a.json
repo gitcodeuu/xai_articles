@@ -1,0 +1,102 @@
+{
+  "article_id": "2025-01-04_61ade1c4c783794bdea618ca6960ae6a",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/govt-taking-measures-to-facilitate-small-and-medium-scale-businesses-shehbaz-sharif/",
+    "retrieved_at": "2025-08-27T11:21:05.492Z"
+  },
+  "metadata": {
+    "title": "Govt taking measures to facilitate small and medium scale businesses: Shehbaz Sharif",
+    "author": null,
+    "date_published": "2025-01-04T17:41:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 291,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "LAHORE, Jan 04 (APP):Prime Minister Shehbaz Sharif has said that small and medium scale businesses are backboneA of the countryas economy. He said this while presiding over a meeting for promoting the small and medium scale businessesA and related to the Small Medium Enterprises Development Authority (SMEDA) here onA Saturday. He said the incumbent government was taking all possible measures to provide facilities to smallA and big scale businesses. Shehbaz Sharif said that all-out efforts were required to make industries of Pakistan a part of globalA supply chain. He said the center and all provinces should work together for development of small and mediumA enterprises. The meeting gave briefing about the Small and Medium Enterprises Development AuthorityasA performance. The meeting told that the SMEDA board had been formed as per the direction of the prime ministerA and meeting of its board of directors were being held regularly. A process had been started to get services of international experts for development of the The chief secretaries of Giligit Baltistan and Azad Jammu Kashmir had been included in the SMEsA sector steering committee. The State Bank of Pakistan had issued directions to banks to make forms easy and simple forA giving loans to SMEs. The meeting told that the Ministry of Industries and Production had improved liaison with provincialA governments for development of SMEs. Sindh and Balochistan governments had prepared a comprehensive strategy for SMEs while governments of Punjab, Khyber Pakhtunkhwa, Gilgit Baltistan and Azad Jammu Kashmir were making strategiesA in this regard. The meeting further told that as per the direction of the prime minister the data of SMEs in the countryA was being collected. The meeting was attended by Federal Minister for Industries and Production Rana Tanveer HussainA and other officers.",
+    "summary": "Prime Minister Shehbaz Sharif emphasized the importance of small and medium-scale businesses for the country's economy during a meeting focused on promoting these businesses. The government is taking measures to facilitate both small and large-scale businesses and aims to integrate Pakistani industries into the global supply chain. Discussions included the formation of the SMEDA board, efforts to simplify loan processes, and strategies by provincial governments to support SMEs.",
+    "keywords": [
+      "Shehbaz Sharif",
+      "SMEDA",
+      "SMEs",
+      "Pakistan",
+      "Industries",
+      "Government",
+      "Loans"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Shehbaz Sharif",
+      "label": "PERSON",
+      "wikidata_id": "Q7492857"
+    },
+    {
+      "text": "Small Medium Enterprises Development Authority",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "SMEDA",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Pakistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q843"
+    },
+    {
+      "text": "Saturday",
+      "label": "DATE",
+      "wikidata_id": "Q108"
+    },
+    {
+      "text": "Gilgit Baltistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q128362"
+    },
+    {
+      "text": "Azad Jammu Kashmir",
+      "label": "LOCATION",
+      "wikidata_id": "Q37048"
+    },
+    {
+      "text": "State Bank of Pakistan",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q7589945"
+    },
+    {
+      "text": "Ministry of Industries and Production",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Sindh",
+      "label": "LOCATION",
+      "wikidata_id": "Q10086"
+    },
+    {
+      "text": "Balochistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q10087"
+    },
+    {
+      "text": "Punjab",
+      "label": "LOCATION",
+      "wikidata_id": "Q10085"
+    },
+    {
+      "text": "Khyber Pakhtunkhwa",
+      "label": "LOCATION",
+      "wikidata_id": "Q10088"
+    },
+    {
+      "text": "Rana Tanveer Hussain",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    }
+  ]
+}

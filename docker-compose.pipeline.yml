@@ -53,6 +53,9 @@ services:
       - xai-network
     env_file:
       - .env # GOOGLE_API_KEY should be defined in this file
+    environment:
+      - ENRICHMENT_PROVIDER=google # or 'ollama'
+      - OLLAMA_API_URL=http://host.docker.internal:11434
     deploy:
       resources:
         limits:

@@ -1,0 +1,72 @@
+{
+  "article_id": "2025-01-01_4e333da752d9c19943f7b1154d3f6ac0",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/pakistan-india-exchange-lists-of-nuclear-installations-facilities/",
+    "retrieved_at": "2025-08-27T11:15:00.794Z"
+  },
+  "metadata": {
+    "title": "Pakistan, India exchange lists of nuclear installations, facilities",
+    "author": null,
+    "date_published": "2025-01-01T10:47:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 180,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 1 (APP): Pakistan and India on Wednesday exchanged the lists of their respective nuclear installations and facilities. This annual exchange was carried out under the Agreement on Prohibition of Attacks against Nuclear Installations and Facilities between Pakistan and India, a press statement issued by the Foreign Office Spokesperson said. Signed on 31 December 1988, the agreement, inter alia, provides that both countries shall inform each other of their nuclear installations and facilities, falling within its definition, on 1st January of each calendar year. The list of nuclear installations and facilities in Pakistan was officially handed over to a representative of the Indian High Commission in Islamabad at the Ministry of Foreign Affairs. Simultaneously, the Indian Ministry of External Affairs handed over the list of Indiaas nuclear installations and facilities to a representative of the Pakistan High Commission in New Delhi. As the Agreement on Prohibition of Attacks against Nuclear Installations and Facilities between Pakistan and India entered into force on 27 January 1991, the two countries have been exchanging the lists since 1st January 1992, the statement added.",
+    "summary": "Pakistan and India exchanged lists of their nuclear installations and facilities on January 1st. This annual exchange is mandated by the Agreement on Prohibition of Attacks against Nuclear Installations and Facilities, signed in 1988. The exchange has been occurring annually since 1992.",
+    "keywords": [
+      "Pakistan",
+      "India",
+      "nuclear installations",
+      "facilities",
+      "exchange",
+      "agreement",
+      "Islamabad"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Pakistan",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1000"
+    },
+    {
+      "text": "India",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q668"
+    },
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    },
+    {
+      "text": "Indian High Commission",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Ministry of Foreign Affairs",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q197871"
+    },
+    {
+      "text": "Indian Ministry of External Affairs",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Pakistan High Commission",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "New Delhi",
+      "label": "LOCATION",
+      "wikidata_id": "Q1356"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "article_id": "2025-01-04_d2bbd5a1c051dda7fc450ec38ce7a6a2",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/anf-recovers-over-101-kg-drugs-in-six-operations/",
+    "retrieved_at": "2025-08-27T11:20:31.732Z"
+  },
+  "metadata": {
+    "title": "ANF recovers over 101 kg drugs in six operations",
+    "author": null,
+    "date_published": "2025-01-04T08:17:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 173,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "RAWALPINDI, Jan 04 (APP):Anti-Narcotics Force (ANF) while conducting six operations across the country managed to arrest seven accused and recovered over 101 kg drugs worth Rs 24.4 million, said an ANF Headquarters spokesman here on Saturday. He informed that over 2 kg ice was recovered from the trolley bag of a passenger going to Bahrain at Islamabad International Airport. 1060 grams heroin was recovered from the possession of a passenger leaving for Jeddah at Karachi International Airport. 25 kg opium and 7 kg heroin were recovered from an uninhabited area of Hub District in Balochistan. In fourth operation, 24 kg hashish was recovered from a vehicle intercepted opposite the aTablighi Markaza on Srinagar Highway, Islamabad, and two suspects were arrested during the operation. 24 kg hashish tactfully concealed in a vehicle was recovered near G.T. Road, Islamabad. In sixth operation, 18 kg hashish hidden in a vehicle was recovered near Ring Road, Peshawar. Cases have been registered against the arrested drug dealers under the Narcotics Control Act and further investigations are under process.",
+    "summary": "The Anti-Narcotics Force (ANF) conducted six operations across Pakistan, arresting seven individuals and seizing over 101 kg of drugs. The recovered drugs, including ice, heroin, opium, and hashish, are estimated to be worth Rs 24.4 million. Investigations are ongoing against the arrested suspects under the Narcotics Control Act.",
+    "keywords": [
+      "ANF",
+      "drugs",
+      "operations",
+      "Islamabad",
+      "Karachi",
+      "Balochistan",
+      "hashish"
+    ]
+  },
+  "entities": [
+    {
+      "text": "ANF",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Bahrain",
+      "label": "LOCATION",
+      "wikidata_id": "Q318"
+    },
+    {
+      "text": "Islamabad International Airport",
+      "label": "LOCATION",
+      "wikidata_id": "Q1048421"
+    },
+    {
+      "text": "Jeddah",
+      "label": "LOCATION",
+      "wikidata_id": "Q36065"
+    },
+    {
+      "text": "Karachi International Airport",
+      "label": "LOCATION",
+      "wikidata_id": "Q6375681"
+    },
+    {
+      "text": "Hub District",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Balochistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q18197"
+    },
+    {
+      "text": "Srinagar Highway",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1040"
+    },
+    {
+      "text": "G.T. Road",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Peshawar",
+      "label": "LOCATION",
+      "wikidata_id": "Q10005"
+    },
+    {
+      "text": "Ring Road",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    }
+  ]
+}

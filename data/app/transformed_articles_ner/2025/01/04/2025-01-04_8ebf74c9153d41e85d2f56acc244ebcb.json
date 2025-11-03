@@ -1,0 +1,67 @@
+{
+  "article_id": "2025-01-04_8ebf74c9153d41e85d2f56acc244ebcb",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/jknf-calls-for-un-action-on-kashmir-resolution-of-1949/",
+    "retrieved_at": "2025-08-27T11:20:15.659Z"
+  },
+  "metadata": {
+    "title": "JKNF calls for UN action on Kashmir Resolution of 1949",
+    "author": null,
+    "date_published": "2025-01-04T07:58:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 230,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 04 (APP): The Jammu and Kashmir National Front (JKNF) has called the UN-proposed road map the most viable solution to the Kashmir dispute, urging the United Nations to implement the January 5, 1949 resolution, which emphasizes resolving the issue through the right to self-determination. In a statement issued here on the eve of Right to Self-Determination Day, JKNF spokesperson Muhammad Haseeb Wani said that Indiaas belligerent military occupation and its policy of deceit, deception serve as stumbling block in the way of peaceful settlement to the long-running conflict. Referring to the devastating effects of the dispute on Kashmiri society, the JKNF spokesman said, aNow is the time for the UN to take effective cognizance of the Indiaas brutal occupation of the state of Jammu and Kashmir and its devastating impacts and play its due role in the implementation of the historic resolution, which guarantees right to self-determination to the people of Kashmira. Given the extremely volatile situation in the restive region, Wani said that it was imperative that the global community should exert pressure on the government of India to resolve the dispute peacefully. Reiterating his partyas stand on the Kashmir dispute, he said, aAllowing the people of Jammu and Kashmir to decide their future through a free, fair and impartial referendum under the auspices of the United Nations was the only way to resolve the issue peacefullya.",
+    "summary": "The Jammu and Kashmir National Front (JKNF) urged the United Nations to implement the January 5, 1949 resolution to resolve the Kashmir dispute through self-determination. The JKNF criticized India's military occupation and called for international pressure to resolve the conflict peacefully.",
+    "keywords": [
+      "JKNF",
+      "Kashmir",
+      "UN",
+      "self-determination",
+      "India",
+      "resolution",
+      "referendum"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Jammu and Kashmir National Front",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "UN",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1065"
+    },
+    {
+      "text": "Kashmir",
+      "label": "LOCATION",
+      "wikidata_id": "Q12079"
+    },
+    {
+      "text": "Muhammad Haseeb Wani",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "India",
+      "label": "LOCATION",
+      "wikidata_id": "Q668"
+    },
+    {
+      "text": "Jammu",
+      "label": "LOCATION",
+      "wikidata_id": "Q42347"
+    },
+    {
+      "text": "United Nations",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1065"
+    }
+  ]
+}

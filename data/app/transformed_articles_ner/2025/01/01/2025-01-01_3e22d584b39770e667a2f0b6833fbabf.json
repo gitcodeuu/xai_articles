@@ -1,0 +1,57 @@
+{
+  "article_id": "2025-01-01_3e22d584b39770e667a2f0b6833fbabf",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/gilani-congratulates-peoples-unity-on-pia-employees-union-victory/",
+    "retrieved_at": "2025-08-27T11:14:56.145Z"
+  },
+  "metadata": {
+    "title": "Gilani congratulates Peoples Unity on PIA employeeÃ¢ÂÂs union victory",
+    "author": null,
+    "date_published": "2025-01-01T14:37:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 175,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 01 (APP):Chairman Senate Yousaf Raza Gilani on Wednesday extended heartfelt congratulations to Peoples Unity on their victory in the Pakistan International Airlines (PIA) Employees Union referendum, describing it as a testament to their pro-labor policies and strong unity. In his statement, Gilani commended Peoples Unity for its pivotal role in the development of national institutions and the welfare of employees. aPeoples Unity has consistently worked tirelessly to safeguard the rights of workers,a he remarked. He attributed their success to the relentless efforts of the workers and the overwhelming support from the public. aThis victory reflects the dedication and hard work of Peoples Unityas leadership and members,a Gilani added. The Chairman expressed optimism about the future, hoping that the momentum and spirit demonstrated by Peoples Unity would continue to thrive. aSuch initiatives are essential for strengthening national institutions and ensuring the welfare of the working class,a he emphasized. Reaffirming his support, Gilani pledged to back efforts aimed at uplifting the working class and promoting national progress, recognizing their vital contributions to the countryas development.",
+    "summary": "Yousaf Raza Gilani congratulated Peoples Unity on their victory in the Pakistan International Airlines (PIA) Employees Union referendum. Gilani praised Peoples Unity's role in safeguarding workers' rights and strengthening national institutions. He expressed optimism for the future and pledged support for efforts to uplift the working class.",
+    "keywords": [
+      "Peoples Unity",
+      "Yousaf Raza Gilani",
+      "PIA",
+      "Employees Union",
+      "workers' rights",
+      "national institutions",
+      "welfare"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Yousaf Raza Gilani",
+      "label": "PERSON",
+      "wikidata_id": "Q8059048"
+    },
+    {
+      "text": "Peoples Unity",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Pakistan International Airlines (PIA)",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q54942"
+    },
+    {
+      "text": "Employees Union",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "ISLAMABAD",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    }
+  ]
+}

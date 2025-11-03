@@ -1,0 +1,57 @@
+{
+  "article_id": "2025-01-03_fadc1dce7263e57cef2f77000dcf480f",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/pec-launches-young-engineers-national-forum-to-empower-future-leaders/",
+    "retrieved_at": "2025-08-27T11:17:53.923Z"
+  },
+  "metadata": {
+    "title": "PEC launches Young Engineers National Forum to empower future leaders",
+    "author": null,
+    "date_published": "2025-01-03T16:42:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 164,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 03 (APP):The Pakistan Engineering Council (PEC) has announced the launch of the Young Engineers National Forum (YENF), a platform aimed at creating a unified network of young engineersa associations, societies, and groups nationwide. According to a PEC, YENF is designed to empower young engineers by providing leadership opportunities, technical training, professional development, and capacity-building initiatives. The forum will prepare engineers to excel in both national and international job markets. Serving as the representative body for young engineers, YENF aims to foster unity within the engineering profession while promoting national integration and fraternity among its members. The PEC has called on engineers to register for the platform by January 20 through an online form available at the PEC website. The additional details can be obtained from the PEC office in Islamabad or through the website www.pec.org.pk. The forum is expected to play a critical role in harnessing the potential of young engineers to contribute significantly to the countryas technical advancement and professional excellence.",
+    "summary": "The Pakistan Engineering Council (PEC) launched the Young Engineers National Forum (YENF) to create a network for young engineers across the country. The forum will provide leadership opportunities, training, and development to help engineers succeed nationally and internationally. Engineers can register online through the PEC website.",
+    "keywords": [
+      "Pakistan Engineering Council",
+      "Young Engineers National Forum",
+      "YENF",
+      "engineers",
+      "leadership",
+      "training",
+      "Islamabad"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Pakistan Engineering Council",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "PEC",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Young Engineers National Forum",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "YENF",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    }
+  ]
+}

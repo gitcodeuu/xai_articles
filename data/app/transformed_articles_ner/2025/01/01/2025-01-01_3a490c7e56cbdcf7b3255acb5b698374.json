@@ -1,0 +1,56 @@
+{
+  "article_id": "2025-01-01_3a490c7e56cbdcf7b3255acb5b698374",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/moon-of-rajab-1446-ah-sighted-1st-rajab-on-thursday/",
+    "retrieved_at": "2025-08-27T11:14:56.268Z"
+  },
+  "metadata": {
+    "title": "Moon of Rajab 1446 AH sighted, 1st Rajab on Thursday",
+    "author": null,
+    "date_published": "2025-01-01T13:52:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 60,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 01 (APP): Ministry of Religious Affairs and Interfaith Harmony on Wednesday officially announced that the moon of Rajab 1446 AH has been sighted in the country. As a result, the first day of Rajab will commence on Thursday, (Janu 2). This announcement follows the decision made by the Central Ruet-e-Hilal Committee during its meeting held earlier this day.",
+    "summary": "The Ministry of Religious Affairs and Interfaith Harmony announced the sighting of the Rajab 1446 AH moon in the country. Consequently, the first day of Rajab will begin on Thursday, January 2nd. This decision was made by the Central Ruet-e-Hilal Committee earlier in the day.",
+    "keywords": [
+      "Rajab",
+      "moon sighting",
+      "Ministry of Religious Affairs",
+      "Interfaith Harmony",
+      "Central Ruet-e-Hilal Committee",
+      "Islamabad"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Ministry of Religious Affairs and Interfaith Harmony",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Rajab",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Central Ruet-e-Hilal Committee",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    },
+    {
+      "text": "Thursday",
+      "label": "DATE",
+      "wikidata_id": "Q129952"
+    }
+  ]
+}
