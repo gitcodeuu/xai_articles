@@ -1,0 +1,54 @@
+{
+  "article_id": "2025-01-11_645f87a5406f1890a248bcbce0cf8a9d",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/no-contact-from-government-or-opposition-for-convening-negotiation-committees-meeting-ayaz-sadiq/",
+    "retrieved_at": "2025-08-27T11:33:38.091Z"
+  },
+  "metadata": {
+    "title": "No contact from government or opposition for convening negotiation committeesÃ¢ÂÂ meeting: Ayaz Sadiq",
+    "author": null,
+    "date_published": "2025-01-11T10:43:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 168,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 11 (APP):Speaker of the National Assembly, Sardar Ayaz Sadiq said on Saturday that neither the government nor the opposition has contacted him to convene a meeting of the negotiation committees. In a statement, he said, aThere has been no communication from either side to schedule a meeting, but I am ready to convene a session with one- or two-day notice whenever both parties agree.a Addressing the Pakistan Tehreek-e-Insaf (PTI) negotiation committeeas demand to meet the partyas founder, the Speaker clarified, aIt is the governmentas responsibility to facilitate such a meeting. This matter does not fall under my jurisdiction.a He further said that the government and its allies should decide whether the meeting is feasible or not. He said that during a telephonic conversation with PTI leader Asad Qaiser on January 4, he informed him that the demand for a meeting with the PTI founder had been conveyed to the government.a He advised PTI leaders to directly approach Rana Sanaullah or other senior representatives of the government.",
+    "summary": "The Speaker of the National Assembly, Ayaz Sadiq, stated that neither the government nor the opposition has contacted him to convene a meeting of the negotiation committees. He emphasized that it is the government's responsibility to facilitate such a meeting and advised PTI leaders to directly approach senior representatives of the government.",
+    "keywords": [
+      "negotiation committees",
+      "Ayaz Sadiq",
+      "Pakistan Tehreek-e-Insaf (PTI)",
+      "Rana Sanaullah",
+      "government of Pakistan"
+    ]
+  },
+  "entities": [
+    {
+      "type": "PERSON",
+      "name": "Ayaz Sadiq",
+      "wikiDataId": "Q20911521",
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "ORGANIZATION",
+      "name": "Pakistan Tehreek-e-Insaf (PTI)",
+      "wikiDataId": null,
+      "sentiment": "Negative"
+    },
+    {
+      "type": "PERSON",
+      "name": "Asad Qaiser",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "ORGANIZATION",
+      "name": "Government of Pakistan",
+      "wikiDataId": null,
+      "sentiment": "Negative"
+    }
+  ]
+}

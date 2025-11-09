@@ -1,0 +1,36 @@
+{
+  "article_id": "2025-01-11_2b6c8414bce66626a6e141858cf0ee02",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/death-anniversary-ibn-e-insha-being-observed/",
+    "retrieved_at": "2025-08-27T11:33:57.216Z"
+  },
+  "metadata": {
+    "title": "Death anniversary Ibn-e-Insha being observed",
+    "author": null,
+    "date_published": "2025-01-11T06:59:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 102,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 11 (APP):The 47th death anniversary of eminent Urdu poet and travelogue writer Ibn-e-Insha is being observed on Saturday by paying glowing tribute to him. Born in Jalandhar district of Indian Punjab in 1927, he later migrated to Pakistan. Ibn-e-Inshaas poetry was simple but had depth. The real cause of his popularity was his humorous poetry and columns. His humorous books are aKhumar-e-Ganduma and aUrdu Ki Aakhri Kitaaba. His collection of letters is titled aKhat Insha Jee Kaya. Ibn-e-Insha was awarded Presidential Pride of Performance Award in 1978. He died on January 11, 1978 and was laid to rest in Karachi.",
+    "summary": "The 47th death anniversary of Ibn-e-Insha, a renowned Urdu poet and travelogue writer, is being observed with tributes to his work. Born in India in 1927, he migrated to Pakistan and was awarded the Presidential Pride of Performance Award in 1978.",
+    "keywords": [
+      "Ibn-e-Insha",
+      "Urdu poetry",
+      "travelogue writer",
+      "humorous poetry",
+      "Presidential Pride of Performance Award"
+    ]
+  },
+  "entities": [
+    {
+      "type": "PERSON",
+      "name": "Ibn-e-Insha",
+      "wikidata_id": "Q11485545",
+      "sentiment": "Neutral"
+    }
+  ]
+}

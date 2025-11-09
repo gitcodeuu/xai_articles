@@ -1,0 +1,67 @@
+{
+  "article_id": "2025-01-10_969e919185073bab298cb49c3de3aaf8",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/ihc-suspends-notification-regarding-travel-ban-on-latif-khosa/",
+    "retrieved_at": "2025-08-27T11:32:25.219Z"
+  },
+  "metadata": {
+    "title": "IHC suspends notification regarding travel ban on Latif Khosa",
+    "author": null,
+    "date_published": "2025-01-10T10:31:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 106,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 10 (APP):The Islamabad High Court (IHC) has suspended a notification dated December 26, regarding placing Sardar Latif Khosaas name on passport control list. In its written order, the court instructed the secretary interior to ensure that Latif Khosa wouldnat be stopped from traveling abroad. It directed the secretary interior to also inform the National Accountability Bureau (NAB), Federal Investigation Agency (FIA), Police and Immigration authorities regarding the court order. The court order said that Latif Khosa had presented the ticket according to which he wanted to travel Canada from January 10, to 24th. The court adjourned further hearing of the case till February 6.",
+    "summary": "The Islamabad High Court has suspended a notification regarding the travel ban on Latif Khosa, allowing him to leave for Canada. The court directed the secretary interior and other authorities to inform them about the order.",
+    "keywords": [
+      "Latif Khosa",
+      "Islamabad High Court (IHC)",
+      "National Accountability Bureau (NAB)",
+      "Federal Investigation Agency (FIA)",
+      "Canada",
+      "travel ban"
+    ]
+  },
+  "entities": [
+    {
+      "type": "PERSON",
+      "name": "Latif Khosa",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "ORGANIZATION",
+      "name": "Islamabad High Court (IHC)",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "ORGANIZATION",
+      "name": "National Accountability Bureau (NAB)",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "ORGANIZATION",
+      "name": "Federal Investigation Agency (FIA)",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Islamabad",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Canada",
+      "wikidata_id": "Q30",
+      "sentiment": "Neutral"
+    }
+  ]
+}

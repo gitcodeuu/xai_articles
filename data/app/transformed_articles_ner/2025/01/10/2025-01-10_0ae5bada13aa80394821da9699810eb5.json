@@ -1,0 +1,56 @@
+{
+  "article_id": "2025-01-10_0ae5bada13aa80394821da9699810eb5",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/govt-untiring-efforts-result-resumption-of-pia-flights-to-paris-european-union-asif/",
+    "retrieved_at": "2025-08-27T11:31:40.284Z"
+  },
+  "metadata": {
+    "title": "Govt untiring efforts result resumption of PIA flights to Paris, European Union: Asif",
+    "author": null,
+    "date_published": "2025-01-10T13:54:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 173,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 10 (APP):Minister for Aviation, Defence and Defence Production Khawaja Muhammad Asif on Friday said that the resumption of direct PIA flights to Paris and other European destinations is the result of untiring efforts of the government for the past three years. Inaugurating the resumption of PIA flights to Paris here at Islamabad International Airport, the minister saidA that the restoration of flights to Europe will significantly increase the revenue of PIA, said a press release. The Minister expressed confidence in PIAas ability to regain its foothold in the European aviation market and reiterated the governmentas support. He emphasized the vital role of direct air connectivity in strengthening bilateral ties, fostering tourism, enhancing trade, and bringing people closer. Khawaja Muhammad Asif commended PIAas management for their efforts in achieving this milestone and highlighted the strategic importance of restoring operations to Paris and the EU. He also extended his best wishes to the passengers of the inaugural flight.This significant milestone marks PIAas renewed presence in one of the most important international aviation markets.",
+    "summary": "The resumption of PIA flights to Paris and other European destinations is the result of untiring efforts by the government, marking a significant milestone for Pakistan International Airlines (PIA) in one of the most important international aviation markets.",
+    "keywords": [
+      "PIA flights to Paris",
+      "direct air connectivity",
+      "bilateral ties",
+      "tourism",
+      "trade",
+      "European aviation market",
+      "Pakistan International Airlines (PIA)"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Khawaja Muhammad Asif",
+      "type": "PERSON",
+      "wikiDataId": "Q15755537",
+      "sentiment": "Neutral"
+    },
+    {
+      "name": "Pakistan International Airlines (PIA)",
+      "type": "ORGANIZATION",
+      "wikiDataId": "Q1985119",
+      "sentiment": "Positive"
+    },
+    {
+      "name": "Paris",
+      "type": "LOCATION",
+      "wikiDataId": "Q84",
+      "sentiment": "Neutral"
+    },
+    {
+      "name": "European Union",
+      "type": "ORGANIZATION",
+      "wikiDataId": "Q30",
+      "sentiment": "Neutral"
+    }
+  ]
+}

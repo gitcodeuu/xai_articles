@@ -1,0 +1,46 @@
+{
+  "article_id": "2025-01-10_2770512a54af58117443c96fae76d84e",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/interior-minister-mohsin-naqvi-commends-forces-for-successful-intelligence-based-operation-in-dera-ismail-khan/",
+    "retrieved_at": "2025-08-27T11:31:14.024Z"
+  },
+  "metadata": {
+    "title": "Interior Minister Mohsin Naqvi Commends Forces for Successful Intelligence Based Operation in Dera Ismail Khan",
+    "author": null,
+    "date_published": "2025-01-10T17:02:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 101,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 10 (APP):Interior Minister Mohsin Naqvi has paid tribute to the security forces for their successful operation against khawarji terrorists in Dera Ismail Khan, resulting in the elimination of five terrorists. The Interior Minister praised the security forces, saying that Pakistanas brave security forces have thwarted the nefarious plans of khawarji terrorists by conducting a timely operation. He added that the nation is proud of their security forces, who have achieved significant successes against khawarji terrorists. Interior Minister emphasised that the people of Pakistan stand with the security forces, and the nation looks at their successes with admiration and appreciation.",
+    "summary": "Interior Minister Mohsin Naqvi commends security forces for their successful operation against khawarji terrorists in Dera Ismail Khan, resulting in the elimination of five terrorists.",
+    "keywords": [
+      "intelligence-based operation",
+      "Dera Ismail Khan",
+      "Mohsin Naqvi",
+      "security forces",
+      "Pakistan",
+      "terrorists"
+    ]
+  },
+  "entities": {
+    "Mohsin Naqvi": {
+      "entity_type": "PERSON",
+      "wikidata_id": "Q11604498",
+      "sentiment": "Positive"
+    },
+    "Dera Ismail Khan": {
+      "entity_type": "LOCATION",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    "Pakistan": {
+      "entity_type": "ORGANIZATION",
+      "wikidata_id": "Q37",
+      "sentiment": "Positive"
+    }
+  }
+}

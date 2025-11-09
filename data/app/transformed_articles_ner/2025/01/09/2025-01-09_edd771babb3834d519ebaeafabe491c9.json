@@ -1,0 +1,90 @@
+{
+  "article_id": "2025-01-09_edd771babb3834d519ebaeafabe491c9",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/webinar-highlights-global-calls-for-kashmirs-right-to-self-determination/",
+    "retrieved_at": "2025-08-27T11:30:00.524Z"
+  },
+  "metadata": {
+    "title": "Webinar Highlights: Global calls for KashmirÃ¢ÂÂs Right to Self-Determination",
+    "author": null,
+    "date_published": "2025-01-09T13:30:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 405,
+    "reading_time_minutes": 3
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 09 (APP):In a significant event hosted by aFriends of Kashmir Internationala an online webinar titled aKashmiras Right to Self-Determinationa brought together influential voices advocating for the resolution of the Kashmir issue. Speakers included Ghazala Habib, Chairperson of Friends of Kashmir International; Raja Sikander Khan, Chairman of the Global Pakistan Kashmir Supreme Council; Dr. Shagufta Ashraf, Assistant Professor; journalist and columnist Mazhar Barlas, Tayyiba Khurshid, Research Officer at the Center for International Strategic Studies AJK; and Abdul Hameed Lone, Vice Chairman of Friends of Kashmir International, among others. Dr. Shagufta Ashraf raised the pressing question, aHow long will the world, particularly the United Nations, turn a blind eye to a crisis that threatens global peacea She criticized Indiaas continued oppressive actions in Kashmir and called for international intervention. Dr. Ashraf urged the UN to pressure India into meaningful negotiations with Pakistan and Kashmiri leadership to achieve a sustainable solution. Tayyiba Khurshid emphasized the challenges posed by contemporary geopolitical dynamics to the implementation of UN Security Council resolutions on Kashmir. Highlighting Pakistanas current non-permanent seat on the UN Security Council, she described it as an opportunity to amplify Kashmiras cause. She urged Pakistan to engage with global powers proactively and leverage international platforms to prioritize the issue. Abdul Hameed Lone reiterated the importance of UN resolutions on Kashmir and underscored the mission of Friends of Kashmir International to keep the struggle alive on national and global fronts. He advocated for grassroots engagement to strengthen awareness and solidarity with the Kashmiri cause. Raja Sikander Khan called for greater unity among stakeholders supporting Kashmir and suggested the establishment of aKashmir Desksa in various countries to streamline efforts. He stressed the significance of a strong and stable Pakistan in advancing the Kashmir agenda and highlighted the challenges posed by Indiaas financial and political influence on international forums. In her concluding remarks, Ghazala Habib thanked the participants and reiterated the need for actionable steps to support Kashmiris. She proposed revitalizing institutions like the Kashmir Liberation Cell and suggested creating aKashmir Cornersa in universities to engage youth. Additionally, she advocated for the formation of an international committee to amplify the plight of Kashmiris and demand their right to self-determination. The webinar underscored the enduring relevance of Kashmiras right to self-determination and the urgent need for strategic, coordinated, and sustained advocacy efforts. Recommendations from the event provided a roadmap for future engagement to ensure the issue remains on the global agenda.",
+    "summary": "A webinar hosted by Friends of Kashmir International brought together influential voices advocating for the resolution of the Kashmir issue. Speakers emphasized the importance of UN resolutions, international intervention, and grassroots engagement to strengthen awareness and solidarity with the Kashmiri cause.",
+    "keywords": [
+      "Kashmir's right to self-determination",
+      "UN Security Council resolutions",
+      "India's oppressive actions in Kashmir",
+      "Pakistan's role in resolving the issue",
+      "Global advocacy efforts"
+    ]
+  },
+  "entities": [
+    {
+      "type": "PERSON",
+      "text": "Ghazala Habib",
+      "wikidata_id": "Q11312959",
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "ORGANIZATION",
+      "text": "Friends of Kashmir International",
+      "wikidata_id": null,
+      "sentiment": "Positive"
+    },
+    {
+      "type": "PERSON",
+      "text": "Raja Sikander Khan",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "PERSON",
+      "text": "Dr. Shagufta Ashraf",
+      "wikidata_id": null,
+      "sentiment": "Negative"
+    },
+    {
+      "type": "ORGANIZATION",
+      "text": "Global Pakistan Kashmir Supreme Council",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "PERSON",
+      "text": "Mazhar Barlas",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "LOCATION",
+      "text": "Kashmir",
+      "wikidata_id": "Q11534",
+      "sentiment": "Negative"
+    },
+    {
+      "type": "PERSON",
+      "text": "Tayyiba Khurshid",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "LOCATION",
+      "text": "India",
+      "wikidata_id": "Q83",
+      "sentiment": "Negative"
+    },
+    {
+      "type": "PERSON",
+      "text": "Abdul Hameed Lone",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    }
+  ]
+}

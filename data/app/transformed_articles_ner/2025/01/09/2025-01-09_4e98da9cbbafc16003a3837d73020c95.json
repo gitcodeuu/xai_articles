@@ -1,0 +1,62 @@
+{
+  "article_id": "2025-01-09_4e98da9cbbafc16003a3837d73020c95",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/islamabad-to-host-pioneering-global-summit-on-girls-education-in-muslim-communities/",
+    "retrieved_at": "2025-08-27T11:29:34.140Z"
+  },
+  "metadata": {
+    "title": "Islamabad to host Pioneering Global Summit on GirlsÃ¢ÂÂ Education in Muslim Communities",
+    "author": null,
+    "date_published": "2025-01-09T17:23:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 162,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 9 (APP):The Ministry of Federal Education & Professional Training will host the International Conference on aGirlsa Education in Muslim Communities: Challenges and Opportunities,a a landmark two-day event from 11th a12th January 2025. The global summit aims to address the challenges and opportunities in advancing girlsa education across Muslim communities worldwide; foster dialogue; and find actionable solutions to address the challenges. The conference will provide an ideal platform for high-level discussions and collaborations. The event will bring together over 150 international dignitaries, including ministers, ambassadors, scholars and academia from 44 Muslim and friendly countries, representatives from international organizations including UNESCO, UNICEF and the World Bank. Speakers and panelists will share transformative success stories, showcasing innovative approaches to advancing education equity. The conference will conclude by a formal signing ceremony of the Islamabad Declaration, outlining the shared commitment of Muslim community to empower girls through education, paving way for inclusive and sustainable educational reforms, and a brighter future for generations to come.",
+    "summary": "The International Conference on Girls' Education in Muslim Communities will be held in Islamabad from January 11-12, 2025. The conference aims to address challenges and opportunities in advancing girls' education across Muslim communities worldwide.",
+    "keywords": [
+      "Girls' education",
+      "Muslim communities",
+      "Education equity",
+      "Inclusive reforms",
+      "Sustainable future",
+      "Empowerment through education",
+      "Islamabad Declaration"
+    ]
+  },
+  "entities": [
+    {
+      "entity_type": "ORGANIZATION",
+      "name": "UNESCO",
+      "wiki_data_id": "Q180229",
+      "sentiment": "Neutral"
+    },
+    {
+      "entity_type": "ORGANIZATION",
+      "name": "UNICEF",
+      "wiki_data_id": "Q177845",
+      "sentiment": "Neutral"
+    },
+    {
+      "entity_type": "ORGANIZATION",
+      "name": "World Bank",
+      "wiki_data_id": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "entity_type": "LOCATION",
+      "name": "Islamabad",
+      "wiki_data_id": "Q1814",
+      "sentiment": "Positive"
+    },
+    {
+      "entity_type": "ORGANIZATION",
+      "name": "Ministry of Federal Education & Professional Training",
+      "wiki_data_id": null,
+      "sentiment": "Neutral"
+    }
+  ]
+}

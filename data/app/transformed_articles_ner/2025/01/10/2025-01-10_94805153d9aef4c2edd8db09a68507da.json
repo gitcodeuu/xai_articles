@@ -1,0 +1,42 @@
+{
+  "article_id": "2025-01-10_94805153d9aef4c2edd8db09a68507da",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/pm-shehbaz-congratulates-joseph-aoun-on-election-as-lebanon-president/",
+    "retrieved_at": "2025-08-27T11:32:08.763Z"
+  },
+  "metadata": {
+    "title": "PM Shehbaz congratulates Joseph Aoun on election as Lebanon president",
+    "author": null,
+    "date_published": "2025-01-10T06:55:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 120,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 10 (APP): Prime Minister Shehbaz Sharif on Friday congratulated Joseph Aoun on his election as the President of Lebanon. The prime minister, in a social media post on X, wished him success in his endeavors to lead Lebanon towards peace, stability and prosperity. aPakistan values its ties with Lebanon and looks forward to strengthen our bilateral cooperation,a he wrote. Joseph Aoun was elected President of Lebanon by securing 99 votes from the 128-seat parliament in a second round of voting on Thursday afternoon. Ishtiaq Ahmed, APPas Foreign Editor, leads coverage of the Prime Minister, President and Foreign Office, bringing over 20 years of journalism experience from local and international publications a Reach out at 03335293238/ ishtiaqrao@gmail.com/ X: ishtiaqrao",
+    "summary": "Prime Minister Shehbaz Sharif congratulated Joseph Aoun on his election as the President of Lebanon, wishing him success in leading the country towards peace, stability, and prosperity.",
+    "keywords": [
+      "Shehbaz Sharif",
+      "Lebanon",
+      "President",
+      "Peace",
+      "Stability"
+    ]
+  },
+  "entities": [
+    {
+      "type": "PERSON",
+      "name": "Shehbaz Sharif",
+      "wiki_data_id": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "PERSON",
+      "name": "Joseph Aoun",
+      "wiki_data_id": null,
+      "sentiment": "Positive"
+    }
+  ]
+}

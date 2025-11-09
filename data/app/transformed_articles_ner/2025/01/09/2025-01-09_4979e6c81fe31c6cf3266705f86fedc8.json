@@ -1,0 +1,74 @@
+{
+  "article_id": "2025-01-09_4979e6c81fe31c6cf3266705f86fedc8",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/ecp-to-hear-petition-on-alleged-rigging-in-pb-45-re-polling-on-friday/",
+    "retrieved_at": "2025-08-27T11:30:01.481Z"
+  },
+  "metadata": {
+    "title": "ECP to hear petition on alleged rigging in PB-45 re-polling on Friday",
+    "author": null,
+    "date_published": "2025-01-09T13:06:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 81,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 09 (APP):The Election Commission of Pakistan (ECP) has scheduled a hearing for Friday on a petition filed by JUI-F candidate Mir Usman Pirkani, concerning alleged rigging in 15 polling stations of PB-45 during the recent re-polling. The petition, submitted through senior lawyer and Senator Kamran Murtaza, accuses officials of altering the results of the re-polling in the constituency. The ECP will examine the claims and assess the validity of the rigging allegations at 15 polling stations during the hearing.",
+    "summary": "The Election Commission of Pakistan has scheduled a hearing to examine allegations of rigging in 15 polling stations during the recent re-polling in PB-45 constituency. The petition was filed by JUI-F candidate Mir Usman Pirkani, accusing officials of altering the results.",
+    "keywords": [
+      "PB-45 re-polling",
+      "alleged rigging",
+      "Election Commission of Pakistan (ECP)",
+      "Mir Usman Pirkani",
+      "Kamran Murtaza",
+      "JUI-F",
+      "Islamabad"
+    ]
+  },
+  "entities": {
+    "people": [
+      {
+        "name": "Mir Usman Pirkani",
+        "type": "PERSON",
+        "wikidata_id": null,
+        "sentiment": "Negative"
+      },
+      {
+        "name": "Kamran Murtaza",
+        "type": "PERSON",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Election Commission of Pakistan (ECP)",
+        "type": "ORGANIZATION",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "JUI-F",
+        "type": "ORGANIZATION",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      }
+    ],
+    "locations": [
+      {
+        "name": "PB-45",
+        "type": "LOCATION",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Islamabad",
+        "type": "LOCATION",
+        "wikidata_id": "Q1152",
+        "sentiment": "Neutral"
+      }
+    ]
+  }
+}

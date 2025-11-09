@@ -1,0 +1,66 @@
+{
+  "article_id": "2025-01-09_02903d81b36987ccd1cd4f644610eb95",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/ecp-dismisses-disqualification-reference-against-ptis-saifullah-abro/",
+    "retrieved_at": "2025-08-27T11:30:21.791Z"
+  },
+  "metadata": {
+    "title": "ECP dismisses disqualification reference against PTIÃ¢ÂÂs Saifullah Abro",
+    "author": null,
+    "date_published": "2025-01-09T12:20:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 186,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 9 (APP):The Election Commission of Pakistan (ECP) on Thursday dismissed the disqualification reference against Pakistan Tehreek-e-Insaf (PTI) Senator Saifullah Abro, which had been filed by Senators Shahadat Awan and Majid Mahmood. The reference alleged that Senator Abro did not meet the eligibility criteria for the technocrat seat and had a pending National Accountability Bureau (NAB) reference. The petition further claimed that the affidavit filed by Senator Abro contained misleading information regarding his dependents, agricultural income, and assets. It accused him of concealing the ownership of agricultural land by his children in the wealth statement submitted with his nomination papers. Senate Chairman Yousaf Raza Gillani cited Article 63(2) and referred the matter to the ECP under Clause (3) of the same article, requesting the Commission to determine whether Senator Abro should be disqualified from Senate membership. However, the a three member bench of the commission headed by Chief Election Commissioner Sikandar Sultan RajaA ultimately ruled in favor of Senator Abro, dismissing the disqualification reference. The ECP delivered its reserved verdict on January 9, declaring Senator Abro eligible for the technocrat seat and dismissing the petition.",
+    "summary": "The Election Commission of Pakistan dismissed the disqualification reference against PTI Senator Saifullah Abro, declaring him eligible for the technocrat seat. The petition was filed by Senators Shahadat Awan and Majid Mahmood, but a three-member bench of the commission headed by Chief Election Commissioner Sikandar Sultan Raja ultimately ruled in favor of Senator Abro.",
+    "keywords": [
+      "Saifullah Abro",
+      "Pakistan Tehreek-e-Insaf (PTI)",
+      "Shahadat Awan",
+      "Majid Mahmood",
+      "Yousaf Raza Gillani",
+      "Sikandar Sultan Raja"
+    ]
+  },
+  "entities": {
+    "Saifullah Abro": {
+      "type": "PERSON",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    "Pakistan Tehreek-e-Insaf (PTI)": {
+      "type": "ORGANIZATION",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    "Shahadat Awan": {
+      "type": "PERSON",
+      "wikidata_id": null,
+      "sentiment": "Negative"
+    },
+    "Majid Mahmood": {
+      "type": "PERSON",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    "Yousaf Raza Gillani": {
+      "type": "PERSON",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    "Sikandar Sultan Raja": {
+      "type": "PERSON",
+      "wikidata_id": null,
+      "sentiment": "Positive"
+    },
+    "National Accountability Bureau (NAB)": {
+      "type": "ORGANIZATION",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    }
+  }
+}

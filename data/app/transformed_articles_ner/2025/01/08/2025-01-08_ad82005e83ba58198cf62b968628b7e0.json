@@ -1,0 +1,73 @@
+{
+  "article_id": "2025-01-08_ad82005e83ba58198cf62b968628b7e0",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/pm-shehbaz-sharif-arrives-karachi/",
+    "retrieved_at": "2025-08-27T11:28:45.299Z"
+  },
+  "metadata": {
+    "title": "PM Shehbaz Sharif arrives Karachi",
+    "author": null,
+    "date_published": "2025-01-08T07:37:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 76,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "KARACHI, Jan 08 (APP): Prime Minister Shehbaz Sharif arrived here in Karachi on a day long visit on Wednesday. Sindh Governor Kamran Tessori, Chief Minister Syed Murad Ali Shah and top government officials welcomed the prime minister upon his arrival here at Faisal Air base. Deputy Prime Minister Muhammad Ishaq Dar, Finance Minister Muhammad Aurangzeb, Federal Minister for Information and Broadcasting Attaullah Tarar and Minister of State Ali Pervez Malik are also accompanying the prime minister.",
+    "summary": "Prime Minister Shehbaz Sharif arrived in Karachi on a day-long visit, where he was welcomed by Sindh Governor Kamran Tessori and other top government officials.",
+    "keywords": [
+      "Shehbaz Sharif",
+      "Kamran Tessori",
+      "Murad Ali Shah",
+      "Muhammad Ishaq Dar",
+      "Attaullah Tarar",
+      "Ali Pervez Malik"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Shehbaz Sharif",
+      "category": "PERSON",
+      "wikiDataId": "Q1067255",
+      "sentiment": "Neutral"
+    },
+    {
+      "name": "Kamran Tessori",
+      "category": "PERSON",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "name": "Murad Ali Shah",
+      "category": "PERSON",
+      "wikiDataId": "Q56344555",
+      "sentiment": "Neutral"
+    },
+    {
+      "name": "Muhammad Ishaq Dar",
+      "category": "PERSON",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "name": "Attaullah Tarar",
+      "category": "PERSON",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "name": "Ali Pervez Malik",
+      "category": "PERSON",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "name": "Faisal Air base",
+      "category": "LOCATION",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "article_id": "2025-01-11_7bfda3669788dabd47a88f1f2b60a963",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/aphc-expresses-concern-over-continued-atrocities-in-iiojk/",
+    "retrieved_at": "2025-08-27T11:33:35.611Z"
+  },
+  "metadata": {
+    "title": "APHC expresses concern over continued atrocities in IIOJK",
+    "author": null,
+    "date_published": "2025-01-11T06:28:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 267,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 11 (APP): The All Parties Hurriyat Conference (APHC) has expressed grave concern over the systematic atrocities during cordon and search operations, house raids, illegal detentions and attaching properties of Kashmiris at the hands of Indian forces in Indian illegally occupied Jammu and Kashmir (IIOJK). Talking to Kashmir Media Service in Srinagar, APHC spokesman Abdul Rashid Minhas rejected Indiaas aintegral mantraa about the internationally recognised disputed territory of Jammu and Kashmir. He said New Delhi has been using military might and black laws since 1947 to break the will of the people and suppress their freedom sentiments but have utterly failed in achieving its anti-Kashmir designs. He said the freedom and peace-loving people of Kashmir have always shown their indignation and resistance against the atrocities and Indian illegal occupation of their motherland. He said the steadfastness, patience and the persistent struggle for the sacred cause of freedom is the only option before the Kashmiris. The spokesman said people rendered unprecedented sacrifices for the settlement of the Kashmir dispute and the power and oppression will not resolve the lingering Kashmir dispute. aIt is our stance that Kashmir is a political problem and only political measures can settle the long-pending dispute,a it said. He urged the international community, United Nations, Organization of Islamic Cooperation (OIC) and European Union to take cognizance of atrocities by Indian forces in the occupied territory. The APHC spokesman demanded implementation of the UN Security Council resolutions in the best interest of world peace and prosperity and expressed hope that the United Nations would fulfill its commitments and obligations in resolving the Kashmir dispute.",
+    "summary": "The APHC has expressed concern over the systematic atrocities in IIOJK and called for the implementation of UN Security Council resolutions to resolve the Kashmir dispute.",
+    "keywords": [
+      "APHC",
+      "Kashmir dispute",
+      "Indian occupation",
+      "Atrocities",
+      "United Nations resolutions"
+    ]
+  },
+  "entities": {
+    "PERSON": [
+      {
+        "name": "Abdul Rashid Minhas",
+        "wikiDataId": null,
+        "sentiment": "Neutral"
+      }
+    ],
+    "ORGANIZATION": [
+      {
+        "name": "All Parties Hurriyat Conference (APHC)",
+        "wikiDataId": "https://www.wikidata.org/wiki/Q1026466",
+        "sentiment": "Positive"
+      },
+      {
+        "name": "United Nations",
+        "wikiDataId": "https://www.wikidata.org/wiki/Q79",
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Organization of Islamic Cooperation (OIC)",
+        "wikiDataId": "https://www.wikidata.org/wiki/Q1232926",
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "European Union",
+        "wikiDataId": "https://www.wikidata.org/wiki/Q2947",
+        "sentiment": "Neutral"
+      }
+    ],
+    "LOCATION": [
+      {
+        "name": "Indian illegally occupied Jammu and Kashmir (IIOJK)",
+        "wikiDataId": null,
+        "sentiment": "Negative"
+      },
+      {
+        "name": "Srinagar",
+        "wikiDataId": null,
+        "sentiment": "Neutral"
+      }
+    ]
+  }
+}

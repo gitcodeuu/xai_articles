@@ -1,0 +1,74 @@
+{
+  "article_id": "2025-01-11_071d5d6fe31f00a7e1784b2b18a8f2c5",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/dpm-fm-dar-meets-with-oic-sg/",
+    "retrieved_at": "2025-08-27T11:33:10.111Z"
+  },
+  "metadata": {
+    "title": "DPM/FM Dar meets with OIC SG",
+    "author": null,
+    "date_published": "2025-01-11T11:29:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 142,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 11 (APP): Deputy Prime Minister and Foreign Minister Senator Mohammad Ishaq Dar on Saturday met with Organization of Islamic Cooperation (OIC) Secretary General Hissein Brahim Taha. The DPM/FM while welcoming the OIC Secretary General to Pakistan expressed his appreciation for high-level participation from the OIC in the International Conference on aGirlsa Education in Muslim Communities: Challenges and Opportunitiesa, Foreign Office Spokesperson said in a press release. The situation in Gaza and the Middle East, Indian Illegally Occupied Jammu and Kashmir (IIOJK), Afghanistan, Islamophobia, discrimination and violence against the Muslims across the globe and the role of the OIC in that regard was also discussed. The foreign minister also commended the OICas principled stance and unwavering support for the just struggle of Kashmiris for their right to self-determination and expressed his appreciation for the appointment of OICas Special Envoy on Islamophobia.",
+    "summary": "Deputy Prime Minister and Foreign Minister Senator Mohammad Ishaq Dar met with Organization of Islamic Cooperation (OIC) Secretary General Hissein Brahim Taha to discuss various regional issues, including the situation in Gaza and the Middle East, Indian Illegally Occupied Jammu and Kashmir (IIOJK), Afghanistan, Islamophobia, discrimination and violence against Muslims across the globe.",
+    "keywords": [
+      "OIC",
+      "Islamophobia",
+      "Kashmiris",
+      "self-determination",
+      "Pakistan",
+      "Gaza",
+      "Middle East"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Deputy Prime Minister and Foreign Minister Senator Mohammad Ishaq Dar",
+      "type": "PERSON",
+      "wikidata_id": "Q11614479",
+      "sentiment": "Neutral"
+    },
+    {
+      "name": "Hissein Brahim Taha",
+      "type": "PERSON",
+      "wikidata_id": "Q11244423",
+      "sentiment": "Neutral"
+    },
+    {
+      "name": "Organization of Islamic Cooperation (OIC)",
+      "type": "ORGANIZATION",
+      "wikidata_id": "Q179760",
+      "sentiment": "Neutral"
+    },
+    {
+      "name": "Gaza",
+      "type": "LOCATION",
+      "wikidata_id": null,
+      "sentiment": "Negative"
+    },
+    {
+      "name": "Middle East",
+      "type": "LOCATION",
+      "wikidata_id": "Q11596",
+      "sentiment": "Neutral"
+    },
+    {
+      "name": "Indian Illegally Occupied Jammu and Kashmir (IIOJK)",
+      "type": "LOCATION",
+      "wikidata_id": null,
+      "sentiment": "Negative"
+    },
+    {
+      "name": "Afghanistan",
+      "type": "LOCATION",
+      "wikidata_id": "Q1487",
+      "sentiment": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "article_id": "2025-01-11_050d8f326bf4467c70dc162949fecfd1",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/anf-recovers-over-19-kg-drugs-in-eight-operations/",
+    "retrieved_at": "2025-08-27T11:32:59.133Z"
+  },
+  "metadata": {
+    "title": "ANF recovers over 19 kg drugs in eight operations",
+    "author": null,
+    "date_published": "2025-01-11T13:30:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 226,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "RAWALPINDI, Jan 11 (APP):Anti-Narcotics Force (ANF) while conducting eight operations across the country recovered 19.876 kg drugs worth over Rs 9.6 million and arrested 12 suspects including four women, said an ANF Headquarters spokesman on Saturday. He informed that two suspects including a woman going to Riyadh were arrested at Islamabad International Airport. 75 heroin-filled capsules were recovered from their stomachs. 6 kg hashish was recovered from the possession of a suspect arrested near a bridge on IJP Road Islamabad. In third operation, 3.5 kg heroin was recovered from the possession of three suspects rounded up near F-Block, Johar Town, Lahore. 2.670 kg hashish was recovered from a vehicle intercepted near Bella Road in G-10 Islamabad and 2 suspects were arrested during the operation. 2.5 kg opium was recovered from a woman netted near a hotel in Hyderabad. 2 kg ice was recovered from the possession of a woman held near Al-Asif Bus Terminal on Airport Road Quetta. The spokesman informed that 1.280 kg hashish was recovered from two parcels sent to Lahore and Karachi through a courier office in Peshawar. In eighth operation, 1.3 kg ice hidden in a vehicle near Kakpul Stop Expressway Islamabad was recovered and two accused including a woman were arrested. Separate cases have been registered against the arrested accused under the Narcotics Control Act and further investigations are under process.",
+    "summary": "The Anti-Narcotics Force (ANF) recovered over 19 kg of drugs and arrested 12 suspects in eight operations across the country. The recoveries include heroin, hashish, opium, and ice.",
+    "keywords": [
+      "drugs",
+      "Anti-Narcotics Force (ANF)",
+      "Rawalpindi",
+      "Islamabad International Airport",
+      "Riyadh"
+    ]
+  },
+  "entities": [
+    {
+      "type": "LOCATION",
+      "name": "Pakistan",
+      "wikiDataId": "Q33"
+    },
+    {
+      "type": "ORGANIZATION",
+      "name": "Anti-Narcotics Force (ANF)",
+      "wikiDataId": "null"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Rawalpindi",
+      "wikiDataId": "Q19592"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Riyadh",
+      "wikiDataId": "Q10062"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Islamabad International Airport",
+      "wikiDataId": "null"
+    },
+    {
+      "type": "LOCATION",
+      "name": "IJP Road Islamabad",
+      "wikiDataId": "null"
+    },
+    {
+      "type": "LOCATION",
+      "name": "F-Block, Johar Town, Lahore",
+      "wikiDataId": "null"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Bella Road in G-10 Islamabad",
+      "wikiDataId": "null"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Hyderabad",
+      "wikiDataId": "Q18188"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Al-Asif Bus Terminal on Airport Road Quetta",
+      "wikiDataId": "null"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Peshawar",
+      "wikiDataId": "Q18333"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Kakpul Stop Expressway Islamabad",
+      "wikiDataId": "null"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "article_id": "2025-01-08_eb651669306b8f29f7f5db9bfd413a13",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/unity-in-business-community-essential-to-stabilize-pakistans-economy-fpcci/",
+    "retrieved_at": "2025-08-27T11:28:43.144Z"
+  },
+  "metadata": {
+    "title": "Unity in business community essential to stabilize PakistanÃ¢ÂÂs economy: FPCCI",
+    "author": null,
+    "date_published": "2025-01-08T10:55:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 500,
+    "reading_time_minutes": 3
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 08 (APP):United Business Group (FPCCI) Secretary General Zafar Bakhtawari stated that cooperation and unity within the business community are essential to stabilize Pakistanas economy. He emphasized that businesses and personal brands should be built with hard work and integrity. He expressed these views while addressing the Islamabad Chamber of Small Trade and Small Industries (ICSTSI) during his recent visit. Zafar Bakhtawari congratulated the newly elected Chairman of the Founders Group of ICSTSI, Saqib Abbasi, and presented him with a bouquet. Acting President ICCI Nasir Mahmood Chaudhry, Acting Vice President Raja Naveed Akhtar Satti, Executive Committee members Zulqarnain Abbasi, Roheil Anwar Butt, Malik Mohsin Khalid, former Executive Member Imtiaz Abbasi, Imran Bukhari, Tahir Abbasi, and Nisar Mirza were also present. Upon their arrival at ICSTSI, Qazi Ilyas, Rao Javed, Sardar Zaheer, Sajid Iqbal, Rizwan Siddiqui, and others warmly welcomed the delegation led by Zafar Bakhtawari, said a press release issues here on Wednesday. In his speech, Zafar Bakhtawari paid tribute to the services of Taj Abbasi and Qazi Ilyas and extended his best wishes to Saqib Abbasi and Owais Satti. He stressed the importance of creating unity to make traders role models. aWe must unite; only then will our voice be heard. We need to work together to improve our countryas economy,a he said. He praised ICSTSI for consistently working for the betterment of the business community and congratulated Saqib Abbasi on becoming the new Chairman of the Founders Group, expressing hope that he would play a vital role in the chamberas growth. Saqib Abbasi, in his address, stated that the primary goal is to promote unity within the business community. aAs we embark on this new journey, it is essential to understand that only through collective efforts can we progress towards success and development. As business leaders, it is our duty to create opportunities for others and grow together,a he said. He thanked Zafar Bakhtawari for visiting their chamber and offering valuable words and support. He also acknowledged the remarkable leadership of Qazi Ilyas during his tenure and expressed commitment to carrying forward the legacy built on his hard work. ICSTSIas outgoing Chairman, Founders Group Qazi Ilyas, highlighted the importance of hard work and cooperation among chamber members in his speech. He urged, aToday, we must work together for the development of the city. If we unite, we will not face difficulties, and we can achieve our goals.a He thanked Zafar Bakhtawari and his delegation and expressed hope for their continued support for the chamberas future growth. Newly elected President of ICSTSI, Owais Satti, emphasized in his address that the focus should be on advancing the city with unity. aIf we all work together, it will not only strengthen the city but also the nationas economy,a he said. The participants of the meeting reaffirmed their commitment to cooperation and unity and agreed that they will collectively work for the economic development of the country. The business community will be further united and activated to improve the national economy.",
+    "summary": "The business community in Islamabad is coming together to promote unity and cooperation, with leaders emphasizing the importance of collective efforts for economic development. Zafar Bakhtawari, Secretary General of FPCCI, addressed a meeting at ICSTSI, congratulating the newly elected Chairman Saqib Abbasi on his role in promoting unity within the business community.",
+    "keywords": [
+      "unity",
+      "business",
+      "community",
+      "economy",
+      "ICSTSI",
+      "FPCCI",
+      "Islamabad"
+    ]
+  },
+  "entities": {
+    "people": [
+      {
+        "name": "Zafar Bakhtawari",
+        "wikiDataId": "Q10714243",
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Saqib Abbasi",
+        "wikiDataId": null,
+        "sentiment": "Positive"
+      },
+      {
+        "name": "Owais Satti",
+        "wikiDataId": null,
+        "sentiment": "Positive"
+      },
+      {
+        "name": "Qazi Ilyas",
+        "wikiDataId": "Q10714241",
+        "sentiment": "Neutral"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "FPCCI",
+        "wikiDataId": "Q1091154",
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "ICSTSI",
+        "wikiDataId": null,
+        "sentiment": "Positive"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Islamabad",
+        "wikiDataId": "Q83",
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Pakistan",
+        "wikiDataId": "Q31",
+        "sentiment": "Neutral"
+      }
+    ]
+  }
+}

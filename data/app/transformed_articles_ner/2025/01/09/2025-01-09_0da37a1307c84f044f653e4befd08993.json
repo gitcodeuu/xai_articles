@@ -1,0 +1,111 @@
+{
+  "article_id": "2025-01-09_0da37a1307c84f044f653e4befd08993",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/issi-launches-special-study-on-indian-electoral-politics/",
+    "retrieved_at": "2025-08-27T11:29:36.705Z"
+  },
+  "metadata": {
+    "title": "ISSI launches special study on Indian electoral politics",
+    "author": null,
+    "date_published": "2025-01-09T15:02:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 800,
+    "reading_time_minutes": 4
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 09 (APP): The India Study Centre (ISC) at the Institute of Strategic Studies Islamabad (ISSI) launched its Special Study, aQuantifying Electoral Politics of Congress and BJP,a authored by Director ISC Dr. Khurram Abbas, and researchers Maheen Shafeeq and Usama Hameed. This groundbreaking research, the first of its kind in Pakistan on the 18th Lok Sabha, offers a comprehensive analysis of political trends in India through quantification of the newly-elected MPs from the ruling Bharatiya Janata Party (BJP) and the leading opposition party Indian National Congress (INC) on various indicators like caste, religious affiliation, wealth status, and familial roots in the countryas politics, said a press release issued here on Thursday. The studyas launch featured a distinguished panel of experts who shared their perspectives on its findings. Along with the keynote address by Mr. Khalid Rahman, Chairman Institute of Policy Studies (IPS), the other speakers included Ambassador Babar Amin, former diplomat; Dr. Asma Shakir Khwaja, Executive Director of Center for International Strategic Studies, Azad Jammu & Kashmir; and Ms. Maryam Mastoor, Research Fellow, Institute of Regional Studies. Dr. Khurram Abbas introduced the significance of and rationale behind this data-based study, and methodological approach which was employed to collect and analyze the data. In his remarks on the occasion, DG ISSI Ambassador Sohail Mahmood highlighted that the 2024 elections in India were particularly noteworthy for their scale and political implications. With over 969 million eligible voters, the elections spanned seven phases, making them the longest in Indian history. He observed that while the BJP pursued aggressive campaigning with slogans like aAbki Baar 400 Paar,a their performance reflected a decline in dominance, securing 240 seats compared to 303 in 2019. This contrasted with notable resurgence for the Congress, which gained official opposition status after a decade. Ambassador Sohail Mahmood emphasized that Indiaas democratic identity is increasingly influenced by socio-political inequalities stemming from the ages-old, oppressive caste system and class stratification. He noted that the blending of Indiaas democratic ethos with a Hindu nationalist agenda entails serious concerns internationally, with scholars characterizing it as aethnica or ailliberala democracy and even entites like the V-Dem Institute classifying India as an aelectoral autocracy.a Ambassador Sohail Mahmood lauded the ISC team for conducting a thorough investigation of the 18th Lok Sabha to measure the standing of the two leading political parties in India on their matrix, while underlining the serious need to undertake such studies for better understanding of the evolving dynamics in the Indian state and society. The keynote address by Mr. Khalid Rahman, Chairman of the Institute of Policy Studies (IPS), provided a critical perspective on Indiaas electoral process, questioning whether the claim of being the alargest democracya reflected true democratic substance or was merely a faAade. He highlighted systemic issues such as the manipulation of voter rolls, suppression of civil society organizations, and changes to the Chief Election Commissioner appointment process that consolidated executive control. These factors, he argued, raise serious concerns about Indiaas commitment to much-celebrated democratic principles and electoral integrity. He also underscored the importance of expanding the data-based research work on India-related subjects. Amb. Babar Amin drew attention to the systematic exclusion of minorities in BJP-governed India, arguing that their rights and interests are increasingly sidelined, with a particular focus on religious minorities who face growing marginalization. Furthermore, Amb. Babar warned about the alarming role that wealth plays in the Indian political system, where financial elites exert disproportionate influence over key decisions. This concentration of economic power, he suggested, has resulted in policies that cater to the interests of the rich while exacerbating social inequalities. While commending the Special Study for debunking prevalent myths, Dr. Asma Shakir Khwaja underscored that the facts revealed in this Study outwardly deny the BJPas claims of representing a common Indian. She critiqued the current state of Indian democracy, highlighting that a fundamental set of democratic values is increasingly absent there. She emphasized that this erosion of democratic principles undermines the true essence of democratic governance in India. Dr. Khwaja also highlighted the role of electoral bonds in the Indian political system, suggesting that the donations and funds received by political parties through this mechanism reveal deep linkages between the political elite and powerful capitalists. In her remarks, Maryam Mastoor raised critical questions regarding the grave political disenfranchisement of religious minorities in the country, Congress Partyas commitment to secularism, and the future of secular face of the country when secular parties are increasingly falling for a aSoft Hindutvaa approach. Maryam Mastoor also questioned the BJPas reluctance to conduct a countrywide caste census, pointing out such a census could directly harm privileges and opportunities that a chunk of upper castes has been enjoying under the present structure. The event concluded with a lively Q&A session. The Special Study can be downloaded from the ISSI website.",
+    "summary": "The Institute of Strategic Studies Islamabad (ISSI) launched a special study on the electoral politics of India, which revealed the influence of socio-political inequalities and class stratification in the country. The study also highlighted the decline of the Bharatiya Janata Party and the resurgence of the Indian National Congress. Experts discussed various issues, including the exclusion of minorities and the concentration of economic power in the Indian political system.",
+    "keywords": [
+      "Electoral politics in India",
+      "India Study Centre",
+      "Bharatiya Janata Party",
+      "Indian National Congress",
+      "Pakistan"
+    ]
+  },
+  "entities": {
+    "people": [
+      {
+        "name": "Dr. Khurram Abbas",
+        "wikiDataId": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Babar Amin",
+        "wikiDataId": null,
+        "sentiment": "Negative"
+      },
+      {
+        "name": "Sohail Mahmood",
+        "wikiDataId": "Q1052920",
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Khalid Rahman",
+        "wikiDataId": null,
+        "sentiment": "Negative"
+      },
+      {
+        "name": "Maheen Shafeeq",
+        "wikiDataId": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Usama Hameed",
+        "wikiDataId": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Asma Shakir Khwaja",
+        "wikiDataId": null,
+        "sentiment": "Negative"
+      },
+      {
+        "name": "Maryam Mastoor",
+        "wikiDataId": null,
+        "sentiment": "Negative"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Institute of Strategic Studies Islamabad (ISSI)",
+        "wikiDataId": "Q10713365",
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "India Study Centre (ISC)",
+        "wikiDataId": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Bharatiya Janata Party (BJP)",
+        "wikiDataId": "Q1139984",
+        "sentiment": "Negative"
+      },
+      {
+        "name": "Indian National Congress (INC)",
+        "wikiDataId": "Q1044545",
+        "sentiment": "Neutral"
+      }
+    ],
+    "locations": [
+      {
+        "name": "India",
+        "wikiDataId": "Q33",
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Pakistan",
+        "wikiDataId": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Islamabad",
+        "wikiDataId": "Q11465",
+        "sentiment": "Neutral"
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "article_id": "2025-01-08_d30e6c4b22b6df0c77753110bdaf6ebd",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/issi-holds-guest-lecture-japans-perspective-on-regional-issues/",
+    "retrieved_at": "2025-08-27T11:28:40.430Z"
+  },
+  "metadata": {
+    "title": "ISSI holds guest lecture Ã¢ÂÂJapanÃ¢ÂÂs Perspective on Regional Issues",
+    "author": null,
+    "date_published": "2025-01-08T13:27:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 392,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 8 (APP):The China-Pakistan Study Centre (CPSC) at the Institute of Strategic Studies Islamabad (ISSI) on Wednesday hosted a guest lecture on aJapanas Perspective on Regional Issues,a delivered by Prof Dr Kawashima Shin, from the University of Tokyo. Ambassador Akamatsu Shuichi, Ambassador of Japan to Pakistan, also participated in the event, said a press release. Director General ISSI Ambassador Sohail Mahmood, in his welcome remarks, highlighted the enduring friendship between Pakistan and Japan. He underscored the historical and multifaceted ties between the two countries, rooted in mutual respect, shared interests, and commitment to peace and development. Ambassador Sohail Mahmood also noted Japanas prominent role as a steadfast partner in Pakistanas development journey and stressed growing collaboration in areas such as trade, investment, climate change, cultural and people-to-people exchanges, and regional stability. He also stressed the importance of enhanced academic and policy dialogues and think-tank collaboration between Pakistan and Japan. Ambassador Akamatsu Shuichi highlighted the long-standing Pakistan-Japan partnership and expressed hope for continued collaboration to address regional and global challenges. He also appreciated ISSIas efforts to foster mutual understanding through scholarly exchanges. Prof Dr Kawashima Shin, in his lecture, focused on Japanas modernization and its evolving role in regional geopolitics. Highlighting the transformative journey from the Meiji Restoration to its post-World War II economic resurgence, he underscored Japanas commitment to peace, democracy, and regional cooperation. He reflected on the enduring partnership between Japan and Pakistan, noting the 70th anniversary of bilateral relations celebrated last year. Dr Kawashima emphasized Japanas dedication to fostering economic and cultural ties within the region, reinforcing its role as a proactive contributor to East Asian stability and prosperity. Dr Kawashima also discussed the challenges and opportunities in East Asia, focusing on the importance of balanced diplomacy and mutual cooperation. He highlighted Japanas steadfast belief in maintaining open dialogues with neighboring countries to ensure regional stability. Stressing the necessity of economic interdependence, he acknowledged Japanas efforts to strengthen trade and investment networks while respecting the sovereignty and diverse aspirations of its partners. Earlier, Dr Talat Shabbir, Director CPSC, highlighted Japanas unwavering support for Pakistanas development through Official Development Assistance (ODA) and cultural exchanges. He underscored the mutual commitment to strengthening bilateral ties and addressing shared regional and global challenges collaboratively. The lecture was attended by a diverse audience, including practitioners, academics, and members of civil society and the media.",
+    "summary": {
+      "main_event": "The China-Pakistan Study Centre at the Institute of Strategic Studies Islamabad hosted a guest lecture on Japan's Perspective on Regional Issues.",
+      "description": "Prof Dr Kawashima Shin from the University of Tokyo delivered the lecture, highlighting Japan's modernization and evolving role in regional geopolitics. The event was attended by a diverse audience, including practitioners, academics, and members of civil society and the media."
+    },
+    "keywords": [
+      "ISSI",
+      "Japan",
+      "Pakistan",
+      "China-Pakistan Study Centre",
+      "Prof Dr Kawashima Shin",
+      "Ambassador Akamatsu Shuichi",
+      "Sohail Mahmood",
+      "Talat Shabbir"
+    ]
+  },
+  "entities": {
+    "named_entities": [
+      {
+        "name": "ISSI",
+        "type": "ORGANIZATION"
+      },
+      {
+        "name": "China-Pakistan Study Centre",
+        "type": "ORGANIZATION"
+      },
+      {
+        "name": "Japan",
+        "type": "LOCATION"
+      },
+      {
+        "name": "Prof Dr Kawashima Shin",
+        "type": "PERSON"
+      },
+      {
+        "name": "Ambassador Akamatsu Shuichi",
+        "type": "PERSON"
+      },
+      {
+        "name": "Sohail Mahmood",
+        "type": "PERSON"
+      },
+      {
+        "name": "Talat Shabbir",
+        "type": "PERSON"
+      }
+    ],
+    "wiki_data_ids": [
+      null,
+      null,
+      "Q35",
+      "Q10493",
+      null,
+      null,
+      null
+    ],
+    "sentiments": {
+      "ISSI": "Neutral",
+      "China-Pakistan Study Centre": "Neutral",
+      "Japan": "Positive",
+      "Prof Dr Kawashima Shin": "Positive",
+      "Ambassador Akamatsu Shuichi": "Neutral",
+      "Sohail Mahmood": "Positive",
+      "Talat Shabbir": "Positive"
+    }
+  }
+}

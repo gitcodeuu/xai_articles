@@ -1,0 +1,71 @@
+{
+  "article_id": "2025-01-08_c24d040c9d41c41aa33b469d65041e59",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/ahsan-for-effective-implementation-of-quality-assurance-framework-to-improve-higher-education-standards/",
+    "retrieved_at": "2025-08-27T11:28:22.049Z"
+  },
+  "metadata": {
+    "title": "Ahsan for effective implementation of Ã¢ÂÂQuality Assurance FrameworkÃ¢ÂÂ to improve higher education standards",
+    "author": null,
+    "date_published": "2025-01-08T10:47:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 242,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 8 (APP): Minister for Planning, Development and Special Initiatives Professor Ahsan Iqbal on Wednesday stressed the need for the effective implementation of the aQuality Assurance Framework,a developed in collaboration with the Higher Education Commission (HEC) and the British Council in 2023, to improve the standards of higher education in the country. He expressed these views during a meeting with Pakistani-American Professor Mudassar Wyne, who called on him and discussed matters related to quality assurance and the improvement of education standards, according to a news release. Federal Minister for Education and Professional Training Dr Khalid Maqbool Siddiqui, the Director of the Higher Education Commission (HEC), and the Member of the Planning Commission for Science & Technology also attended the meeting. Professor Mudassar Wyne, a quality assurance expert in California who holds a PhD in Computer Science, highlighted the principles of quality assurance recognized by the American Board of Engineering and Technology. Ahsan Iqbal appreciated the contribution of Pakistani experts residing abroad to national development under the aUraan Pakistana program. He proposed forming a aPremier League Groupa consisting of the top 10 universities to transform Pakistani universities in line with global standards, which would establish linkages with leading universities worldwide. The Planning minister said the Quality Assurance Framework, developed for Pakistani universities in collaboration with HEC and the British Council in 2023, was not only ideal for improving educational standards but also catered to the unique needs of the countryas education system.",
+    "summary": "Minister Ahsan Iqbal stresses the need for effective implementation of the Quality Assurance Framework to improve higher education standards in Pakistan. He proposes forming a Premier League Group consisting of top 10 universities to transform Pakistani universities in line with global standards.",
+    "keywords": [
+      "Quality Assurance Framework",
+      "Higher Education Commission (HEC)",
+      "British Council",
+      "Pakistani universities",
+      "Global standards"
+    ]
+  },
+  "entities": {
+    "people": [
+      {
+        "name": "Ahsan Iqbal",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Mudassar Wyne",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Khalid Maqbool Siddiqui",
+        "wikidata_id": "Q11703235",
+        "sentiment": "Neutral"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Higher Education Commission (HEC)",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "British Council",
+        "wikidata_id": "Q1131233",
+        "sentiment": "Neutral"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Pakistan",
+        "wikidata_id": "Q33",
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "California",
+        "wikidata_id": "Q60",
+        "sentiment": "Neutral"
+      }
+    ]
+  }
+}

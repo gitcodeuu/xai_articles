@@ -1,0 +1,91 @@
+{
+  "article_id": "2025-01-08_4294174e8ef0f17fc64c37508925d8ea",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/pm-due-in-karachi-today-to-inaugurate-kpts-faceless-customs-assessment-system/",
+    "retrieved_at": "2025-08-27T11:28:45.861Z"
+  },
+  "metadata": {
+    "title": "PM due in Karachi today to inaugurate KPTÃ¢ÂÂs Faceless Customs Assessment System",
+    "author": null,
+    "date_published": "2025-01-08T04:30:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 165,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 08 (APP): Prime Minister Shehbaz Sharif will pay a daylong visit to Karachi today to inaugurate the Federal Board of Revenueas Faceless Customs Assessment System installed at the Karachi Port Trust. The facility aims to improve transparency in customs clearance and reduce clearance time, according to a PM Office press release. The prime minister, who will also visit the South Asia Pakistan Terminal at the Port, had instructed the installation of this automation system during his last visit to Karachi. He will also visit the Pakistan Stock Exchange and attend the ceremony to award it the title of the second-best-performing stock exchange in the world in 2024. Prime Minister Shehbaz will also attend as a special guest the launching ceremony of the Agha Khan Universityas Manual of Clinical Practice Guidelines. Deputy Prime Minister and Foreign Minister Mohammad Ishaq Dar, Federal Ministers Mohammad Aurangzeb, Attaullah Tarar, Ministers of State Ali Pervez Malik and Coordinator for Health Dr. Mukhtar Bharath will accompany the prime minister.",
+    "summary": "Prime Minister Shehbaz Sharif will visit Karachi to inaugurate the Faceless Customs Assessment System, which aims to improve transparency in customs clearance. He will also attend various ceremonies at the Pakistan Stock Exchange and Agha Khan University.",
+    "keywords": [
+      "Faceless Customs Assessment System",
+      "Karachi Port Trust",
+      "Federal Board of Revenue",
+      "Pakistan Stock Exchange",
+      "Agha Khan University"
+    ]
+  },
+  "entities": {
+    "person": [
+      {
+        "name": "Shehbaz Sharif",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Mohammad Ishaq Dar",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Mohammad Aurangzeb",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Attaullah Tarar",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Ali Pervez Malik",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Mukhtar Bharath",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      }
+    ],
+    "organization": [
+      {
+        "name": "Pakistan Stock Exchange",
+        "wikidata_id": null,
+        "sentiment": "Positive"
+      },
+      {
+        "name": "Agha Khan University",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      }
+    ],
+    "location": [
+      {
+        "name": "Karachi",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Pakistan",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "South Asia",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      }
+    ]
+  }
+}

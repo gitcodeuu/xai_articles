@@ -1,0 +1,60 @@
+{
+  "article_id": "2025-01-10_8f31da862107d221431f0cadba2b589b",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/national-assembly-committee-reviews-football-kabaddi-federations/",
+    "retrieved_at": "2025-08-27T11:32:01.537Z"
+  },
+  "metadata": {
+    "title": "National Assembly Committee reviews football, kabaddi federations",
+    "author": null,
+    "date_published": "2025-01-10T13:35:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 127,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 10 (APP):The National Assemblyas Standing Committee on Inter Provincial Coordination met on Friday in Islamabad to discuss the Pakistan Football Federation (PFF) and Pakistan Kabaddi Federation (PKF). According to press release, The committee chaired by Mr Muhammad Sana Ullah Khan Mastikhel, expressed dissatisfaction with the PFFas preparation and instructed them to provide a more thorough briefing within 15 days. The committee also directed the PFF to include details on voter eligibility, appeals and Supreme Court orders in their next briefing. Additionally, the PKF representative was instructed to ensure the presidentas presence at the next meeting. The meeting was attended by several MNAs including Mr Anjum Aqeel Khan and Ms Shaista Khan as well as officials from the Ministry of Inter Provincial Coordination and attached departments.",
+    "summary": "The National Assembly's Standing Committee on Inter Provincial Coordination met to discuss the Pakistan Football Federation and Pakistan Kabaddi Federation, expressing dissatisfaction with PFF's preparation and instructing them to provide a more thorough briefing.",
+    "keywords": [
+      "National Assembly Committee",
+      "football federation",
+      "kabaddi federation",
+      "Pakistan Football Federation (PFF)",
+      "Muhammad Sana Ullah Khan Mastikhel"
+    ]
+  },
+  "entities": [
+    {
+      "type": "ORGANIZATION",
+      "name": "Pakistan Football Federation (PFF)",
+      "wikiDataId": null,
+      "sentiment": "Negative"
+    },
+    {
+      "type": "PERSON",
+      "name": "Muhammad Sana Ullah Khan Mastikhel",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "ORGANIZATION",
+      "name": "Pakistan Kabaddi Federation (PKF)",
+      "wikiDataId": null,
+      "sentiment": "Negative"
+    },
+    {
+      "type": "PERSON",
+      "name": "Anjum Aqeel Khan",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "PERSON",
+      "name": "Shaista Khan",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    }
+  ]
+}

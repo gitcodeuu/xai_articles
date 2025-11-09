@@ -1,0 +1,55 @@
+{
+  "article_id": "2025-01-09_6084380f8a65e86b5e323e72f8a8d46d",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/qaiser-ahmad-lays-foundation-of-sports-complex-in-karachi/",
+    "retrieved_at": "2025-08-27T11:29:34.134Z"
+  },
+  "metadata": {
+    "title": "Qaiser Ahmad lays foundation of sports complex in Karachi",
+    "author": null,
+    "date_published": "2025-01-09T16:47:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 343,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 9 (APP):Federal Minister for Maritime Affairs Qaiser Ahmed Shaikh on Wednesday paid a visit to Port Qasim Authority (PQA) and laid foundation for the Sports Complex, Water Filtration Plant and Boundary wall at the Gulshan e Benazir Township Port Qasim Karachi. The Minister was warmly received by PQA Chairman Syed Moazzam Ilyas and other port officials. During his visit, the minister was briefed about the Sports Complex which will be built on 9.06 acres of land, comprising Cricket stadium, swimming pool and other indoor games. The complex will have a seating capacity of 6000 spectators and will serve as a 2nd biggest sports arena in the city. Addressing the media, residents and port officials, Federal Minister for Maritime Affairs congratulated PQA team, Rashid Latif, Shadab Kabir and Other sportsman for making this project possible. He said that sports was neglected subject,A which was needed to be addressed and added that such projects would help keeping the healthy and serve as a nursery for future sportsman. Being himself a sportsman, the Minister delightedly took interest in all the briefing of the project and directed the PQA officials to make plans for Hockey stadium as well. On his visit to PQA, he appreciated the role of PQA in achieving revenue target and contributing in national prosperity and pressed to do more in strengthening the country. In response to a query, The Minister said that Pakistan has great potential but it is yet to be unlocked. Pakistan can be a gateway for the central Asian Countries but we are still in our developing stage and despite larger container capacity Pakistan gets few lacks containers per anum, he added. To mobilize ports in Balochistan as well, he mentioned cabinetas decision of importing 60 of public import through Balochistan. Earlier, he also inaugurted the International Cargo Terminals Pakistan Ltd (ICT) facility at the Port Qasim. Where he spoke to the delegation from Denmark and other countries, the Minister appreciated the opening of facility and underscored the potential in Pakistanas warm waters for regional and international trade.",
+    "summary": "Federal Minister for Maritime Affairs Qaiser Ahmed Shaikh laid the foundation of a sports complex, water filtration plant, and boundary wall at Port Qasim Karachi. The complex will have a seating capacity of 6000 spectators and serve as a second-largest sports arena in the city.",
+    "keywords": [
+      "sports complex",
+      "Port Qasim Authority",
+      "Karachi",
+      "Qaiser Ahmed Shaikh",
+      "Maritime Affairs"
+    ]
+  },
+  "entities": {
+    "Qaiser Ahmed Shaikh": {
+      "type": "PERSON",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    "Syed Moazzam Ilyas": {
+      "type": "PERSON",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    "Port Qasim Authority (PQA)": {
+      "type": "ORGANIZATION",
+      "wikidata_id": null,
+      "sentiment": "Positive"
+    },
+    "Karachi": {
+      "type": "LOCATION",
+      "wikidata_id": "Q1856",
+      "sentiment": "Neutral"
+    },
+    "Gulshan e Benazir Township": {
+      "type": "LOCATION",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    }
+  }
+}

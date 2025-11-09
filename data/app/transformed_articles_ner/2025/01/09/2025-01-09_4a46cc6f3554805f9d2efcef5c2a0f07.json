@@ -1,0 +1,42 @@
+{
+  "article_id": "2025-01-09_4a46cc6f3554805f9d2efcef5c2a0f07",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/gilani-offers-condolences-to-syed-nayyar-hussain-bukhari-on-wifes-demise/",
+    "retrieved_at": "2025-08-27T11:30:01.731Z"
+  },
+  "metadata": {
+    "title": "Gilani offers condolences to Syed Nayyar Hussain Bukhari on wifeÃ¢ÂÂs demise",
+    "author": null,
+    "date_published": "2025-01-09T11:53:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 132,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 09 (APP): Chairman Senate Syed Yousuf Raza Gilani on Thursday visited the residence of Pakistan Peopleas Party Secretary General and former Chairman Senate Syed Nayyar Hussain Bukhari to express condolences on the passing of his wife. During the visit, Gilani conveyed his profound sorrow and offered prayers for the departed soulas forgiveness and eternal peace. aWe stand with Syed Nayyar Hussain Bukhari and his family in this hour of grief,a said Gilani, emphasizing his shared sense of loss and solidarity with the bereaved family. He spent time with Bukhari and his family, offering heartfelt sympathies and reiterating his support during this difficult period. Terming the loss a collective grief, the Chairman Senate assured the family of his unwavering support and extended prayers for strength and patience to overcome their loss.",
+    "summary": "Chairman Senate Syed Yousuf Raza Gilani visited the residence of Pakistan Peopleas Party Secretary General and former Chairman Senate Syed Nayyar Hussain Bukhari to express condolences on the passing of his wife.",
+    "keywords": [
+      "Gilani",
+      "Syed Nayyar Hussain Bukhari",
+      "Pakistan Peopleas Party",
+      "Senate",
+      "Condolences"
+    ]
+  },
+  "entities": [
+    {
+      "type": "PERSON",
+      "name": "Syed Yousuf Raza Gilani",
+      "wikiDataId": null,
+      "sentiment": "Positive"
+    },
+    {
+      "type": "PERSON",
+      "name": "Syed Nayyar Hussain Bukhari",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "article_id": "2025-01-09_34e1735f964b60a353fa9127d88263c8",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/naqvi-bids-farewell-to-us-ambassador-donald-blome/",
+    "retrieved_at": "2025-08-27T11:30:45.704Z"
+  },
+  "metadata": {
+    "title": "Naqvi bids farewell to US Ambassador Donald Blome",
+    "author": null,
+    "date_published": "2025-01-09T10:01:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 184,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 09 (APP):Federal Interior Minister Mohsin Naqvi hosted a farewell meeting with outgoing US Ambassador Donald Blome on Thursday. The two discussed matters of mutual interest, including the strengthening of Pakistan-US relations and strategies for addressing global challenges such as terrorism. Minister Naqvi praised Ambassador Blomeas contributions to fostering ties between the two nations and extended his best wishes for the diplomatas future endeavors. During the meeting, the US Ambassador condemned recent incidents of terrorism in Pakistan, reaffirming the need for global cooperation to combat the menace. Minister Naqvi echoed this sentiment, stating, aTerrorism is a global issue that requires a unified response. The international community must collaborate to devise a comprehensive plan for its eradication.a The Interior Minister also emphasized Pakistanas strict stance on illegal immigration, declaring that no unauthorized foreign nationals would be allowed to reside in the country. Ambassador Blome expressed gratitude for the support he received from Pakistani institutions during his tenure, acknowledging their cooperation in facilitating diplomatic efforts. The meeting was attended by Federal Secretary of Interior Khurram Ali Agha and US Deputy Head of Mission Natalie Baker.",
+    "summary": "Federal Interior Minister Mohsin Naqvi hosted a farewell meeting with outgoing US Ambassador Donald Blome, discussing mutual interests and global challenges such as terrorism. The two leaders emphasized the need for international cooperation to combat terrorism and strengthen relations between their countries.",
+    "keywords": [
+      "Pakistan-US relations",
+      "terrorism",
+      "global challenges",
+      "diplomatic efforts",
+      "immigration policies"
+    ]
+  },
+  "entities": [
+    {
+      "type": "PERSON",
+      "name": "Mohsin Naqvi",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "PERSON",
+      "name": "Donald Blome",
+      "wikidata_id": "Q11617768",
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Pakistan",
+      "wikidata_id": "Q35",
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "ORGANIZATION",
+      "name": "United States",
+      "wikidata_id": "Q30",
+      "sentiment": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "article_id": "2025-01-09_e3146ee24ae838defe946115c23b643b",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/bisps-new-year-resolution-to-equip-beneficiaries-with-technical-skills-ensuring-employability-rubina-khalid/",
+    "retrieved_at": "2025-08-27T11:29:36.695Z"
+  },
+  "metadata": {
+    "title": "BISPÃ¢ÂÂs New Year Resolution to equip beneficiaries with technical skills, ensuring employability: Rubina Khalid",
+    "author": null,
+    "date_published": "2025-01-09T14:41:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 349,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 09 (APP): Chairperson Benazir Income Support Program (BISP), Senator Rubina Khalid Thursday said that BISPas New Yearas resolution was to focus on equipping beneficiaries with technical skills and ensuring their employability therefore enabling them to support their families and contribute to the countryas development. aBy learning valuable skills, BISP beneficiaries can not only uplift their families but also become a national asset,a she said during her visit to the BISP Tehsil Office in Pabbi, Nowshera District. The Chairperson BISP announced the upcoming launch of the Benazir Hunarmand Program in 2025, which aims to provide technical skills and training to the beneficiaries. Rubina Khalid also announced that the quarterly stipend under the Benazir Kafaalat program for deserving women has been increased from Rs. 10,500 to Rs. 13,500. She described this as a New Yearas gift from BISP to registered families, aimed at providing maximum support during challenging times. Senator Rubina Khalid spoke to media representatives and highlighted that BISPas registration process has become more dynamic. She urged eligible individuals to visit their nearest BISP Tehsil Office to register, emphasizing that an original National Identity Card, Form B and childrenas school details are mandatory for registration. She told the media that health and education services are being provided through the Benazir Nashonuma and Benazir Taleemi Wazaif Programs. She referenced the legacy of Shaheed Zulfikar Ali Bhutto, who created job opportunities abroad for Pakistani laborers by issuing passports. aEven today, there is a growing demand for skilled workers worldwide,a she said, adding that Shaheed Mohtarma Benazir Bhutto once said , aSkill is your asset, which no one can take away from you.a She expressed gratitude to the President of Pakistan, Asif Ali Zardari, and Prime Minister Shahbaz Sharif for their leadership and support in increasing BISP annual budget. Earlier, during her visit, Senator Rubina Khalid met and interacted with deserving women at the BISP Tehsil Office, listened to their concerns, and instructed relevant authorities to address their issues on priority basis. She emphasized that the program aims to ensure that beneficiaries receive their stipends with dignity and without any deductions.",
+    "summary": "Chairperson Benazir Income Support Program (BISP), Senator Rubina Khalid, announced the upcoming launch of the Benazir Hunarmand Program in 2025, which aims to provide technical skills and training to the beneficiaries. She also increased the quarterly stipend under the Benazir Kafaalat program for deserving women from Rs. 10,500 to Rs. 13,500.",
+    "keywords": [
+      "technical skills",
+      "employability",
+      "Benazir Hunarmand Program",
+      "BISP beneficiaries"
+    ]
+  },
+  "entities": {
+    "people": [
+      {
+        "name": "Rubina Khalid",
+        "wikidata_id": "Q11210359",
+        "sentiment": "Positive"
+      },
+      {
+        "name": "Shaheed Zulfikar Ali Bhutto",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Asif Ali Zardari",
+        "wikidata_id": "Q1135288",
+        "sentiment": "Positive"
+      },
+      {
+        "name": "Shahbaz Sharif",
+        "wikidata_id": "Q11923641",
+        "sentiment": "Positive"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Benazir Income Support Program (BISP)",
+        "wikidata_id": null
+      },
+      {
+        "name": "APP",
+        "wikidata_id": null
+      }
+    ],
+    "locations": [
+      {
+        "name": "Pabbi, Nowshera District",
+        "wikidata_id": null
+      },
+      {
+        "name": "Pakistan",
+        "wikidata_id": "Q32"
+      }
+    ]
+  }
+}

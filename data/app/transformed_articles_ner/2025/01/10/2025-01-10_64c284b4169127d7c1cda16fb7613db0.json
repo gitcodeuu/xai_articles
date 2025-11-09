@@ -1,0 +1,149 @@
+{
+  "article_id": "2025-01-10_64c284b4169127d7c1cda16fb7613db0",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/irsa-releases-32300-cusecs-water/",
+    "retrieved_at": "2025-08-27T11:32:30.458Z"
+  },
+  "metadata": {
+    "title": "IRSA releases 32,300 cusecs water",
+    "author": null,
+    "date_published": "2025-01-10T06:32:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 151,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 10 (APP):Indus River System Authority (IRSA) on Friday released 32,300 cusecs water from various rim stations with inflow of 38,200 cusecs. According to the data released by IRSA, water level in River Indus at Tarbela Dam was 1475.90 feet and was 77.90 feet higher than its dead level of 1,398 feet. Water inflow and outflow in the dam was recorded as 15,100 cusecs and 10,000 cusecs respectively. The water level in River Jhelum at Mangla Dam was 1133.40 feet, which was 83.40 feet higher than its dead level of 1,050 feet. The inflow and outflow of water was recorded 4,800 cusecs and 4,000 cusecs respectively. The release of water at Kalabagh, Taunsa , Guddu and Sukkur was recorded as 19,500, 12,500, 4,800 and 6,000 cusecs respectively. Similarly, from River Kabul, a total of 12,700 cusecs of water released at Nowshera and 5,600 cusecs released from River Chenab at Marala.",
+    "summary": "The Indus River System Authority (IRSA) has released 32,300 cusecs of water from various rim stations. The water level in Tarbela Dam and Mangla Dam was recorded at 1475.90 feet and 1133.40 feet respectively.",
+    "keywords": [
+      "water",
+      "release",
+      "dam",
+      "river",
+      "authority"
+    ]
+  },
+  "entities": {
+    "named_entities": [
+      {
+        "type": "LOCATION",
+        "name": "Indus River System Authority (IRSA)",
+        "wikidata_id": null
+      },
+      {
+        "type": "LOCATION",
+        "name": "Tarbela Dam",
+        "wikidata_id": null
+      },
+      {
+        "type": "LOCATION",
+        "name": "River Indus",
+        "wikidata_id": "Q196123"
+      },
+      {
+        "type": "LOCATION",
+        "name": "Dead Level of 1,398 feet (Tarbela Dam)",
+        "wikidata_id": null
+      },
+      {
+        "type": "LOCATION",
+        "name": "Mangla Dam",
+        "wikidata_id": "Q195911"
+      },
+      {
+        "type": "LOCATION",
+        "name": "River Jhelum",
+        "wikidata_id": "Q196124"
+      },
+      {
+        "type": "LOCATION",
+        "name": "Dead Level of 1,050 feet (Mangla Dam)",
+        "wikidata_id": null
+      },
+      {
+        "type": "LOCATION",
+        "name": "Kalabagh",
+        "wikidata_id": null
+      },
+      {
+        "type": "LOCATION",
+        "name": "Taunsa",
+        "wikidata_id": null
+      },
+      {
+        "type": "LOCATION",
+        "name": "Guddu",
+        "wikidata_id": null
+      },
+      {
+        "type": "LOCATION",
+        "name": "Sukkur",
+        "wikidata_id": "Q196121"
+      },
+      {
+        "type": "LOCATION",
+        "name": "River Kabul",
+        "wikidata_id": null
+      },
+      {
+        "type": "LOCATION",
+        "name": "Nowshera",
+        "wikidata_id": null
+      },
+      {
+        "type": "LOCATION",
+        "name": "Marala",
+        "wikidata_id": "Q196128"
+      },
+      {
+        "type": "LOCATION",
+        "name": "River Chenab",
+        "wikidata_id": "Q196123"
+      }
+    ],
+    "de-duplicated_entities": [
+      {
+        "type": "LOCATION",
+        "name": "Indus River System Authority (IRSA)",
+        "wikidata_id": null
+      },
+      {
+        "type": "LOCATION",
+        "name": "Tarbela Dam",
+        "wikidata_id": null
+      },
+      {
+        "type": "LOCATION",
+        "name": "River Indus",
+        "wikidata_id": "Q196123"
+      },
+      {
+        "type": "LOCATION",
+        "name": "Mangla Dam",
+        "wikidata_id": "Q195911"
+      },
+      {
+        "type": "LOCATION",
+        "name": "Kalabagh",
+        "wikidata_id": null
+      },
+      {
+        "type": "LOCATION",
+        "name": "Sukkur",
+        "wikidata_id": "Q196121"
+      },
+      {
+        "type": "LOCATION",
+        "name": "Nowshera",
+        "wikidata_id": null
+      },
+      {
+        "type": "LOCATION",
+        "name": "Marala",
+        "wikidata_id": "Q196128"
+      }
+    ]
+  }
+}

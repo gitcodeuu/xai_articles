@@ -1,0 +1,52 @@
+{
+  "article_id": "2025-01-10_4f2abc31497e64952efa4f06cc4e2502",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/president-pm-congratulate-muhammad-asif-for-winning-3rd-saarc-snooker-championship/",
+    "retrieved_at": "2025-08-27T11:32:01.223Z"
+  },
+  "metadata": {
+    "title": "President, PM congratulate Muhammad Asif for winning 3rd SAARC Snooker Championship",
+    "author": null,
+    "date_published": "2025-01-10T13:12:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 128,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 10 (APP):President Asif Ali Zardari and Prime Minister Muhammad Shehbaz Sharif on Friday congratulated Pakistani cueist Muhammad Asif on winning the third SAARC snooker championship. In separate congratulatory messages, the president and prime minister lauded Muhammad Asif for demonstrating his best game in the entire championship particularly the final. aMuhammad Asif brought laurels to Pakistan in the game of snooker. I pray for Muhammad Asifas success in the future as well,a President Zardari said. Prime Minister Shehbaz also felicitated cueist Muhammad Asif on winning the third SAARC snooker championship. aMuhammad Asif won an important snooker championship and brought the countryas name to the limelight in the whole world.The whole nation is proud of you,a the PM said. He also expressed best wishes for Muhammad Asifas future.",
+    "summary": {
+      "text": "Pakistani cueist Muhammad Asif won the third SAARC snooker championship, earning congratulations from President Asif Ali Zardari and Prime Minister Muhammad Shehbaz Sharif.",
+      "sentiment": "Positive"
+    },
+    "keywords": [
+      "SAARC Snooker Championship",
+      "Pakistan",
+      "snooker",
+      "Muhammad Asif",
+      "President Zardari",
+      "Prime Minister Shehbaz Sharif"
+    ]
+  },
+  "entities": [
+    {
+      "type": "PERSON",
+      "name": "Asif Ali Zardari",
+      "wikiDataId": "Q1373",
+      "sentiment": "Positive"
+    },
+    {
+      "type": "PERSON",
+      "name": "Muhammad Shehbaz Sharif",
+      "wikiDataId": "Q15913568",
+      "sentiment": "Positive"
+    },
+    {
+      "type": "PERSON",
+      "name": "Muhammad Asif",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    }
+  ]
+}

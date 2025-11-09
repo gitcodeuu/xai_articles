@@ -1,0 +1,109 @@
+{
+  "article_id": "2025-01-09_4acca6d80d5b753bb7f1da41d5808af3",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/trial-of-civilians-in-military-courts-proceedings-continue-in-scp/",
+    "retrieved_at": "2025-08-27T11:30:29.326Z"
+  },
+  "metadata": {
+    "title": "Trial of civilians in military courts; proceedings continue in SCP",
+    "author": null,
+    "date_published": "2025-01-09T10:50:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 410,
+    "reading_time_minutes": 3
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 09 (APP):The Constitutional Bench of the Supreme Court on Thursday directed Counsel for the Ministry of Defense to produce copies of First Information Reports (FIRs) and detailed information of further legal proceedings in a number of cases including hijacking of the Army Chief Aircraft and attack on naval airbase in Karachi that left 16 killed including 10 solders. The seven-member Constitutional Bench of the Supreme Court of Pakistan, headed by Justice Amin ud Din Khan, was hearing on third consecutive day to the arguments of counsel for the Ministry of Defense Advocate Khwaja Haris. Other Members of the Bench include Justice Jamal Mandokhail, JusticeMuhammad Ali Mazhar, Justice Hasan Azhar Rizvi, Justice Musarrat Hilali, Justice Naeem Akhtar Afghan and Justice Shahid Bilal Hasan. Justice Hasan Azhar Rizvi, during the proceedings, questioned the Counsel that there were attacks on the GHQ, Naval Airbase Karachi and many other sensitive installations. In what courts legal proceedings of such incidents took place? Is the case of May 9 riots more serious than the aforementioned one? Justice Jamal Mandokhail questioned that an accused is acquitted by the Anti-Terrorism Court (ATC) and convicted in a Military Court. How can this be possible? Is the evidence produced before the military court is hidden from an ATC? Justice Jamal Mandokhail remarked that the President of Pakistan has the authority to suspend fundamental rights and the Executive has to implement the presidential decree. In case of lawfully declared emergency, fundamental rights are suspended but still the courts these rights can be defended in the Courts. Justice Musarrat Hilali observed that there was no lawfully declared emergency when the accused in May 9 riots were taken into custody. She framed a question before the Counsel that who will determine that which case to go to the military courts and which to other courts? Justice Mazhar inquired that FIRs of the accused in May 9 riots were the same. How some of them were tried in military courts and some in other courts? Arguments of the Counsel for the Ministry of Defense were dealing mostly with technical legal aspects of the petition. Referring to the SCP Judgment, he said the Supreme Court declared Article 233 ineffective while it has nothing to do with the military courts. Under this Article, the President of Pakistan can suspend fundamental rights through declaration of emergency. The proceedings were however adjourned for tomorrow (Friday) and counsel for the Ministry of Defense will continue his arguments.",
+    "summary": "The Constitutional Bench of the Supreme Court directed Counsel for the Ministry of Defense to produce copies of First Information Reports (FIRs) and detailed information of further legal proceedings in a number of cases. The court was hearing arguments on the third consecutive day, questioning the Counsel about attacks on sensitive installations and the possibility of accused being acquitted by an Anti-Terrorism Court (ATC) and convicted in a Military Court.",
+    "keywords": [
+      "Army Chief Aircraft",
+      "hijacking",
+      "attack",
+      "Karachi",
+      "May 9 riots"
+    ]
+  },
+  "entities": {
+    "persons": [
+      {
+        "name": "Justice Amin ud Din Khan",
+        "type": "PERSON",
+        "wiki_data_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Advocate Khwaja Haris",
+        "type": "PERSON",
+        "wiki_data_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Justice Jamal Mandokhail",
+        "type": "PERSON",
+        "wiki_data_id": null,
+        "sentiment": "Negative"
+      },
+      {
+        "name": "Justice Muhammad Ali Mazhar",
+        "type": "PERSON",
+        "wiki_data_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Justice Hasan Azhar Rizvi",
+        "type": "PERSON",
+        "wiki_data_id": null,
+        "sentiment": "Negative"
+      },
+      {
+        "name": "Justice Musarrat Hilali",
+        "type": "PERSON",
+        "wiki_data_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Justice Naeem Akhtar Afghan",
+        "type": "PERSON",
+        "wiki_data_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Justice Shahid Bilal Hasan",
+        "type": "PERSON",
+        "wiki_data_id": null,
+        "sentiment": "Neutral"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Supreme Court of Pakistan",
+        "type": "ORGANIZATION",
+        "wiki_data_id": null
+      },
+      {
+        "name": "Ministry of Defense",
+        "type": "ORGANIZATION",
+        "wiki_data_id": null
+      }
+    ],
+    "locations": [
+      {
+        "name": "Karachi",
+        "type": "LOCATION",
+        "wiki_data_id": "Q1023"
+      },
+      {
+        "name": "GHQ",
+        "type": "LOCATION",
+        "wiki_data_id": null
+      },
+      {
+        "name": "Naval Airbase Karachi",
+        "type": "LOCATION",
+        "wiki_data_id": null
+      }
+    ]
+  }
+}

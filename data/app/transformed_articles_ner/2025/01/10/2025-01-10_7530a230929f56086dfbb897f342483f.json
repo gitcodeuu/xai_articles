@@ -1,0 +1,67 @@
+{
+  "article_id": "2025-01-10_7530a230929f56086dfbb897f342483f",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/31-students-of-govt-ambala-college-get-honhaar-scholarship-cheques/",
+    "retrieved_at": "2025-08-27T11:31:14.356Z"
+  },
+  "metadata": {
+    "title": "31 students of Govt Ambala College get Honhaar Scholarship cheques",
+    "author": null,
+    "date_published": "2025-01-10T15:51:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 93,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "SARGODHA, Jan 10 (APP):A total of 31 students from Govt Ambala Muslim Graduate College Sargodha got Honhaar scholarship cheques from Chief Minister Punjab Maryam Nawaz Sharif during a ceremony held at University of Sargodha few days ago. This was stated by Principal Professor Dr Azhar Abbas while talking to APP here on Friday. He said students, enrolled in various BS 4-Years Programs 1st semester, were selected for the scholarship based on their outstanding academic achievements. The Punjab government is taking exemplary steps for the promotion of education and welfare of students, he added.",
+    "summary": [
+      "31 students from Govt Ambala Muslim Graduate College Sargodha received Honhaar scholarship cheques from Chief Minister Punjab Maryam Nawaz Sharif.",
+      "The ceremony was held at University of Sargodha, and the scholarships were awarded to students with outstanding academic achievements."
+    ],
+    "keywords": [
+      "Honhaar Scholarship",
+      "Govt Ambala Muslim Graduate College Sargodha",
+      "Maryam Nawaz Sharif",
+      "Sargodha"
+    ]
+  },
+  "entities": {
+    "named_entities": [
+      {
+        "type": "ORGANIZATION",
+        "name": "Govt Ambala Muslim Graduate College Sargodha",
+        "wikiDataId": null
+      },
+      {
+        "type": "PERSON",
+        "name": "Maryam Nawaz Sharif",
+        "wikiDataId": "Q214234"
+      },
+      {
+        "type": "LOCATION",
+        "name": "Sargodha",
+        "wikiDataId": null
+      }
+    ],
+    "people": [
+      {
+        "name": "Maryam Nawaz Sharif",
+        "sentiment": "Positive"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Govt Ambala Muslim Graduate College Sargodha",
+        "sentiment": "Neutral"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Sargodha",
+        "sentiment": "Neutral"
+      }
+    ]
+  }
+}

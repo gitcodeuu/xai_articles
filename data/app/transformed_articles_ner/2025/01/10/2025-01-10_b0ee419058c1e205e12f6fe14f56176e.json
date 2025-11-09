@@ -1,0 +1,42 @@
+{
+  "article_id": "2025-01-10_b0ee419058c1e205e12f6fe14f56176e",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/naqvi-meets-jui-f-chief-maulana-fazlur-rehman/",
+    "retrieved_at": "2025-08-27T11:32:25.772Z"
+  },
+  "metadata": {
+    "title": "Naqvi meets JUI-F Chief Maulana Fazlur Rehman",
+    "author": null,
+    "date_published": "2025-01-10T10:13:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 140,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 10 (APP):Federal Interior Minister Mohsin Naqvi visited the residence of JUI-F Chief Maulana Fazlur Rehman to inquire about his well-being and expressed good wishes for his health. Both leaders discussed matters of mutual interest, the overall situation in the country. Moreover, they exchanged views on measures for establishing peace in Khyber Pakhtunkhwa, particularly in the Kurram region. They also expressed satisfaction over the arrival of aid convoys in Kurram. Interior Minister stated that all stakeholders have been taken into confidence for establishing peace in the region. He said that some elements have deliberately distorted the Kurram issue. Mohsin Naqvi appreciated the sincere efforts of the Grand Jirga for improving the situation in the area. He said that he had a long- standing relation of respect with Maulana Fazlur Rehman and praised his positive role in the Pakistani politics.",
+    "summary": "Federal Interior Minister Mohsin Naqvi visited JUI-F Chief Maulana Fazlur Rehman's residence to inquire about his well-being and discussed matters of mutual interest, including establishing peace in Khyber Pakhtunkhwa.",
+    "keywords": [
+      "Mohsin Naqvi",
+      "Maulana Fazlur Rehman",
+      "Khyber Pakhtunkhwa",
+      "Kurram region",
+      "JUI-F Chief"
+    ]
+  },
+  "entities": [
+    {
+      "type": "PERSON",
+      "name": "Mohsin Naqvi",
+      "wikidata_id": "Q114113846",
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "PERSON",
+      "name": "Maulana Fazlur Rehman",
+      "wikidata_id": "Q1065114",
+      "sentiment": "Positive"
+    }
+  ]
+}

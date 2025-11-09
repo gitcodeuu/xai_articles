@@ -1,0 +1,72 @@
+{
+  "article_id": "2025-01-09_91eb57d4c3769b0b004d9b5b6dd5fe3a",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/bisp-kafalat-programs-assistance-increased-to-rs13500-rubina-khalid/",
+    "retrieved_at": "2025-08-27T11:30:03.302Z"
+  },
+  "metadata": {
+    "title": "BISP Kafalat ProgramÃ¢ÂÂs assistance increased to Rs13,500: Rubina Khalid",
+    "author": null,
+    "date_published": "2025-01-09T13:00:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 350,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "PESHAWAR, Jan 09 (APP):Chairperson, Benazir Income Support Program (BISP), Rubina Khalid here Thursday said that assistance amount under Kafalat Program has been increased from Rs10,500 to Rs13,500. She termed the increase was a new year gift of the Govt for millions of beneficiaries of BISP. Talking to media after her visit to BISP Pabbi Tehsil office in Nowshera district, she said that the BISP Hunarmand Program was being launched underwhich necessary technical and vocational skills would be provide to beneficiaries for securing dignified jobs in local and internationalA markets. Rubina Khalid said that deserving families with necessary registration documents such as Farm-B of their children and CNIC can come to our dynamic registration centres for availing the services and assistance especially scholarship for their kids reading in schools besides receiving stipends under Benazir Bhutto Naushnoma Program. She recalled the famous saying of Shaheed Benazir Bhutto that askills was a precious asset for a persona and said that Govt accorded highest priority to enhance the vocational skills of the beneficiaries so that they could get dignified jobs in the country as well as abroad. Rubina said that Quaid e Awam Shaheed Zulfiqar Bhutto had granted identity to the labourers and workers of Pakistan by issuing them green passports that enabled them to get dignified jobs abroad. She thanked the President and Prime Minister of Pakistan for increasing the budget of BISP during current fiscal year, benefiting over 9.3 million beneficiaries registered under this landmark program. She said that talks with relevant organizations including State Bank of Pakistan were held for disbursement of the BISPas assistance to the beneficiaries through banks in dignified manner. To a question about an increase of PMT from 23 to 60 for Balochistan, she said that this was taken to provide relief to the poor people of Balochistan. She hinted an advancement in this regard for poor people of erstwhile Fata. Director General BISP KP, Zohra Aslam were also present. Earlier the chairperson BISP met with beneficiaries and inquired about their problems. She directed the BISP authorities of the Pabbi centre to provide best facilities to them.",
+    "summary": "The Chairperson of the Benazir Income Support Program (BISP), Rubina Khalid, announced that the assistance amount under the Kafalat Program has been increased from Rs10,500 to Rs13,500. She also launched the Hunarmand Program, which aims to provide technical and vocational skills to beneficiaries for securing dignified jobs in local and international markets.",
+    "keywords": [
+      "BISP Kafalat Program",
+      "Rubina Khalid",
+      "Benazir Income Support Program (BISP)",
+      "Quaid e Awam Shaheed Zulfiqar Bhutto",
+      "Pakistan",
+      "Nowshera district"
+    ]
+  },
+  "entities": {
+    "people": [
+      {
+        "name": "Rubina Khalid",
+        "wikiDataId": "Q106945331",
+        "sentiment": "Positive"
+      },
+      {
+        "name": "Benazir Bhutto",
+        "wikiDataId": "Q1445",
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Quaid e Awam Shaheed Zulfiqar Bhutto",
+        "wikiDataId": "Q1469",
+        "sentiment": "Neutral"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Benazir Income Support Program (BISP)",
+        "wikiDataId": null
+      },
+      {
+        "name": "State Bank of Pakistan",
+        "wikiDataId": "Q14467"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Peshawar",
+        "wikiDataId": "Q1337"
+      },
+      {
+        "name": "Nowshera district",
+        "wikiDataId": null
+      },
+      {
+        "name": "Balochistan",
+        "wikiDataId": "Q1063"
+      }
+    ]
+  }
+}
