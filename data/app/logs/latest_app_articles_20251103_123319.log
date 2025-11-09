@@ -1,0 +1,38 @@
+[12:33:20] [📅 Processing LIST for: 2025-11-03]
+[12:34:34] ✅ Saved: 2025-11-03_b913ea2ae0146f5d140508165ad4ff00.json (974 chars)
+[12:34:39] ✅ Saved: 2025-11-03_0d9bb4e540f34ad1ddbeccfd02ac1648.json (2255 chars)
+[12:34:46] ❌ [2025-11-03] Failed: Z SAIS cloud, Botnostic solutions partner to bring AI-Powere... - Navigation timeout of 60000 ms exceeded
+[12:34:47] ❌ [2025-11-03] Failed: President, PM express grief over loss of lives in Afghanista... - Navigation timeout of 60000 ms exceeded
+[12:34:50] ✅ Saved: 2025-11-03_c59de241049ef49d2ce271fdddf823e3.json (1236 chars)
+[12:34:51] ✅ Saved: 2025-11-03_cd827c874268bfb126487c6d8ac7a832.json (1832 chars)
+[12:34:55] ✅ Saved: 2025-11-03_c7f786b1863427dd97a169461a68612d.json (2735 chars)
+[12:34:55] ✅ Saved: 2025-11-03_e4ef2cfa40b27523ddf4af55f0324afb.json (1693 chars)
+[12:34:55] ⚠️  Failed URLs in this batch:
+[12:34:55]    - https://www.app.com.pk/global/president-pm-express-grief-over-loss-of-lives-in-afghanistan-quake/: Navigation timeout of 60000 ms exceeded
+[12:34:55]    - https://www.app.com.pk/national/z-sais-cloud-botnostic-solutions-partner-to-bring-ai-powered-hrm-solutions/: Navigation timeout of 60000 ms exceeded
+[12:35:32] ✅ Saved: 2025-11-03_6b56efdc93727ed1d799e6fa3ff78f1d.json (4667 chars)
+[12:35:32] ✅ Saved: 2025-11-03_d5ea05763dce58f7a91a74e31f0ae12d.json (3505 chars)
+[12:35:34] ✅ Saved: 2025-11-03_e729670f1a952d321e584164a30f2484.json (1112 chars)
+[12:35:36] ✅ Saved: 2025-11-03_1e2035d85e480a2dd079a4441392cf3d.json (2195 chars)
+[12:35:37] ✅ Saved: 2025-11-03_e94d92f758f58eac72b02feaee5b04e6.json (2135 chars)
+[12:35:37] ✅ Saved: 2025-11-03_06175d1a27fe85ad2c38230e8b50eacf.json (2451 chars)
+[12:35:38] ✅ Saved: 2025-11-03_cb9dfc757c2f10902a7aacf3b6f9b23e.json (6713 chars)
+[12:35:40] ✅ Saved: 2025-11-03_452367157a3245ef505b8d1821b070e8.json (4619 chars)
+[12:36:06] ✅ Saved: 2025-11-03_970d9fd3083b3c14403b3429304e57d6.json (1775 chars)
+[12:36:06] ✅ Saved: 2025-11-03_70452445a56deaf4154341a3b89a9db1.json (854 chars)
+[12:36:10] ✅ Saved: 2025-11-03_c6720a2a276e07413f2ac5e4db3b2fce.json (1900 chars)
+[12:36:14] ✅ Saved: 2025-11-03_cf4644dbf19be115aa82c3c294de843b.json (1393 chars)
+[12:36:18] 🎯 Finished 2025-11-03
+[12:36:18]    📊 Success: 18 | Skipped: 0 | Failed: 2 | Total: 20
+[12:36:18]    📝 Avg content length: 2447 chars
+[12:36:19] ✅ APP article scraping completed.
+[12:36:19] 📊 Final Stats:
+{
+  "2025-11-03": {
+    "success": 18,
+    "failed": 2,
+    "skipped": 0,
+    "total": 20,
+    "avgContentLength": 2447
+  }
+}

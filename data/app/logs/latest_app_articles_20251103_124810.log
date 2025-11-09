@@ -1,0 +1,39 @@
+[12:48:11] [📅 Processing LIST for: 2025-11-03]
+[12:48:12] ⏭️  [2025-11-03] Already exists: 2025-11-03_c59de241049ef49d2ce271fdddf823e3.json
+[12:48:12] ⏭️  [2025-11-03] Already exists: 2025-11-03_e4ef2cfa40b27523ddf4af55f0324afb.json
+[12:48:12] ⏭️  [2025-11-03] Already exists: 2025-11-03_c7f786b1863427dd97a169461a68612d.json
+[12:48:12] ⏭️  [2025-11-03] Already exists: 2025-11-03_b913ea2ae0146f5d140508165ad4ff00.json
+[12:48:13] ⏭️  [2025-11-03] Already exists: 2025-11-03_cd827c874268bfb126487c6d8ac7a832.json
+[12:48:13] ⏭️  [2025-11-03] Already exists: 2025-11-03_0d9bb4e540f34ad1ddbeccfd02ac1648.json
+[12:48:43] ✅ Saved: 2025-11-03_189c147b307bcc94a87e461d4d76b141.json (1122 chars)
+[12:48:52] ✅ Saved: 2025-11-03_d6c42dfcb9b6c3336731a4bf54284f1d.json (1826 chars)
+[12:48:59] ⏭️  [2025-11-03] Already exists: 2025-11-03_1e2035d85e480a2dd079a4441392cf3d.json
+[12:48:59] ⏭️  [2025-11-03] Already exists: 2025-11-03_6b56efdc93727ed1d799e6fa3ff78f1d.json
+[12:48:59] ⏭️  [2025-11-03] Already exists: 2025-11-03_cb9dfc757c2f10902a7aacf3b6f9b23e.json
+[12:48:59] ⏭️  [2025-11-03] Already exists: 2025-11-03_e94d92f758f58eac72b02feaee5b04e6.json
+[12:48:59] ⏭️  [2025-11-03] Already exists: 2025-11-03_e729670f1a952d321e584164a30f2484.json
+[12:48:59] ⏭️  [2025-11-03] Already exists: 2025-11-03_d5ea05763dce58f7a91a74e31f0ae12d.json
+[12:48:59] ⏭️  [2025-11-03] Already exists: 2025-11-03_452367157a3245ef505b8d1821b070e8.json
+[12:49:00] ⏭️  [2025-11-03] Already exists: 2025-11-03_06175d1a27fe85ad2c38230e8b50eacf.json
+[12:49:06] ⏭️  [2025-11-03] Already exists: 2025-11-03_970d9fd3083b3c14403b3429304e57d6.json
+[12:49:06] ⏭️  [2025-11-03] Already exists: 2025-11-03_cf4644dbf19be115aa82c3c294de843b.json
+[12:49:06] ⏭️  [2025-11-03] Already exists: 2025-11-03_70452445a56deaf4154341a3b89a9db1.json
+[12:49:06] ⏭️  [2025-11-03] Already exists: 2025-11-03_c6720a2a276e07413f2ac5e4db3b2fce.json
+[12:49:32] ✅ Saved: 2025-11-03_c1d5b56a9b5f9d6026829148320a4f4c.json (2045 chars)
+[12:49:33] ✅ Saved: 2025-11-03_d5514d1188fda1945351942d49619881.json (2853 chars)
+[12:49:37] ✅ Saved: 2025-11-03_b9fcd8e773bd368bd3410bda56572740.json (1571 chars)
+[12:49:37] ✅ Saved: 2025-11-03_9638005eeac1f12480184c6ad276b2e7.json (2761 chars)
+[12:49:40] 🎯 Finished 2025-11-03
+[12:49:40]    📊 Success: 6 | Skipped: 18 | Failed: 0 | Total: 24
+[12:49:40]    📝 Avg content length: 2030 chars
+[12:49:40] ✅ APP article scraping completed.
+[12:49:40] 📊 Final Stats:
+{
+  "2025-11-03": {
+    "success": 6,
+    "failed": 0,
+    "skipped": 18,
+    "total": 24,
+    "avgContentLength": 2030
+  }
+}
