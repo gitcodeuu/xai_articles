@@ -1,0 +1,51 @@
+{
+  "article_id": "2025-01-06_d4e56ee2bce6cbd5d0a088a5637cbc7e",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/naval-chief-lauds-continued-financial-support-of-sindh-govt-to-cadet-college-sanghar/",
+    "retrieved_at": "2025-08-27T11:25:04.021Z"
+  },
+  "metadata": {
+    "title": "Naval Chief lauds continued financial support of Sindh govt to Cadet College Sanghar",
+    "author": null,
+    "date_published": "2025-01-06T11:47:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 302,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 6 (APP): Chief of the Naval Staff (CNS), Admiral Naveed Ashraf has commended the Sindh Governmentas continued financial support toward the development and progression of Cadet College Sanghar. Addressing at the 28th Parentsa Day ceremony at Cadet College Sanghar, the CNS said the Naval Chief lauded the efforts of the teaching faculty and administration for providing excellent training facilities to the cadets and for their outstanding achievements in the annual board results, said a press release issued by Directorate General of Public Relations (Pak Navy) here Monday. He also appreciated the efforts of HQ COMKAR in ensuring high standards of academic excellence and character building at Cadet College Sanghar. Earlier, the Principal of the College, Commodore Zeeshan Ali, presented the Annual Report a 2024 and highlighted the exceptional performance of cadets in academics, sports, and co-curricular activities. Later, the CNS presented prizes to the winners for their outstanding overall performance during the year. Ex-Cadet Faheem Ahmed and Ex-Cadet Sahib Khan clinched the highest prizes of the Stick of Honour and the Badge of Honour, respectively. Ex-Cadet Junaid Babar was awarded the Quaid-e-Azam Medal for Best Academic Performance. Meanwhile, Cadet Muhammad Aziz received the award for Best Sportsman, and Cadet Muhammad Ali was declared Best Debater for 2024. The event featured a parade, PT show, Tiger Squad drill, and tent pegging, which were thoroughly enjoyed by all attendees, and the cadetsa performance was widely lauded. The Chief Guest also visited Science, Arts, and Cultural Exhibition presented by the cadets and appreciated their efforts and hard work. Earlier, upon the arrival of the Chief Guest, a smartly turned-out contingent of cadets presented a salute and the Guard of Honour. The ceremony was attended by senior civil and military officials, members of the board of governors, and a large number of cadetsa parents.",
+    "summary": "The Chief of the Naval Staff, Admiral Naveed Ashraf, commended the Sindh Government's financial support to Cadet College Sanghar. He lauded the teaching faculty and administration for providing excellent training facilities and outstanding achievements in annual board results.",
+    "keywords": [
+      "Naval",
+      "Sindh",
+      "Cadet",
+      "College",
+      "Sanghar",
+      "Pakistan"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Admiral Naveed Ashraf",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Sindh Government",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1166"
+    },
+    {
+      "text": "Cadet College Sanghar",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Pakistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q33"
+    }
+  ]
+}

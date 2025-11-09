@@ -1,0 +1,35 @@
+[00:45:45] [📅 Processing LIST for: 2025-11-09]
+[00:46:22] ✅ Saved: 2025-11-09_8b520648f66baebf8e522dfa2c655f07.json (1078 chars)
+[00:46:24] ✅ Saved: 2025-11-09_59d69440fa453080d88c5a0c740ffe61.json (170 chars)
+[00:46:24] ✅ Saved: 2025-11-09_61f4034facf7994ff86f9e362000426f.json (1571 chars)
+[00:46:25] ✅ Saved: 2025-11-09_5082dcb2486b556e32d80c800b13767a.json (2171 chars)
+[00:46:27] ✅ Saved: 2025-11-09_9180bce3a1e698911f41d00d2bcfccae.json (669 chars)
+[00:46:27] ✅ Saved: 2025-11-09_b8f95c890768f0964d0a52f7639c1abb.json (1217 chars)
+[00:46:27] ✅ Saved: 2025-11-09_fbc041c25eacc14ae12c78368f68eb10.json (2514 chars)
+[00:46:29] ✅ Saved: 2025-11-09_5b9a1635d6daa881ddac72194233a517.json (2941 chars)
+[00:46:52] ✅ Saved: 2025-11-09_e374ebaa9d7ea89e9739b7814d3acf38.json (6086 chars)
+[00:46:53] ✅ Saved: 2025-11-09_8a80bf54a2b9476f0225ad7f1f957ce1.json (1393 chars)
+[00:46:53] ✅ Saved: 2025-11-09_ee4e424979391d798210d52180c5f14c.json (660 chars)
+[00:46:55] ✅ Saved: 2025-11-09_01e5df7732faef582a1d2e4882bc48bd.json (1806 chars)
+[00:46:55] ✅ Saved: 2025-11-09_52fed28b6b58c90af8aa5833f2f0a5ec.json (2222 chars)
+[00:46:56] ✅ Saved: 2025-11-09_d9b7a50d8dc1c0fbf9ce2e9816aa67a7.json (1717 chars)
+[00:46:56] ✅ Saved: 2025-11-09_06af47579aced6bca1f17cd280fd021c.json (794 chars)
+[00:46:57] ✅ Saved: 2025-11-09_86ecbe2196704de39077b6b2e721da98.json (1376 chars)
+[00:47:09] ✅ Saved: 2025-11-09_180617bbe554abf4e3545de2cd8a7983.json (1477 chars)
+[00:47:16] ✅ Saved: 2025-11-09_7367cd3eccb4cee250742d7ae4adbd94.json (3069 chars)
+[00:47:16] ✅ Saved: 2025-11-09_b86dc814ffcac9c6e1a2cc21725cbc2f.json (3233 chars)
+[00:47:16] ✅ Saved: 2025-11-09_7c6923303d7b4abc02c65dfd722f7df2.json (2232 chars)
+[00:47:19] 🎯 Finished 2025-11-09
+[00:47:19]    📊 Success: 20 | Skipped: 0 | Failed: 0 | Total: 20
+[00:47:19]    📝 Avg content length: 1920 chars
+[00:47:19] ✅ APP article scraping completed.
+[00:47:19] 📊 Final Stats:
+{
+  "2025-11-09": {
+    "success": 20,
+    "failed": 0,
+    "skipped": 0,
+    "total": 20,
+    "avgContentLength": 1920
+  }
+}

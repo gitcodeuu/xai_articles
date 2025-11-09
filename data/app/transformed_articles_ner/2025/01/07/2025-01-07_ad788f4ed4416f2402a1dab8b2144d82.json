@@ -1,0 +1,106 @@
+{
+  "article_id": "2025-01-07_ad788f4ed4416f2402a1dab8b2144d82",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/sngpl-cracks-down-on-illegal-gas-connections-imposes-over-rs-9-mln-in-fines/",
+    "retrieved_at": "2025-08-27T11:27:24.624Z"
+  },
+  "metadata": {
+    "title": "SNGPL cracks down on illegal gas connections, imposes over Rs 9 mln in fines",
+    "author": null,
+    "date_published": "2025-01-07T07:55:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 110,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 7 (APP):Sui Northern Gas Pipelines Limited (SNGPL) has launched a major operation against illegal gas connections, disconnecting 136 unauthorized connections across Punjab, Khyber Pakhtunkhwa, and Islamabad, while imposing fines exceeding Rs 9 million. In South Punjab, the company targeted Multan, Sahiwal, and Bahawalpur, severing 56 illegal connections and levying fines of Rs 90,000. In central Punjabas Lahore and Faisalabad regions, 55 illegal gas connections were disconnected, resulting in penalties amounting to Rs 3.75 million. Sheikhupura and Gujranwala saw the disconnection of five illegal connections, with fines surpassing Rs 3.9 million. Meanwhile, in Mardan, 20 illegal gas connections were cut off, and fines totaling Rs 1.2 million were imposed.",
+    "summary": "Sui Northern Gas Pipelines Limited (SNGPL) has launched a major operation against illegal gas connections, disconnecting 136 unauthorized connections across Punjab, Khyber Pakhtunkhwa, and Islamabad, while imposing fines exceeding Rs 9 million.",
+    "keywords": [
+      "SNGPL",
+      "illegal gas connections",
+      "fines",
+      "Punjab",
+      "Khyber Pakhtunkhwa",
+      "Islamabad",
+      "Multan",
+      "Sahiwal",
+      "Bahawalpur"
+    ]
+  },
+  "entities": [
+    {
+      "type": "ORGANIZATION",
+      "name": "Sui Northern Gas Pipelines Limited (SNGPL)",
+      "wikiDataId": "Q23985593",
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Punjab",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Khyber Pakhtunkhwa",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Islamabad",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Multan",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Sahiwal",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Bahawalpur",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Lahore",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Faisalabad",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Sheikhupura",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Gujranwala",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Mardan",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    }
+  ]
+}

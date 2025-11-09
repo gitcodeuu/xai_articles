@@ -1,0 +1,76 @@
+{
+  "article_id": "2025-01-07_40f628c91b46c0017f37d8caa66aa4ad",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/dpm-dar-addresses-52nd-common-training-programme/",
+    "retrieved_at": "2025-08-27T11:26:36.683Z"
+  },
+  "metadata": {
+    "title": "DPM Dar addresses 52nd Common Training Programme",
+    "author": null,
+    "date_published": "2025-01-07T13:05:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 72,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 7 (APP): Deputy Prime Minister (DPM) and Foreign Minister Senator Mohammad Ishaq Dar addressed the trainees of the 52nd Common Training Programme who visited the Ministry of Foreign Affairs here on Tuesday. Foreign Secretary Ministry of Foreign Affairs Amna Baloch was also present on the occasion, a DPM Office news release said. Additional Foreign Secretary (Africa) Ambassador Hamid Asghar Khan briefed the participants on the contours of Pakistanas foreign policy.",
+    "summary": "Deputy Prime Minister Mohammad Ishaq Dar addressed the trainees of the 52nd Common Training Programme at the Ministry of Foreign Affairs in Islamabad. The event was attended by Foreign Secretary Amna Baloch and Additional Foreign Secretary Hamid Asghar Khan, who briefed the participants on Pakistan's foreign policy.",
+    "keywords": [
+      "52nd Common Training Programme",
+      "Ministry of Foreign Affairs",
+      "Pakistan foreign policy"
+    ]
+  },
+  "entities": {
+    "people": [
+      {
+        "name": "Mohammad Ishaq Dar",
+        "type": "PERSON",
+        "wikidata_id": "Q20981343",
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Amna Baloch",
+        "type": "PERSON",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Hamid Asghar Khan",
+        "type": "PERSON",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Ministry of Foreign Affairs",
+        "type": "ORGANIZATION",
+        "wikidata_id": "Q1040596",
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "DPM Office",
+        "type": "ORGANIZATION",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Pakistan",
+        "type": "LOCATION",
+        "wikidata_id": "Q30",
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Islamabad",
+        "type": "LOCATION",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      }
+    ]
+  }
+}

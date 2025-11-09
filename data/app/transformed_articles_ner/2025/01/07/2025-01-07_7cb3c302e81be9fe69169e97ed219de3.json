@@ -1,0 +1,116 @@
+{
+  "article_id": "2025-01-07_7cb3c302e81be9fe69169e97ed219de3",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/nbf-organises-arif-mehmood-kisanas-book-launch-ceremony/",
+    "retrieved_at": "2025-08-27T11:26:09.711Z"
+  },
+  "metadata": {
+    "title": "NBF organises Arif Mehmood KisanaÃ¢ÂÂs book launch ceremony",
+    "author": null,
+    "date_published": "2025-01-07T18:36:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 520,
+    "reading_time_minutes": 3
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 07 (APP): National Book Foundation (NBP) has organised a launching ceremony for renowned writer, columnist, childrenas author, and Sweden-based scholar Arif Mehmood Kisanaas book, aWatan Sania at Ahmed Faraz Auditorium the other day. The chief guest of the ceremony was Syed Abu Ahmad Akif. The speakers included intellectual and former Federal Tax Ombudsman Muhammad Siddique, distinguished author and social figure Dr Asif Mehmood Jah, eminent writer, scholar, and former Ambassador to New Zealand, Afrasiab Mehdi Hashmi Qureshi, Bilal Hai, Dr. Zahoor Ahmad, Islahuddin, and Brigadier (R) Muhammad Saleem. The session was moderated by Nazia Rehman. During the address, the chief guest, Syed Abu Ahmad Akif, praised the book and stated that Arif Mehmood Kisana had provided valuable insights into Swedish literature, culture, traditions, education, and achievements through his book. He highlighted that individuals like Kisana not only strive to address personal challenges in foreign lands but also contribute to the development of their homeland through literature and awareness campaigns. This book stood as a remarkable example of his contributions. Afrasiab Mehdi Hashmi Qureshi emphasised the significance and impact of the book, highlighting its rich content on Sweden and its society. He noted the importance of books in the development of successful societies and stressed the stateas responsibility to safeguard literary assets. Brigadier Muhammad Saleem shed light on Swedenas notable achievements, particularly the Nobel Prize, and attributed their success to their cultural and educational excellence. Muhammad Siddique hailed the book as an excellent effort to introduce Sweden to Urdu readers and emphasised its importance in fostering diplomatic ties. Managing Director NBF, Murad Ali Mohmand, discussed the organisationas mission to promote book culture across the country and shared updates about recently opened outlets in Sialkot and Faisalabad to enhance access to books nationwide. Pakistanas ambassador to Sweden, Bilal Hai, addressed the event online, underscoring the importance of such literary works in providing a deeper understanding of Swedenas advancements in education, science, and technology. He applauded Kisana for his outstanding efforts in bridging cultural and literary gaps between the two countries. Dr. Zahoor Ahmad, a renowned writer and Pakistanas ambassador to Spain, also joined the ceremony online and commended Kisana for his dedication to promoting Pakistani literature in Sweden. He stated that personalities like Kisana played a crucial role in introducing Pakistani culture and values to Swedish society. National hockey hero Islahuddin also shared his thoughts, remarking that no previous book in Urdu has provided such comprehensive insights into Sweden. Dr Asif Mehmood Jah lauded Kisanaas multifaceted contributions, especially his prior work in childrenas literature, and appreciated his efforts to shed light on Swedenas progress and success. Author Dr Arif Mehmood Kisana, participated online and expressed his gratitude to the NBF for publishing his works and hosting this launch ceremony. He emphasised that aWatan Sania served as a comprehensive guidebook on Sweden, covering various aspects of life in the country. The eventas international participation, both online and in person, including literary enthusiasts from Rawalpindi, Islamabad, and other cities, turned it into a global celebration. The ceremony was hosted online by Asad Nagra and Aftab Ahmed, making it accessible to viewers worldwide.",
+    "summary": "The National Book Foundation (NBF) organized a book launch ceremony for Arif Mehmood Kisana's book, aWatan Sania. The ceremony was attended by notable personalities and featured discussions on the significance of books in promoting cultural exchange between Pakistan and Sweden.",
+    "keywords": [
+      "Arif Mehmood Kisana",
+      "aWatan Sania",
+      "book launch ceremony",
+      "Sweden",
+      "literature",
+      "education"
+    ]
+  },
+  "entities": {
+    "people": [
+      {
+        "name": "Arif Mehmood Kisana",
+        "type": "PERSON",
+        "wikidata_id": "Q11211353",
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Syed Abu Ahmad Akif",
+        "type": "PERSON",
+        "wikidata_id": null,
+        "sentiment": "Positive"
+      },
+      {
+        "name": "Muhammad Siddique",
+        "type": "PERSON",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Dr Asif Mehmood Jah",
+        "type": "PERSON",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Afrasiab Mehdi Hashmi Qureshi",
+        "type": "PERSON",
+        "wikidata_id": null,
+        "sentiment": "Positive"
+      },
+      {
+        "name": "Bilal Hai",
+        "type": "PERSON",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Dr. Zahoor Ahmad",
+        "type": "PERSON",
+        "wikidata_id": null,
+        "sentiment": "Positive"
+      },
+      {
+        "name": "Islahuddin",
+        "type": "PERSON",
+        "wikidata_id": null,
+        "sentiment": "Neutral"
+      },
+      {
+        "name": "Muhammad Saleem",
+        "type": "PERSON",
+        "wikidata_id": null,
+        "sentiment": "Positive"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "National Book Foundation (NBF)",
+        "type": "ORGANIZATION",
+        "wikidata_id": null
+      },
+      {
+        "name": "Sweden",
+        "type": "LOCATION",
+        "wikidata_id": "Q33"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Islamabad",
+        "type": "LOCATION",
+        "wikidata_id": null
+      },
+      {
+        "name": "Rawalpindi",
+        "type": "LOCATION",
+        "wikidata_id": null
+      },
+      {
+        "name": "New Zealand",
+        "type": "LOCATION",
+        "wikidata_id": "Q86"
+      }
+    ]
+  }
+}

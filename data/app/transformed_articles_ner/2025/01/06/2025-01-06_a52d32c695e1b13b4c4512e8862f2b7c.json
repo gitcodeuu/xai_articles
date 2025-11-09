@@ -1,0 +1,70 @@
+{
+  "article_id": "2025-01-06_a52d32c695e1b13b4c4512e8862f2b7c",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/sayedaal-khan-visits-siddique-ul-farooqs-residence-to-offer-condolences/",
+    "retrieved_at": "2025-08-27T11:25:03.894Z"
+  },
+  "metadata": {
+    "title": "Sayedaal Khan visits Siddique-ul-FarooqÃ¢ÂÂs residence to offer condolences",
+    "author": null,
+    "date_published": "2025-01-06T14:13:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 214,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 06 (APP):Deputy Chairman Senate Sayedaal Khan Monday visited the residence of senior Pakistan Muslim League-Nawaz (PML-N) leader and former Chairman of the Evacuee Trust Property Board, Siddique-ul-Farooq, to offer condolences on his demise. Expressing profound grief, he prayed for the departed soul, seeking forgiveness, elevated ranks in Jannah, and patience for the bereaved family to bear this irreparable loss. Paying tribute to Siddique-ul-Farooqas contributions, the Deputy Chairman remarked that his political and social services to Pakistan will always be remembered. Siddique-ul-Farooq was a sincere and astute politician with strong convictions,a he added. He also lauded Siddique-ul-Farooqas sacrifices and unwavering commitment to democracy, terming his efforts as unforgettable. Sayedaal Khan extended heartfelt sympathies, assuring them of his solidarity during this difficult time and sharing in their sorrow. Separately, the Deputy Chairman Senate visited the residence of Chaudhry Ilyas Mehrban, a prominent political and social figure, to express condolences on the tragic demise of his young son. The Deputy Chairman expressed deep sorrow over the loss, offering prayers for the departed soul. He prayed for forgiveness and the elevation of the deceasedas ranks in Jannah. He conveyed his heartfelt sympathies and assured the bereaved family of his unwavering support. aIn this time of sorrow, I stand with the family, sharing their grief,a he said.",
+    "summary": "Deputy Chairman Senate Sayedaal Khan offered condolences to the family of Siddique-ul-Farooq, a senior PML-N leader, following his passing. Khan praised Farooq’s political and social contributions to Pakistan, highlighting his dedication to democracy. The Deputy Chairman also visited the family of Chaudhry Ilyas Mehrban to offer condolences on the loss of his son.",
+    "keywords": [
+      "Sayedaal Khan",
+      "Siddique-ul-Farooq",
+      "PML-N",
+      "Pakistan",
+      "condolences"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Sayedaal Khan",
+      "label": "PERSON",
+      "wikidata_id": "Q81621734"
+    },
+    {
+      "text": "Siddique-ul-Farooq",
+      "label": "PERSON",
+      "wikidata_id": "Q11407555"
+    },
+    {
+      "text": "Pakistan Muslim League-Nawaz",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1931696"
+    },
+    {
+      "text": "PML-N",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1931696"
+    },
+    {
+      "text": "Evacuee Trust Property Board",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1755670"
+    },
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    },
+    {
+      "text": "Pakistan",
+      "label": "LOCATION",
+      "wikidata_id": "Q4661"
+    },
+    {
+      "text": "Chaudhry Ilyas Mehrban",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    }
+  ]
+}

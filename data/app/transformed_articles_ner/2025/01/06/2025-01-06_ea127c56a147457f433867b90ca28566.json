@@ -1,0 +1,79 @@
+{
+  "article_id": "2025-01-06_ea127c56a147457f433867b90ca28566",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/qau-students-delegation-visits-app/",
+    "retrieved_at": "2025-08-27T11:24:50.840Z"
+  },
+  "metadata": {
+    "title": "QAU studentÃ¢ÂÂs delegation visits APP",
+    "author": null,
+    "date_published": "2025-01-06T14:46:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 77,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 6 (APP):A delegation of students from Public Administration Department of Quaid-e-Azam University (QAU) visited Associated Press of Pakistan (APP) here on Monday. The delegation got the know-how about the working of APPas various sections. The students including Arsal Zargham Bajwa, Kamran Ali, Maskan Alam, Munahal Khan, and Safdar Hussain also met with Managing Director APP Muhammad Asim Khichi. The MD APP said that the national news agency believes in responsible journalism and reflects national perspective.",
+    "summary": "A delegation of students from Quaid-e-Azam University's Public Administration Department visited the Associated Press of Pakistan in Islamabad on January 6.",
+    "keywords": [
+      "Quaid-e-Azam University",
+      "Associated Press of Pakistan",
+      "ISLAMABAD",
+      "Public Administration Department"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Arsal Zargham Bajwa",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Kamran Ali",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Maskan Alam",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Munahal Khan",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Safdar Hussain",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Muhammad Asim Khichi",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Quaid-e-Azam University",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q1528135"
+    },
+    {
+      "text": "Associated Press of Pakistan",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Public Administration Department",
+      "label": "ORGANIZATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "ISLAMABAD",
+      "label": "LOCATION",
+      "wikidata_id": "Q160581"
+    }
+  ]
+}

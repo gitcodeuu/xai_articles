@@ -1,0 +1,44 @@
+{
+  "article_id": "2025-01-07_bf2636d2508fe1973a95497352f2217f",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/us-amb-pays-farewell-call-on-dpm-fm-dar/",
+    "retrieved_at": "2025-08-27T11:26:33.285Z"
+  },
+  "metadata": {
+    "title": "US Amb. pays farewell call on DPM/FM Dar",
+    "author": null,
+    "date_published": "2025-01-07T13:59:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 70,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 07 (APP): Donald Blome, the U.S. Ambassador to Pakistan, on Tuesday made a farewell call on Deputy Prime Minister/Foreign Minister Senator Mohammad Ishaq Dar. The DPM/FM congratulated Ambassador Blome on successfully completing his tenure in Pakistan and appreciated his role in strengthening Pakistan-US relations, Foreign Office Spokesperson said in a press release. Dar expressed the government of Pakistanas resolve to continue positive engagement with the new US administration.",
+    "summary": [
+      "US Ambassador Donald Blome paid a farewell call on Deputy Prime Minister/Foreign Minister Mohammad Ishaq Dar.",
+      "Dar congratulated Blome on completing his tenure and appreciated his role in strengthening US-Pakistan relations.",
+      "Pakistan's government expressed its resolve to continue positive engagement with the new US administration."
+    ],
+    "keywords": [
+      "US-Pakistan relations",
+      "Donald Blome",
+      "Mohammad Ishaq Dar"
+    ]
+  },
+  "entities": [
+    {
+      "type": "PERSON",
+      "name": "Donald Blome",
+      "wikiDataId": "Q58310823",
+      "sentiment": "Positive"
+    },
+    {
+      "type": "PERSON",
+      "name": "Mohammad Ishaq Dar",
+      "wikiDataId": "Q20912341",
+      "sentiment": "Neutral"
+    }
+  ]
+}

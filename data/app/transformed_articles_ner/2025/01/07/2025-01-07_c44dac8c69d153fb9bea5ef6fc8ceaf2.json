@@ -1,0 +1,94 @@
+{
+  "article_id": "2025-01-07_c44dac8c69d153fb9bea5ef6fc8ceaf2",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/irsa-releases-33400-cusecs-water/",
+    "retrieved_at": "2025-08-27T11:27:24.029Z"
+  },
+  "metadata": {
+    "title": "IRSA releases 33,400 cusecs water",
+    "author": null,
+    "date_published": "2025-01-07T08:49:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 151,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 7 (APP):Indus River System Authority (IRSA) on Tuesday released 33,400 cusecs water from various rim stations with inflow of 42,500 cusecs. According to the data released by IRSA, water level in River Indus at Tarbela Dam was 1475.09 feet and was 77.09 feet higher than its dead level of 1,398 feet. Water inflow and outflow in the dam was recorded as 17,500 cusecs and 10,000 cusecs respectively. The water level in River Jhelum at Mangla Dam was 1133.20 feet, which was 83.20 feet higher than its dead level of 1,050 feet. The inflow and outflow of water was recorded 5,600 cusecs and 4,000 cusecs respectively. The release of water at Kalabagh, Taunsa , Guddu and Sukkur was recorded as 12,000, 12,300, 7,600 and 18,000 cusecs respectively. Similarly, from River Kabul, a total of 14,300 cusecs of water released at Nowshera and 5,100 cusecs released from River Chenab at Marala.",
+    "summary": [
+      "The Indus River System Authority (IRSA) released 33,400 cusecs of water from various rim stations on Tuesday.",
+      "The water level in the Tarbela Dam was recorded at 1475.09 feet, which is 77.09 feet higher than its dead level of 1,398 feet.",
+      "The release of water at different dams and barrages was also recorded."
+    ],
+    "keywords": [
+      "water release",
+      "IRSA",
+      "Tarbela Dam",
+      "Mangla Dam",
+      "Guddu Barrage"
+    ]
+  },
+  "entities": [
+    {
+      "type": "LOCATION",
+      "name": "Indus River System Authority (IRSA)",
+      "wikidata_id": null
+    },
+    {
+      "type": "LOCATION",
+      "name": "Tarbela Dam",
+      "wikidata_id": "Q1562342"
+    },
+    {
+      "type": "LOCATION",
+      "name": "River Indus",
+      "wikidata_id": null
+    },
+    {
+      "type": "LOCATION",
+      "name": "Mangla Dam",
+      "wikidata_id": "Q1521945"
+    },
+    {
+      "type": "LOCATION",
+      "name": "River Jhelum",
+      "wikidata_id": null
+    },
+    {
+      "type": "LOCATION",
+      "name": "Kalabagh",
+      "wikidata_id": null
+    },
+    {
+      "type": "LOCATION",
+      "name": "Taunsa ",
+      "wikidata_id": null
+    },
+    {
+      "type": "LOCATION",
+      "name": "Guddu",
+      "wikidata_id": "Q1519443"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Sukkur",
+      "wikidata_id": "Q1521979"
+    },
+    {
+      "type": "LOCATION",
+      "name": "River Kabul",
+      "wikidata_id": null
+    },
+    {
+      "type": "LOCATION",
+      "name": "Nowshera",
+      "wikidata_id": null
+    },
+    {
+      "type": "LOCATION",
+      "name": "Marala",
+      "wikidata_id": null
+    }
+  ]
+}

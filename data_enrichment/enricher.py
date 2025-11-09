@@ -5,6 +5,7 @@ from pathlib import Path
 import logging
 import google.generativeai as genai
 import ollama
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # --- Configuration ---
 # Directories
@@ -17,7 +18,10 @@ OUTPUT_SUBDIR = "transformed_articles_ner"
 # --- Provider Configuration ---
 ENRICHMENT_PROVIDER = os.environ.get("ENRICHMENT_PROVIDER", "google").lower()
 OLLAMA_API_URL = os.environ.get("OLLAMA_API_URL")
-OLLAMA_MODEL_NAME = os.environ.get("OLLAMA_MODEL", "llama3.1") # Default model for Ollama
+OLLAMA_MODEL_NAME = os.environ.get("OLLAMA_MODEL", "gemma3:12b") # Default model for Ollama
+MAX_RETRIES = 3
+INITIAL_BACKOFF = 2 # seconds
+MAX_WORKERS = int(os.environ.get("MAX_WORKERS", 10))
 
 # Google Gemini API Configuration
 GEMINI_MODEL_NAME = "gemini-1.5-flash-latest" # Updated model name
@@ -52,20 +56,40 @@ logging.basicConfig(
 
 # --- Prompt Template ---
 SYSTEM_PROMPT = """
-You are a meticulous NLP and Knowledge Graph analyst. Your task is to process a given news article and extract structured information.
+You are a meticulous NLP and Knowledge Graph analyst. Your task is to process a given news article and extract structured information with high precision.
 
-You must follow these instructions exactly:
-1.  You will be given an input JSON object containing a news article.
-2.  You must *only* use the text in the `content.article_body` field to perform your tasks. Do not use the title or other metadata.
-3.  Your output *must* be a single, valid JSON object containing *only* the keys `summary`, `keywords`, and `entities`.
-4.  **For `summary`:** Generate a 2-3 sentence, high-level summary of the event.
-5.  **For `keywords`:** Generate an array of 5-7 significant keywords from the text.
-6.  **For `entities`:** This is the most important task.
-    * Identify all named entities in the text.
-    * Classify them as `PERSON`, `ORGANIZATION`, or `LOCATION`.
-    * For each entity, find its corresponding WikiData ID (e.g., "Islamabad" is "Q1166").
-    * If a WikiData ID is ambiguous or cannot be found, use "null".
-    * The output must be an array of JSON objects, each with "text", "label", and "wikidata_id".
+You must follow these instructions exactly.
+
+1. Core Instructions
+Input: You will be given a single JSON object containing a news article.
+
+Processing: You must only use the text in the content.article_body field to perform your tasks. Do not use the title, summary, or any other metadata.
+
+Output: Your output must be a single, valid JSON object. Any other text, apologies, or explanations are forbidden.
+
+2. Step-by-Step Task Logic
+You will perform the following steps in order:
+
+Read: First, read the content.article_body text carefully.
+
+Extract & De-duplicate: Identify all named entities and classify them as PERSON, ORGANIZATION, or LOCATION. You must then de-duplicate them. For example, if "Bilawal Bhutto Zardari" is mentioned 5 times, he should have only one entry in your final entities list.
+
+Link (WikiData): For each unique entity, you must try to find its corresponding WikiData ID.
+
+Crucial: You must be very cautious. If an entity is ambiguous (e.g., "John Smith") or not prominent enough to have a clear WikiData entry (e.g., a local figure not on Wikipedia), you must use null.
+
+It is better to use null than to guess a wrong ID.
+
+Analyze Sentiment: For each unique entity, analyze all its mentions and the surrounding context within the article to determine its overall sentiment. The sentiment must be one of: Positive, Negative, or Neutral.
+
+Generate Keywords: Generate an array of 5-7 significant keywords. These should include the most important concepts (e.g., "AI regulation," "online safety") as well as the most central named entities.
+
+Summarize: Generate a 2-3 sentence, high-level summary that describes the main event or topic of the article.
+
+Format Output: Assemble all extracted information into the single JSON object specified below.
+
+3. Final Output Schema
+Your output must be a single JSON object using only these keys and structures:
 """
 
 USER_PROMPT_TEMPLATE = """
@@ -77,6 +101,7 @@ Here is the article to process:
 def get_gemini_response(article_json_str: str) -> dict | None:
     """
     Sends the article to the Google Gemini model and returns the parsed JSON response.
+    Includes retry logic with exponential backoff.
     """
     user_prompt = USER_PROMPT_TEMPLATE.format(article_json=article_json_str)
     
@@ -89,46 +114,61 @@ def get_gemini_response(article_json_str: str) -> dict | None:
         )
     )
 
-    try:
-        logging.info("Sending request to Google Gemini model...")
-        response = model.generate_content(user_prompt)
-        response_text = response.text
-        parsed_content = json.loads(response_text)
-        logging.info("Successfully received and parsed response from Gemini.")
-        return parsed_content
-    except Exception as e:
-        logging.error(f"Google Gemini API request or processing failed: {e}")
-        if 'response' in locals():
-            logging.error(f"Prompt Feedback: {getattr(response, 'prompt_feedback', 'N/A')}")
-            logging.error(f"Candidates: {getattr(response, 'candidates', 'N/A')}")
+    for attempt in range(MAX_RETRIES):
+        try:
+            logging.info("Sending request to Google Gemini model...")
+            response = model.generate_content(user_prompt)
+            response_text = response.text
+            parsed_content = json.loads(response_text)
+            logging.info("Successfully received and parsed response from Gemini.")
+            return parsed_content
+        except Exception as e:
+            logging.error(f"Google Gemini API request failed on attempt {attempt + 1}/{MAX_RETRIES}: {e}")
+            if 'response' in locals():
+                logging.error(f"Prompt Feedback: {getattr(response, 'prompt_feedback', 'N/A')}")
+                logging.error(f"Candidates: {getattr(response, 'candidates', 'N/A')}")
+            if attempt < MAX_RETRIES - 1:
+                backoff_time = INITIAL_BACKOFF * (2 ** attempt)
+                logging.info(f"Retrying in {backoff_time} seconds...")
+                time.sleep(backoff_time)
+            else:
+                logging.error("Max retries reached for Gemini API. Giving up.")
     return None
 
 def get_ollama_response(article_json_str: str) -> dict | None:
     """
     Sends the article to the Ollama model and returns the parsed JSON response.
+    Includes retry logic with exponential backoff.
     """
     user_prompt = USER_PROMPT_TEMPLATE.format(article_json=article_json_str)
     
-    try:
-        logging.info(f"Sending request to Ollama model '{OLLAMA_MODEL_NAME}' at {OLLAMA_API_URL}...")
-        response = ollama_client.chat(
-            model=OLLAMA_MODEL_NAME,
-            messages=[
-                {'role': 'system', 'content': SYSTEM_PROMPT},
-                {'role': 'user', 'content': user_prompt}
-            ],
-            format='json'
-        )
-        
-        # The response from the ollama library is already a dict
-        response_text = response['message']['content']
-        parsed_content = json.loads(response_text)
-        
-        logging.info("Successfully received and parsed response from Ollama.")
-        return parsed_content
+    for attempt in range(MAX_RETRIES):
+        try:
+            logging.info(f"Sending request to Ollama model '{OLLAMA_MODEL_NAME}' at {OLLAMA_API_URL}...")
+            response = ollama_client.chat(
+                model=OLLAMA_MODEL_NAME,
+                messages=[
+                    {'role': 'system', 'content': SYSTEM_PROMPT},
+                    {'role': 'user', 'content': user_prompt}
+                ],
+                format='json'
+            )
+            
+            # The response from the ollama library is already a dict
+            response_text = response['message']['content']
+            parsed_content = json.loads(response_text)
+            
+            logging.info("Successfully received and parsed response from Ollama.")
+            return parsed_content
 
-    except Exception as e:
-        logging.error(f"Ollama API request or processing failed: {e}")
+        except Exception as e:
+            logging.error(f"Ollama API request failed on attempt {attempt + 1}/{MAX_RETRIES}: {e}")
+            if attempt < MAX_RETRIES - 1:
+                backoff_time = INITIAL_BACKOFF * (2 ** attempt)
+                logging.info(f"Retrying in {backoff_time} seconds...")
+                time.sleep(backoff_time)
+            else:
+                logging.error("Max retries reached for Ollama API. Giving up.")
     return None
 
 
@@ -174,7 +214,6 @@ def process_article_file(input_path: Path, output_path: Path):
             
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
-            logging.info(f"Successfully enriched and saved {output_path.name}")
         else:
             logging.error(f"Failed to get enrichment data for {input_path.name}.")
 
@@ -186,9 +225,10 @@ def process_article_file(input_path: Path, output_path: Path):
 
 def main():
     """
-    Main function to walk through directories and process files.
+    Main function to walk through directories and process files concurrently.
     """
     logging.info(f"Starting data enrichment process using provider: {ENRICHMENT_PROVIDER.upper()}")
+    logging.info(f"Using up to {MAX_WORKERS} parallel workers.")
 
     for source in SOURCES:
         input_dir = INPUT_BASE_DIR / source / INPUT_SUBDIR
@@ -201,7 +241,6 @@ def main():
         logging.info(f"Processing source: {source}")
 
         # Get list of files to process (delta check)
-        # Using sorted lists to ensure deterministic processing order
         input_files = sorted([f for f in input_dir.glob("**/*.json") if f.is_file()])
         
         files_to_process = []
@@ -216,11 +255,21 @@ def main():
             
         logging.info(f"Found {len(files_to_process)} new files to process for source '{source}'.")
 
-        for input_file, output_file in files_to_process:
-            logging.info(f"--- Processing {input_file.name} ---")
-            process_article_file(input_file, output_file)
-            # Add a small delay to avoid hitting API rate limits
-            time.sleep(1) 
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            # Submit all processing tasks to the executor
+            future_to_file = {executor.submit(process_article_file, in_file, out_file): in_file.name for in_file, out_file in files_to_process}
+            
+            processed_count = 0
+            total_files = len(files_to_process)
+            
+            for future in as_completed(future_to_file):
+                file_name = future_to_file[future]
+                processed_count += 1
+                try:
+                    future.result()  # Check for exceptions
+                    logging.info(f"({processed_count}/{total_files}) Successfully processed {file_name}")
+                except Exception as exc:
+                    logging.error(f"({processed_count}/{total_files}) {file_name} generated an exception: {exc}")
 
     logging.info("Data enrichment process finished.")
 

@@ -1,0 +1,60 @@
+{
+  "article_id": "2025-01-07_1b2643fdf145fb0f570a61333c6bd430",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/senate-chairman-gilani-attends-qul-khawani-of-munawar-sandheela/",
+    "retrieved_at": "2025-08-27T11:27:00.993Z"
+  },
+  "metadata": {
+    "title": "Senate Chairman Gilani attends Qul Khawani of Munawar Sandheela",
+    "author": null,
+    "date_published": "2025-01-07T11:15:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 166,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "MULTAN, Jan 07 (APP):Senate Chairman Syed Yusuf Raza Gilani attended the aRasm-e-Qula of renowned localA political figure Malik Haji Munawar Hayat Sandheela in Bunda Sandeela, Multan. He was accompanied by MNA Syed Ali Qasim Gilani and MPA Syed Ali Haider Gilani. Syed Yusuf Raza Gilani praised late Malik Haji Munawar Hayat Sandeela for his politicalA contributions and offered condolences to the bereaved family. Later, the chairman Senate performed the turban-tying ceremony (Dastarbandi) of theA late leaderas son, Malik Zubair Munawar Sandeela. Former federal minister Syed Hamid Saeed Kazmi led a collective prayer for the departed soul. The ceremony was attended by a large number of people, including Malik Haji Ghulam Jaffar Sandheela,A Malik Haji Mureed Hussain Sandheela, Malik Haji Aziz Rasool Sandheela, former MNA Mehr Irshad Sial, Malik Manzoor Domra, Mehr Mahmood-ul-Hassan Sial, Malik Qamar Zaman Sandeela, and several other prominent figures such as Pirzada Mian Salahuddin Bhutta, Mian Zubair Bhutta, Mian Yasir Bhutta, Salman Khakwani, and Naeem Khan, along with respected members of the community.",
+    "summary": [
+      "Senate Chairman Syed Yusuf Raza Gilani attended the Qul Khawani of Malik Haji Munawar Hayat Sandheela in Multan.",
+      "He praised late Malik Haji Munawar Hayat Sandheela for his political contributions and offered condolences to the bereaved family.",
+      "The ceremony was attended by a large number of people, including several prominent figures."
+    ],
+    "keywords": [
+      "Syed Yusuf Raza Gilani",
+      "Malik Haji Munawar Hayat Sandheela",
+      "Multan",
+      "Pakistan Senate",
+      "Qul Khawani",
+      "Dastarbandi",
+      "turban-tying ceremony"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Syed Yusuf Raza Gilani",
+      "type": "PERSON",
+      "wikiDataId": "Q21389544",
+      "sentiment": "Neutral"
+    },
+    {
+      "name": "Malik Haji Munawar Hayat Sandheela",
+      "type": "PERSON",
+      "wikiDataId": null,
+      "sentiment": "Positive"
+    },
+    {
+      "name": "Multan",
+      "type": "LOCATION",
+      "wikiDataId": "Q194740",
+      "sentiment": "Neutral"
+    },
+    {
+      "name": "Pakistan Senate",
+      "type": "ORGANIZATION",
+      "wikiDataId": null,
+      "sentiment": "Neutral"
+    }
+  ]
+}

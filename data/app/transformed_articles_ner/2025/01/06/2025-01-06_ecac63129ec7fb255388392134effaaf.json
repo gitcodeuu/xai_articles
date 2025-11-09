@@ -1,0 +1,57 @@
+{
+  "article_id": "2025-01-06_ecac63129ec7fb255388392134effaaf",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/saudi-relief-convoy-crosses-jordan-into-syria-to-aid-crisis-affected-populace/",
+    "retrieved_at": "2025-08-27T11:25:43.560Z"
+  },
+  "metadata": {
+    "title": "Saudi relief convoy crosses Jordan into Syria to aid crisis-affected populace",
+    "author": null,
+    "date_published": "2025-01-06T08:17:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 131,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "RIYADH, Jan 06 (APP):A convoy of 60 trucks carrying humanitarian aid crossed the Jaber Border Crossing into Syria the other day, marking the commencement of the Saudi relief land bridge initiative to support the Syrian people in their time of need. Organized by the King Salman Humanitarian Aid and Relief Center (KSrelief), the relief operation includes essential supplies such as food, shelter materials, and medical aid to help alleviate the hardships faced by Syrians amid ongoing crises. The convoyas entry into Syria has underscored the Kingdom of Saudi Arabiaas steadfast commitment to supporting the Syrian people during periods of adversity, reaffirming its role as a leading global donor in humanitarian efforts. The initiative has reflected Saudi Arabiaas continuous dedication to mitigating the impact of humanitarian crises through coordinated international relief operations.",
+    "summary": "A Saudi convoy carrying aid crossed into Syria, marking the start of a land bridge initiative to support Syrians during their time of need. The relief operation includes essential supplies such as food and medical aid.",
+    "keywords": [
+      "Saudi",
+      "Syria",
+      "relief",
+      "aid",
+      "convoy",
+      "Kingdom",
+      "humanitarian"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Riyadh",
+      "label": "LOCATION",
+      "wikidata_id": "Q1344"
+    },
+    {
+      "text": "Saudi Arabia",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q39"
+    },
+    {
+      "text": "King Salman Humanitarian Aid and Relief Center (KSrelief)",
+      "label": "ORGANIZATION",
+      "wikidata_id": null
+    },
+    {
+      "text": "Jaber Border Crossing",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Syria",
+      "label": "LOCATION",
+      "wikidata_id": "Q1177"
+    }
+  ]
+}

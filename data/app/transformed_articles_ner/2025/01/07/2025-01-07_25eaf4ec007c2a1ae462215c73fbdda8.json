@@ -1,0 +1,110 @@
+{
+  "article_id": "2025-01-07_25eaf4ec007c2a1ae462215c73fbdda8",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/eco-arts-calligraphy-exhibition-opens-at-pnca/",
+    "retrieved_at": "2025-08-27T11:26:58.183Z"
+  },
+  "metadata": {
+    "title": "ECO Arts & Calligraphy Exhibition opens at PNCA",
+    "author": null,
+    "date_published": "2025-01-07T12:50:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 448,
+    "reading_time_minutes": 3
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 07 (APP):ECO Cultural Institute, the Ministry of National Heritage & Culture Division, and The Diplomatic Insight, in collaboration with the Pakistan National Council of the Arts (PNCA), organized the exhibition aTimeless Serenity of Calligraphy and Artsa to celebrate the rich cultural heritage of ECO member states. The exhibition, inaugurated at PNCA Islamabad by Ambassador Asad Majeed Khan, Secretary General of the Economic Cooperation Organisation (ECO), showcased calligraphic masterpieces and artworks by prominent artists from ECO member countries, including Pakistan, Iran, Kazakhstan, Azerbaijan, Uzbekistan, Kyrgyzstan, Tajikistan, and Afghanistan. The event highlighted the regionas cultural diversity and unity through its artistic treasures. Speaking on the occasion, Ambassador Asad Majeed Khan emphasized that the ECO regionas unparalleled cultural diversity was its greatest strength, serving as a bridge between civilizations and a foundation for peace, prosperity, and mutual respect. He noted, aThe exhibition exemplifies the ECOas commitment to nurturing cultural bonds alongside economic and technical cooperation.a aArt and culture transcend boundaries, uniting us in ways that politics and economics cannot. This exhibition is a testament to the shared values, traditions, and aspirations of the ECO region, showcasing our collective heritage to the world,a he remarked. In her opening remarks, Dr. Farhat Asif, President IPDS and TDI highlighted the transformative power of cultural diplomacy in building bridges between nations. She emphasized, aArt and culture are fundamental tools for fostering dialogue, understanding, and collaboration among diverse communities.a Dr. Saad Khan, President of the ECO Cultural Institute, underscored the significance of showcasing the artistic achievements of the ECO region. He pointed out that the regionas artistic legacy was not only a source of pride but also a vital means for fostering peace, dialogue, and collaboration among member states. Muhammad Asif Noor, Chief Executive of The Diplomatic Insight Group, expressed appreciation for the tireless efforts of Hassan Nasir Jamy, Federal Secretary of the Ministry of National Heritage & Culture Division, in promoting Pakistanas soft image internationally and strengthening cultural linkages across the globe. He also acknowledged the dedication of Muhammad Ayub Jamali, Director General PNCA, and Maryam Ahmad, Director of the Art Gallery, whose contributions were pivotal in making the exhibition a success. The exhibition featured exquisite calligraphy and intricate crafts from across the ECO member states, with each piece reflecting the unique cultural identity and heritage of its country of origin. The artistic mastery of renowned Pakistani calligrapher Azeem Iqbal was also prominently displayed alongside other notable works, demonstrating the shared values and traditions that bind the ECO nations while celebrating their distinct artistic expressions. The exhibition will remain open to the public until January 14, offering a unique opportunity to experience and appreciate the artistic diversity and heritage of the ECO region.",
+    "summary": "The ECO Cultural Institute, Ministry of National Heritage & Culture Division, and The Diplomatic Insight organized an art and calligraphy exhibition at PNCA Islamabad to celebrate the rich cultural heritage of ECO member states. The event highlighted the region's cultural diversity and unity through its artistic treasures. Renowned artists from across the ECO member states showcased their works, including Pakistan, Iran, Kazakhstan, Azerbaijan, Uzbekistan, Kyrgyzstan, Tajikistan, and Afghanistan.",
+    "keywords": [
+      "ECO Arts & Calligraphy Exhibition",
+      "Pakistan National Council of the Arts (PNCA)",
+      "Economic Cooperation Organisation (ECO)",
+      "Calligraphy and Arts exhibition",
+      "Cultural Heritage",
+      "Artistic Legacy",
+      "Peace and Dialogue"
+    ]
+  },
+  "entities": [
+    {
+      "type": "ORGANIZATION",
+      "name": "Economic Cooperation Organisation (ECO)",
+      "wikidata_id": "Q12069988",
+      "sentiment": "Positive"
+    },
+    {
+      "type": "PERSON",
+      "name": "Ambassador Asad Majeed Khan",
+      "wikidata_id": "Q106191351",
+      "sentiment": "Positive"
+    },
+    {
+      "type": "ORGANIZATION",
+      "name": "Pakistan National Council of the Arts (PNCA)",
+      "wikidata_id": "Q11514292",
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "PERSON",
+      "name": "Dr. Farhat Asif",
+      "wikidata_id": null,
+      "sentiment": "Positive"
+    },
+    {
+      "type": "ORGANIZATION",
+      "name": "The Diplomatic Insight",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "PERSON",
+      "name": "Dr. Saad Khan",
+      "wikidata_id": null,
+      "sentiment": "Positive"
+    },
+    {
+      "type": "ORGANIZATION",
+      "name": "Ministry of National Heritage & Culture Division",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "PERSON",
+      "name": "Muhammad Asif Noor",
+      "wikidata_id": null,
+      "sentiment": "Positive"
+    },
+    {
+      "type": "PERSON",
+      "name": "Hassan Nasir Jamy",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "ORGANIZATION",
+      "name": "IPDS (Institute of Policy and Diplomatic Studies)",
+      "wikidata_id": null,
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "PERSON",
+      "name": "Maryam Ahmad",
+      "wikidata_id": null,
+      "sentiment": "Positive"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Pakistan",
+      "wikidata_id": "Q33",
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "PERSON",
+      "name": "Azeem Iqbal",
+      "wikidata_id": null,
+      "sentiment": "Positive"
+    }
+  ]
+}

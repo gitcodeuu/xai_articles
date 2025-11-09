@@ -1,0 +1,75 @@
+{
+  "article_id": "2025-01-06_eb0277f7ed962805c8b4db7d8ff25cfd",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/scp-directs-govt-for-a-comprehensive-report-on-kachi-abadi/",
+    "retrieved_at": "2025-08-27T11:25:27.548Z"
+  },
+  "metadata": {
+    "title": "SCP directs govt for a comprehensive report on Kachi Abadi",
+    "author": null,
+    "date_published": "2025-01-06T10:59:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 332,
+    "reading_time_minutes": 2
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 6 (APP):The Supreme Court of Pakistan has directed the Federal Government to come with a comprehensive report regarding aKachi Abadia and to take action against illegal occupation of land as the laws in this regard are clear; the term Kachi Abadi however needs a proper definition. A seven member Constitutional Bench of the Supreme Court of Pakistan, headed by Justice Amin ud Din Khan was hearing miscellaneous petitions regarding removal of Kachi Abadi from Islamabad and Contempt of Court /Non Compliance of Court Order in Removal of Kachi Abadi from Islamabad etc. Justice Amin ud Din Khan observed that regulating Kachi Abadi is the jurisdiction of local and provincial governments. How can the federal government legislate in the jurisdiction of the provincial government? Justice Jamal Mandokhail asked for a proper definition of the Kachi Abadi and remarked that most of the houses in Baluchistan are made of mud and not concreted. Shall we term it Kachi Abadi? Justice Azhar Rizvi remarked that land grabbers make construction on the banks of streams and rivers and places dedicated for public service. What action the government has taken against such situations? Counsel for the Capital Development Authority (CDA), while agreeing to the question of the Court, said that a proper definition of the Kachi Abadi should be framed before going ahead. The CDA, he added, has declared 10 localities in the Capital as Kachi Abadi. He complained that the Courts have issued restrain orders against action in such cases. Justice Jamal Mandokhail remarked that apart from Kachi Abadi, the government should take action against illegal land grabbing as the laws are clear in this regard. Justice Muhammad Ali Mazhar remarked that the government should come to the court for removal of the stay orders. How the encroachments turn into concrete construction? The Court directed the Federal Government to produce a comprehensive report with a proper definition of Kachi Abadi in two weeks and adjourned the hearing for a date to be fixed later.",
+    "summary": "The Supreme Court of Pakistan has directed the Federal Government to submit a comprehensive report on Kachi Abadi, defining it and taking action against illegal occupation of land. The court observed that regulating Kachi Abadi falls under local and provincial governments' jurisdiction.",
+    "keywords": [
+      "Kachi Abadi",
+      "Supreme Court",
+      "Federal Government",
+      "Islamabad",
+      "Pakistan"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Amin ud Din Khan",
+      "label": "PERSON",
+      "wikidata_id": null
+    },
+    {
+      "text": "Jamal Mandokhail",
+      "label": "PERSON",
+      "wikidata_id": null
+    },
+    {
+      "text": "Azhar Rizvi",
+      "label": "PERSON",
+      "wikidata_id": null
+    },
+    {
+      "text": "Muhammad Ali Mazhar",
+      "label": "PERSON",
+      "wikidata_id": null
+    },
+    {
+      "text": "Kachi Abadi",
+      "label": "LOCATION",
+      "wikidata_id": null
+    },
+    {
+      "text": "Pakistan",
+      "label": "ORGANIZATION",
+      "wikidata_id": "Q33"
+    },
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    },
+    {
+      "text": "Baluchistan",
+      "label": "LOCATION",
+      "wikidata_id": null
+    },
+    {
+      "text": "Capital Development Authority (CDA)",
+      "label": "ORGANIZATION",
+      "wikidata_id": null
+    }
+  ]
+}

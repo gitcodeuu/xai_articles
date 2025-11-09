@@ -1,0 +1,55 @@
+{
+  "article_id": "2025-01-06_e782a137c3140f0b44c14dda0c779831",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/pm-pays-tribute-to-shaheed-aitezaz-hasan-for-unmatched-bravery-in-protecting-schoolchildren/",
+    "retrieved_at": "2025-08-27T11:25:17.740Z"
+  },
+  "metadata": {
+    "title": "PM pays tribute to Shaheed Aitezaz Hasan for unmatched bravery in protecting schoolchildren",
+    "author": null,
+    "date_published": "2025-01-06T08:53:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 136,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 6 (APP): Prime Minister Muhammad Shehbaz Sharif on Monday paid tribute to Shaheed Aitezaz Hasan who sacrificed his life to save his school and classmates from a devastating attack. aToday, we commemorate the martyrdom of Shaheed Aitezaz Hasan, a true son of the soil from district Hangu, Khyber Pakhtunkhwa, whose extraordinary courage stands as a beacon of hope and resilience,a the prime minister said in a social media post on X. He noted that at just 15 years of age, Aitezaz displayed unparalleled bravery, valiantly sacrificing his life to shield his school and classmates from a devastating attack. aHis selflessness and unwavering resolve remind us of his lasting impact a single act of courage can have on countless lives,a the prime minister added. He emphasized that Aitezazas legacy will continue to inspire future generations.",
+    "summary": "Prime Minister Muhammad Shehbaz Sharif paid tribute to Shaheed Aitezaz Hasan, a 15-year-old who sacrificed his life to save schoolchildren from an attack.",
+    "keywords": [
+      "Shaheed Aitezaz Hasan",
+      "Muhammad Shehbaz Sharif",
+      "Khyber Pakhtunkhwa",
+      "Hangu",
+      "devastating attack"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Aitezaz Hasan",
+      "label": "PERSON",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Muhammad Shehbaz Sharif",
+      "label": "PERSON",
+      "wikidata_id": "Q21144454"
+    },
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    },
+    {
+      "text": "Khyber Pakhtunkhwa",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    },
+    {
+      "text": "Hangu",
+      "label": "LOCATION",
+      "wikidata_id": "null"
+    }
+  ]
+}

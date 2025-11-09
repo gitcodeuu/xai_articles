@@ -1,0 +1,55 @@
+{
+  "article_id": "2025-01-07_02e2230793da0bd75133c5b34bd640da",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/cda-cracks-down-on-filthy-conditions-at-diplomatic-enclave-shuttle-service/",
+    "retrieved_at": "2025-08-27T11:27:24.314Z"
+  },
+  "metadata": {
+    "title": "CDA cracks down on filthy conditions at Diplomatic Enclave Shuttle Service",
+    "author": null,
+    "date_published": "2025-01-07T09:48:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 192,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 07 (APP):In a surprise inspection ordered by Federal Interior Minister Mohsin Naqvi, CDA Chairman Muhammad Ali Randhawa on Tuesday uncovered appalling conditions at the Diplomatic Enclave Shuttle Service. The cafeterias and waiting areas were found littered with garbage, foul smells permeated the restrooms, and makeshift cots cluttered the rooms. Even a stable was discovered on-site. Substandard food items were being openly sold to citizens visiting embassies for visa-related purposes, further exacerbating the already dire state of the facility. Taking immediate action, Chairman Randhawa sealed both cafeterias on the spot and directed legal proceedings against the owners. Samples of food items were sent to the Islamabad Food Authority for analysis. aThe shuttle service area will be beautified and upgraded with the best facilities within three weeks,a assured Randhawa, as he demanded a comprehensive plan for the areaas improvement. Under new CDA management, the shuttle service has already introduced 10 electric buses for daily operations, aiming to provide a better experience for citizens traveling to embassies. Accompanied by CDA members, DMA officials, and other relevant authorities, Randhawa reiterated the commitment to ensure citizens receive top-notch services in line with Minister Naqvias directives.",
+    "summary": "In a surprise inspection, CDA Chairman Muhammad Ali Randhawa uncovered appalling conditions at the Diplomatic Enclave Shuttle Service in Islamabad. The facility was found to be littered with garbage and selling substandard food items. Immediate action was taken by sealing cafeterias and directing legal proceedings against owners.",
+    "keywords": [
+      "Diplomatic Enclave",
+      "Muhammad Ali Randhawa",
+      "Federal Interior Minister Mohsin Naqvi",
+      "Islamabad",
+      "CDA"
+    ]
+  },
+  "entities": [
+    {
+      "text": "Mohsin Naqvi",
+      "label": "PERSON",
+      "wikidata_id": null
+    },
+    {
+      "text": "Muhammad Ali Randhawa",
+      "label": "PERSON",
+      "wikidata_id": null
+    },
+    {
+      "text": "Islamabad",
+      "label": "LOCATION",
+      "wikidata_id": "Q1166"
+    },
+    {
+      "text": "Diplomatic Enclave",
+      "label": "LOCATION",
+      "wikidata_id": null
+    },
+    {
+      "text": "CDA",
+      "label": "ORGANIZATION",
+      "wikidata_id": null
+    }
+  ]
+}

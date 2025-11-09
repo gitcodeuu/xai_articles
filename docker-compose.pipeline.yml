@@ -54,8 +54,9 @@ services:
     env_file:
       - .env # GOOGLE_API_KEY should be defined in this file
     environment:
-      - ENRICHMENT_PROVIDER=google # or 'ollama'
-      - OLLAMA_API_URL=http://host.docker.internal:11434
+      - ENRICHMENT_PROVIDER=ollama # or 'google'
+      - OLLAMA_API_URL=http://54.205.72.37:11434
+      - OLLAMA_MODEL=llama3.1:8b
     deploy:
       resources:
         limits:
