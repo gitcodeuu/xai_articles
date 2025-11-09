@@ -1,0 +1,71 @@
+{
+  "article_id": "2025-01-12_1a16f999d0d15d288d96bb39c752e760",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/secretaries-general-of-oic-mwl-laud-pakistan-for-successful-moot-on-girls-education/",
+    "retrieved_at": "2025-08-27T11:34:13.026Z"
+  },
+  "metadata": {
+    "title": "Secretaries General of OIC, MWL laud Pakistan for Ã¢ÂÂsuccessfulÃ¢ÂÂ moot on girlsÃ¢ÂÂ education",
+    "author": null,
+    "date_published": "2025-01-12T16:11:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 175,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 12 (APP): The Secretary General of the Organization of Islamic Cooperation (OIC) Hissein Brahim Taha and Secretary General of Muslim World League (MWL) Sheikh Dr Muhammad Bin Abdul Karim Al-Issa lauded Pakistan for its successful hosting of the two-day International Conference on Girlsa Education in Muslim Communities. The dignitaries expressed these views as they wrapped up their visit to Islamabad after participating in the event that gathered over 150 representatives from 44 Muslim and friendly countries. Both Secretaries General expressed confidence that the step would galvanize concerted efforts to improve quality education and women empowerment in the Muslim World. They expressed gratitude to the government of Pakistan for a wonderful hospitality extended to them and their respective delegations during their visit to Islamabad. Federal Minister for Education and Professional Training Khalid Maqbool Siddiqui and senior government officials saw off the dignitaries at their departure at the Islamabad International Airport. Director Home Publicity, Press Information Department Nergis Shazia Chaudhary presented a photo album to the guests as a souvenir of their visit to Pakistan.",
+    "summary": {
+      "text": "The Secretary General of OIC and MWL lauded Pakistan for its successful hosting of the two-day International Conference on Girl's Education in Muslim Communities.",
+      "sentiment": "Positive"
+    },
+    "keywords": [
+      "Girl's Education",
+      "OIC",
+      "MWL",
+      "Pakistan",
+      "Hissen Brahim Taha",
+      "Sheikh Dr Muhammad Bin Abdul Karim Al-Issa",
+      "Khalid Maqbool Siddiqui"
+    ]
+  },
+  "entities": [
+    {
+      "type": "PERSON",
+      "name": "Hissen Brahim Taha",
+      "wikiDataId": "Q23323445",
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "PERSON",
+      "name": "Sheikh Dr Muhammad Bin Abdul Karim Al-Issa",
+      "wikiDataId": "Q21147549",
+      "sentiment": "Positive"
+    },
+    {
+      "type": "ORGANIZATION",
+      "name": "Organization of Islamic Cooperation (OIC)",
+      "wikiDataId": "Q1768554",
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "ORGANIZATION",
+      "name": "Muslim World League (MWL)",
+      "wikiDataId": "Q1799649",
+      "sentiment": "Positive"
+    },
+    {
+      "type": "LOCATION",
+      "name": "Pakistan",
+      "wikiDataId": "Q85",
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "PERSON",
+      "name": "Khalid Maqbool Siddiqui",
+      "wikiDataId": null,
+      "sentiment": "Positive"
+    }
+  ]
+}

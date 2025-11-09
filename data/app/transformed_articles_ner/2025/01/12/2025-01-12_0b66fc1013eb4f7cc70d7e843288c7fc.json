@@ -1,0 +1,43 @@
+{
+  "article_id": "2025-01-12_0b66fc1013eb4f7cc70d7e843288c7fc",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/gm-sngpl-rawalpindi-urges-caution-in-gas-usage-during-winter-2/",
+    "retrieved_at": "2025-08-27T11:35:10.487Z"
+  },
+  "metadata": {
+    "title": "GM SNGPL Rawalpindi urges caution in gas usage during winter",
+    "author": null,
+    "date_published": "2025-01-12T11:37:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 156,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 12 (APP):General Manager of Sui Northern Gas Pipelines Limited (SNGPL) Rawalpindi, Umar Hayat, has urged consumers to exercise caution in using gas during the winter season to prevent potentially fatal incidents. Highlighting the dangers of careless gas usage, Umar Hayat warned that negligence could result in life-threatening accidents. In a statement, he advised against using rubber pipes with gas heaters and stoves due to significant safety risks. He also highlighted the importance of proper ventilation in rooms and kitchens to prevent gas accumulation. aConsumers must ensure that all gas-powered appliances, including stoves, geysers, and heaters, are turned off, and the main gas supply valve is closed before going to bed,a he added. In case of emergencies, he advised the consumers to contact the SNGPL emergency helpline at 1199 or reach out to the emergency staff at nearby SNGPL offices. He assured that the departmentas complaint centers are operational 24/7 to address critical situations promptly.",
+    "summary": "The General Manager of SNGPL Rawalpindi has urged consumers to exercise caution in using gas during the winter season to prevent potentially fatal incidents. He warned against careless gas usage and highlighted the importance of proper ventilation.",
+    "keywords": [
+      "gas usage",
+      "winter season",
+      "SNGPL",
+      "caution",
+      "safety risks",
+      "ventilation"
+    ]
+  },
+  "entities": [
+    {
+      "type": "ORGANIZATION",
+      "id": null,
+      "name": "Sui Northern Gas Pipelines Limited (SNGPL)",
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "PERSON",
+      "id": null,
+      "name": "Umar Hayat",
+      "sentiment": "Positive"
+    }
+  ]
+}

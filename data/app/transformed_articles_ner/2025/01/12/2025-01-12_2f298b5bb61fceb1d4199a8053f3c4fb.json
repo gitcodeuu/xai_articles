@@ -1,0 +1,55 @@
+{
+  "article_id": "2025-01-12_2f298b5bb61fceb1d4199a8053f3c4fb",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/president-pays-tribute-to-security-forces-for-successful-operations-against-fitna-al-khawarij/",
+    "retrieved_at": "2025-08-27T11:34:18.074Z"
+  },
+  "metadata": {
+    "title": "President pays tribute to security forces for successful operations against Fitna al-Khawarij",
+    "author": null,
+    "date_published": "2025-01-12T14:49:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 86,
+    "reading_time_minutes": 1
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 12 (APP): President Asif Ali Zardari Sunday paid tribute to the security forces for their successful operations against Fitna al-Khawarij in North Waziristan. He appreciated security forces for eliminating nine terrorists of Fitna al-Khawarij in two different operations. He expressed determination to fully eliminate Fitna al-Khawarij from the country. He said security forces were carrying out operations to eradicate the menace of terrorism, adding the whole nation was united against terrorism. He said operations against Fitna al-Khawarij would continue till complete eradication of terrorism.",
+    "summary": {
+      "text": "President Asif Ali Zardari paid tribute to security forces for their successful operations against Fitna al-Khawarij in North Waziristan.",
+      "entities": [
+        "Asif Ali Zardari",
+        "Fitna al-Khawarij",
+        "North Waziristan"
+      ]
+    },
+    "keywords": [
+      "terrorism",
+      "Fitna al-Khawarij",
+      "Asif Ali Zardari",
+      "security forces",
+      "North Waziristan"
+    ]
+  },
+  "entities": [
+    {
+      "type": "PERSON",
+      "name": "Asif Ali Zardari",
+      "wikidata_id": "Q1335511",
+      "sentiment": "Neutral"
+    },
+    {
+      "type": "ORGANIZATION",
+      "name": "Fitna al-Khawarij",
+      "wikidata_id": null,
+      "sentiment": "Negative"
+    },
+    {
+      "type": "LOCATION",
+      "name": "North Waziristan",
+      "wikidata_id": "Q19914343",
+      "sentiment": "Neutral"
+    }
+  ]
+}

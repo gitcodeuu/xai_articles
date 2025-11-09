@@ -1,0 +1,82 @@
+{
+  "article_id": "2025-01-11_c6be68433896aa7af937c235b6cee6ec",
+  "source_info": {
+    "source_name": "APP",
+    "source_link": "https://www.app.com.pk/national/panel-discussion-highlights-community-engagement-for-improving-girls-school-enrollment-rates/",
+    "retrieved_at": "2025-08-27T11:32:57.457Z"
+  },
+  "metadata": {
+    "title": "Panel discussion highlights community engagement for improving girlsÃ¢ÂÂ school enrollment rates",
+    "author": null,
+    "date_published": "2025-01-11T18:15:00.000Z",
+    "image_url": null,
+    "categories": [],
+    "word_count": 477,
+    "reading_time_minutes": 3
+  },
+  "content": {
+    "article_body": "ISLAMABAD, Jan 11 (APP):Speakers at a panel discussion titled a Womenas Education and Social Gainsa on Saturday emphasized the need for community engagement to improve girlsa school enrollment rates. The panelists on the sidelines of aInternational Conference on Girlsa Education in Muslim Communities: Challenges and Opportunitiesa highlighted the importance of womenas education for development, peace, security, and justice, calling on religious scholars, media, and all stakeholders to play a pivotal role. The panel discussion, moderated by Jasna Gelesic, EU Envoy to the Republic of Tajikistan, shed light on the critical role of collective efforts in addressing educational challenges faced by girls. UNICEFas Deputy Representative in Pakistan, Sharmila Rasool, stressed the importance of improving school enrollment rates through community involvement. She welcomed Pakistanas recent efforts in hosting the global conference and noted the significant progress made over the past two decades in increasing school enrollment. She also mentioned that the Prime Ministeras Educational Emergency Program has started yielding substantial results, though broader societal support is needed to sustain these efforts. Other speakers in the discussion underscored the necessity of involving all segments of society, stating that no ministry or international organization can achieve these goals alone. A cultural shift in mindset is crucial to ensuring sustainable improvements. Dr. Gulnara Janiyeva, Head of the Research Department at Uzbekistanas Center for Islamic Civilization, highlighted the need to correct misconceptions about Islam, emphasizing that Islam advocates for equal education. She stated that girlsa education is essential for achieving development, peace, security, and justice, but community-wide participation is vital for achieving enrollment goals for out-of-school children. David Fernandez Puyana, Permanent Observer for the University of Peace in Switzerland to the UN and UNESCO, pointed out that addressing challenges in womenas education requires eliminating gender discrimination. He lauded Pakistanas efforts in promoting gender equality, womenas empowerment, and girlsa education, acknowledging the progress made but emphasizing the need for further improvement. He also called for the implementation of the Islamabad Declaration, which could bring significant advancements. Dr. Mohamad Hasbi bin Abubakar, President of Jamiyah Islamiyah Singapore, stressed the importance of leveraging human resources to improve education. He shared Singaporeas efforts in building an ecosystem to enhance womenas education, livelihood, and development despite its small size. Collaborative measures to make education accessible have had positive effects on overall development, he said, adding that Singapore remains committed to fostering an equitable education system. During the Q&A session, panelists emphasized the role of religious scholars and media in raising awareness about girlsa education at the grassroots level. Such initiatives, they suggested, could help policymakers implement effective measures. The participants praised the Muslim World League, the Organization of Islamic Cooperation, and the Government of Pakistan for organizing the global conference, expressing hope that it would serve as a milestone in promoting girlsa education in Muslim societies. The panel discussion included participation from academics and scholars from various universities.",
+    "summary": "A panel discussion at the International Conference on Girls' Education in Muslim Communities highlighted the importance of community engagement and collective efforts to improve girls' school enrollment rates. Speakers emphasized the need for a cultural shift in mindset and broader societal support to sustain improvements.",
+    "keywords": [
+      "girls' education",
+      "community engagement",
+      "Pakistan",
+      "Islamabad Declaration",
+      "women's empowerment",
+      "gender equality",
+      "UNICEF"
+    ]
+  },
+  "entities": [
+    {
+      "id": "Q1128",
+      "type": "ORGANIZATION",
+      "name": "United Nations Children's Fund"
+    },
+    {
+      "id": null,
+      "type": "PERSON",
+      "name": "Jasna Gelesic"
+    },
+    {
+      "id": null,
+      "type": "PERSON",
+      "name": "Sharmila Rasool"
+    },
+    {
+      "id": "Q1050",
+      "type": "ORGANIZATION",
+      "name": "University of Peace"
+    },
+    {
+      "id": null,
+      "type": "PERSON",
+      "name": "David Fernandez Puyana"
+    },
+    {
+      "id": null,
+      "type": "PERSON",
+      "name": "Gulnara Janiyeva"
+    },
+    {
+      "id": "Q1128",
+      "type": "ORGANIZATION",
+      "name": "UNICEF"
+    },
+    {
+      "id": "Q1113",
+      "type": "LOCATION",
+      "name": "Pakistan"
+    },
+    {
+      "id": null,
+      "type": "PERSON",
+      "name": "Mohamad Hasbi bin Abubakar"
+    },
+    {
+      "id": "Q1141",
+      "type": "ORGANIZATION",
+      "name": "Organization of Islamic Cooperation"
+    }
+  ]
+}
