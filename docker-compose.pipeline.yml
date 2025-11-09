@@ -29,14 +29,6 @@ services:
       - ./data:/app/data:rw
     networks:
       - xai-network
-    deploy:
-      resources:
-        limits:
-          cpus: '1.0'
-          memory: 4G
-        reservations:
-          cpus: '0.5'
-          memory: 2G
     depends_on:
       scraper-daily:
         condition: service_completed_successfully
@@ -47,7 +39,7 @@ services:
       dockerfile: Dockerfile
     container_name: xai_data_enrichment_task
     volumes:
-      - ./data:/data:rw
+      - ./data:/app/data:rw
       - ./logs:/app/logs:rw
     networks:
       - xai-network
@@ -55,16 +47,10 @@ services:
       - .env # GOOGLE_API_KEY should be defined in this file
     environment:
       - ENRICHMENT_PROVIDER=ollama # or 'google'
-      - OLLAMA_API_URL=http://54.205.72.37:11434
-      - OLLAMA_MODEL=llama3.1:8b
-    deploy:
-      resources:
-        limits:
-          cpus: '1.0'
-          memory: 1G
-        reservations:
-          cpus: '0.5'
-          memory: 512M
+      - OLLAMA_API_URL=http://host.docker.internal:11434
+      - OLLAMA_MODEL=${OLLAMA_MODEL:-llama3.1:8b}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     depends_on:
       data-cleaner:
         condition: service_completed_successfully

@@ -9,8 +9,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # --- Configuration ---
 # Directories
-INPUT_BASE_DIR = Path("/data")
-OUTPUT_BASE_DIR = Path("/data")
+INPUT_BASE_DIR = Path("/app/data")
+OUTPUT_BASE_DIR = Path("/app/data")
 SOURCES = ["app", "dawn"]
 INPUT_SUBDIR = "transformed_articles"
 OUTPUT_SUBDIR = "transformed_articles_ner"
