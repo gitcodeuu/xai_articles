@@ -58,3 +58,4 @@ services:
 networks:
   xai-network:
     driver: bridge
+
